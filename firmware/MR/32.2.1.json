@@ -1,0 +1,35 @@
+{
+  "family": "MR",
+  "version": "32.2.1",
+  "title": "Wireless firmware versions MR 32.2.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5461844",
+      "releaseType": "beta",
+      "announced": "2025-12-23T15:47:03.383-08:00",
+      "post_subject": "A new beta wireless firmware is now available on Tue, 23 Dec 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-tue-23-dec-2025/ba-p/5461844"
+    }
+  ],
+  "changelog_comment_id": "5461845",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-12-24T07:06:51.496-08:00",
+  "sections": {
+    "New feature": [
+      "UWB Asset Tracking – Support for Ultra-Wideband (UWB) asset tags (Cisco and 3rd party)",
+      "Support for Ultra-Wideband (UWB) Enhanced Client Wayfinding - Enables UWB based asset tracking and live indoor wayfinding for smartphones, focusing exclusively on UWB ULTDOA (Ultra-Wideband Localization Time Difference of Arrival)",
+      "Cisco Spaces Connect on Meraki – Enables APs to efficiently and securely transmit BLE data to the Spaces cloud.",
+      "Support for OWE (Opportunistic Wireless Encryption) with MAB (MAC Authentication Bypass)- Extends MAC-based Access Control to support Opportunistic Wireless Encryption (OWE)"
+    ],
+    "Enhancement": [
+      "Enhancements to Ethernet over GRE tunneled SSIDs – Support for IPv4 client Isolation, DHCP Option 82 and IPv6 addressing."
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements."
+    ]
+  },
+  "text": "Wireless firmware versions MR 32.2.1 changelog\nNew feature\nUWB Asset Tracking – Support for Ultra-Wideband (UWB) asset tags (Cisco and 3rd party)\nSupport for Ultra-Wideband (UWB) Enhanced Client Wayfinding - Enables UWB based asset tracking and live indoor wayfinding for smartphones, focusing exclusively on UWB ULTDOA (Ultra-Wideband Localization Time Difference of Arrival)\nCisco Spaces Connect on Meraki – Enables APs to efficiently and securely transmit BLE data to the Spaces cloud.\nSupport for OWE (Opportunistic Wireless Encryption) with MAB (MAC Authentication Bypass)- Extends MAC-based Access Control to support Opportunistic Wireless Encryption (OWE)\nEnhancement\nEnhancements to Ethernet over GRE tunneled SSIDs – Support for IPv4 client Isolation, DHCP Option 82 and IPv6 addressing.\nBug fixes\nGeneral stability, performance, and experience improvements.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848729990\" id=\"toc-hId--273001410\">Wireless firmware versions MR 32.2.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1292967486\" id=\"toc-hId-1118624642\">New feature</H4><UL><LI>UWB Asset Tracking – Support for Ultra-Wideband (UWB) asset tags (Cisco and 3rd party)</LI><LI>Support for Ultra-Wideband (UWB) Enhanced Client Wayfinding - Enables UWB based asset tracking and live indoor wayfinding for smartphones, focusing exclusively on UWB ULTDOA (Ultra-Wideband Localization Time Difference of Arrival)</LI><LI>Cisco Spaces Connect on Meraki – Enables APs to efficiently and securely transmit BLE data to the Spaces cloud.</LI><LI>Support for OWE (Opportunistic Wireless Encryption) with MAB (MAC Authentication Bypass)- Extends MAC-based Access Control to support Opportunistic Wireless Encryption (OWE)</LI></UL><H4 id=\"toc-hId-449842849\" id=\"toc-hId--688829821\">Enhancement</H4><UL><LI>Enhancements to Ethernet over GRE tunneled SSIDs – Support for IPv4 client Isolation, DHCP Option 82 and IPv6 addressing.</LI></UL><H4 id=\"toc-hId--2102314112\" id=\"toc-hId-1798683012\">Bug fixes</H4><UL><LI>General stability, performance, and experience improvements.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:38Z"
+}

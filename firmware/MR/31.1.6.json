@@ -1,0 +1,49 @@
+{
+  "family": "MR",
+  "version": "31.1.6",
+  "title": "Wireless firmware versions MR 31.1.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5519362",
+      "releaseType": "candidate",
+      "announced": "2025-02-18T09:47:04.023-08:00",
+      "post_subject": "A new candidate wireless firmware is now available on Tue, 18 Feb 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-18-feb/ba-p/5519362"
+    }
+  ],
+  "changelog_comment_id": "5519363",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-02-18T23:03:15.918-08:00",
+  "sections": {
+    "Important note": [
+      "Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will only upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)",
+      "Includes support for Wi-Fi7 APs (https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9176I_%2F%2F_CW9176D1_Datasheet, https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9178_Datasheet)"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "MR56 ethernet port flaps occur when connected to C9300-48UN(V04) at 5Gbps speeds",
+      "MR57 ethernet port flaps occur when connected to MS355 at 5Gbps speeds",
+      "MR46 not responding to Probe Requests from clients",
+      "Channel & power not configurable via LSP on CW9163E APs",
+      "Wildcard NAS-IPv6-Address AVP sent on config change (Wi-Fi 6, Wi-Fi 6E APs)",
+      "NAS-IP-Address discarded (Wi-Fi 6, Wi-Fi 6E APs)",
+      "RADSec authentication failures (Wi-Fi 6, Wi-Fi 6E APs)",
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)",
+      "DHCP offer is not forwarded if broadcast flag is set (Wi-Fi 7 APs)",
+      "mDNS traffic blocked (Wi-Fi 7 APs)",
+      "SSIDs broadcast on 6Ghz despite being disabled when using WPA3 transition mode (Wi-Fi 7 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 31.1.6 changelog\nImportant note\nWi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will only upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)\nIncludes support for Wi-Fi7 APs (https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9176I_%2F%2F_CW9176D1_Datasheet, https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9178_Datasheet)\nBug fixes\nGeneral stability and performance improvements\nMR56 ethernet port flaps occur when connected to C9300-48UN(V04) at 5Gbps speeds\nMR57 ethernet port flaps occur when connected to MS355 at 5Gbps speeds\nMR46 not responding to Probe Requests from clients\nChannel & power not configurable via LSP on CW9163E APs\nWildcard NAS-IPv6-Address AVP sent on config change (Wi-Fi 6, Wi-Fi 6E APs)\nNAS-IP-Address discarded (Wi-Fi 6, Wi-Fi 6E APs)\nRADSec authentication failures (Wi-Fi 6, Wi-Fi 6E APs)\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)\nDHCP offer is not forwarded if broadcast flag is set (Wi-Fi 7 APs)\nmDNS traffic blocked (Wi-Fi 7 APs)\nSSIDs broadcast on 6Ghz despite being disabled when using WPA3 transition mode (Wi-Fi 7 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1846726334\" id=\"toc-hId--248756281\">Wireless firmware versions MR 31.1.6 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294971142\" id=\"toc-hId-1142869771\">Important note</H4><UL><LI>Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will only upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (<A href=\"https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ</A>)</LI><LI>Includes support for Wi-Fi7 APs (<A href=\"https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9176I_%2F%2F_CW9176D1_Datasheet\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9176I_%2F%2F_CW9176D1_Datasheet</A>, <A href=\"https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9178_Datasheet\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/MR_Overview_and_Specifications/CW9178_Datasheet</A>)</LI></UL><H4 id=\"toc-hId-447839193\" id=\"toc-hId--664584692\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>MR56 ethernet port flaps occur when connected to C9300-48UN(V04) at 5Gbps speeds</LI><LI>MR57 ethernet port flaps occur when connected to MS355 at 5Gbps speeds</LI><LI>MR46 not responding to Probe Requests from clients</LI><LI>Channel &amp; power not configurable via LSP on CW9163E APs</LI><LI>Wildcard NAS-IPv6-Address AVP sent on config change (Wi-Fi 6, Wi-Fi 6E APs)</LI><LI>NAS-IP-Address discarded (Wi-Fi 6, Wi-Fi 6E APs)</LI><LI>RADSec authentication failures (Wi-Fi 6, Wi-Fi 6E APs)</LI><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)</LI><LI>DHCP offer is not forwarded if broadcast flag is set (Wi-Fi 7 APs)</LI><LI>mDNS traffic blocked (Wi-Fi 7 APs)</LI><LI>SSIDs broadcast on 6Ghz despite being disabled when using WPA3 transition mode (Wi-Fi 7 APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [
+    {
+      "id": "5519364",
+      "author": "CMR",
+      "posted": "2025-02-18T23:04:12.078-08:00",
+      "text": "As per the main forum post, originally the below was listed as a known issue, so may need validating:\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)",
+      "html": "<P>As per the main forum post, originally the below was listed as a known issue, so may need validating:</P><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)</LI></UL>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:59Z"
+}

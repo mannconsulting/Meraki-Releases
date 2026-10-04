@@ -1,0 +1,41 @@
+{
+  "family": "MG",
+  "version": "3.101",
+  "title": "Updated release notes:",
+  "announcements": [
+    {
+      "post_id": "5511763",
+      "releaseType": "candidate",
+      "announced": "2023-08-16T19:47:11.688-07:00",
+      "post_subject": "A new candidate cellularGateway firmware is now available on Wed, 16 Aug 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-cellulargateway-firmware-is-now-available-on-wed/ba-p/5511763"
+    },
+    {
+      "post_id": "5512172",
+      "releaseType": "candidate",
+      "announced": "2023-09-06T21:47:05.003-07:00",
+      "post_subject": "A new candidate cellularGateway firmware is now available on Wed, 06 Sep 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-cellulargateway-firmware-is-now-available-on-wed/ba-p/5512172"
+    }
+  ],
+  "changelog_comment_id": "5512173",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-09-07T02:03:23.300-07:00",
+  "sections": {
+    "preamble": [
+      "Updated release notes:"
+    ],
+    "NEW FEATURE HIGHLIGHTS": [
+      "Enabled support for Verizon C-Band (N77) for the MG51/E",
+      "Introduced automated discovery for AIF Telecom"
+    ],
+    "BUG FIXES": [
+      "Corrected Dashboard UI issue where MG51s would display their link speed as 10 Mbps when connected at 2.5 Gbps",
+      "Corrected behaviour for MG41 in passthrough mode where ICMP reply packets would not be forwarded out its cellular interface"
+    ]
+  },
+  "text": "Updated release notes:\nCellular gateway firmware versions MG 3.101 changelog\nNEW FEATURE HIGHLIGHTS\nEnabled support for Verizon C-Band (N77) for the MG51/E\nIntroduced automated discovery for AIF Telecom\nBUG FIXES\nCorrected Dashboard UI issue where MG51s would display their link speed as 10 Mbps when connected at 2.5 Gbps\nCorrected behaviour for MG41 in passthrough mode where ICMP reply packets would not be forwarded out its cellular interface",
+  "html": "<P>Updated release notes:</P><DIV class=\"\"><H1 id=\"toc-hId-1841306299\" id=\"toc-hId--248966709\">Cellular gateway firmware versions MG 3.101 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1300391177\" id=\"toc-hId-1142659343\">NEW FEATURE HIGHLIGHTS</H4><UL><LI><FONT color=\"#00FF00\">Enabled support for Verizon C-Band (N77) for the MG51/E</FONT></LI><LI>Introduced automated discovery for AIF Telecom</LI></UL><H4 id=\"toc-hId-442419158\" id=\"toc-hId--664795120\">BUG FIXES</H4><UL><LI>Corrected Dashboard UI issue where MG51s would display their link speed as 10 Mbps when connected at 2.5 Gbps</LI><LI>Corrected behaviour for MG41 in passthrough mode where ICMP reply packets would not be forwarded out its cellular interface</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:37Z"
+}

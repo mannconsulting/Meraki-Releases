@@ -1,0 +1,30 @@
+{
+  "family": "MV",
+  "version": "7.2.1",
+  "title": "Cameras software versions MV 7.2.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5545888",
+      "releaseType": "Recommended Release",
+      "announced": "2026-04-16T10:00:04.872-07:00",
+      "post_subject": "A new Recommended Release MV Cameras firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/ba-p/5545888"
+    }
+  ],
+  "changelog_comment_id": "5548440",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-04-27T12:03:55.931-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue with Rapid Review failing after too many consecutive sessions"
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 cameras will run MV4.15",
+      "MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches"
+    ]
+  },
+  "text": "Cameras software versions MV 7.2.1 changelog\nBug fixes\nResolved an issue with Rapid Review failing after too many consecutive sessions\nNotice\nWhen configured for this version, MV21 & MV71 cameras will run MV4.15\nMV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches",
+  "html": "<DIV class=\"\"><STRONG><FONT size=\"5\">Cameras&nbsp;software versions&nbsp;MV 7.2.1&nbsp;changelog</FONT></STRONG></DIV><DIV class=\"\"><H4 id=\"toc-hId--1341901394\">Bug fixes</H4><UL><LI><P class=\"\">Resolved an issue with Rapid Review failing after too many consecutive sessions</P></LI></UL><H4 id=\"toc-hId-1145611439\">Notice</H4><UL><LI><P class=\"\">When configured for this version, MV21 &amp; MV71 cameras will run MV4.15</P></LI><LI><P class=\"\">MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:32Z"
+}

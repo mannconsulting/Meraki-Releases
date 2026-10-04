@@ -1,0 +1,37 @@
+{
+  "family": "MG",
+  "version": "4.1",
+  "title": "Cellular gateway firmware versions MG 4.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5520175",
+      "releaseType": "beta",
+      "announced": "2025-04-30T16:47:04.547-07:00",
+      "post_subject": "A new beta cellularGateway firmware is now available on Wed, 30 Apr 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cellulargateway-firmware-is-now-available-on-wed-30/ba-p/5520175"
+    }
+  ],
+  "changelog_comment_id": "5520176",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-04-30T22:49:14.988-07:00",
+  "sections": {
+    "Important notices": [
+      "Applying this firmware will upgrade the firmware of the Modems on MG51 and MG52. This upgrade begins automatically after the MG has finished upgrading to MG 4.1. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance."
+    ],
+    "New feature highlights": [
+      "Cellular modem firmware version is now visible in Dashboard",
+      "Added new SIM Operator IDs for Telus and T-Mobile",
+      "Additional Verizon 5G APNs added",
+      "New APN added for Telus support"
+    ],
+    "Bug fixes": [
+      "MG-4766: {MG21} Fixed an issue that prevented connectivity to dashboard after rebooting on MG 3.212+",
+      "MG-4464: {MG51} Fixed an issue that caused modem resets due to Driver errors",
+      "MG-1246: {MG21} Fixed an issue where API Calls to endpoints would return \"Not running configured version\""
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 4.1 changelog\nImportant notices\nApplying this firmware will upgrade the firmware of the Modems on MG51 and MG52. This upgrade begins automatically after the MG has finished upgrading to MG 4.1. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.\nNew feature highlights\nCellular modem firmware version is now visible in Dashboard\nAdded new SIM Operator IDs for Telus and T-Mobile\nAdditional Verizon 5G APNs added\nNew APN added for Telus support\nBug fixes\nMG-4766: {MG21} Fixed an issue that prevented connectivity to dashboard after rebooting on MG 3.212+\nMG-4464: {MG51} Fixed an issue that caused modem resets due to Driver errors\nMG-1246: {MG21} Fixed an issue where API Calls to endpoints would return \"Not running configured version\"",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847566158\" id=\"toc-hId--248102767\">Cellular gateway firmware versions MG 4.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294131318\" id=\"toc-hId-1143523285\">Important notices</H4><UL><LI>Applying this firmware will upgrade the firmware of the Modems on MG51 and MG52. This upgrade begins automatically after the MG has finished upgrading to MG 4.1. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.</LI></UL><H4 id=\"toc-hId-448679017\" id=\"toc-hId--663931178\">New feature highlights</H4><UL><LI>Cellular modem firmware version is now visible in Dashboard</LI><LI>Added new SIM Operator IDs for Telus and T-Mobile</LI><LI>Additional Verizon 5G APNs added</LI><LI>New APN added for Telus support</LI></UL><H4 id=\"toc-hId--2103477944\" id=\"toc-hId-1823581655\">Bug fixes</H4><UL><LI>MG-4766: {MG21} Fixed an issue that prevented connectivity to dashboard after rebooting on MG 3.212+</LI><LI>MG-4464: {MG51} Fixed an issue that caused modem resets due to Driver errors</LI><LI>MG-1246: {MG21} Fixed an issue where API Calls to endpoints would return \"Not running configured version\"</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:54Z"
+}

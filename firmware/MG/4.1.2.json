@@ -1,0 +1,33 @@
+{
+  "family": "MG",
+  "version": "4.1.2",
+  "title": "Cellular gateway firmware versions MG 4.1.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5521759",
+      "releaseType": "stable",
+      "announced": "2025-08-12T18:47:03.674-07:00",
+      "post_subject": "A new stable cellularGateway firmware is now available on Tue, 12 Aug 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-tue-12/ba-p/5521759"
+    }
+  ],
+  "changelog_comment_id": "5521760",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-08-12T23:06:18.398-07:00",
+  "sections": {
+    "Executive summary": [
+      "This is a small maintenance release for MG 4.1. It resolves an MTU issue on MG21 appliances and expands the built-in APN list."
+    ],
+    "What's new": [
+      "Updated the list of built-in APNs for the Telus provider to include “m2m.telus.iot”.",
+      "Updated the list of built-in APNs for the Bell provider to include “mnet.bell.ca.ioe”. (MG-5215)"
+    ],
+    "Other": [
+      "The product complies with EN 18031-1:2024 and EN 18031-2: 2024"
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 4.1.2 changelog\nExecutive summary\nThis is a small maintenance release for MG 4.1. It resolves an MTU issue on MG21 appliances and expands the built-in APN list.\nWhat's new\nUpdated the list of built-in APNs for the Telus provider to include “m2m.telus.iot”.\nUpdated the list of built-in APNs for the Bell provider to include “mnet.bell.ca.ioe”. (MG-5215)\nOther\nThe product complies with EN 18031-1:2024 and EN 18031-2: 2024",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848486705\" id=\"toc-hId--248067247\">Cellular gateway firmware versions MG 4.1.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293210771\" id=\"toc-hId-1143558805\">Executive summary</H4><UL><LI>This is a small maintenance release for MG 4.1. It resolves an MTU issue on MG21 appliances and expands the built-in APN list.</LI></UL><H4 id=\"toc-hId-449599564\" id=\"toc-hId--663895658\">What's new</H4><UL><LI>Updated the list of built-in APNs for the Telus provider to include “m2m.telus.iot”.</LI><LI>Updated the list of built-in APNs for the Bell provider to include “mnet.bell.ca.ioe”. (MG-5215)</LI></UL><H4 id=\"toc-hId--2102557397\" id=\"toc-hId-1823617175\">Other</H4><UL><LI>The product complies with EN 18031-1:2024 and EN 18031-2: 2024</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:46Z"
+}

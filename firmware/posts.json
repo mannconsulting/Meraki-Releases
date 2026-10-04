@@ -1,0 +1,2384 @@
+{
+  "5579754": {
+    "status": "captured",
+    "key": "MR/30.6",
+    "subject": "A new legacy MR Wireless firmware is now available",
+    "post_time": "2026-10-01T13:00:13.114-07:00",
+    "releaseType": "legacy"
+  },
+  "5579753": {
+    "status": "pending",
+    "subject": "A new Recommended Release CS Switch firmware is now available",
+    "post_time": "2026-10-01T13:00:11.719-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-cs-switch-firmware-is-now-available/ba-p/5579753",
+    "releaseType": "Recommended Release",
+    "family_guess": "CS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5579752": {
+    "status": "captured",
+    "key": "MS/15.22",
+    "subject": "A new legacy MS Switch firmware is now available",
+    "post_time": "2026-10-01T13:00:10.636-07:00",
+    "releaseType": "legacy"
+  },
+  "5579751": {
+    "status": "pending",
+    "subject": "A new Recommended Release MT Sensors firmware is now available",
+    "post_time": "2026-10-01T13:00:09.522-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mt-sensors-firmware-is-now-available/ba-p/5579751",
+    "releaseType": "Recommended Release",
+    "family_guess": "MT",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5579750": {
+    "status": "pending",
+    "subject": "A new Recommended Release MG Wireless WAN firmware is now available",
+    "post_time": "2026-10-01T13:00:08.354-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mg-wireless-wan-firmware-is-now/ba-p/5579750",
+    "releaseType": "Recommended Release",
+    "family_guess": "MG",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5579749": {
+    "status": "pending",
+    "subject": "A new Recommended Release MV Cameras firmware is now available",
+    "post_time": "2026-10-01T13:00:06.746-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/ba-p/5579749",
+    "releaseType": "Recommended Release",
+    "family_guess": "MV",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5579748": {
+    "status": "pending",
+    "subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-10-01T13:00:05.115-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/ba-p/5579748",
+    "releaseType": "Recommended Release",
+    "family_guess": "MX",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5579357": {
+    "status": "captured",
+    "key": "CS/26.2.1",
+    "subject": "A new Beta CS Switch firmware is now available",
+    "post_time": "2026-09-29T14:00:06.945-07:00",
+    "releaseType": "beta"
+  },
+  "5575177": {
+    "status": "pending",
+    "subject": "A new Beta MG Wireless WAN firmware is now available",
+    "post_time": "2026-09-15T13:00:05.635-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mg-wireless-wan-firmware-is-now-available/ba-p/5575177",
+    "releaseType": "beta",
+    "family_guess": "MG",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5574954": {
+    "status": "pending",
+    "subject": "A new Recommended Release MG Wireless WAN firmware is now available",
+    "post_time": "2026-09-14T18:00:04.764-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mg-wireless-wan-firmware-is-now/ba-p/5574954",
+    "releaseType": "Recommended Release",
+    "family_guess": "MG",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5574936": {
+    "status": "pending",
+    "subject": "A new Generally Available CS Switch firmware is now available",
+    "post_time": "2026-09-14T15:00:05.678-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-cs-switch-firmware-is-now-available/ba-p/5574936",
+    "releaseType": "Generally Available",
+    "family_guess": "CS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5574935": {
+    "status": "pending",
+    "subject": "A new Recommended Release CS Switch firmware is now available",
+    "post_time": "2026-09-14T15:00:04.130-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-cs-switch-firmware-is-now-available/ba-p/5574935",
+    "releaseType": "Recommended Release",
+    "family_guess": "CS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5574594": {
+    "status": "captured",
+    "key": "MV/8.0",
+    "subject": "A new Beta MV Cameras firmware is now available",
+    "post_time": "2026-09-11T17:00:05.475-07:00",
+    "releaseType": "beta"
+  },
+  "5573772": {
+    "status": "captured",
+    "key": "MX/26.1.7.1",
+    "subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-09-08T14:00:03.998-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5572314": {
+    "status": "captured",
+    "key": "MX/26.2.3",
+    "subject": "A new Generally Available MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-08-31T22:00:05.951-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5572301": {
+    "status": "captured",
+    "key": "MS/18.1.8.1",
+    "subject": "A new Recommended Release MS Switch firmware is now available",
+    "post_time": "2026-08-31T18:00:04.495-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5571690": {
+    "status": "captured",
+    "key": "MX/26.1.7",
+    "subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-08-27T15:00:04.822-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5571051": {
+    "status": "captured",
+    "key": "CS/17.18.4.1",
+    "subject": "A new Generally Available CS Switch firmware is now available",
+    "post_time": "2026-08-24T12:00:05.279-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5570724": {
+    "status": "captured",
+    "key": "MS/18.1.8.1",
+    "subject": "A new Generally Available MS Switch firmware is now available",
+    "post_time": "2026-08-21T14:00:05.700-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5569808": {
+    "status": "captured",
+    "key": "MR/33.1.3",
+    "subject": "A new Beta MR Wireless firmware is now available",
+    "post_time": "2026-08-17T10:00:05.950-07:00",
+    "releaseType": "beta"
+  },
+  "5568123": {
+    "status": "captured",
+    "key": "CS/17.18.4",
+    "subject": "A new Generally Available CS Switch firmware is now available",
+    "post_time": "2026-08-05T14:00:10.492-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5568121": {
+    "status": "captured",
+    "key": "MV/7.3.2",
+    "subject": "A new Recommended Release MV Cameras firmware is now available",
+    "post_time": "2026-08-05T13:00:03.897-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5566529": {
+    "status": "captured",
+    "key": "MR/32.2.4",
+    "subject": "A new Recommended Release MR Wireless firmware is now available",
+    "post_time": "2026-07-27T14:00:04.879-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5565894": {
+    "status": "captured",
+    "key": "MR/33.1.2",
+    "subject": "A new Beta MR Wireless firmware is now available",
+    "post_time": "2026-07-23T15:00:02.812-07:00",
+    "releaseType": "beta"
+  },
+  "5565836": {
+    "status": "captured",
+    "key": "MX/26.1.6",
+    "subject": "A new Generally Available MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-07-23T10:00:11.990-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5564423": {
+    "status": "captured",
+    "key": "MX/26.2.2",
+    "subject": "A new Beta MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-07-16T00:00:04.906-07:00",
+    "releaseType": "beta"
+  },
+  "5564372": {
+    "status": "captured",
+    "key": "MR/32.2.4",
+    "subject": "A new Generally Available MR Wireless firmware is now available",
+    "post_time": "2026-07-15T16:00:04.422-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5563900": {
+    "status": "captured",
+    "key": "MV/7.3.1",
+    "subject": "A new Recommended Release MV Cameras firmware is now available",
+    "post_time": "2026-07-13T15:00:05.519-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5563112": {
+    "status": "captured",
+    "key": "MS/18.1.8",
+    "subject": "A new Generally Available MS Switch firmware is now available",
+    "post_time": "2026-07-08T16:00:05.647-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5561812": {
+    "status": "captured",
+    "key": "MR/33.1.1",
+    "subject": "A new Beta MR Wireless firmware is now available",
+    "post_time": "2026-07-01T22:00:04.161-07:00",
+    "releaseType": "beta"
+  },
+  "5561287": {
+    "status": "captured",
+    "key": "MV/7.2.2",
+    "subject": "A new Recommended Release MV Cameras firmware is now available",
+    "post_time": "2026-06-29T12:00:05.871-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5560099": {
+    "status": "captured",
+    "key": "MX/26.2.1",
+    "subject": "A new Beta MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-06-22T22:00:05.627-07:00",
+    "releaseType": "beta"
+  },
+  "5559260": {
+    "status": "captured",
+    "key": "MX/26.1.5",
+    "subject": "A new Generally Available MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-06-17T23:00:03.052-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5558178": {
+    "status": "pending",
+    "subject": "A new Beta MV Cameras firmware is now available",
+    "post_time": "2026-06-11T16:00:04.417-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mv-cameras-firmware-is-now-available/ba-p/5558178",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5555625": {
+    "status": "pending",
+    "subject": "A new Generally Available MS Switch firmware is now available",
+    "post_time": "2026-05-28T15:00:05.920-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-ms-switch-firmware-is-now-available/ba-p/5555625",
+    "releaseType": "Generally Available",
+    "family_guess": "MS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5554333": {
+    "status": "pending",
+    "subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-05-21T16:00:03.672-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/ba-p/5554333",
+    "releaseType": "Recommended Release",
+    "family_guess": "MX",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5553516": {
+    "status": "pending",
+    "subject": "A new Beta CS Switch firmware is now available",
+    "post_time": "2026-05-18T17:00:05.013-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cs-switch-firmware-is-now-available/ba-p/5553516",
+    "releaseType": "beta",
+    "family_guess": "CS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5552791": {
+    "status": "pending",
+    "subject": "A new Generally Available MG Wireless WAN firmware is now available",
+    "post_time": "2026-05-14T00:00:04.574-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mg-wireless-wan-firmware-is-now/ba-p/5552791",
+    "releaseType": "Generally Available",
+    "family_guess": "MG",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5550625": {
+    "status": "pending",
+    "subject": "A new Generally Available MR Wireless firmware is now available",
+    "post_time": "2026-05-05T11:00:25.208-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mr-wireless-firmware-is-now-available/ba-p/5550625",
+    "releaseType": "Generally Available",
+    "family_guess": "MR",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5550624": {
+    "status": "pending",
+    "subject": "A new Recommended Release MR Wireless firmware is now available",
+    "post_time": "2026-05-05T11:00:22.694-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mr-wireless-firmware-is-now-available/ba-p/5550624",
+    "releaseType": "Recommended Release",
+    "family_guess": "MR",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5550322": {
+    "status": "pending",
+    "subject": "A new Generally Available CS Switch firmware is now available",
+    "post_time": "2026-05-04T13:00:03.663-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-cs-switch-firmware-is-now-available/ba-p/5550322",
+    "releaseType": "Generally Available",
+    "family_guess": "CS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5548419": {
+    "status": "captured",
+    "key": "MR/32.1.7",
+    "subject": "A new Generally Available MR Wireless firmware is now available",
+    "post_time": "2026-04-27T11:00:06.423-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5548057": {
+    "status": "captured",
+    "key": "CS/17.2.3",
+    "subject": "A new Recommended Release CS Switch firmware is now available",
+    "post_time": "2026-04-24T12:00:04.502-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5547470": {
+    "status": "captured",
+    "key": "MX/26.1.4",
+    "subject": "A new Generally Available MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-04-22T11:00:04.460-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5547198": {
+    "status": "captured",
+    "key": "CS/26.1.1",
+    "subject": "A new Beta CS Switch firmware is now available",
+    "post_time": "2026-04-21T17:00:05.488-07:00",
+    "releaseType": "beta"
+  },
+  "5545888": {
+    "status": "captured",
+    "key": "MV/7.2.1",
+    "subject": "A new Recommended Release MV Cameras firmware is now available",
+    "post_time": "2026-04-16T10:00:04.872-07:00",
+    "releaseType": "Recommended Release"
+  },
+  "5544720": {
+    "status": "captured",
+    "key": "MG/26.1.2",
+    "subject": "A new Beta MG Wireless WAN firmware is now available",
+    "post_time": "2026-04-10T14:00:05.395-07:00",
+    "releaseType": "beta"
+  },
+  "5542868": {
+    "status": "captured",
+    "key": "MS/18.1.7",
+    "subject": "A new Generally Available MS Switch firmware is now available",
+    "post_time": "2026-04-03T12:21:23.018-07:00",
+    "releaseType": "Generally Available"
+  },
+  "5541748": {
+    "status": "captured",
+    "key": "MR/32.2.3",
+    "subject": "A new Beta MR Wireless firmware is now available",
+    "post_time": "2026-03-31T12:19:28.908-07:00",
+    "releaseType": "beta"
+  },
+  "5463234": {
+    "status": "captured",
+    "key": "MG/26.1.1",
+    "subject": "A new beta cellularGateway firmware is now available on Wed, 18 Mar 2026",
+    "post_time": "2026-03-18T22:47:03.672-07:00",
+    "releaseType": "beta"
+  },
+  "5463212": {
+    "status": "captured",
+    "key": "MS/18.1.6",
+    "subject": "A new candidate switch firmware is now available on Thu, 12 Mar 2026",
+    "post_time": "2026-03-12T15:47:03.847-07:00",
+    "releaseType": "candidate"
+  },
+  "5463195": {
+    "status": "captured",
+    "key": "MV/7.2",
+    "subject": "A new stable camera firmware is now available on Thu, 12 Mar 2026",
+    "post_time": "2026-03-12T09:47:03.269-07:00",
+    "releaseType": "stable"
+  },
+  "5463025": {
+    "status": "captured",
+    "key": "MX/26.1.3",
+    "subject": "A new candidate appliance firmware is now available on Tue, 10 Mar 2026",
+    "post_time": "2026-03-10T11:47:03.874-07:00",
+    "releaseType": "candidate"
+  },
+  "5462974": {
+    "status": "captured",
+    "key": "MR/32.2.2",
+    "subject": "A new beta wireless firmware is now available on Thu, 05 Mar 2026",
+    "post_time": "2026-03-05T10:47:03.929-08:00",
+    "releaseType": "beta"
+  },
+  "5462834": {
+    "status": "pending",
+    "subject": "A new candidate switchCatalyst firmware is now available on Thu, 26 Feb 2026",
+    "post_time": "2026-02-26T15:47:03.888-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switchcatalyst-firmware-is-now-available-on-thu/ba-p/5462834",
+    "releaseType": "candidate",
+    "family_guess": "CS",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5462825": {
+    "status": "captured",
+    "key": "CS/17.15.5",
+    "subject": "A new stable switchCatalyst firmware is now available on Thu, 26 Feb 2026",
+    "post_time": "2026-02-26T14:47:03.280-08:00",
+    "releaseType": "stable"
+  },
+  "5462732": {
+    "status": "captured",
+    "key": "MR/32.1.6",
+    "subject": "A new stable wireless firmware is now available on Thu, 12 Feb 2026",
+    "post_time": "2026-02-12T22:47:15.690-08:00",
+    "releaseType": "stable"
+  },
+  "5462650": {
+    "status": "captured",
+    "key": "MX/26.1.2",
+    "subject": "A new beta appliance firmware is now available on Mon, 09 Feb 2026",
+    "post_time": "2026-02-09T16:47:03.381-08:00",
+    "releaseType": "beta"
+  },
+  "5462630": {
+    "status": "captured",
+    "key": "MX/19.2.7",
+    "subject": "A new stable appliance firmware is now available on Thu, 05 Feb 2026",
+    "post_time": "2026-02-05T21:47:04.241-08:00",
+    "releaseType": "stable"
+  },
+  "5461954": {
+    "status": "captured",
+    "key": "MR/32.1.6",
+    "subject": "A new candidate wireless firmware is now available on Tue, 27 Jan 2026",
+    "post_time": "2026-01-27T15:47:03.688-08:00",
+    "releaseType": "candidate"
+  },
+  "5461927": {
+    "status": "captured",
+    "key": "MS/18.1.5.1",
+    "subject": "A new candidate switch firmware is now available on Mon, 26 Jan 2026",
+    "post_time": "2026-01-26T12:47:03.434-08:00",
+    "releaseType": "candidate"
+  },
+  "5461891": {
+    "status": "captured",
+    "key": "MV/7.2",
+    "subject": "A new beta camera firmware is now available on Tue, 13 Jan 2026",
+    "post_time": "2026-01-13T13:47:03.480-08:00",
+    "releaseType": "beta"
+  },
+  "5461880": {
+    "status": "captured",
+    "key": "MS/18.1.5",
+    "subject": "A new candidate switch firmware is now available on Mon, 05 Jan 2026",
+    "post_time": "2026-01-05T10:47:03.505-08:00",
+    "releaseType": "candidate"
+  },
+  "5461844": {
+    "status": "captured",
+    "key": "MR/32.2.1",
+    "subject": "A new beta wireless firmware is now available on Tue, 23 Dec 2025",
+    "post_time": "2025-12-23T15:47:03.383-08:00",
+    "releaseType": "beta"
+  },
+  "5461788": {
+    "status": "captured",
+    "key": "CS/17.18.2",
+    "subject": "A new stable switchCatalyst firmware is now available on Fri, 19 Dec 2025",
+    "post_time": "2025-12-19T15:47:03.543-08:00",
+    "releaseType": "stable"
+  },
+  "5461770": {
+    "status": "captured",
+    "key": "MR/32.1.5",
+    "subject": "A new candidate wireless firmware is now available on Mon, 15 Dec 2025",
+    "post_time": "2025-12-15T12:47:03.559-08:00",
+    "releaseType": "candidate"
+  },
+  "5461695": {
+    "status": "pending",
+    "subject": "A new beta appliance firmware is now available on Fri, 05 Dec 2025",
+    "post_time": "2025-12-05T17:47:03.461-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-appliance-firmware-is-now-available-on-fri-05-dec/ba-p/5461695",
+    "releaseType": "beta",
+    "family_guess": "MX",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5461676": {
+    "status": "pending",
+    "subject": "A new stable cellularGateway firmware is now available on Fri, 05 Dec 2025",
+    "post_time": "2025-12-05T15:47:03.616-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-fri-05/ba-p/5461676",
+    "releaseType": "stable",
+    "family_guess": "MG",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5461637": {
+    "status": "captured",
+    "key": "MS/18.1.3.1",
+    "subject": "A new candidate switch firmware is now available on Fri, 05 Dec 2025",
+    "post_time": "2025-12-05T12:47:03.340-08:00",
+    "releaseType": "candidate"
+  },
+  "5461627": {
+    "status": "captured",
+    "key": "MS/18.1.4",
+    "subject": "A new candidate switch firmware is now available on Mon, 01 Dec 2025",
+    "post_time": "2025-12-01T17:47:04.490-08:00",
+    "releaseType": "candidate"
+  },
+  "5461589": {
+    "status": "captured",
+    "key": "MR/32.1.5",
+    "subject": "A new beta wireless firmware is now available on Wed, 26 Nov 2025",
+    "post_time": "2025-11-26T14:47:03.695-08:00",
+    "releaseType": "beta"
+  },
+  "5461567": {
+    "status": "captured",
+    "key": "CS/17.15.4.1",
+    "subject": "A new candidate switchCatalyst firmware is now available on Thu, 13 Nov 2025",
+    "post_time": "2025-11-13T17:47:04.165-08:00",
+    "releaseType": "candidate"
+  },
+  "5461499": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Thu, 13 Nov 2025",
+    "post_time": "2025-11-13T15:47:03.345-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-thu-13-nov-2025/ba-p/5461499",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5461424": {
+    "status": "captured",
+    "key": "MX/19.2.4",
+    "subject": "A new candidate appliance firmware is now available on Tue, 04 Nov 2025",
+    "post_time": "2025-11-04T09:47:04.132-08:00",
+    "releaseType": "candidate"
+  },
+  "5461336": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Wed, 29 Oct 2025",
+    "post_time": "2025-10-29T12:47:04.190-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-wed-29-oct-2025/ba-p/5461336",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5461263": {
+    "status": "captured",
+    "key": "MS/18.1.3.1",
+    "subject": "A new candidate switch firmware is now available on Tue, 28 Oct 2025",
+    "post_time": "2025-10-28T16:47:03.557-07:00",
+    "releaseType": "candidate"
+  },
+  "5461156": {
+    "status": "pending",
+    "subject": "A new candidate switch firmware is now available on Mon, 13 Oct 2025",
+    "post_time": "2025-10-13T16:47:04.196-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-mon-13-oct/ba-p/5461156",
+    "releaseType": "candidate",
+    "family_guess": "MS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5461106": {
+    "status": "captured",
+    "key": "MR/32.1.4",
+    "subject": "A new beta wireless firmware is now available on Wed, 01 Oct 2025",
+    "post_time": "2025-10-01T09:47:04.210-07:00",
+    "releaseType": "beta"
+  },
+  "5461052": {
+    "status": "captured",
+    "key": "CS/17.2.3",
+    "subject": "A new stable switchCatalyst firmware is now available on Fri, 26 Sep 2025",
+    "post_time": "2025-09-26T15:47:03.713-07:00",
+    "releaseType": "stable"
+  },
+  "5522269": {
+    "status": "captured",
+    "key": "MV/7.1.1",
+    "subject": "A new stable camera firmware is now available on Fri, 19 Sep 2025",
+    "post_time": "2025-09-19T23:47:04.070-07:00",
+    "releaseType": "stable"
+  },
+  "5522190": {
+    "status": "captured",
+    "key": "MS/18.1.2",
+    "subject": "A new candidate switch firmware is now available on Wed, 17 Sep 2025",
+    "post_time": "2025-09-17T11:47:03.721-07:00",
+    "releaseType": "candidate"
+  },
+  "5522155": {
+    "status": "captured",
+    "key": "MX/19.2.3",
+    "subject": "A new candidate appliance firmware is now available on Tue, 16 Sep 2025",
+    "post_time": "2025-09-16T17:47:04.723-07:00",
+    "releaseType": "candidate"
+  },
+  "5522078": {
+    "status": "captured",
+    "key": "MX/19.1.11",
+    "subject": "A new stable appliance firmware is now available on Mon, 08 Sep 2025",
+    "post_time": "2025-09-08T21:47:04.109-07:00",
+    "releaseType": "stable"
+  },
+  "5521949": {
+    "status": "captured",
+    "key": "CS/17.18.1",
+    "subject": "A new beta switchCatalyst firmware is now available on Wed, 03 Sep 2025",
+    "post_time": "2025-09-03T09:47:04.867-07:00",
+    "releaseType": "beta"
+  },
+  "5521912": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Tue, 02 Sep 2025",
+    "post_time": "2025-09-02T10:47:04.047-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-tue-02-sep/ba-p/5521912",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 2,
+    "checked": "2026-10-04"
+  },
+  "5521885": {
+    "status": "captured",
+    "key": "MS/18.1.1",
+    "subject": "A new beta switch firmware is now available on Tue, 19 Aug 2025",
+    "post_time": "2025-08-19T16:47:03.685-07:00",
+    "releaseType": "beta"
+  },
+  "5521838": {
+    "status": "captured",
+    "key": "MX/19.1.10",
+    "subject": "A new stable appliance firmware is now available on Tue, 19 Aug 2025",
+    "post_time": "2025-08-19T15:47:03.575-07:00",
+    "releaseType": "stable"
+  },
+  "5521791": {
+    "status": "captured",
+    "key": "MR/31.1.8",
+    "subject": "A new candidate wireless firmware is now available on Wed, 13 Aug 2025",
+    "post_time": "2025-08-13T09:47:04.273-07:00",
+    "releaseType": "candidate"
+  },
+  "5521759": {
+    "status": "captured",
+    "key": "MG/4.1.2",
+    "subject": "A new stable cellularGateway firmware is now available on Tue, 12 Aug 2025",
+    "post_time": "2025-08-12T18:47:03.674-07:00",
+    "releaseType": "stable"
+  },
+  "5521676": {
+    "status": "captured",
+    "key": "CS/17.15.4",
+    "subject": "A new candidate switchCatalyst firmware is now available on Tue, 12 Aug 2025",
+    "post_time": "2025-08-12T13:47:03.988-07:00",
+    "releaseType": "candidate"
+  },
+  "5521640": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Wed, 06 Aug 2025",
+    "post_time": "2025-08-06T11:47:04.690-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-wed-06-aug-2025/ba-p/5521640",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5521607": {
+    "status": "captured",
+    "key": "MR/32.1.3",
+    "subject": "A new beta wireless firmware is now available on Thu, 31 Jul 2025",
+    "post_time": "2025-07-31T16:47:10.923-07:00",
+    "releaseType": "beta"
+  },
+  "5521474": {
+    "status": "captured",
+    "key": "MX/19.2.2",
+    "subject": "A new candidate appliance firmware is now available on Thu, 31 Jul 2025",
+    "post_time": "2025-07-31T16:47:07.809-07:00",
+    "releaseType": "candidate"
+  },
+  "5521444": {
+    "status": "captured",
+    "key": "MX/19.1.9",
+    "subject": "A new stable appliance firmware is now available on Thu, 31 Jul 2025",
+    "post_time": "2025-07-31T16:47:04.456-07:00",
+    "releaseType": "stable"
+  },
+  "5521405": {
+    "status": "captured",
+    "key": "MS/17.2.2",
+    "subject": "A new stable switch firmware is now available on Tue, 22 Jul 2025",
+    "post_time": "2025-07-22T17:47:03.878-07:00",
+    "releaseType": "stable"
+  },
+  "5521377": {
+    "status": "captured",
+    "key": "CS/17.2.2",
+    "subject": "A new stable switchCatalyst firmware is now available on Mon, 21 Jul 2025",
+    "post_time": "2025-07-21T16:47:04.098-07:00",
+    "releaseType": "stable"
+  },
+  "5521225": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Wed, 16 Jul 2025",
+    "post_time": "2025-07-16T19:47:04.729-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-wed-16-jul-2025/ba-p/5521225",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5521182": {
+    "status": "captured",
+    "key": "MG/4.1.1",
+    "subject": "A new candidate cellularGateway firmware is now available on Wed, 09 Jul 2025",
+    "post_time": "2025-07-09T18:47:04.585-07:00",
+    "releaseType": "candidate"
+  },
+  "5521175": {
+    "status": "captured",
+    "key": "MX/19.1.9",
+    "subject": "A new candidate appliance firmware is now available on Mon, 07 Jul 2025",
+    "post_time": "2025-07-07T14:47:04.294-07:00",
+    "releaseType": "candidate"
+  },
+  "5521093": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Tue, 24 Jun 2025",
+    "post_time": "2025-06-24T12:47:04.607-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-tue-24-jun-2025/ba-p/5521093",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5520976": {
+    "status": "captured",
+    "key": "MR/32.1.2",
+    "subject": "A new beta wireless firmware is now available on Mon, 23 Jun 2025",
+    "post_time": "2025-06-23T11:47:04.232-07:00",
+    "releaseType": "beta"
+  },
+  "5520941": {
+    "status": "captured",
+    "key": "CS/17.15.3.1",
+    "subject": "A new candidate switchCatalyst firmware is now available on Mon, 16 Jun 2025",
+    "post_time": "2025-06-16T16:47:03.972-07:00",
+    "releaseType": "candidate"
+  },
+  "5520830": {
+    "status": "captured",
+    "key": "MX/19.1.8.1",
+    "subject": "A new candidate appliance firmware is now available on Fri, 13 Jun 2025",
+    "post_time": "2025-06-13T16:47:03.783-07:00",
+    "releaseType": "candidate"
+  },
+  "5520784": {
+    "status": "captured",
+    "key": "MR/31.1.7.1",
+    "subject": "A new stable wireless firmware is now available on Tue, 10 Jun 2025",
+    "post_time": "2025-06-10T09:47:04.497-07:00",
+    "releaseType": "stable"
+  },
+  "5520711": {
+    "status": "pending",
+    "subject": "A new beta switchCatalyst firmware is now available on Fri, 06 Jun 2025",
+    "post_time": "2025-06-06T08:47:03.990-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switchcatalyst-firmware-is-now-available-on-fri-06/ba-p/5520711",
+    "releaseType": "beta",
+    "family_guess": "CS",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5520622": {
+    "status": "captured",
+    "key": "MR/31.1.7.1",
+    "subject": "A new candidate wireless firmware is now available on Tue, 03 Jun 2025",
+    "post_time": "2025-06-03T15:47:04.124-07:00",
+    "releaseType": "candidate"
+  },
+  "5520584": {
+    "status": "pending",
+    "subject": "A new stable switch firmware is now available on Mon, 02 Jun 2025",
+    "post_time": "2025-06-02T16:47:04.039-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switch-firmware-is-now-available-on-mon-02-jun-2025/ba-p/5520584",
+    "releaseType": "stable",
+    "family_guess": "MS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5520557": {
+    "status": "captured",
+    "key": "MX/18.211.6",
+    "subject": "A new stable appliance firmware is now available on Mon, 02 Jun 2025",
+    "post_time": "2025-06-02T14:47:03.913-07:00",
+    "releaseType": "stable"
+  },
+  "5520511": {
+    "status": "pending",
+    "subject": "A new stable cellularGateway firmware is now available on Fri, 30 May 2025",
+    "post_time": "2025-05-30T17:47:04.331-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-fri-30/ba-p/5520511",
+    "releaseType": "stable",
+    "family_guess": "MG",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5520453": {
+    "status": "captured",
+    "key": "MR/32.1.1",
+    "subject": "A new beta wireless firmware is now available on Wed, 21 May 2025",
+    "post_time": "2025-05-21T09:47:04.264-07:00",
+    "releaseType": "beta"
+  },
+  "5520415": {
+    "status": "captured",
+    "key": "MV/6.3.2",
+    "subject": "A new stable camera firmware is now available on Tue, 20 May 2025",
+    "post_time": "2025-05-20T11:47:03.836-07:00",
+    "releaseType": "stable"
+  },
+  "5520317": {
+    "status": "captured",
+    "key": "MX/19.1.8",
+    "subject": "A new candidate appliance firmware is now available on Fri, 02 May 2025",
+    "post_time": "2025-05-02T18:47:03.755-07:00",
+    "releaseType": "candidate"
+  },
+  "5520175": {
+    "status": "captured",
+    "key": "MG/4.1",
+    "subject": "A new beta cellularGateway firmware is now available on Wed, 30 Apr 2025",
+    "post_time": "2025-04-30T16:47:04.547-07:00",
+    "releaseType": "beta"
+  },
+  "5520141": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Tue, 29 Apr 2025",
+    "post_time": "2025-04-29T09:47:04.230-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-tue-29-apr/ba-p/5520141",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5520068": {
+    "status": "captured",
+    "key": "CS/17.2.1.1",
+    "subject": "A new stable switchCatalyst firmware is now available on Thu, 24 Apr 2025",
+    "post_time": "2025-04-24T15:47:03.996-07:00",
+    "releaseType": "stable"
+  },
+  "5520041": {
+    "status": "captured",
+    "key": "MG/3.213",
+    "subject": "A new candidate cellularGateway firmware is now available on Tue, 22 Apr 2025",
+    "post_time": "2025-04-22T16:47:04.099-07:00",
+    "releaseType": "candidate"
+  },
+  "5519931": {
+    "status": "captured",
+    "key": "MR/31.1.7",
+    "subject": "A new candidate wireless firmware is now available on Tue, 15 Apr 2025",
+    "post_time": "2025-04-15T15:47:04.026-07:00",
+    "releaseType": "candidate"
+  },
+  "5519883": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Thu, 10 Apr 2025",
+    "post_time": "2025-04-10T18:47:04.949-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-thu-10-apr-2025/ba-p/5519883",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5519822": {
+    "status": "captured",
+    "key": "CS/17.15.3",
+    "subject": "A new candidate switchCatalyst firmware is now available on Mon, 07 Apr 2025",
+    "post_time": "2025-04-07T14:47:03.898-07:00",
+    "releaseType": "candidate"
+  },
+  "5519722": {
+    "status": "pending",
+    "subject": "A new beta appliance firmware is now available on Mon, 31 Mar 2025",
+    "post_time": "2025-03-31T15:47:04.200-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-appliance-firmware-is-now-available-on-mon-31-mar/ba-p/5519722",
+    "releaseType": "beta",
+    "family_guess": "MX",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5519682": {
+    "status": "captured",
+    "key": "CS/17.2.1",
+    "subject": "A new stable switchCatalyst firmware is now available on Mon, 24 Mar 2025",
+    "post_time": "2025-03-24T11:47:04.704-07:00",
+    "releaseType": "stable"
+  },
+  "5519646": {
+    "status": "captured",
+    "key": "MS/17.2.1",
+    "subject": "A new stable switch firmware is now available on Wed, 19 Mar 2025",
+    "post_time": "2025-03-19T17:47:04.100-07:00",
+    "releaseType": "stable"
+  },
+  "5519572": {
+    "status": "captured",
+    "key": "MX/19.1.7.2",
+    "subject": "A new candidate appliance firmware is now available on Wed, 19 Mar 2025",
+    "post_time": "2025-03-19T00:47:04.293-07:00",
+    "releaseType": "candidate"
+  },
+  "5519523": {
+    "status": "pending",
+    "subject": "A new beta cellularGateway firmware is now available on Tue, 18 Mar 2025",
+    "post_time": "2025-03-18T14:47:09.123-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cellulargateway-firmware-is-now-available-on-tue-18/ba-p/5519523",
+    "releaseType": "beta",
+    "family_guess": "MG",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5519491": {
+    "status": "pending",
+    "subject": "A new stable cellularGateway firmware is now available on Tue, 18 Mar 2025",
+    "post_time": "2025-03-18T14:47:04.382-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-tue-18/ba-p/5519491",
+    "releaseType": "stable",
+    "family_guess": "MG",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5519469": {
+    "status": "captured",
+    "key": "MX/18.211.5.2",
+    "subject": "A new stable appliance firmware is now available on Mon, 10 Mar 2025",
+    "post_time": "2025-03-10T12:47:04.656-07:00",
+    "releaseType": "stable"
+  },
+  "5519390": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Wed, 05 Mar 2025",
+    "post_time": "2025-03-05T08:47:05.027-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-wed-05-mar/ba-p/5519390",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5519362": {
+    "status": "captured",
+    "key": "MR/31.1.6",
+    "subject": "A new candidate wireless firmware is now available on Tue, 18 Feb 2025",
+    "post_time": "2025-02-18T09:47:04.023-08:00",
+    "releaseType": "candidate"
+  },
+  "5519338": {
+    "status": "captured",
+    "key": "CS/17.15.2",
+    "subject": "A new beta switchCatalyst firmware is now available on Thu, 06 Feb 2025",
+    "post_time": "2025-02-06T13:47:04.086-08:00",
+    "releaseType": "beta"
+  },
+  "5519261": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Wed, 05 Feb 2025",
+    "post_time": "2025-02-05T17:47:03.899-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-wed-05-feb-2025/ba-p/5519261",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5519164": {
+    "status": "captured",
+    "key": "MX/19.1.7.1",
+    "subject": "A new candidate appliance firmware is now available on Wed, 05 Feb 2025",
+    "post_time": "2025-02-05T14:47:04.567-08:00",
+    "releaseType": "candidate"
+  },
+  "5519157": {
+    "status": "captured",
+    "key": "MX/18.211.5.1",
+    "subject": "A new stable appliance firmware is now available on Sun, 02 Feb 2025",
+    "post_time": "2025-02-02T20:47:03.739-08:00",
+    "releaseType": "stable"
+  },
+  "5519093": {
+    "status": "captured",
+    "key": "MX/19.1.7",
+    "subject": "A new candidate appliance firmware is now available on Thu, 30 Jan 2025",
+    "post_time": "2025-01-30T18:47:03.795-08:00",
+    "releaseType": "candidate"
+  },
+  "5518998": {
+    "status": "captured",
+    "key": "MV/6.2.1",
+    "subject": "A new beta camera firmware is now available on Fri, 24 Jan 2025",
+    "post_time": "2025-01-24T17:47:03.784-08:00",
+    "releaseType": "beta"
+  },
+  "5518968": {
+    "status": "captured",
+    "key": "MS/17.1.4",
+    "subject": "A new stable switch firmware is now available on Tue, 14 Jan 2025",
+    "post_time": "2025-01-14T16:47:03.348-08:00",
+    "releaseType": "stable"
+  },
+  "5518884": {
+    "status": "captured",
+    "key": "MX/18.211.5",
+    "subject": "A new stable appliance firmware is now available on Tue, 14 Jan 2025",
+    "post_time": "2025-01-14T11:47:03.432-08:00",
+    "releaseType": "stable"
+  },
+  "5518658": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Wed, 11 Dec 2024",
+    "post_time": "2024-12-11T10:47:05.531-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-wed-11-dec-2024/ba-p/5518658",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5518572": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Mon, 09 Dec 2024",
+    "post_time": "2024-12-09T09:47:05.626-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-mon-09-dec/ba-p/5518572",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5518478": {
+    "status": "captured",
+    "key": "MS/17.1.3",
+    "subject": "A new stable switch firmware is now available on Thu, 05 Dec 2024",
+    "post_time": "2024-12-05T15:47:06.025-08:00",
+    "releaseType": "stable"
+  },
+  "5518439": {
+    "status": "captured",
+    "key": "MX/19.1.6",
+    "subject": "A new candidate appliance firmware is now available on Mon, 02 Dec 2024",
+    "post_time": "2024-12-02T22:47:06.708-08:00",
+    "releaseType": "candidate"
+  },
+  "5518348": {
+    "status": "captured",
+    "key": "CS/17.1.4",
+    "subject": "A new stable switchCatalyst firmware is now available on Fri, 15 Nov 2024",
+    "post_time": "2024-11-15T12:47:05.785-08:00",
+    "releaseType": "stable"
+  },
+  "5518316": {
+    "status": "pending",
+    "subject": "A new candidate wireless firmware is now available on Tue, 12 Nov 2024",
+    "post_time": "2024-11-12T08:47:06.244-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-12-nov/ba-p/5518316",
+    "releaseType": "candidate",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5518241": {
+    "status": "captured",
+    "key": "MS/17.1.3",
+    "subject": "A new candidate switch firmware is now available on Fri, 08 Nov 2024",
+    "post_time": "2024-11-08T15:47:06.298-08:00",
+    "releaseType": "candidate"
+  },
+  "5518132": {
+    "status": "captured",
+    "key": "MV/6.1.2",
+    "subject": "A new stable camera firmware is now available on Mon, 04 Nov 2024",
+    "post_time": "2024-11-04T15:47:05.792-08:00",
+    "releaseType": "stable"
+  },
+  "5518108": {
+    "status": "captured",
+    "key": "MR/30.7.1",
+    "subject": "A new stable wireless firmware is now available on Mon, 04 Nov 2024",
+    "post_time": "2024-11-04T09:47:05.908-08:00",
+    "releaseType": "stable"
+  },
+  "5518042": {
+    "status": "captured",
+    "key": "MX/19.1.5",
+    "subject": "A new candidate appliance firmware is now available on Thu, 31 Oct 2024",
+    "post_time": "2024-10-31T12:47:06.210-07:00",
+    "releaseType": "candidate"
+  },
+  "5517970": {
+    "status": "captured",
+    "key": "CS/17.1.4",
+    "subject": "A new candidate switchCatalyst firmware is now available on Wed, 30 Oct 2024",
+    "post_time": "2024-10-30T14:47:06.316-07:00",
+    "releaseType": "candidate"
+  },
+  "5517915": {
+    "status": "captured",
+    "key": "MX/18.211.4",
+    "subject": "A new stable appliance firmware is now available on Tue, 29 Oct 2024",
+    "post_time": "2024-10-29T13:47:05.349-07:00",
+    "releaseType": "stable"
+  },
+  "5517802": {
+    "status": "captured",
+    "key": "MR/30.7.1",
+    "subject": "A new candidate wireless firmware is now available on Tue, 22 Oct 2024",
+    "post_time": "2024-10-22T14:47:05.757-07:00",
+    "releaseType": "candidate"
+  },
+  "5517786": {
+    "status": "captured",
+    "key": "MR/31.1.5.1",
+    "subject": "A new beta wireless firmware is now available on Mon, 14 Oct 2024",
+    "post_time": "2024-10-14T15:47:05.994-07:00",
+    "releaseType": "beta"
+  },
+  "5517712": {
+    "status": "captured",
+    "key": "CS/17.1.3",
+    "subject": "A new candidate switchCatalyst firmware is now available on Tue, 08 Oct 2024",
+    "post_time": "2024-10-08T15:47:06.213-07:00",
+    "releaseType": "candidate"
+  },
+  "5517631": {
+    "status": "captured",
+    "key": "MX/19.1.4",
+    "subject": "A new beta appliance firmware is now available on Tue, 08 Oct 2024",
+    "post_time": "2024-10-08T10:47:06.537-07:00",
+    "releaseType": "beta"
+  },
+  "5517501": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Thu, 03 Oct 2024",
+    "post_time": "2024-10-03T16:47:06.597-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-thu-03-oct-2024/ba-p/5517501",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5517455": {
+    "status": "captured",
+    "key": "CS/17.15.1",
+    "subject": "A new beta switchCatalyst firmware is now available on Wed, 02 Oct 2024",
+    "post_time": "2024-10-02T16:47:05.922-07:00",
+    "releaseType": "beta"
+  },
+  "5517396": {
+    "status": "pending",
+    "subject": "A new beta wireless firmware is now available on Wed, 02 Oct 2024",
+    "post_time": "2024-10-02T09:47:06.509-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-wed-02-oct-2024/ba-p/5517396",
+    "releaseType": "beta",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5517321": {
+    "status": "captured",
+    "key": "MR/31.1.5",
+    "subject": "A new beta wireless firmware is now available on Thu, 26 Sep 2024",
+    "post_time": "2024-09-26T12:47:05.896-07:00",
+    "releaseType": "beta"
+  },
+  "5517244": {
+    "status": "pending",
+    "subject": "A new stable cellularGateway firmware is now available on Thu, 19 Sep 2024",
+    "post_time": "2024-09-19T16:47:06.021-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-thu-19/ba-p/5517244",
+    "releaseType": "stable",
+    "family_guess": "MG",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5517162": {
+    "status": "captured",
+    "key": "CS/16.9",
+    "subject": "A new stable switchCatalyst firmware is now available on Mon, 16 Sep 2024",
+    "post_time": "2024-09-16T15:47:06.372-07:00",
+    "releaseType": "stable"
+  },
+  "5517062": {
+    "status": "captured",
+    "key": "CS/17.1.3",
+    "subject": "A new candidate switchCatalyst firmware is now available on Thu, 12 Sep 2024",
+    "post_time": "2024-09-12T17:47:08.697-07:00",
+    "releaseType": "candidate"
+  },
+  "5517032": {
+    "status": "captured",
+    "key": "MV/6.1",
+    "subject": "A new beta camera firmware is now available on Tue, 10 Sep 2024",
+    "post_time": "2024-09-10T13:47:05.820-07:00",
+    "releaseType": "beta"
+  },
+  "5516961": {
+    "status": "captured",
+    "key": "MS/17.1.2",
+    "subject": "A new candidate switch firmware is now available on Wed, 28 Aug 2024",
+    "post_time": "2024-08-28T15:47:06.198-07:00",
+    "releaseType": "candidate"
+  },
+  "5516840": {
+    "status": "pending",
+    "subject": "A new stable sensor firmware is now available on Mon, 26 Aug 2024",
+    "post_time": "2024-08-26T15:47:06.128-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-sensor-firmware-is-now-available-on-mon-26-aug-2024/ba-p/5516840",
+    "releaseType": "stable",
+    "family_guess": "MT",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5516813": {
+    "status": "pending",
+    "subject": "A new candidate cellularGateway firmware is now available on Mon, 19 Aug 2024",
+    "post_time": "2024-08-19T09:47:05.470-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-cellulargateway-firmware-is-now-available-on-mon/ba-p/5516813",
+    "releaseType": "candidate",
+    "family_guess": "MG",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5516740": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Wed, 14 Aug 2024",
+    "post_time": "2024-08-14T17:47:06.088-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-wed-14-aug-2024/ba-p/5516740",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5516701": {
+    "status": "pending",
+    "subject": "ATTN: Cisco Meraki firmware EOL policy update in effect",
+    "post_time": "2024-08-13T08:59:30.403-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/attn-cisco-meraki-firmware-eol-policy-update-in-effect/ba-p/5516701",
+    "releaseType": "unknown",
+    "family_guess": "UNKNOWN",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5516665": {
+    "status": "captured",
+    "key": "MR/31.1.4",
+    "subject": "A new beta wireless firmware is now available on Mon, 12 Aug 2024",
+    "post_time": "2024-08-12T11:47:05.819-07:00",
+    "releaseType": "beta"
+  },
+  "5516591": {
+    "status": "captured",
+    "key": "MX/18.211.3",
+    "subject": "A new stable appliance firmware is now available on Fri, 09 Aug 2024",
+    "post_time": "2024-08-09T14:47:06.410-07:00",
+    "releaseType": "stable"
+  },
+  "5516505": {
+    "status": "pending",
+    "subject": "A new beta sensor firmware is now available on Thu, 25 Jul 2024",
+    "post_time": "2024-07-25T17:47:05.627-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-sensor-firmware-is-now-available-on-thu-25-jul-2024/ba-p/5516505",
+    "releaseType": "beta",
+    "family_guess": "MT",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5516467": {
+    "status": "captured",
+    "key": "MV/6.0.2",
+    "subject": "A new beta camera firmware is now available on Thu, 25 Jul 2024",
+    "post_time": "2024-07-25T14:47:04.929-07:00",
+    "releaseType": "beta"
+  },
+  "5516402": {
+    "status": "pending",
+    "subject": "A new beta wireless firmware is now available on Mon, 15 Jul 2024",
+    "post_time": "2024-07-15T17:47:07.304-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-mon-15-jul-2024/ba-p/5516402",
+    "releaseType": "beta",
+    "family_guess": "MR",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5516382": {
+    "status": "captured",
+    "key": "MS/17.1.1",
+    "subject": "A new beta switch firmware is now available on Thu, 11 Jul 2024",
+    "post_time": "2024-07-11T22:47:04.508-07:00",
+    "releaseType": "beta"
+  },
+  "5516342": {
+    "status": "captured",
+    "key": "MS/16.9",
+    "subject": "A new stable switch firmware is now available on Tue, 09 Jul 2024",
+    "post_time": "2024-07-09T19:47:07.053-07:00",
+    "releaseType": "stable"
+  },
+  "5516257": {
+    "status": "captured",
+    "key": "MV/5.6.2",
+    "subject": "A new stable camera firmware is now available on Mon, 08 Jul 2024",
+    "post_time": "2024-07-08T17:47:04.796-07:00",
+    "releaseType": "stable"
+  },
+  "5516175": {
+    "status": "captured",
+    "key": "MR/30.7",
+    "subject": "A new stable wireless firmware is now available on Thu, 27 Jun 2024",
+    "post_time": "2024-06-27T09:47:04.660-07:00",
+    "releaseType": "stable"
+  },
+  "5516074": {
+    "status": "captured",
+    "key": "MR/31.1.2",
+    "subject": "A new beta wireless firmware is now available on Wed, 26 Jun 2024",
+    "post_time": "2024-06-26T11:47:05.113-07:00",
+    "releaseType": "beta"
+  },
+  "5516036": {
+    "status": "pending",
+    "subject": "A new beta switchCatalyst firmware is now available on Tue, 25 Jun 2024",
+    "post_time": "2024-06-25T16:47:04.857-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switchcatalyst-firmware-is-now-available-on-tue-25/ba-p/5516036",
+    "releaseType": "beta",
+    "family_guess": "CS",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5516004": {
+    "status": "captured",
+    "key": "MG/3.212",
+    "subject": "A new beta cellularGateway firmware is now available on Tue, 25 Jun 2024",
+    "post_time": "2024-06-25T13:47:08.861-07:00",
+    "releaseType": "beta"
+  },
+  "5515903": {
+    "status": "captured",
+    "key": "MG/3.102",
+    "subject": "A new stable cellularGateway firmware is now available on Tue, 25 Jun 2024",
+    "post_time": "2024-06-25T13:47:04.351-07:00",
+    "releaseType": "stable"
+  },
+  "5515857": {
+    "status": "captured",
+    "key": "MV/6.0.1",
+    "subject": "A new beta camera firmware is now available on Fri, 21 Jun 2024",
+    "post_time": "2024-06-21T11:47:05.149-07:00",
+    "releaseType": "beta"
+  },
+  "5515728": {
+    "status": "captured",
+    "key": "MG/3.211.2",
+    "subject": "A new beta cellularGateway firmware is now available on Fri, 07 Jun 2024",
+    "post_time": "2024-06-07T17:47:04.742-07:00",
+    "releaseType": "beta"
+  },
+  "5515693": {
+    "status": "captured",
+    "key": "MV/6.0",
+    "subject": "A new beta camera firmware is now available on Thu, 06 Jun 2024",
+    "post_time": "2024-06-06T17:47:05.053-07:00",
+    "releaseType": "beta"
+  },
+  "5515565": {
+    "status": "captured",
+    "key": "MR/30.7",
+    "subject": "A new candidate wireless firmware is now available on Thu, 06 Jun 2024",
+    "post_time": "2024-06-06T11:47:04.921-07:00",
+    "releaseType": "candidate"
+  },
+  "5515543": {
+    "status": "captured",
+    "key": "MX/18.211.2",
+    "subject": "A new stable appliance firmware is now available on Wed, 05 Jun 2024",
+    "post_time": "2024-06-05T17:47:04.730-07:00",
+    "releaseType": "stable"
+  },
+  "5515529": {
+    "status": "captured",
+    "key": "MX/19.1.3",
+    "subject": "A new beta appliance firmware is now available on Thu, 30 May 2024",
+    "post_time": "2024-05-30T19:47:04.918-07:00",
+    "releaseType": "beta"
+  },
+  "5515369": {
+    "status": "captured",
+    "key": "MG/3.211",
+    "subject": "A new beta cellularGateway firmware is now available on Fri, 24 May 2024",
+    "post_time": "2024-05-24T13:47:04.835-07:00",
+    "releaseType": "beta"
+  },
+  "5515353": {
+    "status": "captured",
+    "key": "MR/31.1.1",
+    "subject": "A new beta wireless firmware is now available on Tue, 21 May 2024",
+    "post_time": "2024-05-21T11:47:05.009-07:00",
+    "releaseType": "beta"
+  },
+  "5515323": {
+    "status": "captured",
+    "key": "MX/18.211.0.1",
+    "subject": "A new candidate appliance firmware is now available on Mon, 20 May 2024",
+    "post_time": "2024-05-20T19:47:04.176-07:00",
+    "releaseType": "candidate"
+  },
+  "5515214": {
+    "status": "captured",
+    "key": "CS/17.1.1",
+    "subject": "A new beta switchCatalyst firmware is now available on Thu, 16 May 2024",
+    "post_time": "2024-05-16T15:47:04.348-07:00",
+    "releaseType": "beta"
+  },
+  "5515170": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Wed, 15 May 2024",
+    "post_time": "2024-05-15T13:47:05.177-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-wed-15-may-2024/ba-p/5515170",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5515155": {
+    "status": "captured",
+    "key": "MX/18.211",
+    "subject": "A new candidate appliance firmware is now available on Wed, 08 May 2024",
+    "post_time": "2024-05-08T17:47:04.038-07:00",
+    "releaseType": "candidate"
+  },
+  "5515136": {
+    "status": "captured",
+    "key": "MG/3.201",
+    "subject": "A new beta cellularGateway firmware is now available on Thu, 02 May 2024",
+    "post_time": "2024-05-02T16:47:04.524-07:00",
+    "releaseType": "beta"
+  },
+  "5515044": {
+    "status": "captured",
+    "key": "MT/2.0",
+    "subject": "A new beta sensor firmware is now available on Thu, 25 Apr 2024",
+    "post_time": "2024-04-25T17:47:04.477-07:00",
+    "releaseType": "beta"
+  },
+  "5514936": {
+    "status": "captured",
+    "key": "MS/16.8",
+    "subject": "A new stable switch firmware is now available on Mon, 22 Apr 2024",
+    "post_time": "2024-04-22T17:47:04.509-07:00",
+    "releaseType": "stable"
+  },
+  "5514910": {
+    "status": "captured",
+    "key": "CS/16.8",
+    "subject": "A new stable switchCatalyst firmware is now available on Wed, 10 Apr 2024",
+    "post_time": "2024-04-10T15:47:04.352-07:00",
+    "releaseType": "stable"
+  },
+  "5514828": {
+    "status": "captured",
+    "key": "MX/18.107.10",
+    "subject": "A new stable appliance firmware is now available on Tue, 09 Apr 2024",
+    "post_time": "2024-04-09T16:47:07.214-07:00",
+    "releaseType": "stable"
+  },
+  "5514788": {
+    "status": "captured",
+    "key": "MX/18.208",
+    "subject": "A new candidate appliance firmware is now available on Tue, 02 Apr 2024",
+    "post_time": "2024-04-02T23:47:05.811-07:00",
+    "releaseType": "candidate"
+  },
+  "5514744": {
+    "status": "captured",
+    "key": "MV/5.6",
+    "subject": "A new beta camera firmware is now available on Fri, 29 Mar 2024",
+    "post_time": "2024-03-29T11:47:05.995-07:00",
+    "releaseType": "beta"
+  },
+  "5514647": {
+    "status": "captured",
+    "key": "MR/30.6",
+    "subject": "A new stable wireless firmware is now available on Mon, 25 Mar 2024",
+    "post_time": "2024-03-25T11:47:05.240-07:00",
+    "releaseType": "stable"
+  },
+  "5514572": {
+    "status": "captured",
+    "key": "MX/18.107.9",
+    "subject": "A new stable appliance firmware is now available on Mon, 11 Mar 2024",
+    "post_time": "2024-03-11T19:47:04.708-07:00",
+    "releaseType": "stable"
+  },
+  "5514544": {
+    "status": "captured",
+    "key": "MX/18.208.0.1",
+    "subject": "A new candidate appliance firmware is now available on Tue, 05 Mar 2024",
+    "post_time": "2024-03-05T21:47:05.033-08:00",
+    "releaseType": "candidate"
+  },
+  "5514487": {
+    "status": "captured",
+    "key": "MG/3.102",
+    "subject": "A new candidate cellularGateway firmware is now available on Fri, 01 Mar 2024",
+    "post_time": "2024-03-01T15:47:04.671-08:00",
+    "releaseType": "candidate"
+  },
+  "5514429": {
+    "status": "captured",
+    "key": "CS/16.7",
+    "subject": "A new stable switchCatalyst firmware is now available on Wed, 28 Feb 2024",
+    "post_time": "2024-02-28T19:47:05.152-08:00",
+    "releaseType": "stable"
+  },
+  "5514321": {
+    "status": "pending",
+    "subject": "A new stable cellularGateway firmware is now available on Thu, 22 Feb 2024",
+    "post_time": "2024-02-22T10:47:06.426-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-thu-22/ba-p/5514321",
+    "releaseType": "stable",
+    "family_guess": "MG",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5514203": {
+    "status": "captured",
+    "key": "MR/30.6",
+    "subject": "A new candidate wireless firmware is now available on Tue, 20 Feb 2024",
+    "post_time": "2024-02-20T11:47:06.431-08:00",
+    "releaseType": "candidate"
+  },
+  "5514013": {
+    "status": "captured",
+    "key": "MX/18.208",
+    "subject": "A new candidate appliance firmware is now available on Tue, 13 Feb 2024",
+    "post_time": "2024-02-13T18:47:05.943-08:00",
+    "releaseType": "candidate"
+  },
+  "5513995": {
+    "status": "captured",
+    "key": "MV/5.5.1",
+    "subject": "A new stable camera firmware is now available on Fri, 02 Feb 2024",
+    "post_time": "2024-02-02T10:47:05.100-08:00",
+    "releaseType": "stable"
+  },
+  "5513973": {
+    "status": "captured",
+    "key": "MT/1.6",
+    "subject": "A new beta sensor firmware is now available on Wed, 31 Jan 2024",
+    "post_time": "2024-01-31T15:47:05.616-08:00",
+    "releaseType": "beta"
+  },
+  "5513881": {
+    "status": "pending",
+    "subject": "A new stable switchCatalyst firmware is now available on Fri, 26 Jan 2024",
+    "post_time": "2024-01-26T17:47:04.630-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-fri-26/ba-p/5513881",
+    "releaseType": "stable",
+    "family_guess": "CS",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5513787": {
+    "status": "captured",
+    "key": "MX/18.107.8",
+    "subject": "A new stable appliance firmware is now available on Thu, 25 Jan 2024",
+    "post_time": "2024-01-25T17:47:05.664-08:00",
+    "releaseType": "stable"
+  },
+  "5513767": {
+    "status": "captured",
+    "key": "MS/16.7.1",
+    "subject": "A new candidate switch firmware is now available on Tue, 23 Jan 2024",
+    "post_time": "2024-01-23T11:47:04.794-08:00",
+    "releaseType": "candidate"
+  },
+  "5513703": {
+    "status": "pending",
+    "subject": "A new candidate appliance firmware is now available on Thu, 04 Jan 2024",
+    "post_time": "2024-01-04T17:47:25.953-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-thu-04/ba-p/5513703",
+    "releaseType": "candidate",
+    "family_guess": "MX",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5513611": {
+    "status": "captured",
+    "key": "CS/16.6",
+    "subject": "A new candidate switchCatalyst firmware is now available on Fri, 22 Dec 2023",
+    "post_time": "2023-12-22T15:47:04.664-08:00",
+    "releaseType": "candidate"
+  },
+  "5513578": {
+    "status": "captured",
+    "key": "MX/18.107.7",
+    "subject": "A new stable appliance firmware is now available on Fri, 15 Dec 2023",
+    "post_time": "2023-12-15T17:47:04.627-08:00",
+    "releaseType": "stable"
+  },
+  "5513518": {
+    "status": "captured",
+    "key": "MX/18.207",
+    "subject": "A new beta appliance firmware is now available on Wed, 13 Dec 2023",
+    "post_time": "2023-12-13T19:47:04.822-08:00",
+    "releaseType": "beta"
+  },
+  "5513406": {
+    "status": "captured",
+    "key": "MV/5.5",
+    "subject": "A new beta camera firmware is now available on Mon, 11 Dec 2023",
+    "post_time": "2023-12-11T19:47:05.876-08:00",
+    "releaseType": "beta"
+  },
+  "5513331": {
+    "status": "pending",
+    "subject": "A new candidate wireless firmware is now available on Sun, 03 Dec 2023",
+    "post_time": "2023-12-03T23:47:05.753-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-sun-03-dec/ba-p/5513331",
+    "releaseType": "candidate",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5513264": {
+    "status": "captured",
+    "key": "MR/30.5.1",
+    "subject": "A new beta wireless firmware is now available on Wed, 29 Nov 2023",
+    "post_time": "2023-11-29T23:47:05.104-08:00",
+    "releaseType": "beta"
+  },
+  "5513210": {
+    "status": "pending",
+    "subject": "A new stable switch firmware is now available on Tue, 21 Nov 2023",
+    "post_time": "2023-11-21T11:47:05.149-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switch-firmware-is-now-available-on-tue-21-nov-2023/ba-p/5513210",
+    "releaseType": "stable",
+    "family_guess": "MS",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5513144": {
+    "status": "captured",
+    "key": "MS/15.23",
+    "subject": "A new stable switch firmware is now available on Thu, 16 Nov 2023",
+    "post_time": "2023-11-16T11:47:04.771-08:00",
+    "releaseType": "stable"
+  },
+  "5513076": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Mon, 13 Nov 2023",
+    "post_time": "2023-11-13T15:47:05.156-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-mon-13-nov/ba-p/5513076",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5513001": {
+    "status": "captured",
+    "key": "MV/5.4.1",
+    "subject": "A new beta camera firmware is now available on Fri, 03 Nov 2023",
+    "post_time": "2023-11-03T15:47:05.723-07:00",
+    "releaseType": "beta"
+  },
+  "5512985": {
+    "status": "captured",
+    "key": "MS/16.7",
+    "subject": "A new candidate switch firmware is now available on Tue, 31 Oct 2023",
+    "post_time": "2023-10-31T19:47:05.465-07:00",
+    "releaseType": "candidate"
+  },
+  "5512896": {
+    "status": "captured",
+    "key": "MX/18.107.6",
+    "subject": "A new stable appliance firmware is now available on Wed, 25 Oct 2023",
+    "post_time": "2023-10-25T11:47:07.440-07:00",
+    "releaseType": "stable"
+  },
+  "5512663": {
+    "status": "captured",
+    "key": "MS/16.6.1",
+    "subject": "A new candidate switch firmware is now available on Wed, 18 Oct 2023",
+    "post_time": "2023-10-18T11:47:06.060-07:00",
+    "releaseType": "candidate"
+  },
+  "5512641": {
+    "status": "pending",
+    "subject": "A new stable sensor firmware is now available on Tue, 17 Oct 2023",
+    "post_time": "2023-10-17T11:47:04.604-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-sensor-firmware-is-now-available-on-tue-17-oct-2023/ba-p/5512641",
+    "releaseType": "stable",
+    "family_guess": "MT",
+    "comments_seen": 2,
+    "checked": "2026-10-04"
+  },
+  "5512596": {
+    "status": "captured",
+    "key": "MX/18.205",
+    "subject": "A new beta appliance firmware is now available on Mon, 16 Oct 2023",
+    "post_time": "2023-10-16T15:47:05.479-07:00",
+    "releaseType": "beta"
+  },
+  "5512591": {
+    "status": "pending",
+    "subject": "A new candidate wireless firmware is now available on Fri, 06 Oct 2023",
+    "post_time": "2023-10-06T09:47:12.169-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-fri-06-oct/ba-p/5512591",
+    "releaseType": "candidate",
+    "family_guess": "MR",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5512540": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Fri, 06 Oct 2023",
+    "post_time": "2023-10-06T09:47:04.996-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-fri-06-oct/ba-p/5512540",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5512484": {
+    "status": "captured",
+    "key": "MS/16.6",
+    "subject": "A new candidate switch firmware is now available on Thu, 05 Oct 2023",
+    "post_time": "2023-10-05T11:47:04.717-07:00",
+    "releaseType": "candidate"
+  },
+  "5512400": {
+    "status": "pending",
+    "subject": "A new candidate switchCatalyst firmware is now available on Wed, 04 Oct 2023",
+    "post_time": "2023-10-04T09:11:17.442-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switchcatalyst-firmware-is-now-available-on-wed/ba-p/5512400",
+    "releaseType": "candidate",
+    "family_guess": "CS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5512377": {
+    "status": "captured",
+    "key": "MV/5.4",
+    "subject": "A new beta camera firmware is now available on Tue, 19 Sep 2023",
+    "post_time": "2023-09-29T09:54:59.962-07:00",
+    "releaseType": "beta"
+  },
+  "5512359": {
+    "status": "pending",
+    "subject": "A new candidate switch firmware is now available on Tue, 19 Sep 2023",
+    "post_time": "2023-09-19T17:47:04.845-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-tue-19-sep/ba-p/5512359",
+    "releaseType": "candidate",
+    "family_guess": "MS",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5512313": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Tue, 19 Sep 2023",
+    "post_time": "2023-09-19T11:47:08.781-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-tue-19-sep-2023/ba-p/5512313",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5512236": {
+    "status": "captured",
+    "key": "MR/30.5",
+    "subject": "A new beta wireless firmware is now available on Mon, 11 Sep 2023",
+    "post_time": "2023-09-11T11:47:04.708-07:00",
+    "releaseType": "beta"
+  },
+  "5512172": {
+    "status": "captured",
+    "key": "MG/3.101",
+    "subject": "A new candidate cellularGateway firmware is now available on Wed, 06 Sep 2023",
+    "post_time": "2023-09-06T21:47:05.003-07:00",
+    "releaseType": "candidate"
+  },
+  "5512159": {
+    "status": "captured",
+    "key": "MX/18.107.5",
+    "subject": "A new stable appliance firmware is now available on Tue, 05 Sep 2023",
+    "post_time": "2023-09-05T13:47:04.637-07:00",
+    "releaseType": "stable"
+  },
+  "5512074": {
+    "status": "captured",
+    "key": "MS/16.4",
+    "subject": "A new beta switch firmware is now available on Fri, 01 Sep 2023",
+    "post_time": "2023-09-01T17:47:04.533-07:00",
+    "releaseType": "beta"
+  },
+  "5512050": {
+    "status": "captured",
+    "key": "CS/16.3",
+    "subject": "A new beta switchCatalyst firmware is now available on Thu, 31 Aug 2023",
+    "post_time": "2023-08-31T17:47:05.052-07:00",
+    "releaseType": "beta"
+  },
+  "5511978": {
+    "status": "captured",
+    "key": "MR/30.4",
+    "subject": "A new beta wireless firmware is now available on Thu, 17 Aug 2023",
+    "post_time": "2023-08-17T12:47:05.378-07:00",
+    "releaseType": "beta"
+  },
+  "5511874": {
+    "status": "captured",
+    "key": "MS/16.3",
+    "subject": "A new beta switch firmware is now available on Thu, 17 Aug 2023",
+    "post_time": "2023-08-17T11:47:11.159-07:00",
+    "releaseType": "beta"
+  },
+  "5511797": {
+    "status": "captured",
+    "key": "MS/15.22",
+    "subject": "A new stable switch firmware is now available on Thu, 17 Aug 2023",
+    "post_time": "2023-08-17T11:47:05.675-07:00",
+    "releaseType": "stable"
+  },
+  "5511763": {
+    "status": "captured",
+    "key": "MG/3.101",
+    "subject": "A new candidate cellularGateway firmware is now available on Wed, 16 Aug 2023",
+    "post_time": "2023-08-16T19:47:11.688-07:00",
+    "releaseType": "candidate"
+  },
+  "5511699": {
+    "status": "pending",
+    "subject": "A new stable cellularGateway firmware is now available on Wed, 16 Aug 2023",
+    "post_time": "2023-08-16T19:47:05.210-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-wed-16/ba-p/5511699",
+    "releaseType": "stable",
+    "family_guess": "MG",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5511453": {
+    "status": "captured",
+    "key": "MR/29.7",
+    "subject": "A new candidate wireless firmware is now available on Wed, 09 Aug 2023",
+    "post_time": "2023-08-09T17:47:05.807-07:00",
+    "releaseType": "candidate"
+  },
+  "5511436": {
+    "status": "captured",
+    "key": "MX/18.107.4",
+    "subject": "A new stable appliance firmware is now available on Tue, 08 Aug 2023",
+    "post_time": "2023-08-08T19:47:05.841-07:00",
+    "releaseType": "stable"
+  },
+  "5511356": {
+    "status": "captured",
+    "key": "MX/18.107.3",
+    "subject": "A new stable appliance firmware is now available on Wed, 26 Jul 2023",
+    "post_time": "2023-07-26T19:47:05.140-07:00",
+    "releaseType": "stable"
+  },
+  "5511214": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Fri, 21 Jul 2023",
+    "post_time": "2023-07-21T11:47:05.437-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-fri-21-jul/ba-p/5511214",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5511189": {
+    "status": "pending",
+    "subject": "A new candidate switch firmware is now available on Thu, 20 Jul 2023",
+    "post_time": "2023-07-20T07:47:05.028-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-thu-20-jul/ba-p/5511189",
+    "releaseType": "candidate",
+    "family_guess": "MS",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5511164": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Fri, 14 Jul 2023",
+    "post_time": "2023-07-14T11:47:05.166-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-fri-14-jul-2023/ba-p/5511164",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5511150": {
+    "status": "captured",
+    "key": "MR/30.3",
+    "subject": "A new beta wireless firmware is now available on Thu, 13 Jul 2023",
+    "post_time": "2023-07-13T07:47:05.557-07:00",
+    "releaseType": "beta"
+  },
+  "5510984": {
+    "status": "captured",
+    "key": "MS/16.2.1",
+    "subject": "A new beta switch firmware is now available on Fri, 07 Jul 2023",
+    "post_time": "2023-07-07T19:47:04.724-07:00",
+    "releaseType": "beta"
+  },
+  "5510872": {
+    "status": "captured",
+    "key": "CS/16.2",
+    "subject": "A new beta switchCatalyst firmware is now available on Thu, 06 Jul 2023",
+    "post_time": "2023-07-06T17:47:11.197-07:00",
+    "releaseType": "beta"
+  },
+  "5510806": {
+    "status": "captured",
+    "key": "MS/16.2",
+    "subject": "A new beta switch firmware is now available on Thu, 06 Jul 2023",
+    "post_time": "2023-07-06T17:47:05.462-07:00",
+    "releaseType": "beta"
+  },
+  "5510606": {
+    "status": "captured",
+    "key": "MX/17.10.7",
+    "subject": "A new stable appliance firmware is now available on Fri, 30 Jun 2023",
+    "post_time": "2023-06-30T13:47:05.692-07:00",
+    "releaseType": "stable"
+  },
+  "5510590": {
+    "status": "captured",
+    "key": "CS/16.1.1",
+    "subject": "A new beta switchCatalyst firmware is now available on Fri, 23 Jun 2023",
+    "post_time": "2023-06-23T09:47:05.261-07:00",
+    "releaseType": "beta"
+  },
+  "5510566": {
+    "status": "captured",
+    "key": "MR/30.2",
+    "subject": "A new beta wireless firmware is now available on Fri, 16 Jun 2023",
+    "post_time": "2023-06-16T19:47:05.359-07:00",
+    "releaseType": "beta"
+  },
+  "5510498": {
+    "status": "captured",
+    "key": "CS/16.1",
+    "subject": "A new beta switchCatalyst firmware is now available on Wed, 14 Jun 2023",
+    "post_time": "2023-06-14T13:47:26.258-07:00",
+    "releaseType": "beta"
+  },
+  "5510401": {
+    "status": "captured",
+    "key": "MS/16.1",
+    "subject": "A new beta switch firmware is now available on Fri, 02 Jun 2023",
+    "post_time": "2023-06-02T15:08:33.527-07:00",
+    "releaseType": "beta"
+  },
+  "5510269": {
+    "status": "captured",
+    "key": "MX/17.10.6",
+    "subject": "A new stable appliance firmware is now available on Fri, 02 Jun 2023",
+    "post_time": "2023-06-02T15:08:26.251-07:00",
+    "releaseType": "stable"
+  },
+  "5510196": {
+    "status": "pending",
+    "subject": "A new stable appliance firmware is now available on Wed, 31 May 2023",
+    "post_time": "2023-05-31T13:47:04.815-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-wed-31-may/ba-p/5510196",
+    "releaseType": "stable",
+    "family_guess": "MX",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5510079": {
+    "status": "captured",
+    "key": "MR/29.6.1",
+    "subject": "A new candidate wireless firmware is now available on Fri, 26 May 2023",
+    "post_time": "2023-05-26T11:47:06.218-07:00",
+    "releaseType": "candidate"
+  },
+  "5509915": {
+    "status": "captured",
+    "key": "MX/18.107.2",
+    "subject": "A new candidate appliance firmware is now available on Tue, 23 May 2023",
+    "post_time": "2023-05-23T17:47:05.469-07:00",
+    "releaseType": "candidate"
+  },
+  "5509874": {
+    "status": "pending",
+    "subject": "A new stable appliance firmware is now available on Mon, 15 May 2023",
+    "post_time": "2023-05-15T09:04:56.824-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-mon-15-may/ba-p/5509874",
+    "releaseType": "stable",
+    "family_guess": "MX",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5509834": {
+    "status": "captured",
+    "key": "MX/18.107.1",
+    "subject": "A new candidate appliance firmware is now available on Fri, 05 May 2023",
+    "post_time": "2023-05-05T12:47:04.983-07:00",
+    "releaseType": "candidate"
+  },
+  "5509645": {
+    "status": "captured",
+    "key": "MR/30.1",
+    "subject": "A new beta wireless firmware is now available on Wed, 03 May 2023",
+    "post_time": "2023-05-03T00:47:05.046-07:00",
+    "releaseType": "beta"
+  },
+  "5509554": {
+    "status": "captured",
+    "key": "MR/29.6",
+    "subject": "A new candidate wireless firmware is now available on Sun, 30 Apr 2023",
+    "post_time": "2023-04-30T22:47:05.673-07:00",
+    "releaseType": "candidate"
+  },
+  "5509445": {
+    "status": "pending",
+    "subject": "A new stable sensor firmware is now available on Sat, 29 Apr 2023",
+    "post_time": "2023-04-29T11:46:23.553-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-sensor-firmware-is-now-available-on-sat-29-apr-2023/ba-p/5509445",
+    "releaseType": "stable",
+    "family_guess": "MT",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5509370": {
+    "status": "captured",
+    "key": "MV/5.3",
+    "subject": "A new beta camera firmware is now available on Sat, 29 Apr 2023",
+    "post_time": "2023-04-29T11:46:18.220-07:00",
+    "releaseType": "beta"
+  },
+  "5509239": {
+    "status": "pending",
+    "subject": "A new candidate appliance firmware is now available on Sat, 29 Apr 2023",
+    "post_time": "2023-04-29T11:46:11.995-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-sat-29/ba-p/5509239",
+    "releaseType": "candidate",
+    "family_guess": "MX",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5509139": {
+    "status": "captured",
+    "key": "MS/15.21.1",
+    "subject": "A new stable switch firmware is now available on Mon, 20 Mar 2023",
+    "post_time": "2023-03-20T17:47:06.704-07:00",
+    "releaseType": "stable"
+  },
+  "5509110": {
+    "status": "captured",
+    "key": "MS/15.21",
+    "subject": "A new stable switch firmware is now available on Wed, 15 Mar 2023",
+    "post_time": "2023-03-15T17:47:07.317-07:00",
+    "releaseType": "stable"
+  },
+  "5508960": {
+    "status": "captured",
+    "key": "MG/3.100",
+    "subject": "A new beta cellularGateway firmware is now available on Tue, 14 Mar 2023",
+    "post_time": "2023-03-14T17:47:11.861-07:00",
+    "releaseType": "beta"
+  },
+  "5508895": {
+    "status": "pending",
+    "subject": "A new candidate cellularGateway firmware is now available on Tue, 14 Mar 2023",
+    "post_time": "2023-03-14T17:47:05.768-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-cellulargateway-firmware-is-now-available-on-tue/ba-p/5508895",
+    "releaseType": "candidate",
+    "family_guess": "MG",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5508785": {
+    "status": "captured",
+    "key": "MG/3.0",
+    "subject": "A new beta cellularGateway firmware is now available on Mon, 13 Mar 2023",
+    "post_time": "2023-03-13T13:47:07.323-07:00",
+    "releaseType": "beta"
+  },
+  "5508686": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Fri, 03 Mar 2023",
+    "post_time": "2023-03-03T17:47:05.944-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-fri-03-mar-2023/ba-p/5508686",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5508604": {
+    "status": "captured",
+    "key": "MX/18.106",
+    "subject": "A new candidate appliance firmware is now available on Thu, 23 Feb 2023",
+    "post_time": "2023-02-23T11:47:06.453-08:00",
+    "releaseType": "candidate"
+  },
+  "5508511": {
+    "status": "captured",
+    "key": "MS/15.20",
+    "subject": "A new candidate switch firmware is now available on Fri, 17 Feb 2023",
+    "post_time": "2023-02-17T11:47:05.725-08:00",
+    "releaseType": "candidate"
+  },
+  "5508491": {
+    "status": "captured",
+    "key": "MX/16.16.9",
+    "subject": "A new stable appliance firmware is now available on Wed, 08 Feb 2023",
+    "post_time": "2023-02-08T19:47:06.520-08:00",
+    "releaseType": "stable"
+  },
+  "5508277": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Mon, 06 Feb 2023",
+    "post_time": "2023-02-06T01:47:05.822-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-mon-06-feb/ba-p/5508277",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 2,
+    "checked": "2026-10-04"
+  },
+  "5508132": {
+    "status": "captured",
+    "key": "MV/5.1",
+    "subject": "A new beta camera firmware is now available on Fri, 03 Feb 2023",
+    "post_time": "2023-02-03T15:47:07.924-08:00",
+    "releaseType": "beta"
+  },
+  "5508003": {
+    "status": "captured",
+    "key": "MS/15.19",
+    "subject": "A new candidate switch firmware is now available on Tue, 24 Jan 2023",
+    "post_time": "2023-01-24T17:47:17.946-08:00",
+    "releaseType": "candidate"
+  },
+  "5507872": {
+    "status": "captured",
+    "key": "MR/29.5.1",
+    "subject": "A new candidate wireless firmware is now available on Mon, 23 Jan 2023",
+    "post_time": "2023-01-23T13:47:14.305-08:00",
+    "releaseType": "candidate"
+  },
+  "5507786": {
+    "status": "captured",
+    "key": "MX/18.105",
+    "subject": "A new candidate appliance firmware is now available on Mon, 23 Jan 2023",
+    "post_time": "2023-01-23T13:47:07.919-08:00",
+    "releaseType": "candidate"
+  },
+  "5507726": {
+    "status": "pending",
+    "subject": "A new beta sensor firmware is now available on Thu, 19 Jan 2023",
+    "post_time": "2023-01-19T11:47:06.411-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-sensor-firmware-is-now-available-on-thu-19-jan-2023/ba-p/5507726",
+    "releaseType": "beta",
+    "family_guess": "MT",
+    "comments_seen": 0,
+    "checked": "2026-10-04"
+  },
+  "5507674": {
+    "status": "captured",
+    "key": "MX/16.16.8",
+    "subject": "A new stable appliance firmware is now available on Wed, 21 Dec 2022",
+    "post_time": "2022-12-21T15:47:07.723-08:00",
+    "releaseType": "stable"
+  },
+  "5507572": {
+    "status": "captured",
+    "key": "MX/18.104",
+    "subject": "A new beta appliance firmware is now available on Thu, 08 Dec 2022",
+    "post_time": "2022-12-08T21:47:05.553-08:00",
+    "releaseType": "beta"
+  },
+  "5507491": {
+    "status": "pending",
+    "subject": "A new stable camera firmware is now available on Mon, 05 Dec 2022",
+    "post_time": "2022-12-05T15:47:05.897-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-mon-05-dec-2022/ba-p/5507491",
+    "releaseType": "stable",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5507402": {
+    "status": "captured",
+    "key": "MS/15.18",
+    "subject": "A new candidate switch firmware is now available on Wed, 30 Nov 2022",
+    "post_time": "2022-11-30T15:47:06.805-08:00",
+    "releaseType": "candidate"
+  },
+  "5507296": {
+    "status": "pending",
+    "subject": "A new stable appliance firmware is now available on Mon, 28 Nov 2022",
+    "post_time": "2022-11-28T10:47:05.871-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-mon-28-nov/ba-p/5507296",
+    "releaseType": "stable",
+    "family_guess": "MX",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5507192": {
+    "status": "captured",
+    "key": "MX/16.16.7",
+    "subject": "A new stable appliance firmware is now available on Wed, 16 Nov 2022",
+    "post_time": "2022-11-16T18:47:17.161-08:00",
+    "releaseType": "stable"
+  },
+  "5507068": {
+    "status": "captured",
+    "key": "MR/29.5",
+    "subject": "A new candidate wireless firmware is now available on Tue, 15 Nov 2022",
+    "post_time": "2022-11-15T17:47:05.511-08:00",
+    "releaseType": "candidate"
+  },
+  "5506954": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Mon, 14 Nov 2022",
+    "post_time": "2022-11-14T10:47:07.514-08:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-mon-14-nov/ba-p/5506954",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5506821": {
+    "status": "captured",
+    "key": "MX/18.103",
+    "subject": "A new beta appliance firmware is now available on Mon, 07 Nov 2022",
+    "post_time": "2022-11-07T17:47:05.195-08:00",
+    "releaseType": "beta"
+  },
+  "5506742": {
+    "status": "captured",
+    "key": "MS/15.17",
+    "subject": "A new beta switch firmware is now available on Fri, 04 Nov 2022",
+    "post_time": "2022-11-04T15:47:05.515-07:00",
+    "releaseType": "beta"
+  },
+  "5506632": {
+    "status": "captured",
+    "key": "MV/5.0",
+    "subject": "A new beta camera firmware is now available on Tue, 01 Nov 2022",
+    "post_time": "2022-11-01T13:47:05.789-07:00",
+    "releaseType": "beta"
+  },
+  "5506591": {
+    "status": "captured",
+    "key": "MX/17.10.2",
+    "subject": "A new candidate appliance firmware is now available on Wed, 26 Oct 2022",
+    "post_time": "2022-10-26T15:47:05.910-07:00",
+    "releaseType": "candidate"
+  },
+  "5506316": {
+    "status": "captured",
+    "key": "MR/29.4.1",
+    "subject": "A new candidate wireless firmware is now available on Mon, 17 Oct 2022",
+    "post_time": "2022-10-17T11:47:06.522-07:00",
+    "releaseType": "candidate"
+  },
+  "5506262": {
+    "status": "captured",
+    "key": "MX/18.102",
+    "subject": "A new beta appliance firmware is now available on Sat, 15 Oct 2022",
+    "post_time": "2022-10-15T06:47:12.343-07:00",
+    "releaseType": "beta"
+  },
+  "5506163": {
+    "status": "captured",
+    "key": "MX/17.10.1",
+    "subject": "A new candidate appliance firmware is now available on Sat, 15 Oct 2022",
+    "post_time": "2022-10-15T06:47:06.205-07:00",
+    "releaseType": "candidate"
+  },
+  "5506086": {
+    "status": "captured",
+    "key": "MR/29.4",
+    "subject": "A new beta wireless firmware is now available on Fri, 30 Sep 2022",
+    "post_time": "2022-09-30T11:47:05.663-07:00",
+    "releaseType": "beta"
+  },
+  "5506058": {
+    "status": "captured",
+    "key": "MX/16.16.6",
+    "subject": "A new stable appliance firmware is now available on Wed, 28 Sep 2022",
+    "post_time": "2022-09-28T15:47:05.312-07:00",
+    "releaseType": "stable"
+  },
+  "5505954": {
+    "status": "captured",
+    "key": "MX/17.10",
+    "subject": "A new candidate appliance firmware is now available on Fri, 23 Sep 2022",
+    "post_time": "2022-09-23T11:47:05.433-07:00",
+    "releaseType": "candidate"
+  },
+  "5505922": {
+    "status": "captured",
+    "key": "MX/18.101",
+    "subject": "A new beta appliance firmware is now available on Thu, 01 Sep 2022",
+    "post_time": "2022-09-01T13:38:33.674-07:00",
+    "releaseType": "beta"
+  },
+  "5505791": {
+    "status": "pending",
+    "subject": "A new beta camera firmware is now available on Wed, 31 Aug 2022",
+    "post_time": "2022-08-31T18:58:44.239-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-wed-31-aug-2022/ba-p/5505791",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5505614": {
+    "status": "pending",
+    "subject": "A new stable wireless firmware is now available on Fri, 26 Aug 2022",
+    "post_time": "2022-08-26T12:56:00.000-07:00",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-fri-26-aug/ba-p/5505614",
+    "releaseType": "stable",
+    "family_guess": "MR",
+    "comments_seen": 1,
+    "checked": "2026-10-04"
+  },
+  "5505455": {
+    "status": "captured",
+    "key": "MR/29.3",
+    "subject": "A new beta wireless firmware is now available on Wed, 24 Aug 2022",
+    "post_time": "2022-08-24T12:55:00.000-07:00",
+    "releaseType": "beta"
+  }
+}

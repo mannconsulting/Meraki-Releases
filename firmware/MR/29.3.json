@@ -1,0 +1,39 @@
+{
+  "family": "MR",
+  "version": "29.3",
+  "title": "Wireless firmware versions MR 29.3 changelog",
+  "announcements": [
+    {
+      "post_id": "5505455",
+      "releaseType": "beta",
+      "announced": "2022-08-24T12:55:00.000-07:00",
+      "post_subject": "A new beta wireless firmware is now available on Wed, 24 Aug 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-wed-24-aug-2022/ba-p/5505455"
+    }
+  ],
+  "changelog_comment_id": "5505456",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-09-01T04:43:03.299-07:00",
+  "sections": {
+    "Important note": [
+      "Meraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)"
+    ],
+    "Legacy product notice": [
+      "When configured for this version MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3."
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "Intermittent low power mode (MR53, MR56)",
+      "SES-imagotag application bootloop (MR30H, MR33)",
+      "Honeywell printers unable to connect to hidden SSID (Wi-Fi 6 APs)"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+      "No DHCP response error is seen after a client performs a successful L3 roam (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 29.3 changelog\nImportant note\nMeraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)\nLegacy product notice\nWhen configured for this version MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3.\nBug fixes\nGeneral stability and performance improvements\nIntermittent low power mode (MR53, MR56)\nSES-imagotag application bootloop (MR30H, MR33)\nHoneywell printers unable to connect to hidden SSID (Wi-Fi 6 APs)\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)\nNo DHCP response error is seen after a client performs a successful L3 roam (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1817326434\" id=\"toc-hId--249798033\">Wireless firmware versions MR 29.3 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1324371042\" id=\"toc-hId-1141828019\">Important note</H4><UL><LI>Meraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-418439293\" id=\"toc-hId--665626444\">Legacy product notice</H4><UL><LI>When configured for this version MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2133717668\" id=\"toc-hId-1821886389\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>Intermittent low power mode (MR53, MR56)</LI><LI>SES-imagotag application bootloop (MR30H, MR33)</LI><LI>Honeywell printers unable to connect to hidden SSID (Wi-Fi 6 APs)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--390907333\" id=\"toc-hId-14431926\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI><LI>No DHCP response error is seen after a client performs a successful L3 roam (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:58Z"
+}

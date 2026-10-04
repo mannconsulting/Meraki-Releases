@@ -1,0 +1,33 @@
+{
+  "family": "MR",
+  "version": "31.1.5.1",
+  "title": "Wireless firmware versions MR 31.1.5.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5517786",
+      "releaseType": "beta",
+      "announced": "2024-10-14T15:47:05.994-07:00",
+      "post_subject": "A new beta wireless firmware is now available on Mon, 14 Oct 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-mon-14-oct-2024/ba-p/5517786"
+    }
+  ],
+  "changelog_comment_id": "5517787",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-10-14T15:54:02.831-07:00",
+  "sections": {
+    "Important note": [
+      "Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will not upgrade if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "Potential crash loops for 6GHz in non-US regulatory domains (Wi-Fi 6E APs)"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 31.1.5.1 changelog\nImportant note\nWi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will not upgrade if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)\nBug fixes\nGeneral stability and performance improvements\nPotential crash loops for 6GHz in non-US regulatory domains (Wi-Fi 6E APs)\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845743076\" id=\"toc-hId--248811953\">Wireless firmware versions MR 31.1.5.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295954400\" id=\"toc-hId-1142814099\">Important note</H4><UL><LI>Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will not upgrade if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (<A href=\"https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ</A>)</LI></UL><H4 id=\"toc-hId-446855935\" id=\"toc-hId--664640364\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>Potential crash loops for 6GHz in non-US regulatory domains (Wi-Fi 6E APs)</LI></UL><H4 id=\"toc-hId--2105301026\" id=\"toc-hId-1822872469\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 6, Wi-Fi 6E APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:06Z"
+}

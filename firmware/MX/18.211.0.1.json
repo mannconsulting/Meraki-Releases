@@ -1,0 +1,47 @@
+{
+  "family": "MX",
+  "version": "18.211.0.1",
+  "title": "Security appliance firmware versions MX 18.211.0.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5515323",
+      "releaseType": "candidate",
+      "announced": "2024-05-20T19:47:04.176-07:00",
+      "post_subject": "A new candidate appliance firmware is now available on Mon, 20 May 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-mon-20/ba-p/5515323"
+    }
+  ],
+  "changelog_comment_id": "5515324",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-05-21T00:37:06.366-07:00",
+  "sections": {
+    "Important notice": [
+      "USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements."
+    ],
+    "Bug fixes": [
+      "Fixed an MX 18.211 regression that resulted in MX75, MX85, MX95, MX105, MX250, and MX450 appliances that had traffic shaping rules configured with \"high\" or \"low\" priority incorrectly dropping traffic being routed between VLANs or AutoVPN."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9.",
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.10."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Known issues": [
+      "In rare cases, MX67C, MX68CW, and Z3C appliances may fail to enter into a \"Ready\" state despite being able to register to a cellular network and obtain an IP address for the modem.",
+      "The Non-Meraki VPN service may fail to properly establish IKEv2 tunnels when the MX appliance is acting as the IKEv2 responder and many allowed subnets are configured.",
+      "Due to an MX 18.2 regression, the link light LED for WAN2 on MX75 appliances will not light up if WAN2 is the only wired interface in use.",
+      "Due to an issue with no known method of reproduction, the IDS and IPS process may unexpectedly restart.",
+      "When a WAN failover occurs, Non-Meraki VPN tunnels will persist on the backup, non-primary uplink after a failback to the primary WAN interface if the WAN interface uses IPv6.",
+      "Due to an issue still under investigation, MX appliances may experience an unexpected reboot when ThreatGrid is enabled.",
+      "MX AutoVPN tunnels fail to generate new connections when the AutoVPN flow has been blocked or filtered unidirectionally by an upstream or intermediary device. This prevents appliances from automatically working around this partially connected state.",
+      "MX appliances may experience unstable eBGP connections when 1) the MX appliance is configured in Routed mode and 2) the MX learns a large number of routes from its eBGP neighbor. This may result in eBGP-learned routes being inaccessible."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 18.211.0.1 changelog\nImportant notice\nUSB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.\nBug fixes\nFixed an MX 18.211 regression that resulted in MX75, MX85, MX95, MX105, MX250, and MX450 appliances that had traffic shaping rules configured with \"high\" or \"low\" priority incorrectly dropping traffic being routed between VLANs or AutoVPN.\nLegacy products notice\nWhen configured for this version, Z1 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.10.\nKnown issues status\nThis list is being reviewed and updated.\nKnown issues\nIn rare cases, MX67C, MX68CW, and Z3C appliances may fail to enter into a \"Ready\" state despite being able to register to a cellular network and obtain an IP address for the modem.\nThe Non-Meraki VPN service may fail to properly establish IKEv2 tunnels when the MX appliance is acting as the IKEv2 responder and many allowed subnets are configured.\nDue to an MX 18.2 regression, the link light LED for WAN2 on MX75 appliances will not light up if WAN2 is the only wired interface in use.\nDue to an issue with no known method of reproduction, the IDS and IPS process may unexpectedly restart.\nWhen a WAN failover occurs, Non-Meraki VPN tunnels will persist on the backup, non-primary uplink after a failback to the primary WAN interface if the WAN interface uses IPv6.\nDue to an issue still under investigation, MX appliances may experience an unexpected reboot when ThreatGrid is enabled.\nMX AutoVPN tunnels fail to generate new connections when the AutoVPN flow has been blocked or filtered unidirectionally by an upstream or intermediary device. This prevents appliances from automatically working around this partially connected state.\nMX appliances may experience unstable eBGP connections when 1) the MX appliance is configured in Routed mode and 2) the MX learns a large number of routes from its eBGP neighbor. This may result in eBGP-learned routes being inaccessible.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844045175\" id=\"toc-hId--248875568\">Security appliance firmware versions MX 18.211.0.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297652301\" id=\"toc-hId-1142750484\">Important notice</H4><UL><LI>USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.</LI></UL><H4 id=\"toc-hId-445158034\" id=\"toc-hId--664703979\">Bug fixes</H4><UL><LI>Fixed an MX 18.211 regression that resulted in MX75, MX85, MX95, MX105, MX250, and MX450 appliances that had traffic shaping rules configured with \"high\" or \"low\" priority incorrectly dropping traffic being routed between VLANs or AutoVPN.</LI></UL><H4 id=\"toc-hId--2106998927\" id=\"toc-hId-1822808854\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.10.</LI></UL><H4 id=\"toc-hId--364188592\" id=\"toc-hId-15354391\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId-1378621743\" id=\"toc-hId--1792100072\">Known issues</H4><UL><LI>In rare cases, MX67C, MX68CW, and Z3C appliances may fail to enter into a \"Ready\" state despite being able to register to a cellular network and obtain an IP address for the modem.</LI><LI>The Non-Meraki VPN service may fail to properly establish IKEv2 tunnels when the MX appliance is acting as the IKEv2 responder and many allowed subnets are configured.</LI><LI>Due to an MX 18.2 regression, the link light LED for WAN2 on MX75 appliances will not light up if WAN2 is the only wired interface in use.</LI><LI>Due to an issue with no known method of reproduction, the IDS and IPS process may unexpectedly restart.</LI><LI>When a WAN failover occurs, Non-Meraki VPN tunnels will persist on the backup, non-primary uplink after a failback to the primary WAN interface if the WAN interface uses IPv6.</LI><LI>Due to an issue still under investigation, MX appliances may experience an unexpected reboot when ThreatGrid is enabled.</LI><LI>MX AutoVPN tunnels fail to generate new connections when the AutoVPN flow has been blocked or filtered unidirectionally by an upstream or intermediary device. This prevents appliances from automatically working around this partially connected state.</LI><LI>MX appliances may experience unstable eBGP connections when 1) the MX appliance is configured in Routed mode and 2) the MX learns a large number of routes from its eBGP neighbor. This may result in eBGP-learned routes being inaccessible.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:19Z"
+}

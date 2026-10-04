@@ -1,0 +1,47 @@
+{
+  "family": "MX",
+  "version": "18.105",
+  "title": "Security appliance firmware versions MX 18.105 changelog",
+  "announcements": [
+    {
+      "post_id": "5507786",
+      "releaseType": "candidate",
+      "announced": "2023-01-23T13:47:07.919-08:00",
+      "post_subject": "A new candidate appliance firmware is now available on Mon, 23 Jan 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-mon-23/ba-p/5507786"
+    }
+  ],
+  "changelog_comment_id": "5507787",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-01-23T15:34:38.067-08:00",
+  "sections": {
+    "New features": [
+      "Added support for forwarding Secure Group Tags (SGT) on traffic. This is available on Z3(C), MX64(W), MX65(W), MX67(C,W), and MX68(W,CW), MX75, MX84*, MX85, MX95, MX100, MX250, and MX450 appliances and enables full stack (MR+MS+MX) Adaptive Policy operation. * Please see the known issues for important information about SGT on MX84 appliances."
+    ],
+    "Bug fixes": [
+      "MX appliances will now drop additional types of erroneous traffic received from AnyConnect VPN clients.",
+      "Resolved a rare case that could result in non-Meraki VPN traffic being incorrectly forwarded when MX appliances were configured in passthrough mode.",
+      "Performance improvements for MX250 and MX450 appliances.",
+      "Corrected an issue that resulted in client traffic being will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances when 1) The client was connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port was configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.",
+      "Fixed several rare cases that could result in a device reboot.",
+      "Fixed an issue that could result in MX appliances replying to ARP messages for an incorrect IP address when 1) The MX was configured to operate as the standby/spare device in a high availability configuration and 2) the MX appliance was configured to operate in passthrough mode."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 and MX80 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.6."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "When SGT is enabled on MX84 appliances, any packet larger than 1440 bytes will be dropped. Due to this, we recommend that the SGT feature only be enabled in lab or other non-production environments on MX84 appliances.",
+      "There may be an increased risk of encountering device stability and performance issues."
+    ],
+    "Other": [
+      "If DNS is not available on the MX’s IPv6 uplink, MX appliances will now attempt to fetch a configuration using DNS over HTTPS to the Meraki cloud."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 18.105 changelog\nNew features\nAdded support for forwarding Secure Group Tags (SGT) on traffic. This is available on Z3(C), MX64(W), MX65(W), MX67(C,W), and MX68(W,CW), MX75, MX84*, MX85, MX95, MX100, MX250, and MX450 appliances and enables full stack (MR+MS+MX) Adaptive Policy operation. * Please see the known issues for important information about SGT on MX84 appliances.\nBug fixes\nMX appliances will now drop additional types of erroneous traffic received from AnyConnect VPN clients.\nResolved a rare case that could result in non-Meraki VPN traffic being incorrectly forwarded when MX appliances were configured in passthrough mode.\nPerformance improvements for MX250 and MX450 appliances.\nCorrected an issue that resulted in client traffic being will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances when 1) The client was connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port was configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.\nFixed several rare cases that could result in a device reboot.\nFixed an issue that could result in MX appliances replying to ARP messages for an incorrect IP address when 1) The MX was configured to operate as the standby/spare device in a high availability configuration and 2) the MX appliance was configured to operate in passthrough mode.\nLegacy products notice\nWhen configured for this version, Z1 and MX80 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.6.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nWhen SGT is enabled on MX84 appliances, any packet larger than 1440 bytes will be dropped. Due to this, we recommend that the SGT feature only be enabled in lab or other non-production environments on MX84 appliances.\nThere may be an increased risk of encountering device stability and performance issues.\nOther\nIf DNS is not available on the MX’s IPv6 uplink, MX appliances will now attempt to fetch a configuration using DNS over HTTPS to the Meraki cloud.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1819913319\" id=\"toc-hId--249735474\">Security appliance firmware versions MX 18.105 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1321784157\" id=\"toc-hId-1141890578\">New features</H4><UL><LI>Added support for forwarding Secure Group Tags (SGT) on traffic. This is available on Z3(C), MX64(W), MX65(W), MX67(C,W), and MX68(W,CW), MX75, MX84*, MX85, MX95, MX100, MX250, and MX450 appliances and enables full stack (MR+MS+MX) Adaptive Policy operation. * Please see the known issues for important information about SGT on MX84 appliances.</LI></UL><H4 id=\"toc-hId-421026178\" id=\"toc-hId--665563885\">Bug fixes</H4><UL><LI>MX appliances will now drop additional types of erroneous traffic received from AnyConnect VPN clients.</LI><LI>Resolved a rare case that could result in non-Meraki VPN traffic being incorrectly forwarded when MX appliances were configured in passthrough mode.</LI><LI>Performance improvements for MX250 and MX450 appliances.</LI><LI>Corrected an issue that resulted in client traffic being will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances when 1) The client was connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port was configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.</LI><LI>Fixed several rare cases that could result in a device reboot.</LI><LI>Fixed an issue that could result in MX appliances replying to ARP messages for an incorrect IP address when 1) The MX was configured to operate as the standby/spare device in a high availability configuration and 2) the MX appliance was configured to operate in passthrough mode.</LI></UL><H4 id=\"toc-hId--2131130783\" id=\"toc-hId-1821948948\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 and MX80 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.6.</LI></UL><H4 id=\"toc-hId--388320448\" id=\"toc-hId-14494485\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>When SGT is enabled on MX84 appliances, any packet larger than 1440 bytes will be dropped. Due to this, we recommend that the SGT feature only be enabled in lab or other non-production environments on MX84 appliances.</LI><LI>There may be an increased risk of encountering device stability and performance issues.</LI></UL><H4 id=\"toc-hId-1354489887\" id=\"toc-hId--1792959978\">Other</H4><UL><LI>If DNS is not available on the MX’s IPv6 uplink, MX appliances will now attempt to fetch a configuration using DNS over HTTPS to the Meraki cloud.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:50Z"
+}

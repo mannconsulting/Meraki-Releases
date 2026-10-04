@@ -1,0 +1,40 @@
+{
+  "family": "MX",
+  "version": "18.107.4",
+  "title": "Security appliance firmware versions MX 18.107.4 changelog",
+  "announcements": [
+    {
+      "post_id": "5511436",
+      "releaseType": "stable",
+      "announced": "2023-08-08T19:47:05.841-07:00",
+      "post_subject": "A new stable appliance firmware is now available on Tue, 08 Aug 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-tue-08-aug/ba-p/5511436"
+    }
+  ],
+  "changelog_comment_id": "5511437",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-08-09T01:59:15.928-07:00",
+  "sections": {
+    "Important notice": [
+      "USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements."
+    ],
+    "Bug fixes": [
+      "Corrected a rare issue that could result in excessive device utilization when intrusion detection and prevention was enabled.",
+      "Resolved an MX 17 regression that resulted in MX appliances no longer re-authenticating 802.1X clients.",
+      "Fixed a very rare issue on MX 18.1XX that could result in AutoVPN connections to devices on older firmware versions and teleworker VPN connections to periodically drop."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 and MX80 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "MX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are"
+    ]
+  },
+  "text": "Security appliance firmware versions MX 18.107.4 changelog\nImportant notice\nUSB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.\nBug fixes\nCorrected a rare issue that could result in excessive device utilization when intrusion detection and prevention was enabled.\nResolved an MX 17 regression that resulted in MX appliances no longer re-authenticating 802.1X clients.\nFixed a very rare issue on MX 18.1XX that could result in AutoVPN connections to devices on older firmware versions and teleworker VPN connections to periodically drop.\nLegacy products notice\nWhen configured for this version, Z1 and MX80 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nMX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1841215743\" id=\"toc-hId--248993737\">Security appliance firmware versions MX 18.107.4 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1300481733\" id=\"toc-hId-1142632315\">Important notice</H4><UL><LI>USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.</LI></UL><H4 id=\"toc-hId-442328602\" id=\"toc-hId--664822148\">Bug fixes</H4><UL><LI>Corrected a rare issue that could result in excessive device utilization when intrusion detection and prevention was enabled.</LI><LI>Resolved an MX 17 regression that resulted in MX appliances no longer re-authenticating 802.1X clients.</LI><LI>Fixed a very rare issue on MX 18.1XX that could result in AutoVPN connections to devices on older firmware versions and teleworker VPN connections to periodically drop.</LI></UL><H4 id=\"toc-hId--2109828359\" id=\"toc-hId-1822690685\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 and MX80 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI></UL><H4 id=\"toc-hId--367018024\" id=\"toc-hId-15236222\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>MX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:38Z"
+}

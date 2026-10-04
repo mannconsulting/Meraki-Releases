@@ -1,0 +1,32 @@
+{
+  "family": "MV",
+  "version": "6.3.2",
+  "title": "Camera firmware versions MV 6.3.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5520415",
+      "releaseType": "stable",
+      "announced": "2025-05-20T11:47:03.836-07:00",
+      "post_subject": "A new stable camera firmware is now available on Tue, 20 May 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-tue-20-may-2025/ba-p/5520415"
+    }
+  ],
+  "changelog_comment_id": "5520416",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-05-20T12:51:51.273-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Fixed Max Retention settings not applying correctly on MV84X"
+    ],
+    "General": [
+      "Performance and reliability improvements for video metadata services"
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 devices will run MV4.15"
+    ]
+  },
+  "text": "Camera firmware versions MV 6.3.2 changelog\nBug fixes\nFixed Max Retention settings not applying correctly on MV84X\nGeneral\nPerformance and reliability improvements for video metadata services\nNotice\nWhen configured for this version, MV21 & MV71 devices will run MV4.15",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847622980\" id=\"toc-hId--248100070\">Camera firmware versions MV 6.3.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294074496\" id=\"toc-hId-1143525982\">Bug fixes</H4><UL><LI>Fixed Max Retention settings not applying correctly on MV84X</LI></UL><H4 id=\"toc-hId-448735839\" id=\"toc-hId--663928481\">General</H4><UL><LI>Performance and reliability improvements for video metadata services</LI></UL><H4 id=\"toc-hId--2103421122\" id=\"toc-hId-1823584352\">Notice</H4><UL><LI>When configured for this version, MV21 &amp; MV71 devices will run MV4.15</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:54Z"
+}

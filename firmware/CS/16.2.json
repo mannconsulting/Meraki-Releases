@@ -1,0 +1,45 @@
+{
+  "family": "CS",
+  "version": "16.2",
+  "title": "CS firmware versions CS 16.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5510872",
+      "releaseType": "beta",
+      "announced": "2023-07-06T17:47:11.197-07:00",
+      "post_subject": "A new beta switchCatalyst firmware is now available on Thu, 06 Jul 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switchcatalyst-firmware-is-now-available-on-thu-06/ba-p/5510872"
+    }
+  ],
+  "changelog_comment_id": "5510873",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-07-07T02:57:08.854-07:00",
+  "sections": {
+    "Alerts": [
+      "This version's IOS image is based on 17.9.3 CCO. Upgrades from CS 16.1 or later will result in minimal impact to client traffic"
+    ],
+    "New features": [
+      "802.1X Control Direction",
+      "Adaptive Policy ACL hit counter live tool",
+      "MAC Allow list on access ports",
+      "Named VLAN"
+    ],
+    "Bug fixes": [
+      "Adding or removing Adaptive Policy to LACP bundles may result in the bundle failing to come back online (present since CS 15)",
+      "Configuring DENY ANY ANY ACLs may result in the switch going offline due to it blocking dashboard connectivity (present since CS 15)",
+      "Configuring a port mirror for a port that is common between two or more modules results in configurations failing to be applied until the port mirror is removed (always present)",
+      "The uplink port on the switch summary page may fail to be shown",
+      "Client download usage statistics is reported as 0"
+    ],
+    "General known issues": [
+      "DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)",
+      "DHCP server information is incorrectly reported, such as, the subnet mask and \"Last Seen\" fields (always present)",
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+      "Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)"
+    ]
+  },
+  "text": "CS firmware versions CS 16.2 changelog\nAlerts\nThis version's IOS image is based on 17.9.3 CCO. Upgrades from CS 16.1 or later will result in minimal impact to client traffic\nNew features\n802.1X Control Direction\nAdaptive Policy ACL hit counter live tool\nMAC Allow list on access ports\nNamed VLAN\nBug fixes\nAdding or removing Adaptive Policy to LACP bundles may result in the bundle failing to come back online (present since CS 15)\nConfiguring DENY ANY ANY ACLs may result in the switch going offline due to it blocking dashboard connectivity (present since CS 15)\nConfiguring a port mirror for a port that is common between two or more modules results in configurations failing to be applied until the port mirror is removed (always present)\nThe uplink port on the switch summary page may fail to be shown\nClient download usage statistics is reported as 0\nGeneral known issues\nDHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)\nDHCP server information is incorrectly reported, such as, the subnet mask and \"Last Seen\" fields (always present)\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nRebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1841100585\" id=\"toc-hId--249019564\">CS firmware versions CS 16.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1300596891\" id=\"toc-hId-1142606488\">Alerts</H4><UL><LI>This version's IOS image is based on 17.9.3 CCO. Upgrades from CS 16.1 or later will result in minimal impact to client traffic</LI></UL><H4 id=\"toc-hId-442213444\" id=\"toc-hId--664847975\">New features</H4><UL><LI>802.1X Control Direction</LI><LI>Adaptive Policy ACL hit counter live tool</LI><LI>MAC Allow list on access ports</LI><LI>Named VLAN</LI></UL><H4 id=\"toc-hId--2109943517\" id=\"toc-hId-1822664858\">Bug fixes</H4><UL><LI>Adding or removing Adaptive Policy to LACP bundles may result in the bundle failing to come back online (present since CS 15)</LI><LI>Configuring DENY ANY ANY ACLs may result in the switch going offline due to it blocking dashboard connectivity (present since CS 15)</LI><LI>Configuring a port mirror for a port that is common between two or more modules results in configurations failing to be applied until the port mirror is removed (always present)</LI><LI>The uplink port on the switch summary page may fail to be shown</LI><LI>Client download usage statistics is reported as 0</LI></UL><H4 id=\"toc-hId--367133182\" id=\"toc-hId-15210395\">General known issues</H4><UL><LI>DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)</LI><LI>DHCP server information is incorrectly reported, such as, the subnet mask and \"Last Seen\" fields (always present)</LI><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI><LI>Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:40Z"
+}

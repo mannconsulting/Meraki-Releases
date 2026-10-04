@@ -1,0 +1,69 @@
+{
+  "family": "MR",
+  "version": "30.7",
+  "title": "Wireless firmware versions MR 30.7 changelog",
+  "announcements": [
+    {
+      "post_id": "5515565",
+      "releaseType": "candidate",
+      "announced": "2024-06-06T11:47:04.921-07:00",
+      "post_subject": "A new candidate wireless firmware is now available on Thu, 06 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-thu-06-jun/ba-p/5515565"
+    },
+    {
+      "post_id": "5516175",
+      "releaseType": "stable",
+      "announced": "2024-06-27T09:47:04.660-07:00",
+      "post_subject": "A new stable wireless firmware is now available on Thu, 27 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-thu-27-jun/ba-p/5516175"
+    }
+  ],
+  "changelog_comment_id": "5516176",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-06-27T11:27:56.752-07:00",
+  "sections": {
+    "Important note": [
+      "WEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)"
+    ],
+    "Legacy product notice": [
+      "When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3"
+    ],
+    "New feature": [
+      "Addition of AFC for supported SKUs (https://documentation.meraki.com/MR/Deployment_Guides/Automatic_Frequency_Coordination)"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "AP sends RADIUS traffic out of the primary management interface when the alternate management interface is enabled",
+      "AutoRF channel auto-updates not occurring on MR20 APs",
+      "Failure of DNS test results in no connectivity",
+      "MR36 APs fail to auto-negotiate link with 100Mbps cable",
+      "L3 Roaming tagging client traffic with non-existent VLAN ID",
+      "VAPs incorrectly configured as NAT mode",
+      "Apple devices can’t connect to APs using SSIDs set for WPA3 and 802.11r (Wi-Fi 5 Wave 2)",
+      "Reduced throughput on Wi-Fi 6 APs",
+      "APs experience poor performance after extensive uptime (Wi-Fi 6 APs)",
+      "In high-capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "Suspected false positive DFS alerts",
+      "APs fail to receive RadSec certificates",
+      "APs not broadcasting beacon frames for Site Survey SSID on 6GHz"
+    ],
+    "Security fixes": [
+      "Upgraded lighttpd to v1.4.67"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 30.7 changelog\nImportant note\nWEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)\nLegacy product notice\nWhen configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3\nNew feature\nAddition of AFC for supported SKUs (https://documentation.meraki.com/MR/Deployment_Guides/Automatic_Frequency_Coordination)\nBug fixes\nGeneral stability and performance improvements\nAP sends RADIUS traffic out of the primary management interface when the alternate management interface is enabled\nAutoRF channel auto-updates not occurring on MR20 APs\nFailure of DNS test results in no connectivity\nMR36 APs fail to auto-negotiate link with 100Mbps cable\nL3 Roaming tagging client traffic with non-existent VLAN ID\nVAPs incorrectly configured as NAT mode\nApple devices can’t connect to APs using SSIDs set for WPA3 and 802.11r (Wi-Fi 5 Wave 2)\nReduced throughput on Wi-Fi 6 APs\nAPs experience poor performance after extensive uptime (Wi-Fi 6 APs)\nIn high-capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nSuspected false positive DFS alerts\nAPs fail to receive RadSec certificates\nAPs not broadcasting beacon frames for Site Survey SSID on 6GHz\nSecurity fixes\nUpgraded lighttpd to v1.4.67\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844789922\" id=\"toc-hId--248847542\">Wireless firmware versions MR 30.7 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1296907554\" id=\"toc-hId-1142778510\">Important note</H4><UL><LI>WEP deprecation (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs</A>)</LI></UL><H4 id=\"toc-hId-445902781\" id=\"toc-hId--664675953\">Legacy product notice</H4><UL><LI>When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3</LI></UL><H4 id=\"toc-hId--2106254180\" id=\"toc-hId-1822836880\">New feature</H4><UL><LI>Addition of AFC for supported SKUs (<A href=\"https://documentation.meraki.com/MR/Deployment_Guides/Automatic_Frequency_Coordination\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Deployment_Guides/Automatic_Frequency_Coordination</A>)</LI></UL><H4 id=\"toc-hId--363443845\" id=\"toc-hId-15382417\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>AP sends RADIUS traffic out of the primary management interface when the alternate management interface is enabled</LI><LI>AutoRF channel auto-updates not occurring on MR20 APs</LI><LI>Failure of DNS test results in no connectivity</LI><LI>MR36 APs fail to auto-negotiate link with 100Mbps cable</LI><LI>L3 Roaming tagging client traffic with non-existent VLAN ID</LI><LI>VAPs incorrectly configured as NAT mode</LI><LI>Apple devices can’t connect to APs using SSIDs set for WPA3 and 802.11r (Wi-Fi 5 Wave 2)</LI><LI>Reduced throughput on Wi-Fi 6 APs</LI><LI>APs experience poor performance after extensive uptime (Wi-Fi 6 APs)</LI><LI>In high-capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</LI><LI>Suspected false positive DFS alerts</LI><LI>APs fail to receive RadSec certificates</LI><LI>APs not broadcasting beacon frames for Site Survey SSID on 6GHz</LI></UL><H4 id=\"toc-hId-1379366490\" id=\"toc-hId--1792072046\">Security fixes</H4><UL><LI>Upgraded lighttpd to v1.4.67</LI></UL><H4 id=\"toc-hId--1172790471\" id=\"toc-hId-695440787\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [
+    {
+      "id": "5516177",
+      "author": "CMR",
+      "posted": "2024-06-27T11:29:21.480-07:00",
+      "text": "This is actually just the firmware moving to stable, not sure why it is listed as new.",
+      "html": "<P>This is actually just the firmware moving to stable, not sure why it is listed as new.</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:11:17Z"
+}

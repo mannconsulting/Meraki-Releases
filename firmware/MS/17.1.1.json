@@ -1,0 +1,84 @@
+{
+  "family": "MS",
+  "version": "17.1.1",
+  "title": "Switch firmware versions MS 17.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5516382",
+      "releaseType": "beta",
+      "announced": "2024-07-11T22:47:04.508-07:00",
+      "post_subject": "A new beta switch firmware is now available on Thu, 11 Jul 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switch-firmware-is-now-available-on-thu-11-jul-2024/ba-p/5516382"
+    }
+  ],
+  "changelog_comment_id": "5516383",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-07-11T23:00:51.809-07:00",
+  "sections": {
+    "Ms12x important notes": [
+      "If DAI is enabled prior to upgrading the network to MS 16, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages."
+    ],
+    "Ms420 important notes": [
+      "Devices configured for this version will run MS 15.22"
+    ],
+    "New feature highlights": [
+      "DOM (Digital Optical Monitoring)",
+      "Intelligent Capture",
+      "RSPAN and VLAN Based SPAN",
+      "SmartPorts"
+    ],
+    "New ms130x feature highlights": [
+      "Adaptive Policy on MS130X/R models"
+    ],
+    "Fixed issues": [
+      "Fixed an issue that caused multicast routing to fail on switches in stack configurations after disruptions to link aggregation",
+      "Fixed an issue that caused unexpected LACP discarding states after aggregate links were restarted or reconnected",
+      "Fixed an issue that prevented MS130R switches from setting half-duplex mode on switch ports running at 10Mbps/10Mbps HDX",
+      "Fixed an issue that prevented some switches in stack configurations from successfully routing multicast traffic",
+      "Resolved an issue that prevented successful 802.3bt LLDP negotiation on MS355",
+      "Resolved an issue where the option to disable client uplink sampling was only functioning for the default aggregation group (AGGR/0). This feature now works correctly across all aggregation groups."
+    ],
+    "General known issues": [
+      "RADIUS communications may not recover after an initial failure when Critical Auth is enabled",
+      "Stack port configurations may become isolated or changed upon multiple flaps or when disabled",
+      "Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)"
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)"
+    ],
+    "Ms12x known issues] ms120/125s may fail to forward link-local multicast [224.0.0.x": [
+      "traffic when 'Flood unknown multicast traffic' is disabled"
+    ],
+    "Ms130 known issues": [
+      "In rare circumstances MS130s may experience management plane congestion that results in UDLD alerts and STP transitions"
+    ],
+    "Ms210 known issues": [
+      "Stack ports have an orange LED instead of green (present since MS 11)"
+    ],
+    "Ms250 known issues": [
+      "Multicast traffic may not be properly forwarded between switches in stack configurations when the source and receiver are either in different VLANs or different stacks"
+    ],
+    "Ms2xx/35x/4xx known issues": [
+      "Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log"
+    ],
+    "Ms35x known issues": [
+      "Enabling Auto-stacking on MS350s may remove existing L3 SVIs",
+      "In rare instances, stack ports fail to initialize after an upgrade (always present)",
+      "Incorrect SFP port mappings may disrupt SFP functionality",
+      "Switches may experience an unexpected reboot (present since MS 15)",
+      "UPoE does not negotiate over LLDP correctly (always present)",
+      "mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G."
+    ],
+    "Ms425 known issues": [
+      "MS425 stacks may become unresponsive under high load",
+      "MS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets"
+    ],
+    "Ms4xx known issues": [
+      "When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)"
+    ]
+  },
+  "text": "Switch firmware versions MS 17.1.1 changelog\nMs12x important notes\nIf DAI is enabled prior to upgrading the network to MS 16, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages.\nMs420 important notes\nDevices configured for this version will run MS 15.22\nNew feature highlights\nDOM (Digital Optical Monitoring)\nIntelligent Capture\nRSPAN and VLAN Based SPAN\nSmartPorts\nNew ms130x feature highlights\nAdaptive Policy on MS130X/R models\nFixed issues\nFixed an issue that caused multicast routing to fail on switches in stack configurations after disruptions to link aggregation\nFixed an issue that caused unexpected LACP discarding states after aggregate links were restarted or reconnected\nFixed an issue that prevented MS130R switches from setting half-duplex mode on switch ports running at 10Mbps/10Mbps HDX\nFixed an issue that prevented some switches in stack configurations from successfully routing multicast traffic\nResolved an issue that prevented successful 802.3bt LLDP negotiation on MS355\nResolved an issue where the option to disable client uplink sampling was only functioning for the default aggregation group (AGGR/0). This feature now works correctly across all aggregation groups.\nGeneral known issues\nRADIUS communications may not recover after an initial failure when Critical Auth is enabled\nStack port configurations may become isolated or changed upon multiple flaps or when disabled\nSwitches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nMs12x known issues] ms120/125s may fail to forward link-local multicast [224.0.0.x\ntraffic when 'Flood unknown multicast traffic' is disabled\nMs130 known issues\nIn rare circumstances MS130s may experience management plane congestion that results in UDLD alerts and STP transitions\nMs210 known issues\nStack ports have an orange LED instead of green (present since MS 11)\nMs250 known issues\nMulticast traffic may not be properly forwarded between switches in stack configurations when the source and receiver are either in different VLANs or different stacks\nMs2xx/35x/4xx known issues\nSwitch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log\nMs35x known issues\nEnabling Auto-stacking on MS350s may remove existing L3 SVIs\nIn rare instances, stack ports fail to initialize after an upgrade (always present)\nIncorrect SFP port mappings may disrupt SFP functionality\nSwitches may experience an unexpected reboot (present since MS 15)\nUPoE does not negotiate over LLDP correctly (always present)\nmGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.\nMs425 known issues\nMS425 stacks may become unresponsive under high load\nMS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets\nMs4xx known issues\nWhen an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844824491\" id=\"toc-hId--248845592\">Switch firmware versions MS 17.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1296872985\" id=\"toc-hId-1142780460\">Ms12x important notes</H4><UL><LI>If DAI is enabled prior to upgrading the network to MS 16, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages.</LI></UL><H4 id=\"toc-hId-445937350\" id=\"toc-hId--664674003\">Ms420 important notes</H4><UL><LI>Devices configured for this version will run MS 15.22</LI></UL><H4 id=\"toc-hId--2106219611\" id=\"toc-hId-1822838830\">New feature highlights</H4><UL><LI>DOM (Digital Optical Monitoring)</LI><LI>Intelligent Capture</LI><LI>RSPAN and VLAN Based SPAN</LI><LI>SmartPorts</LI></UL><H4 id=\"toc-hId--363409276\" id=\"toc-hId-15384367\">New ms130x feature highlights</H4><UL><LI>Adaptive Policy on MS130X/R models</LI></UL><H4 id=\"toc-hId-1379401059\" id=\"toc-hId--1792070096\">Fixed issues</H4><UL><LI>Fixed an issue that caused multicast routing to fail on switches in stack configurations after disruptions to link aggregation</LI><LI>Fixed an issue that caused unexpected LACP discarding states after aggregate links were restarted or reconnected</LI><LI>Fixed an issue that prevented MS130R switches from setting half-duplex mode on switch ports running at 10Mbps/10Mbps HDX</LI><LI>Fixed an issue that prevented some switches in stack configurations from successfully routing multicast traffic</LI><LI>Resolved an issue that prevented successful 802.3bt LLDP negotiation on MS355</LI><LI>Resolved an issue where the option to disable client uplink sampling was only functioning for the default aggregation group (AGGR/0). This feature now works correctly across all aggregation groups.</LI></UL><H4 id=\"toc-hId--1172755902\" id=\"toc-hId-695442737\">General known issues</H4><UL><LI>RADIUS communications may not recover after an initial failure when Critical Auth is enabled</LI><LI>Stack port configurations may become isolated or changed upon multiple flaps or when disabled</LI><LI>Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI></UL><H4 id=\"toc-hId-570054433\" id=\"toc-hId--1112011726\">Ms120 known issues</H4><UL><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI></UL><H4 id=\"toc-hId--1982102528\" id=\"toc-hId-1375501107\">Ms12x known issues] ms120/125s may fail to forward link-local multicast [224.0.0.x</H4><UL><LI>traffic when 'Flood unknown multicast traffic' is disabled</LI></UL><H4 id=\"toc-hId--239292193\" id=\"toc-hId--431953356\">Ms130 known issues</H4><UL><LI>In rare circumstances MS130s may experience management plane congestion that results in UDLD alerts and STP transitions</LI></UL><H4 id=\"toc-hId--812081001\" id=\"toc-hId--1008537220\">Ms210 known issues</H4><UL><LI>Stack ports have an orange LED instead of green (present since MS 11)</LI></UL><H4 id=\"toc-hId-930729334\" id=\"toc-hId-1478975613\">Ms250 known issues</H4><UL><LI>Multicast traffic may not be properly forwarded between switches in stack configurations when the source and receiver are either in different VLANs or different stacks</LI></UL><H4 id=\"toc-hId--1621427627\" id=\"toc-hId--328478850\">Ms2xx/35x/4xx known issues</H4><UL><LI>Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log</LI></UL><H4 id=\"toc-hId-121382708\" id=\"toc-hId--2135933313\">Ms35x known issues</H4><UL><LI>Enabling Auto-stacking on MS350s may remove existing L3 SVIs</LI><LI>In rare instances, stack ports fail to initialize after an upgrade (always present)</LI><LI>Incorrect SFP port mappings may disrupt SFP functionality</LI><LI>Switches may experience an unexpected reboot (present since MS 15)</LI><LI>UPoE does not negotiate over LLDP correctly (always present)</LI><LI>mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.</LI></UL><H4 id=\"toc-hId-1864193043\" id=\"toc-hId-351579520\">Ms425 known issues</H4><UL><LI>MS425 stacks may become unresponsive under high load</LI><LI>MS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets</LI></UL><H4 id=\"toc-hId--687963918\" id=\"toc-hId--1455874943\">Ms4xx known issues</H4><UL><LI>When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:13Z"
+}

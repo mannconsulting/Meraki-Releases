@@ -1,0 +1,68 @@
+{
+  "family": "MR",
+  "version": "30.6",
+  "title": "Access points software versions MR 30.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5514203",
+      "releaseType": "candidate",
+      "announced": "2024-02-20T11:47:06.431-08:00",
+      "post_subject": "A new candidate wireless firmware is now available on Tue, 20 Feb 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-20-feb/ba-p/5514203"
+    },
+    {
+      "post_id": "5514647",
+      "releaseType": "stable",
+      "announced": "2024-03-25T11:47:05.240-07:00",
+      "post_subject": "A new stable wireless firmware is now available on Mon, 25 Mar 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-mon-25-mar/ba-p/5514647"
+    },
+    {
+      "post_id": "5579754",
+      "releaseType": "legacy",
+      "announced": "2026-10-01T13:00:13.114-07:00",
+      "post_subject": "A new legacy MR Wireless firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-legacy-mr-wireless-firmware-is-now-available/ba-p/5579754"
+    }
+  ],
+  "changelog_comment_id": "5579769",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-10-01T14:21:43.125-07:00",
+  "sections": {
+    "Important note": [
+      "WEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)"
+    ],
+    "Legacy product notice": [
+      "When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "AP not returning to original channel after a DFS channel change event occurred (MR45/55)",
+      "Large mDNS packets can cause loss of wired connectivity (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "User-Name and Calling-Station-Id in different format consuming additional license on ISE (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "UDN ID not properly assigned to clients for \"iPSK w/ RADIUS\" configuration (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "Incorrect IPSK-EAPOL VSA data for Easy PSK (Wi-Fi 5 Wave 2 APs)",
+      "Exclude Beidu/GLONASS constellations from GNSS receiver when used for AFC location (Wi-Fi 6E APs)",
+      "6 GHz radio not turned off when AFC expires (CW9163E-MR)",
+      "APs utilizing WPA3 are shown as \"Open\" in RF Spectrum > Interfering APs UI (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "Clients getting dropped before DHCP lease time expiry during L3 roam and disconnected for more than 30 sec (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "AP failed to change channel (Wi-Fi 6 and Wi-Fi 6E APs)"
+    ],
+    "Enhancement": [
+      "Add 6 GHz support for regulatory domains with new 6 GHz approvals (Wi-Fi 6E APs)",
+      "Keep 6 GHz radio off for outdoor APs when no configuration provided (CW9163E-MR)",
+      "Upgrade CiscoSSL from 7.3 to 7.3a"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+      "In high capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "DNS test failure results in no connectivity (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+      "AMI not sending RADIUS traffic",
+      "The FastCGI process is unresponsive, which causes issues with affected APs downloading their configuration and returning live stats like current clients, utilization, etc. (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)"
+    ]
+  },
+  "text": "Access points software versions MR 30.6 changelog\nImportant note\nWEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)\nLegacy product notice\nWhen configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3\nBug fixes\nGeneral stability and performance improvements\nAP not returning to original channel after a DFS channel change event occurred (MR45/55)\nLarge mDNS packets can cause loss of wired connectivity (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nUser-Name and Calling-Station-Id in different format consuming additional license on ISE (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nUDN ID not properly assigned to clients for \"iPSK w/ RADIUS\" configuration (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nIncorrect IPSK-EAPOL VSA data for Easy PSK (Wi-Fi 5 Wave 2 APs)\nExclude Beidu/GLONASS constellations from GNSS receiver when used for AFC location (Wi-Fi 6E APs)\n6 GHz radio not turned off when AFC expires (CW9163E-MR)\nAPs utilizing WPA3 are shown as \"Open\" in RF Spectrum > Interfering APs UI (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nClients getting dropped before DHCP lease time expiry during L3 roam and disconnected for more than 30 sec (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nAP failed to change channel (Wi-Fi 6 and Wi-Fi 6E APs)\nEnhancement\nAdd 6 GHz support for regulatory domains with new 6 GHz approvals (Wi-Fi 6E APs)\nKeep 6 GHz radio off for outdoor APs when no configuration provided (CW9163E-MR)\nUpgrade CiscoSSL from 7.3 to 7.3a\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)\nIn high capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nDNS test failure results in no connectivity (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nAMI not sending RADIUS traffic\nThe FastCGI process is unresponsive, which causes issues with affected APs downloading their configuration and returning live stats like current clients, utilization, etc. (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+  "html": "<H3 id=\"toc-hId-457853273\">Access points software versions MR 30.6 changelog</H3><DIV class=\"\"><H4 id=\"toc-hId-1148414747\">Important note</H4><UL><LI><P class=\"\">WEP deprecation (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs</A>)</P></LI></UL><H4 id=\"toc-hId--659039716\">Legacy product notice</H4><UL><LI><P class=\"\">When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3</P></LI></UL><H4 id=\"toc-hId-1828473117\">Bug fixes</H4><UL><LI><P class=\"\">General stability and performance improvements</P></LI><LI><P class=\"\">AP not returning to original channel after a DFS channel change event occurred (MR45/55)</P></LI><LI><P class=\"\">Large mDNS packets can cause loss of wired connectivity (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI><LI><P class=\"\">User-Name and Calling-Station-Id in different format consuming additional license on ISE (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI><LI><P class=\"\">UDN ID not properly assigned to clients for \"iPSK w/ RADIUS\" configuration (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI><LI><P class=\"\">Incorrect IPSK-EAPOL VSA data for Easy PSK (Wi-Fi 5 Wave 2 APs)</P></LI><LI><P class=\"\">Exclude Beidu/GLONASS constellations from GNSS receiver when used for AFC location (Wi-Fi 6E APs)</P></LI><LI><P class=\"\">6 GHz radio not turned off when AFC expires (CW9163E-MR)</P></LI><LI><P class=\"\">APs utilizing WPA3 are shown as \"Open\" in RF Spectrum &gt; Interfering APs UI (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI><LI><P class=\"\">Clients getting dropped before DHCP lease time expiry during L3 roam and disconnected for more than 30 sec (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI><LI><P class=\"\">AP failed to change channel (Wi-Fi 6 and Wi-Fi 6E APs)</P></LI></UL><H4 id=\"toc-hId-21018654\">Enhancement</H4><UL><LI><P class=\"\">Add 6 GHz support for regulatory domains with new 6 GHz approvals (Wi-Fi 6E APs)</P></LI><LI><P class=\"\">Keep 6 GHz radio off for outdoor APs when no configuration provided (CW9163E-MR)</P></LI><LI><P class=\"\">Upgrade CiscoSSL from 7.3 to 7.3a</P></LI></UL><H4 id=\"toc-hId--1786435809\">Known issues</H4><UL><LI><P class=\"\">Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</P></LI><LI><P class=\"\">In high capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI><LI><P class=\"\">DNS test failure results in no connectivity (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI><LI><P class=\"\">AMI not sending RADIUS traffic</P></LI><LI><P class=\"\">The FastCGI process is unresponsive, which causes issues with affected APs downloading their configuration and returning live stats like current clients, utilization, etc. (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:24Z"
+}

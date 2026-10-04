@@ -1,0 +1,53 @@
+{
+  "family": "CS",
+  "version": "17.1.4",
+  "title": "CS firmware versions CS 17.1.4 changelog",
+  "announcements": [
+    {
+      "post_id": "5517970",
+      "releaseType": "candidate",
+      "announced": "2024-10-30T14:47:06.316-07:00",
+      "post_subject": "A new candidate switchCatalyst firmware is now available on Wed, 30 Oct 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switchcatalyst-firmware-is-now-available-on-wed/ba-p/5517970"
+    },
+    {
+      "post_id": "5518348",
+      "releaseType": "stable",
+      "announced": "2024-11-15T12:47:05.785-08:00",
+      "post_subject": "A new stable switchCatalyst firmware is now available on Fri, 15 Nov 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-fri-15/ba-p/5518348"
+    }
+  ],
+  "changelog_comment_id": "5518349",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-11-15T13:19:25.965-08:00",
+  "sections": {
+    "Important notes": [
+      "Factory-default VLAN range is now 1-995, instead of 1-1000 as in previous firmware versions. Resetting the device to factory settings will apply this new VLAN range.",
+      "This version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New feature highlights": [
+      "Client Analytics",
+      "Device Uptime for MS390s",
+      "EEE (Energy Efficient Ethernet) Support",
+      "Multi-auth with support for guest/failed/critical",
+      "RADIUS Caching",
+      "Support for Multicast in Live Tool",
+      "VLAN to SGT mapping"
+    ],
+    "Fixed issues": [
+      "Corrected a bug that prevented clients that only send UDP traffic from appearing in the client list",
+      "Fixed a bug that caused some switch stacks to experience a configuration mismatch when making multiple consecutive port configuration changes",
+      "Fixed an issue that caused some clients to experience packet loss for 60-200 seconds while a standby switch took over the active stack member role",
+      "Resolved an issue that occasionally caused a loss of management plane connectivity when there were a large number of LLDP announcements",
+      "Resolved an issue that prevented TCN packets from being correctly reported in Switch Port Packet Counters"
+    ],
+    "General known issues": [
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)"
+    ]
+  },
+  "text": "CS firmware versions CS 17.1.4 changelog\nImportant notes\nFactory-default VLAN range is now 1-995, instead of 1-1000 as in previous firmware versions. Resetting the device to factory settings will apply this new VLAN range.\nThis version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload.\nNew feature highlights\nClient Analytics\nDevice Uptime for MS390s\nEEE (Energy Efficient Ethernet) Support\nMulti-auth with support for guest/failed/critical\nRADIUS Caching\nSupport for Multicast in Live Tool\nVLAN to SGT mapping\nFixed issues\nCorrected a bug that prevented clients that only send UDP traffic from appearing in the client list\nFixed a bug that caused some switch stacks to experience a configuration mismatch when making multiple consecutive port configuration changes\nFixed an issue that caused some clients to experience packet loss for 60-200 seconds while a standby switch took over the active stack member role\nResolved an issue that occasionally caused a loss of management plane connectivity when there were a large number of LLDP announcements\nResolved an issue that prevented TCN packets from being correctly reported in Switch Port Packet Counters\nGeneral known issues\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845839119\" id=\"toc-hId--248786128\">CS firmware versions CS 17.1.4 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295858357\" id=\"toc-hId-1142839924\">Important notes</H4><UL><LI>Factory-default VLAN range is now 1-995, instead of 1-1000 as in previous firmware versions. Resetting the device to factory settings will apply this new VLAN range.</LI><LI>This version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-446951978\" id=\"toc-hId--664614539\">New feature highlights</H4><UL><LI>Client Analytics</LI><LI>Device Uptime for MS390s</LI><LI>EEE (Energy Efficient Ethernet) Support</LI><LI>Multi-auth with support for guest/failed/critical</LI><LI>RADIUS Caching</LI><LI>Support for Multicast in Live Tool</LI><LI>VLAN to SGT mapping</LI></UL><H4 id=\"toc-hId--2105204983\" id=\"toc-hId-1822898294\">Fixed issues</H4><UL><LI>Corrected a bug that prevented clients that only send UDP traffic from appearing in the client list</LI><LI>Fixed a bug that caused some switch stacks to experience a configuration mismatch when making multiple consecutive port configuration changes</LI><LI>Fixed an issue that caused some clients to experience packet loss for 60-200 seconds while a standby switch took over the active stack member role</LI><LI>Resolved an issue that occasionally caused a loss of management plane connectivity when there were a large number of LLDP announcements</LI><LI>Resolved an issue that prevented TCN packets from being correctly reported in Switch Port Packet Counters</LI></UL><H4 id=\"toc-hId--362394648\" id=\"toc-hId-15443831\">General known issues</H4><UL><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:05Z"
+}

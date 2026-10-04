@@ -1,0 +1,40 @@
+{
+  "family": "MX",
+  "version": "17.10.7",
+  "title": "Security appliance firmware versions MX 17.10.7 changelog",
+  "announcements": [
+    {
+      "post_id": "5510606",
+      "releaseType": "stable",
+      "announced": "2023-06-30T13:47:05.692-07:00",
+      "post_subject": "A new stable appliance firmware is now available on Fri, 30 Jun 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-fri-30-jun/ba-p/5510606"
+    }
+  ],
+  "changelog_comment_id": "5510607",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-06-30T13:55:08.386-07:00",
+  "sections": {
+    "Important notice": [
+      "MX100 appliances may become unresponsive and unable to be recovered with a factory reset after upgrading to MX 17.10.5 or MX 18.1.07 from very old, unsupported firmware versions that reflect as critically out of date from the Organization > Firmware upgrades page in Dashboard. We recommend upgrading these devices to MX 17.10.2 first before proceeding to upgrade to either of these newer versions.",
+      "While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.",
+      "HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.",
+      "The transition to Cisco Talos intelligence for our content filtering services means that some URL categories have changed names, some categories are no longer available, and multiple new categories are now available. Please review your configuration after upgrading to ensure content filtering is effectively tailored to your needs and deployment environment."
+    ],
+    "Bug fixes": [
+      "Corrected a rare issue that could result in IBGP instability when two AutoVPN peers established their IBGP session using IPv6."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 and MX80 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page"
+    ]
+  },
+  "text": "Security appliance firmware versions MX 17.10.7 changelog\nImportant notice\nMX100 appliances may become unresponsive and unable to be recovered with a factory reset after upgrading to MX 17.10.5 or MX 18.1.07 from very old, unsupported firmware versions that reflect as critically out of date from the Organization > Firmware upgrades page in Dashboard. We recommend upgrading these devices to MX 17.10.2 first before proceeding to upgrade to either of these newer versions.\nWhile Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.\nHTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.\nThe transition to Cisco Talos intelligence for our content filtering services means that some URL categories have changed names, some categories are no longer available, and multiple new categories are now available. Please review your configuration after upgrading to ensure content filtering is effectively tailored to your needs and deployment environment.\nBug fixes\nCorrected a rare issue that could result in IBGP instability when two AutoVPN peers established their IBGP session using IPv6.\nLegacy products notice\nWhen configured for this version, Z1 and MX80 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1841094904\" id=\"toc-hId--249021699\">Security appliance firmware versions MX 17.10.7 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1300602572\" id=\"toc-hId-1142604353\">Important notice</H4><UL><LI>MX100 appliances may become unresponsive and unable to be recovered with a factory reset after upgrading to MX 17.10.5 or MX 18.1.07 from very old, unsupported firmware versions that reflect as critically out of date from the Organization &gt; Firmware upgrades page in Dashboard. We recommend upgrading these devices to MX 17.10.2 first before proceeding to upgrade to either of these newer versions.</LI><LI>While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help &gt; Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.</LI><LI>HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.</LI><LI>The transition to Cisco Talos intelligence for our content filtering services means that some URL categories have changed names, some categories are no longer available, and multiple new categories are now available. Please review your configuration after upgrading to ensure content filtering is effectively tailored to your needs and deployment environment.</LI></UL><H4 id=\"toc-hId-442207763\" id=\"toc-hId--664850110\">Bug fixes</H4><UL><LI>Corrected a rare issue that could result in IBGP instability when two AutoVPN peers established their IBGP session using IPv6.</LI></UL><H4 id=\"toc-hId--2109949198\" id=\"toc-hId-1822662723\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 and MX80 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI></UL><H4 id=\"toc-hId--367138863\" id=\"toc-hId-15208260\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:40Z"
+}

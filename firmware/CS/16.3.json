@@ -1,0 +1,46 @@
+{
+  "family": "CS",
+  "version": "16.3",
+  "title": "CS firmware versions CS 16.3 changelog",
+  "announcements": [
+    {
+      "post_id": "5512050",
+      "releaseType": "beta",
+      "announced": "2023-08-31T17:47:05.052-07:00",
+      "post_subject": "A new beta switchCatalyst firmware is now available on Thu, 31 Aug 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switchcatalyst-firmware-is-now-available-on-thu-31/ba-p/5512050"
+    }
+  ],
+  "changelog_comment_id": "5512051",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-08-31T23:17:56.882-07:00",
+  "sections": {
+    "Alerts": [
+      "This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload"
+    ],
+    "New features": [
+      "802.1X Control Direction",
+      "Adaptive Policy ACL hit counter live tool",
+      "MAC Allow list on access ports",
+      "Named VLAN"
+    ],
+    "Bug fixes": [
+      "CDP fails to populate all port module data (always present)",
+      "In rare instances, large configurations would fail to apply",
+      "LLDP information for the IPv4 management VLAN is incorrect (present since CS 16)",
+      "MAB authentication may intermittently fail on stacks",
+      "Storm control configurations can fail to be updated on LACP groups after changes are made (present since CS 16)",
+      "Traffic analytics is missing categorizing some applications (always present)"
+    ],
+    "General known issues": [
+      "DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)",
+      "DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)",
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+      "Large changes made via the API for a single device may take 10+ minutes to apply"
+    ]
+  },
+  "text": "CS firmware versions CS 16.3 changelog\nAlerts\nThis version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload\nNew features\n802.1X Control Direction\nAdaptive Policy ACL hit counter live tool\nMAC Allow list on access ports\nNamed VLAN\nBug fixes\nCDP fails to populate all port module data (always present)\nIn rare instances, large configurations would fail to apply\nLLDP information for the IPv4 management VLAN is incorrect (present since CS 16)\nMAB authentication may intermittently fail on stacks\nStorm control configurations can fail to be updated on LACP groups after changes are made (present since CS 16)\nTraffic analytics is missing categorizing some applications (always present)\nGeneral known issues\nDHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)\nDHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nLarge changes made via the API for a single device may take 10+ minutes to apply",
+  "html": "<DIV class=\"\"><DIV class=\"\"><H1 id=\"toc-hId-1841280168\" id=\"toc-hId--248967734\">CS firmware versions CS 16.3 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1300417308\" id=\"toc-hId-1142658318\">Alerts</H4><UL><LI>This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload</LI></UL><H4 id=\"toc-hId-442393027\" id=\"toc-hId--664796145\">New features</H4><UL><LI>802.1X Control Direction</LI><LI>Adaptive Policy ACL hit counter live tool</LI><LI>MAC Allow list on access ports</LI><LI>Named VLAN</LI></UL><H4 id=\"toc-hId--2109763934\" id=\"toc-hId-1822716688\">Bug fixes</H4><UL><LI>CDP fails to populate all port module data (always present)</LI><LI>In rare instances, large configurations would fail to apply</LI><LI>LLDP information for the IPv4 management VLAN is incorrect (present since CS 16)</LI><LI>MAB authentication may intermittently fail on stacks</LI><LI>Storm control configurations can fail to be updated on LACP groups after changes are made (present since CS 16)</LI><LI>Traffic analytics is missing categorizing some applications (always present)</LI></UL><H4 id=\"toc-hId--366953599\" id=\"toc-hId-15262225\">General known issues</H4><UL><LI>DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)</LI><LI>DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)</LI><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI><LI>Large changes made via the API for a single device may take 10+ minutes to apply</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:35Z"
+}

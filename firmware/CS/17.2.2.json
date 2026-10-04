@@ -1,0 +1,58 @@
+{
+  "family": "CS",
+  "version": "17.2.2",
+  "title": "CS firmware versions CS 17.2.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5521377",
+      "releaseType": "stable",
+      "announced": "2025-07-21T16:47:04.098-07:00",
+      "post_subject": "A new stable switchCatalyst firmware is now available on Mon, 21 Jul 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-mon-21/ba-p/5521377"
+    }
+  ],
+  "changelog_comment_id": "5521378",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-07-22T12:57:05.157-07:00",
+  "sections": {
+    "Important notes": [
+      "This version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New feature highlights": [
+      "Client Analytics",
+      "Device Uptime for MS390s",
+      "EEE (Energy Efficient Ethernet) Support",
+      "Multi-auth with support for guest/failed/critical",
+      "RADIUS Caching",
+      "Support for Multicast in Live Tool",
+      "VLAN to SGT mapping"
+    ],
+    "General fixed issues": [
+      "Fixed a bug that caused stack ports on standby switches to incorrectly appear to be disconnected",
+      "Resolved a bug during upgrades from CS16 to CS17 that sometimes caused PoE settings to change during the upgrade process",
+      "Resolved an issue that sometimes prevented storm control settings from being correctly applied to member and standby switches in stack configurations",
+      "Fixed a bug that caused inconsistent information to be displayed in the \"Adaptive policy group\" column when reloading the Network-wide > Clients page in Dashboard",
+      "Resolved a bug that prevented the STP blocking icon from being correctly displayed in Dashboard when an alternate port was blocked by STP",
+      "Resolved an issue that prevented clients and client traffic from being correctly displayed after moving the Uplink role between switch ports",
+      "Fixed a bug that sometimes caused firmware upgrades to fail on stacks upgrading from CS16 to CS17"
+    ],
+    "Ms390 fixed issues": [
+      "Fixed a bug that sometimes caused UDLD loop detection alerts that could not be cleared"
+    ],
+    "General known issues": [
+      "The Meraki container may reboot in rare circumstances, resulting in temporary loss of connectivity to Dashboard",
+      "Client traffic reporting may fail on high-speed (greater than 10Gbps) or trunk ports"
+    ],
+    "C9300 known issues": [
+      "In rare circumstances, high levels of MAC flapping can lead to memory exhaustion in C9300X switches in stack configurations. An ios-xe restart is required to restore service to affected switches."
+    ],
+    "Ms390 known issues": [
+      "MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot",
+      "Clients may fail to obtain a fixed IP address if their DHCP discover packet doesn't contain a client identifier field. These clients will instead be assigned an IP address from the DHCP pool."
+    ]
+  },
+  "text": "CS firmware versions CS 17.2.2 changelog\nImportant notes\nThis version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.\nNew feature highlights\nClient Analytics\nDevice Uptime for MS390s\nEEE (Energy Efficient Ethernet) Support\nMulti-auth with support for guest/failed/critical\nRADIUS Caching\nSupport for Multicast in Live Tool\nVLAN to SGT mapping\nGeneral fixed issues\nFixed a bug that caused stack ports on standby switches to incorrectly appear to be disconnected\nResolved a bug during upgrades from CS16 to CS17 that sometimes caused PoE settings to change during the upgrade process\nResolved an issue that sometimes prevented storm control settings from being correctly applied to member and standby switches in stack configurations\nFixed a bug that caused inconsistent information to be displayed in the \"Adaptive policy group\" column when reloading the Network-wide > Clients page in Dashboard\nResolved a bug that prevented the STP blocking icon from being correctly displayed in Dashboard when an alternate port was blocked by STP\nResolved an issue that prevented clients and client traffic from being correctly displayed after moving the Uplink role between switch ports\nFixed a bug that sometimes caused firmware upgrades to fail on stacks upgrading from CS16 to CS17\nMs390 fixed issues\nFixed a bug that sometimes caused UDLD loop detection alerts that could not be cleared\nGeneral known issues\nThe Meraki container may reboot in rare circumstances, resulting in temporary loss of connectivity to Dashboard\nClient traffic reporting may fail on high-speed (greater than 10Gbps) or trunk ports\nC9300 known issues\nIn rare circumstances, high levels of MAC flapping can lead to memory exhaustion in C9300X switches in stack configurations. An ios-xe restart is required to restore service to affected switches.\nMs390 known issues\nMS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot\nClients may fail to obtain a fixed IP address if their DHCP discover packet doesn't contain a client identifier field. These clients will instead be assigned an IP address from the DHCP pool.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847802625\" id=\"toc-hId--248071052\">CS firmware versions CS 17.2.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293894851\" id=\"toc-hId-1143555000\">Important notes</H4><UL><LI>This version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-448915484\" id=\"toc-hId--663899463\">New feature highlights</H4><UL><LI>Client Analytics</LI><LI>Device Uptime for MS390s</LI><LI>EEE (Energy Efficient Ethernet) Support</LI><LI>Multi-auth with support for guest/failed/critical</LI><LI>RADIUS Caching</LI><LI>Support for Multicast in Live Tool</LI><LI>VLAN to SGT mapping</LI></UL><H4 id=\"toc-hId--2103241477\" id=\"toc-hId-1823613370\">General fixed issues</H4><UL><LI>Fixed a bug that caused stack ports on standby switches to incorrectly appear to be disconnected</LI><LI>Resolved a bug during upgrades from CS16 to CS17 that sometimes caused PoE settings to change during the upgrade process</LI><LI>Resolved an issue that sometimes prevented storm control settings from being correctly applied to member and standby switches in stack configurations</LI><LI>Fixed a bug that caused inconsistent information to be displayed in the \"Adaptive policy group\" column when reloading the Network-wide &gt; Clients page in Dashboard</LI><LI>Resolved a bug that prevented the STP blocking icon from being correctly displayed in Dashboard when an alternate port was blocked by STP</LI><LI>Resolved an issue that prevented clients and client traffic from being correctly displayed after moving the Uplink role between switch ports</LI><LI>Fixed a bug that sometimes caused firmware upgrades to fail on stacks upgrading from CS16 to CS17</LI></UL><H4 id=\"toc-hId--360431142\" id=\"toc-hId-16158907\">Ms390 fixed issues</H4><UL><LI>Fixed a bug that sometimes caused UDLD loop detection alerts that could not be cleared</LI></UL><H4 id=\"toc-hId-1382379193\" id=\"toc-hId--1791295556\">General known issues</H4><UL><LI>The Meraki container may reboot in rare circumstances, resulting in temporary loss of connectivity to Dashboard</LI><LI>Client traffic reporting may fail on high-speed (greater than 10Gbps) or trunk ports</LI></UL><H4 id=\"toc-hId--1169777768\" id=\"toc-hId-696217277\">C9300 known issues</H4><UL><LI>In rare circumstances, high levels of MAC flapping can lead to memory exhaustion in C9300X switches in stack configurations. An ios-xe restart is required to restore service to affected switches.</LI></UL><H4 id=\"toc-hId-573032567\" id=\"toc-hId--1111237186\">Ms390 known issues</H4><UL><LI>MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot</LI><LI>Clients may fail to obtain a fixed IP address if their DHCP discover packet doesn't contain a client identifier field. These clients will instead be assigned an IP address from the DHCP pool.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:49Z"
+}

@@ -1,0 +1,33 @@
+{
+  "family": "MR",
+  "version": "32.1.4",
+  "title": "Wireless firmware versions MR 32.1.4 changelog",
+  "announcements": [
+    {
+      "post_id": "5461106",
+      "releaseType": "beta",
+      "announced": "2025-10-01T09:47:04.210-07:00",
+      "post_subject": "A new beta wireless firmware is now available on Wed, 01 Oct 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-wed-01-oct-2025/ba-p/5461106"
+    }
+  ],
+  "changelog_comment_id": "5461107",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-10-01T10:23:17.351-07:00",
+  "sections": {
+    "Important note": [
+      "MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available."
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "APs intermittently stop sending beacons & responding to clients on 5GHz (Wi-Fi 6e)",
+      "APs not responding to probe/auth requests from clients on 2.4 & 5GHz (Wi-Fi 6, 6e)",
+      "Multi/Broadcast packets (RA/DHCP) not forwarded by APs (Wi-Fi 7)",
+      "Mesh not forming 6GHz 160MHz (Wi-Fi 6e)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 32.1.4 changelog\nImportant note\nMR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.\nBug fixes\nGeneral stability, performance, and experience improvements\nAPs intermittently stop sending beacons & responding to clients on 5GHz (Wi-Fi 6e)\nAPs not responding to probe/auth requests from clients on 2.4 & 5GHz (Wi-Fi 6, 6e)\nMulti/Broadcast packets (RA/DHCP) not forwarded by APs (Wi-Fi 7)\nMesh not forming 6GHz 160MHz (Wi-Fi 6e)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848580848\" id=\"toc-hId--273008259\">Wireless firmware versions MR 32.1.4 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293116628\" id=\"toc-hId-1118617793\">Important note</H4><UL><LI>MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.</LI></UL><H4 id=\"toc-hId-449693707\" id=\"toc-hId--688836670\">Bug fixes</H4><UL><LI>General stability, performance, and experience improvements</LI><LI>APs intermittently stop sending beacons &amp; responding to clients on 5GHz (Wi-Fi 6e)</LI><LI>APs not responding to probe/auth requests from clients on 2.4 &amp; 5GHz (Wi-Fi 6, 6e)</LI><LI>Multi/Broadcast packets (RA/DHCP) not forwarded by APs (Wi-Fi 7)</LI><LI>Mesh not forming 6GHz 160MHz (Wi-Fi 6e)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:43Z"
+}

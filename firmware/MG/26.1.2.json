@@ -1,0 +1,32 @@
+{
+  "family": "MG",
+  "version": "26.1.2",
+  "title": "Cellular gateways software versions MG 26.1.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5544720",
+      "releaseType": "beta",
+      "announced": "2026-04-10T14:00:05.395-07:00",
+      "post_subject": "A new Beta MG Wireless WAN firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mg-wireless-wan-firmware-is-now-available/ba-p/5544720"
+    }
+  ],
+  "changelog_comment_id": "5548445",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-04-27T12:06:39.370-07:00",
+  "sections": {
+    "Executive summary": [
+      "This is the second MG 26.1 beta release. It contains a few bug fixes related to the device local status page.",
+      "Please see the full details below."
+    ],
+    "Bug fixes": [
+      "Fixed an issue that could result in MG appliances incorrectly dropping fragmented traffic. (MG-6135)",
+      "Resolved an issue that resulted in the device local status page not displaying the SIM PIN configuration when only one SIM was present. (MG-6191)",
+      "Corrected an issue that resulted in MG appliances not displaying their cellular IP address on the device local status page when operating in Wired WAN Mode. (MG-6192)"
+    ]
+  },
+  "text": "Cellular gateways software versions MG 26.1.2 changelog\nExecutive summary\nThis is the second MG 26.1 beta release. It contains a few bug fixes related to the device local status page.\nPlease see the full details below.\nBug fixes\nFixed an issue that could result in MG appliances incorrectly dropping fragmented traffic. (MG-6135)\nResolved an issue that resulted in the device local status page not displaying the SIM PIN configuration when only one SIM was present. (MG-6191)\nCorrected an issue that resulted in MG appliances not displaying their cellular IP address on the device local status page when operating in Wired WAN Mode. (MG-6192)",
+  "html": "<DIV class=\"\"><STRONG><FONT size=\"5\">Cellular gateways&nbsp;software versions&nbsp;MG 26.1.2&nbsp;changelog</FONT></STRONG></DIV><DIV class=\"\"><H4 id=\"toc-hId--1341901389\">Executive summary</H4><UL><LI><P class=\"\">This is the second MG 26.1 beta release. It contains a few bug fixes related to the device local status page.</P></LI><LI><P class=\"\">Please see the full details below.</P></LI></UL><H4 id=\"toc-hId-1145611444\">Bug fixes</H4><UL><LI><P class=\"\">Fixed an issue that could result in MG appliances incorrectly dropping fragmented traffic. (MG-6135)</P></LI><LI><P class=\"\">Resolved an issue that resulted in the device local status page not displaying the SIM PIN configuration when only one SIM was present. (MG-6191)</P></LI><LI><P class=\"\">Corrected an issue that resulted in MG appliances not displaying their cellular IP address on the device local status page when operating in Wired WAN Mode. (MG-6192)</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:33Z"
+}

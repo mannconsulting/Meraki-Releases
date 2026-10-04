@@ -1,0 +1,48 @@
+{
+  "family": "MX",
+  "version": "19.1.7.1",
+  "title": "Security appliance firmware versions MX 19.1.7.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5519164",
+      "releaseType": "candidate",
+      "announced": "2025-02-05T14:47:04.567-08:00",
+      "post_subject": "A new candidate appliance firmware is now available on Wed, 05 Feb 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-wed-05/ba-p/5519164"
+    }
+  ],
+  "changelog_comment_id": "5519165",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-02-05T14:54:17.640-08:00",
+  "sections": {
+    "Important notice": [
+      "As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9.",
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.12."
+    ],
+    "Bug fixes - limited platform fixes": [
+      "Fixed an MX 19.1.7 regression that could result in MX75, MX85, MX95, MX105, MX250, and MX450 appliances servicing many clients to experience intermittent periods of heightened packet drops and latency. This resolves known issue MX-36338."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Known issues": [
+      "During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)",
+      "Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)",
+      "Duplicate retrospective “malware download detected” emails may be erroneously sent. (MX-30111)",
+      "Due to an issue under investigation, making certain configuration changes to WAN interfaces (such as disabling or enabling an interface) can cause the IDPS process to fail. This issue may also cause high device utilization. The issue can be worked around by rebooting the MX appliance or disabling and then re-enabling IDPS. (MX-34504)",
+      "Due to an MX 19.1.5 regression, Z4(C) appliances may fail to provide PoE power to connected devices. (MX-34938)",
+      "Due to an MX 19.1 regression, traffic will fail to route over AutoVPN when the only active uplink is a cellular connection. (MX-35703)",
+      "Due to an issue under investigation, MX75, MX85, MX95, MX105, MX250, and MX450 appliances may experience an unexpected device reboot when VPN NAT is configured. (MX-36180)",
+      "When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)",
+      "During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)"
+    ]
+  },
+  "text": "Security appliance firmware versions MX 19.1.7.1 changelog\nImportant notice\nAs of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.\nLegacy products notice\nWhen configured for this version, Z1 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.12.\nBug fixes - limited platform fixes\nFixed an MX 19.1.7 regression that could result in MX75, MX85, MX95, MX105, MX250, and MX450 appliances servicing many clients to experience intermittent periods of heightened packet drops and latency. This resolves known issue MX-36338.\nKnown issues status\nThis list is being reviewed and updated.\nKnown issues\nDuring the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)\nDue to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)\nDuplicate retrospective “malware download detected” emails may be erroneously sent. (MX-30111)\nDue to an issue under investigation, making certain configuration changes to WAN interfaces (such as disabling or enabling an interface) can cause the IDPS process to fail. This issue may also cause high device utilization. The issue can be worked around by rebooting the MX appliance or disabling and then re-enabling IDPS. (MX-34504)\nDue to an MX 19.1.5 regression, Z4(C) appliances may fail to provide PoE power to connected devices. (MX-34938)\nDue to an MX 19.1 regression, traffic will fail to route over AutoVPN when the only active uplink is a cellular connection. (MX-35703)\nDue to an issue under investigation, MX75, MX85, MX95, MX105, MX250, and MX450 appliances may experience an unexpected device reboot when VPN NAT is configured. (MX-36180)\nWhen failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)\nDuring the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1846673416\" id=\"toc-hId--248758201\">Security appliance firmware versions MX 19.1.7.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295024060\" id=\"toc-hId-1142867851\">Important notice</H4><UL><LI>As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.</LI></UL><H4 id=\"toc-hId-447786275\" id=\"toc-hId--664586612\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.12.</LI></UL><H4 id=\"toc-hId--2104370686\" id=\"toc-hId-1822926221\">Bug fixes - limited platform fixes</H4><UL><LI>Fixed an MX 19.1.7 regression that could result in MX75, MX85, MX95, MX105, MX250, and MX450 appliances servicing many clients to experience intermittent periods of heightened packet drops and latency. This resolves known issue MX-36338.</LI></UL><H4 id=\"toc-hId--361560351\" id=\"toc-hId-15471758\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId-1381249984\" id=\"toc-hId--1791982705\">Known issues</H4><UL><LI>During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)</LI><LI>Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)</LI><LI>Duplicate retrospective “malware download detected” emails may be erroneously sent. (MX-30111)</LI><LI>Due to an issue under investigation, making certain configuration changes to WAN interfaces (such as disabling or enabling an interface) can cause the IDPS process to fail. This issue may also cause high device utilization. The issue can be worked around by rebooting the MX appliance or disabling and then re-enabling IDPS. (MX-34504)</LI><LI>Due to an MX 19.1.5 regression, Z4(C) appliances may fail to provide PoE power to connected devices. (MX-34938)</LI><LI>Due to an MX 19.1 regression, traffic will fail to route over AutoVPN when the only active uplink is a cellular connection. (MX-35703)</LI><LI>Due to an issue under investigation, MX75, MX85, MX95, MX105, MX250, and MX450 appliances may experience an unexpected device reboot when VPN NAT is configured. (MX-36180)</LI><LI>When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)</LI><LI>During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:00Z"
+}

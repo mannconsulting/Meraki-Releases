@@ -1,0 +1,32 @@
+{
+  "family": "MT",
+  "version": "2.0",
+  "title": "Sensor firmware versions MT 2.0 changelog",
+  "announcements": [
+    {
+      "post_id": "5515044",
+      "releaseType": "beta",
+      "announced": "2024-04-25T17:47:04.477-07:00",
+      "post_subject": "A new beta sensor firmware is now available on Thu, 25 Apr 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-sensor-firmware-is-now-available-on-thu-25-apr-2024/ba-p/5515044"
+    }
+  ],
+  "changelog_comment_id": "5515045",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-04-25T23:11:40.613-07:00",
+  "sections": {
+    "New": [
+      "Update MT14 TVOC Algorithm to improve accuracy."
+    ],
+    "Bug fixes": [
+      "Update MT20 and MT30 battery state of charge curves to be more accurate. Reported battery percentages will be lower than previously reported after this upgrade by up to 20%. Overall battery life remains unchanged as this changes the battery reporting and not the actual battery life.",
+      "Updated MT14 PM2.5 sensor fan cleaning behavior. No major behavior change expected, cleaning should still run every 3 days.",
+      "Internally overhauled alerting wake-up logic. No behavior change expected.",
+      "Internal bug fixes and performance improvements"
+    ]
+  },
+  "text": "Sensor firmware versions MT 2.0 changelog\nNew\nUpdate MT14 TVOC Algorithm to improve accuracy.\nBug fixes\nUpdate MT20 and MT30 battery state of charge curves to be more accurate. Reported battery percentages will be lower than previously reported after this upgrade by up to 20%. Overall battery life remains unchanged as this changes the battery reporting and not the actual battery life.\nUpdated MT14 PM2.5 sensor fan cleaning behavior. No major behavior change expected, cleaning should still run every 3 days.\nInternally overhauled alerting wake-up logic. No behavior change expected.\nInternal bug fixes and performance improvements",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1843960390\" id=\"toc-hId--248878388\">Sensor firmware versions MT 2.0 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297737086\" id=\"toc-hId-1142747664\">New</H4><UL><LI>Update MT14 TVOC Algorithm to improve accuracy.</LI></UL><H4 id=\"toc-hId-445073249\" id=\"toc-hId--664706799\">Bug fixes</H4><UL><LI>Update MT20 and MT30 battery state of charge curves to be more accurate. Reported battery percentages will be lower than previously reported after this upgrade by up to 20%. Overall battery life remains unchanged as this changes the battery reporting and not the actual battery life.</LI><LI>Updated MT14 PM2.5 sensor fan cleaning behavior. No major behavior change expected, cleaning should still run every 3 days.</LI><LI>Internally overhauled alerting wake-up logic. No behavior change expected.</LI><LI>Internal bug fixes and performance improvements</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:20Z"
+}

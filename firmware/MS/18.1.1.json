@@ -1,0 +1,87 @@
+{
+  "family": "MS",
+  "version": "18.1.1",
+  "title": "Switch firmware versions MS 18.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5521885",
+      "releaseType": "beta",
+      "announced": "2025-08-19T16:47:03.685-07:00",
+      "post_subject": "A new beta switch firmware is now available on Tue, 19 Aug 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switch-firmware-is-now-available-on-tue-19-aug-2025/ba-p/5521885"
+    }
+  ],
+  "changelog_comment_id": "5521886",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-08-20T12:17:48.272-07:00",
+  "sections": {
+    "New feature highlights": [
+      "Group Policy ACL on MS130 & MS150",
+      "Maximum MAC support in MAC Allowlists",
+      "Multi-auth support for Guest, Critical, and failed VLANs with 802.1x limited access mode",
+      "Local Status Page connectivity diagnostics enhancements",
+      "Layer 2 multicast live tool",
+      "Traffic Mirroring: RSPAN & VLAN Based SPAN"
+    ],
+    "General fixed issues": [
+      "Fixed a bug that caused an incorrect SNMP response of “0” when polling switches for ifInDiscards",
+      "Resolved an issue that caused frequent notifications about new DHCP servers that have mismatched VLANs/subnets",
+      "Fixed a bug that prevented switches from correctly flushing MAC addresses matched to a switch port after disabling or disconnecting the port",
+      "Resolved an issue that prevented some clients from accessing the Local Status Page via 1.1.1.100 and and switch.meraki.com while the network was configured for with Track-by-IP or Cloud Track",
+      "Resolved a bug that prevented MS250 and MS350 switches from correctly removing MAC addresses learned via AGGR when LAG ports were disabled"
+    ],
+    "Ms130 fixed issues": [
+      "Fixed a bug that caused some DNS response packets to be lost when DNS inspection was enabled"
+    ],
+    "Ms150 fixed issues": [
+      "Resolved an issue that caused degraded uplink speeds when an MS150 was connected to an MX device using an mgig port",
+      "Fixed a bug that caused occasional software crashes and reboots on MS150s in stack configurations",
+      "Fixed a bug that, in rare cases, could cause member switches in MS150 stacks with cross-stack LAG links to have incorrect MAC-to-port mappings"
+    ],
+    "Ms225 fixed issues": [
+      "Fixed a bug that occasionally caused software crashes and switch reboots when more than 8 hybrid auth clients were connected to the same port"
+    ],
+    "Ms250 fixed issues": [
+      "Resolved an issue that caused ports to fail to connect after performing a cable test",
+      "Fixed a bug that sometimes caused switches enter a 'port not forwarding' state, where client devices were placed on the guest VLAN, and prevented the switch from sending RADIUS requests until rebooted"
+    ],
+    "Ms35x fixed issues": [
+      "Resolved an issue that caused switchport LEDs to show an Amber light while the UI showed that the port is negotiating while using 2.5Gbps mgig ports"
+    ],
+    "Ms425 fixed issues": [
+      "Fixed a bug that sometimes caused core stack members to encounter MRMP failures, which resulted in the stack or the network going offline",
+      "Resolved an issue that sometimes caused up to 5 minutes of downtime after powering off the active switch in a MS425 stack"
+    ],
+    "General known issues": [
+      "Clients authenticating via 802.1X with an access policy using hybrid authentication may not correctly log their RADIUS sessions",
+      "Clients that fail to pass RADIUS authentication and are connected to ports using access policies may get stuck in an authentication loop, possibly resulting in a switch reboot",
+      "In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.",
+      "LACP links may take an extended time to come back up when the Active Member of a stack reboots",
+      "Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard"
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)",
+      "Cable tests may report incorrect cable lengths"
+    ],
+    "Ms225 known issues": [
+      "MS225 switches may infrequently stop forwarding client traffic until the switch is rebooted"
+    ],
+    "Ms35x known issues": [
+      "Switches may experience an unexpected reboot (present since MS 15)"
+    ],
+    "Ms355 known issues": [
+      "Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade"
+    ],
+    "Ms410 known issues": [
+      "Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve"
+    ],
+    "Ms425 known issues": [
+      "In rare circumstances MS425 switches may encounter a software crash that results in a reboot",
+      "Switches in stack configurations may experience high CPU utilization in multicast scenarios that may result in network instability"
+    ]
+  },
+  "text": "Switch firmware versions MS 18.1.1 changelog\nNew feature highlights\nGroup Policy ACL on MS130 & MS150\nMaximum MAC support in MAC Allowlists\nMulti-auth support for Guest, Critical, and failed VLANs with 802.1x limited access mode\nLocal Status Page connectivity diagnostics enhancements\nLayer 2 multicast live tool\nTraffic Mirroring: RSPAN & VLAN Based SPAN\nGeneral fixed issues\nFixed a bug that caused an incorrect SNMP response of “0” when polling switches for ifInDiscards\nResolved an issue that caused frequent notifications about new DHCP servers that have mismatched VLANs/subnets\nFixed a bug that prevented switches from correctly flushing MAC addresses matched to a switch port after disabling or disconnecting the port\nResolved an issue that prevented some clients from accessing the Local Status Page via 1.1.1.100 and and switch.meraki.com while the network was configured for with Track-by-IP or Cloud Track\nResolved a bug that prevented MS250 and MS350 switches from correctly removing MAC addresses learned via AGGR when LAG ports were disabled\nMs130 fixed issues\nFixed a bug that caused some DNS response packets to be lost when DNS inspection was enabled\nMs150 fixed issues\nResolved an issue that caused degraded uplink speeds when an MS150 was connected to an MX device using an mgig port\nFixed a bug that caused occasional software crashes and reboots on MS150s in stack configurations\nFixed a bug that, in rare cases, could cause member switches in MS150 stacks with cross-stack LAG links to have incorrect MAC-to-port mappings\nMs225 fixed issues\nFixed a bug that occasionally caused software crashes and switch reboots when more than 8 hybrid auth clients were connected to the same port\nMs250 fixed issues\nResolved an issue that caused ports to fail to connect after performing a cable test\nFixed a bug that sometimes caused switches enter a 'port not forwarding' state, where client devices were placed on the guest VLAN, and prevented the switch from sending RADIUS requests until rebooted\nMs35x fixed issues\nResolved an issue that caused switchport LEDs to show an Amber light while the UI showed that the port is negotiating while using 2.5Gbps mgig ports\nMs425 fixed issues\nFixed a bug that sometimes caused core stack members to encounter MRMP failures, which resulted in the stack or the network going offline\nResolved an issue that sometimes caused up to 5 minutes of downtime after powering off the active switch in a MS425 stack\nGeneral known issues\nClients authenticating via 802.1X with an access policy using hybrid authentication may not correctly log their RADIUS sessions\nClients that fail to pass RADIUS authentication and are connected to ports using access policies may get stuck in an authentication loop, possibly resulting in a switch reboot\nIn rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.\nLACP links may take an extended time to come back up when the Active Member of a stack reboots\nSome switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nCable tests may report incorrect cable lengths\nMs225 known issues\nMS225 switches may infrequently stop forwarding client traffic until the switch is rebooted\nMs35x known issues\nSwitches may experience an unexpected reboot (present since MS 15)\nMs355 known issues\nSwitches in stack configuration may experience some ports failing to reconnect after a firmware upgrade\nMs410 known issues\nSome MS410 switches may encounter alerts for fan failures that will eventually self-resolve\nMs425 known issues\nIn rare circumstances MS425 switches may encounter a software crash that results in a reboot\nSwitches in stack configurations may experience high CPU utilization in multicast scenarios that may result in network instability",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848513582\" id=\"toc-hId--248066218\">Switch firmware versions MS 18.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293183894\" id=\"toc-hId-1143559834\">New feature highlights</H4><UL><LI>Group Policy ACL on MS130 &amp; MS150</LI><LI>Maximum MAC support in MAC Allowlists</LI><LI>Multi-auth support for Guest, Critical, and failed VLANs with 802.1x limited access mode</LI><LI>Local Status Page connectivity diagnostics enhancements</LI><LI>Layer 2 multicast live tool</LI><LI>Traffic Mirroring: RSPAN &amp; VLAN Based SPAN</LI></UL><H4 id=\"toc-hId-449626441\" id=\"toc-hId--663894629\">General fixed issues</H4><UL><LI>Fixed a bug that caused an incorrect SNMP response of “0” when polling switches for ifInDiscards</LI><LI>Resolved an issue that caused frequent notifications about new DHCP servers that have mismatched VLANs/subnets</LI><LI>Fixed a bug that prevented switches from correctly flushing MAC addresses matched to a switch port after disabling or disconnecting the port</LI><LI>Resolved an issue that prevented some clients from accessing the Local Status Page via 1.1.1.100 and and switch.meraki.com while the network was configured for with Track-by-IP or Cloud Track</LI><LI>Resolved a bug that prevented MS250 and MS350 switches from correctly removing MAC addresses learned via AGGR when LAG ports were disabled</LI></UL><H4 id=\"toc-hId--2102530520\" id=\"toc-hId-1823618204\">Ms130 fixed issues</H4><UL><LI>Fixed a bug that caused some DNS response packets to be lost when DNS inspection was enabled</LI></UL><H4 id=\"toc-hId--359720185\" id=\"toc-hId-16163741\">Ms150 fixed issues</H4><UL><LI>Resolved an issue that caused degraded uplink speeds when an MS150 was connected to an MX device using an mgig port</LI><LI>Fixed a bug that caused occasional software crashes and reboots on MS150s in stack configurations</LI><LI>Fixed a bug that, in rare cases, could cause member switches in MS150 stacks with cross-stack LAG links to have incorrect MAC-to-port mappings</LI></UL><H4 id=\"toc-hId-1383090150\" id=\"toc-hId--1791290722\">Ms225 fixed issues</H4><UL><LI>Fixed a bug that occasionally caused software crashes and switch reboots when more than 8 hybrid auth clients were connected to the same port</LI></UL><H4 id=\"toc-hId--1169066811\" id=\"toc-hId-696222111\">Ms250 fixed issues</H4><UL><LI>Resolved an issue that caused ports to fail to connect after performing a cable test</LI><LI>Fixed a bug that sometimes caused switches enter a 'port not forwarding' state, where client devices were placed on the guest VLAN, and prevented the switch from sending RADIUS requests until rebooted</LI></UL><H4 id=\"toc-hId-573743524\" id=\"toc-hId--1111232352\">Ms35x fixed issues</H4><UL><LI>Resolved an issue that caused switchport LEDs to show an Amber light while the UI showed that the port is negotiating while using 2.5Gbps mgig ports</LI></UL><H4 id=\"toc-hId--1978413437\" id=\"toc-hId-1376280481\">Ms425 fixed issues</H4><UL><LI>Fixed a bug that sometimes caused core stack members to encounter MRMP failures, which resulted in the stack or the network going offline</LI><LI>Resolved an issue that sometimes caused up to 5 minutes of downtime after powering off the active switch in a MS425 stack</LI></UL><H4 id=\"toc-hId--235603102\" id=\"toc-hId--431173982\">General known issues</H4><UL><LI>Clients authenticating via 802.1X with an access policy using hybrid authentication may not correctly log their RADIUS sessions</LI><LI>Clients that fail to pass RADIUS authentication and are connected to ports using access policies may get stuck in an authentication loop, possibly resulting in a switch reboot</LI><LI>In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.</LI><LI>LACP links may take an extended time to come back up when the Active Member of a stack reboots</LI><LI>Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard</LI></UL><H4 id=\"toc-hId--808391910\" id=\"toc-hId--1007757846\">Ms120 known issues</H4><UL><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI><LI>Cable tests may report incorrect cable lengths</LI></UL><H4 id=\"toc-hId-934418425\" id=\"toc-hId-1479754987\">Ms225 known issues</H4><UL><LI>MS225 switches may infrequently stop forwarding client traffic until the switch is rebooted</LI></UL><H4 id=\"toc-hId--1617738536\" id=\"toc-hId--327699476\">Ms35x known issues</H4><UL><LI>Switches may experience an unexpected reboot (present since MS 15)</LI></UL><H4 id=\"toc-hId-125071799\" id=\"toc-hId--2135153939\">Ms355 known issues</H4><UL><LI>Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade</LI></UL><H4 id=\"toc-hId-1867882134\" id=\"toc-hId-352358894\">Ms410 known issues</H4><UL><LI>Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve</LI></UL><H4 id=\"toc-hId--684274827\" id=\"toc-hId--1455095569\">Ms425 known issues</H4><UL><LI>In rare circumstances MS425 switches may encounter a software crash that results in a reboot</LI><LI>Switches in stack configurations may experience high CPU utilization in multicast scenarios that may result in network instability</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:45Z"
+}

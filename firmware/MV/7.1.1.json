@@ -1,0 +1,33 @@
+{
+  "family": "MV",
+  "version": "7.1.1",
+  "title": "Camera firmware versions MV 7.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5522269",
+      "releaseType": "stable",
+      "announced": "2025-09-19T23:47:04.070-07:00",
+      "post_subject": "A new stable camera firmware is now available on Fri, 19 Sep 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-fri-19-sep-2025/ba-p/5522269"
+    }
+  ],
+  "changelog_comment_id": "5522270",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-09-20T01:24:52.822-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue that could cause missed motion events on MV84X",
+      "Resolved an issue causing minor recording disruption on MV84X after MV7.1 upgrade"
+    ],
+    "General": [
+      "Improved MV stability and performance due to optimized system processes"
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 cameras will run MV4.15"
+    ]
+  },
+  "text": "Camera firmware versions MV 7.1.1 changelog\nBug fixes\nResolved an issue that could cause missed motion events on MV84X\nResolved an issue causing minor recording disruption on MV84X after MV7.1 upgrade\nGeneral\nImproved MV stability and performance due to optimized system processes\nNotice\nWhen configured for this version, MV21 & MV71 cameras will run MV4.15",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848574279\" id=\"toc-hId--248042230\">Camera firmware versions MV 7.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293123197\" id=\"toc-hId-1143583822\">Bug fixes</H4><UL><LI>Resolved an issue that could cause missed motion events on MV84X</LI><LI>Resolved an issue causing minor recording disruption on MV84X after MV7.1 upgrade</LI></UL><H4 id=\"toc-hId-449687138\" id=\"toc-hId--663870641\">General</H4><UL><LI>Improved MV stability and performance due to optimized system processes</LI></UL><H4 id=\"toc-hId--2102469823\" id=\"toc-hId-1823642192\">Notice</H4><UL><LI>When configured for this version, MV21 &amp; MV71 cameras will run MV4.15</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:43Z"
+}

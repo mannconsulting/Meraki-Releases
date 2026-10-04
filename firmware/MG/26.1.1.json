@@ -1,0 +1,32 @@
+{
+  "family": "MG",
+  "version": "26.1.1",
+  "title": "Cellular gateways software versions MG 26.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5463234",
+      "releaseType": "beta",
+      "announced": "2026-03-18T22:47:03.672-07:00",
+      "post_subject": "A new beta cellularGateway firmware is now available on Wed, 18 Mar 2026",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cellulargateway-firmware-is-now-available-on-wed-18/ba-p/5463234"
+    }
+  ],
+  "changelog_comment_id": "5542764",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-04-03T06:25:36.448-07:00",
+  "sections": {
+    "Executive summary": [
+      "This is the first beta release for MG 26.1. It continues to expand the configuration and management capabilities across key areas including cellular geolocation, and more."
+    ],
+    "What's new": [
+      "Added API support for retrieving and configuring cellular geolocation on MG51(E) and MG52(E) appliances",
+      "Added API support for retrieving and configuring SIM band masks on MG51(E) and MG52(E) appliances",
+      "Added API support for retrieving serving tower information on MG41(E), MG51(E), and MG52(E) appliances",
+      "Added support for managing SIM card PIN codes on the device local status page on MG41(E), MG51(E), and MG52(E) appliances"
+    ]
+  },
+  "text": "Cellular gateways software versions MG 26.1.1 changelog\nExecutive summary\nThis is the first beta release for MG 26.1. It continues to expand the configuration and management capabilities across key areas including cellular geolocation, and more.\nWhat's new\nAdded API support for retrieving and configuring cellular geolocation on MG51(E) and MG52(E) appliances\nAdded API support for retrieving and configuring SIM band masks on MG51(E) and MG52(E) appliances\nAdded API support for retrieving serving tower information on MG41(E), MG51(E), and MG52(E) appliances\nAdded support for managing SIM card PIN codes on the device local status page on MG41(E), MG51(E), and MG52(E) appliances",
+  "html": "<DIV class=\"\"><STRONG>Cellular gateways&nbsp;software versions&nbsp;MG 26.1.1&nbsp;changelog</STRONG></DIV><DIV class=\"\"><H4 id=\"toc-hId--1342077191\">Executive summary</H4><UL><LI><P class=\"\">This is the first beta release for MG 26.1. It continues to expand the configuration and management capabilities across key areas including cellular geolocation, and more.</P></LI></UL><H4 id=\"toc-hId-1145435642\">What's new</H4><UL><LI><P class=\"\">Added API support for retrieving and configuring cellular geolocation on MG51(E) and MG52(E) appliances</P></LI><LI><P class=\"\">Added API support for retrieving and configuring SIM band masks on MG51(E) and MG52(E) appliances</P></LI><LI><P class=\"\">Added API support for retrieving serving tower information on MG41(E), MG51(E), and MG52(E) appliances</P></LI><LI><P class=\"\">Added support for managing SIM card PIN codes on the device local status page on MG41(E), MG51(E), and MG52(E) appliances</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:33Z"
+}

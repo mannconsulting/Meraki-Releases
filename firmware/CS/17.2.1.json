@@ -1,0 +1,57 @@
+{
+  "family": "CS",
+  "version": "17.2.1",
+  "title": "CS firmware versions CS 17.2.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5519682",
+      "releaseType": "stable",
+      "announced": "2025-03-24T11:47:04.704-07:00",
+      "post_subject": "A new stable switchCatalyst firmware is now available on Mon, 24 Mar 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-mon-24/ba-p/5519682"
+    }
+  ],
+  "changelog_comment_id": "5519683",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-03-24T16:58:07.073-07:00",
+  "sections": {
+    "Important notes": [
+      "Factory-default VLAN range is now 1-995, instead of 1-1000 as in previous firmware versions. Resetting the device to factory settings will apply this new VLAN range.",
+      "This version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New feature highlights": [
+      "Client Analytics",
+      "Device Uptime for MS390s",
+      "EEE (Energy Efficient Ethernet) Support",
+      "Multi-auth with support for guest/failed/critical",
+      "RADIUS Caching",
+      "Support for Multicast in Live Tool",
+      "VLAN to SGT mapping"
+    ],
+    "General fixed issues": [
+      "Introduced measures to significantly decrease occurrences of the Meraki container becoming trapped in a reboot loop while switches maintain data traffic flow. This scenario may still occur in rare cases.",
+      "Corrected an issue that caused stack ports to be incorrectly displayed as \"Disconnected\" after a stack member was rebooted",
+      "Fixed a bug that caused the Static Gateway IP to display as '0.0.0.0' in the L3 Routing Switch tab",
+      "Resolved an issue that occasionally caused uplink ports to become stuck in an Uninitialized state",
+      "Fixed a bug that caused a brief period of L3 traffic loss after the active member of a stack failed over"
+    ],
+    "Ms390 fixed issues": [
+      "Resolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease",
+      "Fixed a bug that would infrequently prevent MS390 stacks from converging after a failover"
+    ],
+    "C9300 known issues": [
+      "Some C9300X stacks have been reported to fail due to memory exhaustion, requiring an ios restart to restore service"
+    ],
+    "General known issues": [
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)"
+    ],
+    "Ms390 known issues": [
+      "In rare circumstances, MS390 stacks may display UDLD loop detection alerts that cannot be cleared by cycling the looping port",
+      "MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot"
+    ]
+  },
+  "text": "CS firmware versions CS 17.2.1 changelog\nImportant notes\nFactory-default VLAN range is now 1-995, instead of 1-1000 as in previous firmware versions. Resetting the device to factory settings will apply this new VLAN range.\nThis version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.\nNew feature highlights\nClient Analytics\nDevice Uptime for MS390s\nEEE (Energy Efficient Ethernet) Support\nMulti-auth with support for guest/failed/critical\nRADIUS Caching\nSupport for Multicast in Live Tool\nVLAN to SGT mapping\nGeneral fixed issues\nIntroduced measures to significantly decrease occurrences of the Meraki container becoming trapped in a reboot loop while switches maintain data traffic flow. This scenario may still occur in rare cases.\nCorrected an issue that caused stack ports to be incorrectly displayed as \"Disconnected\" after a stack member was rebooted\nFixed a bug that caused the Static Gateway IP to display as '0.0.0.0' in the L3 Routing Switch tab\nResolved an issue that occasionally caused uplink ports to become stuck in an Uninitialized state\nFixed a bug that caused a brief period of L3 traffic loss after the active member of a stack failed over\nMs390 fixed issues\nResolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease\nFixed a bug that would infrequently prevent MS390 stacks from converging after a failover\nC9300 known issues\nSome C9300X stacks have been reported to fail due to memory exhaustion, requiring an ios restart to restore service\nGeneral known issues\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nMs390 known issues\nIn rare circumstances, MS390 stacks may display UDLD loop detection alerts that cannot be cleared by cycling the looping port\nMS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1846847331\" id=\"toc-hId--248753336\">CS firmware versions CS 17.2.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294850145\" id=\"toc-hId-1142872716\">Important notes</H4><UL><LI>Factory-default VLAN range is now 1-995, instead of 1-1000 as in previous firmware versions. Resetting the device to factory settings will apply this new VLAN range.</LI><LI>This version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-447960190\" id=\"toc-hId--664581747\">New feature highlights</H4><UL><LI>Client Analytics</LI><LI>Device Uptime for MS390s</LI><LI>EEE (Energy Efficient Ethernet) Support</LI><LI>Multi-auth with support for guest/failed/critical</LI><LI>RADIUS Caching</LI><LI>Support for Multicast in Live Tool</LI><LI>VLAN to SGT mapping</LI></UL><H4 id=\"toc-hId--2104196771\" id=\"toc-hId-1822931086\">General fixed issues</H4><UL><LI>Introduced measures to significantly decrease occurrences of the Meraki container becoming trapped in a reboot loop while switches maintain data traffic flow. This scenario may still occur in rare cases.</LI><LI>Corrected an issue that caused stack ports to be incorrectly displayed as \"Disconnected\" after a stack member was rebooted</LI><LI>Fixed a bug that caused the Static Gateway IP to display as '0.0.0.0' in the L3 Routing Switch tab</LI><LI>Resolved an issue that occasionally caused uplink ports to become stuck in an Uninitialized state</LI><LI>Fixed a bug that caused a brief period of L3 traffic loss after the active member of a stack failed over</LI></UL><H4 id=\"toc-hId--361386436\" id=\"toc-hId-15476623\">Ms390 fixed issues</H4><UL><LI>Resolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease</LI><LI>Fixed a bug that would infrequently prevent MS390 stacks from converging after a failover</LI></UL><H4 id=\"toc-hId-1381423899\" id=\"toc-hId--1791977840\">C9300 known issues</H4><UL><LI>Some C9300X stacks have been reported to fail due to memory exhaustion, requiring an ios restart to restore service</LI></UL><H4 id=\"toc-hId--1170733062\" id=\"toc-hId-695534993\">General known issues</H4><UL><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI></UL><H4 id=\"toc-hId-572077273\" id=\"toc-hId--1111919470\">Ms390 known issues</H4><UL><LI>In rare circumstances, MS390 stacks may display UDLD loop detection alerts that cannot be cleared by cycling the looping port</LI><LI>MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:57Z"
+}

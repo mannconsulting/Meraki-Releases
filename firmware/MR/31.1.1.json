@@ -1,0 +1,49 @@
+{
+  "family": "MR",
+  "version": "31.1.1",
+  "title": "Wireless firmware versions MR 31.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5515353",
+      "releaseType": "beta",
+      "announced": "2024-05-21T11:47:05.009-07:00",
+      "post_subject": "A new beta wireless firmware is now available on Tue, 21 May 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-tue-21-may-2024/ba-p/5515353"
+    }
+  ],
+  "changelog_comment_id": "5515354",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-05-23T02:50:54.944-07:00",
+  "sections": {
+    "Important note": [
+      "WEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)",
+      "Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will not upgrade if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)"
+    ],
+    "New feature": [
+      "Support RADSec with Tunneled SSIDs(https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec)",
+      "Support RADSec keep alives (https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec)",
+      "Support CoA with RADSec (https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec)",
+      "Support to set an IP address for NAS-ID(https://documentation.meraki.com/MR/Access_Control/MR_Meraki_RADIUS_2.0)",
+      "WPA3 Transition mode for 802.1X (https://documentation.meraki.com/MR/Wi-Fi_Basics_and_Best_Practices/WPA3_Encryption_and_Configuration_Guide)",
+      "AP Auto Locate (https://documentation.meraki.com/MR/AP_Auto_Locate)",
+      "Assa Abloy (https://documentation.meraki.com/MR/Assa_Abloy%E2%80%99s_Zigbee_Integration_with_MRs)",
+      "SGT Enhancements (https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Adaptive_Policy_MR_Configuration_Guide)",
+      "Rogue Detection Outside Regulatory Domain (https://documentation.meraki.com/MR/Monitoring_and_Reporting/Air_Marshal)",
+      "Adding 6 GHz Radio support for 20 Countries"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "Roaming-related issues with 802.11r configured SSID",
+      "In high-capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+      "Clients may experience intermittent re-auth issues on MR45/55 APs",
+      "AFC not available on CW9163E APs"
+    ]
+  },
+  "text": "Wireless firmware versions MR 31.1.1 changelog\nImportant note\nWEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)\nWi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will not upgrade if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)\nNew feature\nSupport RADSec with Tunneled SSIDs(https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec)\nSupport RADSec keep alives (https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec)\nSupport CoA with RADSec (https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec)\nSupport to set an IP address for NAS-ID(https://documentation.meraki.com/MR/Access_Control/MR_Meraki_RADIUS_2.0)\nWPA3 Transition mode for 802.1X (https://documentation.meraki.com/MR/Wi-Fi_Basics_and_Best_Practices/WPA3_Encryption_and_Configuration_Guide)\nAP Auto Locate (https://documentation.meraki.com/MR/AP_Auto_Locate)\nAssa Abloy (https://documentation.meraki.com/MR/Assa_Abloy%E2%80%99s_Zigbee_Integration_with_MRs)\nSGT Enhancements (https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Adaptive_Policy_MR_Configuration_Guide)\nRogue Detection Outside Regulatory Domain (https://documentation.meraki.com/MR/Monitoring_and_Reporting/Air_Marshal)\nAdding 6 GHz Radio support for 20 Countries\nBug fixes\nGeneral stability and performance improvements\nRoaming-related issues with 802.11r configured SSID\nIn high-capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)\nClients may experience intermittent re-auth issues on MR45/55 APs\nAFC not available on CW9163E APs",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844048026\" id=\"toc-hId--248875475\">Wireless firmware versions MR 31.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297649450\" id=\"toc-hId-1142750577\">Important note</H4><UL><LI>WEP deprecation (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs</A>)</LI><LI>Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will not upgrade if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi wave 2 and older MRs. (<A href=\"https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ</A>)</LI></UL><H4 id=\"toc-hId-445160885\" id=\"toc-hId--664703886\">New feature</H4><UL><LI>Support RADSec with Tunneled SSIDs(<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec</A>)</LI><LI>Support RADSec keep alives (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec</A>)</LI><LI>Support CoA with RADSec (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/MR_RADSec</A>)</LI><LI>Support to set an IP address for NAS-ID(<A href=\"https://documentation.meraki.com/MR/Access_Control/MR_Meraki_RADIUS_2.0\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Access_Control/MR_Meraki_RADIUS_2.0</A>)</LI><LI>WPA3 Transition mode for 802.1X (<A href=\"https://documentation.meraki.com/MR/Wi-Fi_Basics_and_Best_Practices/WPA3_Encryption_and_Configuration_Guide\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Wi-Fi_Basics_and_Best_Practices/WPA3_Encryption_and_Configuration_Guide</A>)</LI><LI>AP Auto Locate (<A href=\"https://documentation.meraki.com/MR/AP_Auto_Locate\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/AP_Auto_Locate</A>)</LI><LI>Assa Abloy (<A href=\"https://documentation.meraki.com/MR/Assa_Abloy%E2%80%99s_Zigbee_Integration_with_MRs\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Assa_Abloy%E2%80%99s_Zigbee_Integration_with_MRs</A>)</LI><LI>SGT Enhancements (<A href=\"https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Adaptive_Policy_MR_Configuration_Guide\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/General_Administration/Cross-Platform_Content/Adaptive_Policy_MR_Configuration_Guide</A>)</LI><LI>Rogue Detection Outside Regulatory Domain (<A href=\"https://documentation.meraki.com/MR/Monitoring_and_Reporting/Air_Marshal\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Monitoring_and_Reporting/Air_Marshal</A>)</LI><LI>Adding 6 GHz Radio support for 20 Countries</LI></UL><H4 id=\"toc-hId--2106996076\" id=\"toc-hId-1822808947\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>Roaming-related issues with 802.11r configured SSID</LI><LI>In high-capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</LI></UL><H4 id=\"toc-hId--364185741\" id=\"toc-hId-15354484\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI><LI>Clients may experience intermittent re-auth issues on MR45/55 APs</LI><LI>AFC not available on CW9163E APs</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:18Z"
+}

@@ -1,0 +1,60 @@
+{
+  "family": "MX",
+  "version": "19.1.5",
+  "title": "Security appliance firmware versions MX 19.1.5 changelog",
+  "announcements": [
+    {
+      "post_id": "5518042",
+      "releaseType": "candidate",
+      "announced": "2024-10-31T12:47:06.210-07:00",
+      "post_subject": "A new candidate appliance firmware is now available on Thu, 31 Oct 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-thu-31/ba-p/5518042"
+    }
+  ],
+  "changelog_comment_id": "5518043",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-10-31T12:53:57.561-07:00",
+  "sections": {
+    "Important notice": [
+      "As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms."
+    ],
+    "What's new": [
+      "Added support for Advanced Security features on vMX appliances in routed mode",
+      "eBGP (CloudWAN Support) for vMX-XL appliances",
+      "Enhanced event logging for vMX-XL appliances",
+      "Enhanced dashboard tools for vMX-XL appliances",
+      "Enhanced uplink statistics for vMX-XL appliances",
+      "Enhanced client tracking for vMX-XL appliances",
+      "Enhanced fragmentation support for vMX-XL appliances",
+      "Enhanced security center reporting for vMX-XL appliances",
+      "Enhanced route tracking for vMX-XL appliances",
+      "Added API support for configuring VPN NAT Translation",
+      "Added API support for configuring Multicast Forwarding",
+      "Added API support for configuring Split DNS"
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9.",
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.11."
+    ],
+    "Bug fixes": [
+      "All",
+      "Resolved an issue that could result in consecutive Dashboard-initiated reboots triggering MX appliances to fallback to an older version of their configuration",
+      "Improved the management of network flows when source ports are exhausted. This will greatly reduce the impact of port exhaustion on network clients.",
+      "Small",
+      "Fixed an issue that resulted in client traffic being dropped for clients connected to ports with 802.1X port authentication on MX67(C,W) and MX68(W,CW) appliances after port or VLAN-based group policy configuration changes were made.",
+      "Corrected an issue that could result in the association time for wireless clients connected to Z3(C), Z4(C), MX67(W), and MX68(W,CW) appliances incorrectly reporting as “-”.",
+      "Resolved an MX 19.1 performance regression affecting Z4(C) appliances.",
+      "Medium and large",
+      "Corrected an issue that resulted in MX75, MX85, MX95, MX105, MX250, and MX450 appliances failing to forward inbound GRE traffic to LAN clients."
+    ],
+    "Known issues": [
+      "During the upgrade process, MX appliances upgrading from versions prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19.",
+      "There is an increased risk of encountering device stability and performance issues on all platforms and across all configurations."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 19.1.5 changelog\nImportant notice\nAs of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.\nWhat's new\nAdded support for Advanced Security features on vMX appliances in routed mode\neBGP (CloudWAN Support) for vMX-XL appliances\nEnhanced event logging for vMX-XL appliances\nEnhanced dashboard tools for vMX-XL appliances\nEnhanced uplink statistics for vMX-XL appliances\nEnhanced client tracking for vMX-XL appliances\nEnhanced fragmentation support for vMX-XL appliances\nEnhanced security center reporting for vMX-XL appliances\nEnhanced route tracking for vMX-XL appliances\nAdded API support for configuring VPN NAT Translation\nAdded API support for configuring Multicast Forwarding\nAdded API support for configuring Split DNS\nLegacy products notice\nWhen configured for this version, Z1 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.11.\nBug fixes\nAll\nResolved an issue that could result in consecutive Dashboard-initiated reboots triggering MX appliances to fallback to an older version of their configuration\nImproved the management of network flows when source ports are exhausted. This will greatly reduce the impact of port exhaustion on network clients.\nSmall\nFixed an issue that resulted in client traffic being dropped for clients connected to ports with 802.1X port authentication on MX67(C,W) and MX68(W,CW) appliances after port or VLAN-based group policy configuration changes were made.\nCorrected an issue that could result in the association time for wireless clients connected to Z3(C), Z4(C), MX67(W), and MX68(W,CW) appliances incorrectly reporting as “-”.\nResolved an MX 19.1 performance regression affecting Z4(C) appliances.\nMedium and large\nCorrected an issue that resulted in MX75, MX85, MX95, MX105, MX250, and MX450 appliances failing to forward inbound GRE traffic to LAN clients.\nKnown issues\nDuring the upgrade process, MX appliances upgrading from versions prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19.\nThere is an increased risk of encountering device stability and performance issues on all platforms and across all configurations.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845802757\" id=\"toc-hId--248789017\">Security appliance firmware versions MX 19.1.5 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295894719\" id=\"toc-hId-1142837035\">Important notice</H4><UL><LI>As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.</LI></UL><H4 id=\"toc-hId-446915616\" id=\"toc-hId--664617428\">What's new</H4><UL><LI>Added support for Advanced Security features on vMX appliances in routed mode</LI><LI>eBGP (CloudWAN Support) for vMX-XL appliances</LI><LI>Enhanced event logging for vMX-XL appliances</LI><LI>Enhanced dashboard tools for vMX-XL appliances</LI><LI>Enhanced uplink statistics for vMX-XL appliances</LI><LI>Enhanced client tracking for vMX-XL appliances</LI><LI>Enhanced fragmentation support for vMX-XL appliances</LI><LI>Enhanced security center reporting for vMX-XL appliances</LI><LI>Enhanced route tracking for vMX-XL appliances</LI><LI>Added API support for configuring VPN NAT Translation</LI><LI>Added API support for configuring Multicast Forwarding</LI><LI>Added API support for configuring Split DNS</LI></UL><H4 id=\"toc-hId--2105241345\" id=\"toc-hId-1822895405\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.11.</LI></UL><H4 id=\"toc-hId--362431010\" id=\"toc-hId-15440942\">Bug fixes</H4><P>All</P><UL><LI>Resolved an issue that could result in consecutive Dashboard-initiated reboots triggering MX appliances to fallback to an older version of their configuration</LI><LI>Improved the management of network flows when source ports are exhausted. This will greatly reduce the impact of port exhaustion on network clients.</LI></UL><P>Small</P><UL><LI>Fixed an issue that resulted in client traffic being dropped for clients connected to ports with 802.1X port authentication on MX67(C,W) and MX68(W,CW) appliances after port or VLAN-based group policy configuration changes were made.</LI><LI>Corrected an issue that could result in the association time for wireless clients connected to Z3(C), Z4(C), MX67(W), and MX68(W,CW) appliances incorrectly reporting as “-”.</LI><LI>Resolved an MX 19.1 performance regression affecting Z4(C) appliances.</LI></UL><P>Medium and large</P><UL><LI>Corrected an issue that resulted in MX75, MX85, MX95, MX105, MX250, and MX450 appliances failing to forward inbound GRE traffic to LAN clients.</LI></UL><H4 id=\"toc-hId-1380379325\" id=\"toc-hId--1792013521\">Known issues</H4><UL><LI><FONT color=\"#FF0000\">During the upgrade process, MX appliances upgrading from versions prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19.</FONT></LI><LI>There is an increased risk of encountering device stability and performance issues on all platforms and across all configurations.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:05Z"
+}

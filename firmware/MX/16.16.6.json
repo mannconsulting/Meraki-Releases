@@ -1,0 +1,44 @@
+{
+  "family": "MX",
+  "version": "16.16.6",
+  "title": "Security appliance firmware versions MX 16.16.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5506058",
+      "releaseType": "stable",
+      "announced": "2022-09-28T15:47:05.312-07:00",
+      "post_subject": "A new stable appliance firmware is now available on Wed, 28 Sep 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-wed-28-sep/ba-p/5506058"
+    }
+  ],
+  "changelog_comment_id": "5506059",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-09-30T05:36:24.925-07:00",
+  "sections": {
+    "Important notice": [
+      "While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.",
+      "HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1, MX60, MX60W, MX80, and MX90 devices will run MX 14.56."
+    ],
+    "Bug fixes": [
+      "Stability improvements for MX67(C,W), MX68(W,CW), MX75, MX85, and vMX appliances.",
+      "Resolved an issue that could result in period packet loss on Z3(C) appliances when 802.1X port authentication was configured.",
+      "Corrected an issue that could result in scheduled group policy firewall rules still being enforced when outside of the scheduled time.",
+      "Resolved an issue that resulted in MX67W and MX68(W,CW) appliances being unable to use more than 20MHz-wide wireless channels when the regulatory domain was configured as Japan.",
+      "Fixed a rare MX 16.16.3 regression that could result in MX appliances entering into a reboot loop when 1) the MX has a large number of AutoVPN routes and 2) the AutoVPN routes are shared across multiple hubs.",
+      "Corrected an issue that resulted in increased device utilization when non-Meraki VPN traffic was present. This fix reintroduces a bug that results in non-Meraki VPN traffic not respecting configured traffic shaping rules."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to MX 15 regressions, USB cellular connectivity may be less reliable on some modems",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 16.16.6 changelog\nImportant notice\nWhile Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.\nHTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.\nLegacy products notice\nWhen configured for this version, Z1, MX60, MX60W, MX80, and MX90 devices will run MX 14.56.\nBug fixes\nStability improvements for MX67(C,W), MX68(W,CW), MX75, MX85, and vMX appliances.\nResolved an issue that could result in period packet loss on Z3(C) appliances when 802.1X port authentication was configured.\nCorrected an issue that could result in scheduled group policy firewall rules still being enforced when outside of the scheduled time.\nResolved an issue that resulted in MX67W and MX68(W,CW) appliances being unable to use more than 20MHz-wide wireless channels when the regulatory domain was configured as Japan.\nFixed a rare MX 16.16.3 regression that could result in MX appliances entering into a reboot loop when 1) the MX has a large number of AutoVPN routes and 2) the AutoVPN routes are shared across multiple hubs.\nCorrected an issue that resulted in increased device utilization when non-Meraki VPN traffic was present. This fix reintroduces a bug that results in non-Meraki VPN traffic not respecting configured traffic shaping rules.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to MX 15 regressions, USB cellular connectivity may be less reliable on some modems\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nClient traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1818277669\" id=\"toc-hId--249772083\">Security appliance firmware versions MX 16.16.6 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1323419807\" id=\"toc-hId-1141853969\">Important notice</H4><UL><LI>While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.</LI><LI>HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-419390528\" id=\"toc-hId--665600494\">Legacy products notice</H4><UL><LI>When configured for this version, Z1, MX60, MX60W, MX80, and MX90 devices will run MX 14.56.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2132766433\" id=\"toc-hId-1821912339\">Bug fixes</H4><UL><LI>Stability improvements for MX67(C,W), MX68(W,CW), MX75, MX85, and vMX appliances.</LI><LI>Resolved an issue that could result in period packet loss on Z3(C) appliances when 802.1X port authentication was configured.</LI><LI>Corrected an issue that could result in scheduled group policy firewall rules still being enforced when outside of the scheduled time.</LI><LI>Resolved an issue that resulted in MX67W and MX68(W,CW) appliances being unable to use more than 20MHz-wide wireless channels when the regulatory domain was configured as Japan.</LI><LI>Fixed a rare MX 16.16.3 regression that could result in MX appliances entering into a reboot loop when 1) the MX has a large number of AutoVPN routes and 2) the AutoVPN routes are shared across multiple hubs.</LI><LI>Corrected an issue that resulted in increased device utilization when non-Meraki VPN traffic was present. This fix reintroduces a bug that results in non-Meraki VPN traffic not respecting configured traffic shaping rules.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--389956098\" id=\"toc-hId-14457876\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to MX 15 regressions, USB cellular connectivity may be less reliable on some modems</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:56Z"
+}

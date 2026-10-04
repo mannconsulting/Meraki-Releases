@@ -1,0 +1,43 @@
+{
+  "family": "MV",
+  "version": "7.3.1",
+  "title": "Cameras software versions MV 7.3.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5563900",
+      "releaseType": "Recommended Release",
+      "announced": "2026-07-13T15:00:05.519-07:00",
+      "post_subject": "A new Recommended Release MV Cameras firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/ba-p/5563900"
+    }
+  ],
+  "changelog_comment_id": "5564889",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-07-19T14:55:12.649-07:00",
+  "sections": {
+    "New": [
+      "Added support for Cross Camera Tracking"
+    ],
+    "Bug fixes": [
+      "Resolved an issue where some services could restart unexpectedly",
+      "Improved performance and reliability for MV84X cameras",
+      "Resolved an issue where Video Clip API could fail to respond"
+    ],
+    "General": [
+      "Enhanced database reliability and efficiency",
+      "General stability and performance improvements",
+      "Improved object detection performance"
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 cameras will run MV4.15",
+      "MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches"
+    ],
+    "Other": [
+      "https://documentation.meraki.com/IoT/MV_-_Smart_Cameras/Operate_and_Maintain/Viewing_Video/Vision_Portal%3A_Cross-camera_Tracking"
+    ]
+  },
+  "text": "Cameras software versions MV 7.3.1 changelog\nNew\nAdded support for Cross Camera Tracking\nBug fixes\nResolved an issue where some services could restart unexpectedly\nImproved performance and reliability for MV84X cameras\nResolved an issue where Video Clip API could fail to respond\nGeneral\nEnhanced database reliability and efficiency\nGeneral stability and performance improvements\nImproved object detection performance\nNotice\nWhen configured for this version, MV21 & MV71 cameras will run MV4.15\nMV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches\nOther\nhttps://documentation.meraki.com/IoT/MV_-_Smart_Cameras/Operate_and_Maintain/Viewing_Video/Vision_Portal%3A_Cross-camera_Tracking",
+  "html": "<H3 id=\"toc-hId-456781820\">Cameras<SPAN>&nbsp;</SPAN>software versions<SPAN>&nbsp;</SPAN>MV 7.3.1<SPAN>&nbsp;</SPAN>changelog</H3><DIV class=\"\"><H4 id=\"toc-hId-1147343294\">New</H4><UL><LI><P class=\"\">Added support for Cross Camera Tracking</P></LI></UL><H4 id=\"toc-hId--660111169\">Bug fixes</H4><UL><LI><P class=\"\">Resolved an issue where some services could restart unexpectedly</P></LI><LI><P class=\"\">Improved performance and reliability for MV84X cameras</P></LI><LI><P class=\"\">Resolved an issue where Video Clip API could fail to respond</P></LI></UL><H4 id=\"toc-hId-1827401664\">General</H4><UL><LI><P class=\"\">Enhanced database reliability and efficiency</P></LI><LI><P class=\"\">General stability and performance improvements</P></LI><LI><P class=\"\">Improved object detection performance</P></LI></UL><H4 id=\"toc-hId-19947201\">Notice</H4><UL><LI><P class=\"\">When configured for this version, MV21 &amp; MV71 cameras will run MV4.15</P></LI><LI><P class=\"\">MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches</P></LI></UL><H4 id=\"toc-hId--1787507262\">Other</H4><UL><LI><P class=\"\"><A href=\"https://documentation.meraki.com/IoT/MV_-_Smart_Cameras/Operate_and_Maintain/Viewing_Video/Vision_Portal%3A_Cross-camera_Tracking\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/IoT/MV_-_Smart_Cameras/Operate_and_Maintain/Viewing_Video/Vision_Portal%3A_Cross-camera_Tracking</A></P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:26Z"
+}

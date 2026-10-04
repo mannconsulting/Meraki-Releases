@@ -1,0 +1,43 @@
+{
+  "family": "MX",
+  "version": "16.16.7",
+  "title": "Security appliance firmware versions MX 16.16.7 changelog",
+  "announcements": [
+    {
+      "post_id": "5507192",
+      "releaseType": "stable",
+      "announced": "2022-11-16T18:47:17.161-08:00",
+      "post_subject": "A new stable appliance firmware is now available on Wed, 16 Nov 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-wed-16-nov/ba-p/5507192"
+    }
+  ],
+  "changelog_comment_id": "5507193",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-11-17T00:58:54.315-08:00",
+  "sections": {
+    "Important notice": [
+      "While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.",
+      "HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 and MX80 appliances will run MX 14.56."
+    ],
+    "Bug fixes": [
+      "Corrected an issue that could result in an inconsistent connection to the Cisco Umbrella service when Umbrella Protection was configured.",
+      "MX appliances will now always connect to Active Directory servers using DCOM version 5.7. This should help resolve errors when communicating with Active Directory servers using more recent versions of software.",
+      "Corrected an issue that could result in the Dashboard reporting of the Active Directory server status always showing a failed connection.",
+      "Resolved a rare issue that could result in traffic being misclassified by NBAR.",
+      "Stability improvements for VMX-L appliances deployed in the Umbrella Cloud."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to MX 15 regressions, USB cellular connectivity may be less reliable on some modems",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 16.16.7 changelog\nImportant notice\nWhile Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.\nHTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.\nLegacy products notice\nWhen configured for this version, Z1 and MX80 appliances will run MX 14.56.\nBug fixes\nCorrected an issue that could result in an inconsistent connection to the Cisco Umbrella service when Umbrella Protection was configured.\nMX appliances will now always connect to Active Directory servers using DCOM version 5.7. This should help resolve errors when communicating with Active Directory servers using more recent versions of software.\nCorrected an issue that could result in the Dashboard reporting of the Active Directory server status always showing a failed connection.\nResolved a rare issue that could result in traffic being misclassified by NBAR.\nStability improvements for VMX-L appliances deployed in the Umbrella Cloud.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to MX 15 regressions, USB cellular connectivity may be less reliable on some modems\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nClient traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1819088006\" id=\"toc-hId--249741213\">Security appliance firmware versions MX 16.16.7 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1322609470\" id=\"toc-hId-1141884839\">Important notice</H4><UL><LI>While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.</LI><LI>HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-420200865\" id=\"toc-hId--665569624\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 and MX80 appliances will run MX 14.56.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2131956096\" id=\"toc-hId-1821943209\">Bug fixes</H4><UL><LI>Corrected an issue that could result in an inconsistent connection to the Cisco Umbrella service when Umbrella Protection was configured.</LI><LI>MX appliances will now always connect to Active Directory servers using DCOM version 5.7. This should help resolve errors when communicating with Active Directory servers using more recent versions of software.</LI><LI>Corrected an issue that could result in the Dashboard reporting of the Active Directory server status always showing a failed connection.</LI><LI>Resolved a rare issue that could result in traffic being misclassified by NBAR.</LI><LI>Stability improvements for VMX-L appliances deployed in the Umbrella Cloud.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--389145761\" id=\"toc-hId-14488746\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to MX 15 regressions, USB cellular connectivity may be less reliable on some modems</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:52Z"
+}

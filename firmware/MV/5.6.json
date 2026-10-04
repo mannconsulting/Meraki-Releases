@@ -1,0 +1,36 @@
+{
+  "family": "MV",
+  "version": "5.6",
+  "title": "Camera firmware versions MV 5.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5514744",
+      "releaseType": "beta",
+      "announced": "2024-03-29T11:47:05.995-07:00",
+      "post_subject": "A new beta camera firmware is now available on Fri, 29 Mar 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-fri-29-mar-2024/ba-p/5514744"
+    }
+  ],
+  "changelog_comment_id": "5514745",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-03-30T02:07:53.613-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue that may prevent motion recap images from loading correctly",
+      "Resolved an issue that led to the misclassification of Bikes in Attribute Search",
+      "Vehicle subtype exposed on MV MQTT stream for vehicle detection models",
+      "Resolved an issue that could lead to software faults on MV2",
+      "Resolved an issue with gain settings on MV2 Microphone"
+    ],
+    "General": [
+      "Stability improvements to cloud video streaming",
+      "Improved colour accuracy in Motion Recap Image service",
+      "Stability improvements to Motion Recap Image service",
+      "Stability improvements and bug fixes for MV MQTT features"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.6 changelog\nBug fixes\nResolved an issue that may prevent motion recap images from loading correctly\nResolved an issue that led to the misclassification of Bikes in Attribute Search\nVehicle subtype exposed on MV MQTT stream for vehicle detection models\nResolved an issue that could lead to software faults on MV2\nResolved an issue with gain settings on MV2 Microphone\nGeneral\nStability improvements to cloud video streaming\nImproved colour accuracy in Motion Recap Image service\nStability improvements to Motion Recap Image service\nStability improvements and bug fixes for MV MQTT features",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1843870155\" id=\"toc-hId--248901452\">Camera firmware versions MV 5.6 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297827321\" id=\"toc-hId-1142724600\">Bug fixes</H4><UL><LI>Resolved an issue that may prevent motion recap images from loading correctly</LI><LI>Resolved an issue that led to the misclassification of Bikes in Attribute Search</LI><LI>Vehicle subtype exposed on MV MQTT stream for vehicle detection models</LI><LI>Resolved an issue that could lead to software faults on MV2</LI><LI>Resolved an issue with gain settings on MV2 Microphone</LI></UL><H4 id=\"toc-hId-444983014\" id=\"toc-hId--664729863\">General</H4><UL><LI>Stability improvements to cloud video streaming</LI><LI>Improved colour accuracy in Motion Recap Image service</LI><LI>Stability improvements to Motion Recap Image service</LI><LI>Stability improvements and bug fixes for MV MQTT features</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:22Z"
+}

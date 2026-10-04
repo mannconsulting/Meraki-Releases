@@ -1,0 +1,115 @@
+{
+  "family": "MS",
+  "version": "15.18",
+  "title": "Switch firmware versions MS 15.18 changelog",
+  "announcements": [
+    {
+      "post_id": "5507402",
+      "releaseType": "candidate",
+      "announced": "2022-11-30T15:47:06.805-08:00",
+      "post_subject": "A new candidate switch firmware is now available on Wed, 30 Nov 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-wed-30-nov/ba-p/5507402"
+    }
+  ],
+  "changelog_comment_id": "5507403",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-12-01T00:38:53.260-08:00",
+  "sections": {
+    "preamble": [
+      "Half a dozen MS390 fixes and reorganised issue section:"
+    ],
+    "Alerts": [
+      "HTTP proxy is no longer supported on MS 15+. Nodes that use HTTP proxy without any other means to connect to dashboard may fail to connect.",
+      "MS390 upgrades to this version will result in a full system reload",
+      "MS390 series switches can only downgrade to MS 12 with an incremental step to MS 14"
+    ],
+    "New features": [
+      "STP anomaly detection support for MS390 series switches",
+      "IPv6 static routing support for MS390 series switches",
+      "Additional client analytics added for MS390 series switches",
+      "Meraki authentication support for MS390 series switches",
+      "Alternate Management Interface (AMI) support for MS390 series switches",
+      "UDLD support for MS390 series switches",
+      "Group policy ACL support for MS390 series switches",
+      "IPv6 management interface support",
+      "URL redirect support for MS390 series switches",
+      "UPoE (802.3bt) support for MS390 series switches",
+      "Critical/failed authentication support for MS390 series switches",
+      "Multi-auth with voice VLAN bypass support",
+      "MAC flap detection support for MS390 series switches",
+      "Stack power is supported by default for MS390 series switches",
+      "Netflow and Encrypted Traffic Analytics (ETA) support for MS390s"
+    ],
+    "Bug fixes": [
+      "MS390s with DHCP configurations for over 100 SVIs will fail to apply (present since MS 15.17)",
+      "Collecting out-of-band logs on the local status page for MS390s may result in the management plane restarting (present since MS 15.8)",
+      "MS390s may reboot with incomplete configurations for URL redirection, requiring reconfiguration (present since MS 15.15)",
+      "MS390 SNMP walks for \"IfAlias\" return empty values (present since MS 14)",
+      "MS390 ports can enter an error-disabled state and not recover without a port bounce (always present)",
+      "MS390s authenticating over 350 dot1x clients at the same time may see its management connection flap (present since MS 15.4)"
+    ],
+    "General known issues": [
+      "AMI IP addresses do not send gratuitous ARP packets which can lead to packet loss if the AMI address has aged out in the network",
+      "Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)",
+      "Cross-stack LACP bundles experiencing a switch reboot will cause the remaining online port to experience an outage for up to 30 seconds. The same is seen again when the switch comes back online (present since MS 10)",
+      "Deleting an SVI on a stack results in the stack's highest numbered VLAN which is sharing the same RFC 1918 address to have an incorrect next-hop VLAN (present since MS 14.33)",
+      "Enabling NAT detection may cause issues with TCP streams resulting in pages failing to load entirely or taking longer than usual to load (present since MS 14)",
+      "Loops can be seen when rebooting a stack member containing a cross-stack lag port (always present)",
+      "Sporadically, SNMP walks will fail by not increasing the OID (present since MS 14.13)",
+      "Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log",
+      "The next-hop port may be incorrect on L3 stacks and believed to be the result of client flapping between ports (present since MS 14.32)",
+      "mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.",
+      "Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)"
+    ],
+    "Ms120 known issues": [
+      "In rare instances, switches may return empty packet captures until they are rebooted",
+      "Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)"
+    ],
+    "Ms120/125 known issues": [
+      "Ports with an odd-numbered MTU value fail to initialize (predates MS 11)"
+    ],
+    "Ms120/220 known issues": [
+      "Switches will never move a RADIUS server's connectivity status to available if it was ever lost resulting in all authentications being placed into the critical auth VLAN (present since MS 14.32)"
+    ],
+    "Ms125 known issues": [
+      "The local status page cannot be accessed from the management port of MS125s (always present)"
+    ],
+    "Ms210/225/350/355/425/450 known issues": [
+      "In large L2 networks experiencing frequent STP TCs can become fully unresponsive (present since MS 15)"
+    ],
+    "Ms350/355 known issues": [
+      "Enabling Combined Power results in events being logged once per minute (present since MS 11)"
+    ],
+    "Ms350x/355 known issues": [
+      "Switches do not negotiate UPoE over LLDP correctly (always present)"
+    ],
+    "Ms390 known issues": [
+      "\"Port Up/Down\" events will generate an event log for each stack member",
+      "Adding additional ports to a port bundle will cause the entire bundle to be reconfigured causing traffic loss (always present)",
+      "Fixed IP assignments are not deconfigured until the system is fully reloaded (present since MS 14.33)",
+      "IGMP snooping enabled will send an IGMP message on every configured VLAN every 125 seconds (always present)",
+      "In very rare instances, the management plane will reboot every few minutes and requires a full reboot to self-correct (present since MS 15)",
+      "Loop detection is not supported",
+      "Management plane may lose connectivity after changes are made to the storm control percentage",
+      "Multiple CoA policies sharing the same IP but using different ports fails to be configured (always present)",
+      "Passing line rate traffic on non-uplink ports can have an impact on the management plane connectivity",
+      "Ports fail to be configured if the allowed VLANs character length is greater than 223 (always present)",
+      "Rebooting an MS390 switch in a stack via the UI will result in the entire stack rebooting",
+      "Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)",
+      "Warm spare/VRRP is not supported"
+    ],
+    "Ms400 known issues": [
+      "When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)"
+    ],
+    "Ms425 known issues": [
+      "MS425 stacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)"
+    ],
+    "Other": [
+      "Good idea cmr"
+    ]
+  },
+  "text": "Half a dozen MS390 fixes and reorganised issue section:\nSwitch firmware versions MS 15.18 changelog\nAlerts\nHTTP proxy is no longer supported on MS 15+. Nodes that use HTTP proxy without any other means to connect to dashboard may fail to connect.\nMS390 upgrades to this version will result in a full system reload\nMS390 series switches can only downgrade to MS 12 with an incremental step to MS 14\nNew features\nSTP anomaly detection support for MS390 series switches\nIPv6 static routing support for MS390 series switches\nAdditional client analytics added for MS390 series switches\nMeraki authentication support for MS390 series switches\nAlternate Management Interface (AMI) support for MS390 series switches\nUDLD support for MS390 series switches\nGroup policy ACL support for MS390 series switches\nIPv6 management interface support\nURL redirect support for MS390 series switches\nUPoE (802.3bt) support for MS390 series switches\nCritical/failed authentication support for MS390 series switches\nMulti-auth with voice VLAN bypass support\nMAC flap detection support for MS390 series switches\nStack power is supported by default for MS390 series switches\nNetflow and Encrypted Traffic Analytics (ETA) support for MS390s\nBug fixes\nMS390s with DHCP configurations for over 100 SVIs will fail to apply (present since MS 15.17)\nCollecting out-of-band logs on the local status page for MS390s may result in the management plane restarting (present since MS 15.8)\nMS390s may reboot with incomplete configurations for URL redirection, requiring reconfiguration (present since MS 15.15)\nMS390 SNMP walks for \"IfAlias\" return empty values (present since MS 14)\nMS390 ports can enter an error-disabled state and not recover without a port bounce (always present)\nMS390s authenticating over 350 dot1x clients at the same time may see its management connection flap (present since MS 15.4)\nGeneral known issues\nAMI IP addresses do not send gratuitous ARP packets which can lead to packet loss if the AMI address has aged out in the network\nConnecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)\nCross-stack LACP bundles experiencing a switch reboot will cause the remaining online port to experience an outage for up to 30 seconds. The same is seen again when the switch comes back online (present since MS 10)\nDeleting an SVI on a stack results in the stack's highest numbered VLAN which is sharing the same RFC 1918 address to have an incorrect next-hop VLAN (present since MS 14.33)\nEnabling NAT detection may cause issues with TCP streams resulting in pages failing to load entirely or taking longer than usual to load (present since MS 14)\nLoops can be seen when rebooting a stack member containing a cross-stack lag port (always present)\nSporadically, SNMP walks will fail by not increasing the OID (present since MS 14.13)\nSwitch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log\nThe next-hop port may be incorrect on L3 stacks and believed to be the result of client flapping between ports (present since MS 14.32)\nmGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.\nNon-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nMs120 known issues\nIn rare instances, switches may return empty packet captures until they are rebooted\nSwitches in extremely rare instances will experience reboots every few minutes (present since MS 11)\nMs120/125 known issues\nPorts with an odd-numbered MTU value fail to initialize (predates MS 11)\nMs120/220 known issues\nSwitches will never move a RADIUS server's connectivity status to available if it was ever lost resulting in all authentications being placed into the critical auth VLAN (present since MS 14.32)\nMs125 known issues\nThe local status page cannot be accessed from the management port of MS125s (always present)\nMs210/225/350/355/425/450 known issues\nIn large L2 networks experiencing frequent STP TCs can become fully unresponsive (present since MS 15)\nMs350/355 known issues\nEnabling Combined Power results in events being logged once per minute (present since MS 11)\nMs350x/355 known issues\nSwitches do not negotiate UPoE over LLDP correctly (always present)\nMs390 known issues\n\"Port Up/Down\" events will generate an event log for each stack member\nAdding additional ports to a port bundle will cause the entire bundle to be reconfigured causing traffic loss (always present)\nFixed IP assignments are not deconfigured until the system is fully reloaded (present since MS 14.33)\nIGMP snooping enabled will send an IGMP message on every configured VLAN every 125 seconds (always present)\nIn very rare instances, the management plane will reboot every few minutes and requires a full reboot to self-correct (present since MS 15)\nLoop detection is not supported\nManagement plane may lose connectivity after changes are made to the storm control percentage\nMultiple CoA policies sharing the same IP but using different ports fails to be configured (always present)\nPassing line rate traffic on non-uplink ports can have an impact on the management plane connectivity\nPorts fail to be configured if the allowed VLANs character length is greater than 223 (always present)\nRebooting an MS390 switch in a stack via the UI will result in the entire stack rebooting\nReceiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)\nWarm spare/VRRP is not supported\nMs400 known issues\nWhen an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)\nMs425 known issues\nMS425 stacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)\nOther\nGood idea cmr",
+  "html": "<P>Half a dozen MS390 fixes and reorganised issue section:</P><DIV class=\"\"><H1 id=\"toc-hId-1819141665\" id=\"toc-hId--249738609\">Switch firmware versions MS 15.18 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1322555811\" id=\"toc-hId-1141887443\">Alerts</H4><UL><LI>HTTP proxy is no longer supported on MS 15+. Nodes that use HTTP proxy without any other means to connect to dashboard may fail to connect.</LI><LI>MS390 upgrades to this version will result in a full system reload</LI><LI>MS390 series switches can only downgrade to MS 12 with an incremental step to MS 14</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-420254524\" id=\"toc-hId--665567020\">New features</H4><UL><LI>STP anomaly detection support for MS390 series switches</LI><LI>IPv6 static routing support for MS390 series switches</LI><LI>Additional client analytics added for MS390 series switches</LI><LI>Meraki authentication support for MS390 series switches</LI><LI>Alternate Management Interface (AMI) support for MS390 series switches</LI><LI>UDLD support for MS390 series switches</LI><LI>Group policy ACL support for MS390 series switches</LI><LI>IPv6 management interface support</LI><LI>URL redirect support for MS390 series switches</LI><LI>UPoE (802.3bt) support for MS390 series switches</LI><LI>Critical/failed authentication support for MS390 series switches</LI><LI>Multi-auth with voice VLAN bypass support</LI><LI>MAC flap detection support for MS390 series switches</LI><LI>Stack power is supported by default for MS390 series switches</LI><LI>Netflow and Encrypted Traffic Analytics (ETA) support for MS390s</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2131902437\" id=\"toc-hId-1821945813\">Bug fixes</H4><UL><LI>MS390s with DHCP configurations for over 100 SVIs will fail to apply (present since MS 15.17)</LI><LI>Collecting out-of-band logs on the local status page for MS390s may result in the management plane restarting (present since MS 15.8)</LI><LI>MS390s may reboot with incomplete configurations for URL redirection, requiring reconfiguration (present since MS 15.15)</LI><LI>MS390 SNMP walks for \"IfAlias\" return empty values (present since MS 14)</LI><LI>MS390 ports can enter an error-disabled state and not recover without a port bounce (always present)</LI><LI>MS390s authenticating over 350 dot1x clients at the same time may see its management connection flap (present since MS 15.4)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--389092102\" id=\"toc-hId-14491350\">General known issues</H4><UL><LI>AMI IP addresses do not send gratuitous ARP packets which can lead to packet loss if the AMI address has aged out in the network</LI><LI>Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)</LI><LI>Cross-stack LACP bundles experiencing a switch reboot will cause the remaining online port to experience an outage for up to 30 seconds. The same is seen again when the switch comes back online (present since MS 10)</LI><LI>Deleting an SVI on a stack results in the stack's highest numbered VLAN which is sharing the same RFC 1918 address to have an incorrect next-hop VLAN (present since MS 14.33)</LI><LI>Enabling NAT detection may cause issues with TCP streams resulting in pages failing to load entirely or taking longer than usual to load (present since MS 14)</LI><LI>Loops can be seen when rebooting a stack member containing a cross-stack lag port (always present)</LI><LI>Sporadically, SNMP walks will fail by not increasing the OID (present since MS 14.13)</LI><LI>Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log</LI><LI>The next-hop port may be incorrect on L3 stacks and believed to be the result of client flapping between ports (present since MS 14.32)</LI><LI>mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.</LI><LI>Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-1353718233\" id=\"toc-hId--1792963113\">Ms120 known issues</H4><UL><LI>In rare instances, switches may return empty packet captures until they are rebooted</LI><LI>Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--1198438728\" id=\"toc-hId-694549720\">Ms120/125 known issues</H4><UL><LI>Ports with an odd-numbered MTU value fail to initialize (predates MS 11)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-544371607\" id=\"toc-hId--1112904743\">Ms120/220 known issues</H4><UL><LI>Switches will never move a RADIUS server's connectivity status to available if it was ever lost resulting in all authentications being placed into the critical auth VLAN (present since MS 14.32)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2007785354\" id=\"toc-hId-1374608090\">Ms125 known issues</H4><UL><LI>The local status page cannot be accessed from the management port of MS125s (always present)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--264975019\" id=\"toc-hId--432846373\">Ms210/225/350/355/425/450 known issues</H4><UL><LI>In large L2 networks experiencing frequent STP TCs can become fully unresponsive (present since MS 15)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--837763827\" id=\"toc-hId--1009430237\">Ms350/355 known issues</H4><UL><LI>Enabling Combined Power results in events being logged once per minute (present since MS 11)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-905046508\" id=\"toc-hId-1478082596\">Ms350x/355 known issues</H4><UL><LI>Switches do not negotiate UPoE over LLDP correctly (always present)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--1647110453\" id=\"toc-hId--329371867\">Ms390 known issues</H4><UL><LI>\"Port Up/Down\" events will generate an event log for each stack member</LI><LI>Adding additional ports to a port bundle will cause the entire bundle to be reconfigured causing traffic loss (always present)</LI><LI>Fixed IP assignments are not deconfigured until the system is fully reloaded (present since MS 14.33)</LI><LI>IGMP snooping enabled will send an IGMP message on every configured VLAN every 125 seconds (always present)</LI><LI>In very rare instances, the management plane will reboot every few minutes and requires a full reboot to self-correct (present since MS 15)</LI><LI>Loop detection is not supported</LI><LI>Management plane may lose connectivity after changes are made to the storm control percentage</LI><LI>Multiple CoA policies sharing the same IP but using different ports fails to be configured (always present)</LI><LI>Passing line rate traffic on non-uplink ports can have an impact on the management plane connectivity</LI><LI>Ports fail to be configured if the allowed VLANs character length is greater than 223 (always present)</LI><LI>Rebooting an MS390 switch in a stack via the UI will result in the entire stack rebooting</LI><LI>Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)</LI><LI>Warm spare/VRRP is not supported</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-95699882\" id=\"toc-hId--2136826330\">Ms400 known issues</H4><UL><LI>When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-1838510217\" id=\"toc-hId-350686503\">Ms425 known issues</H4><UL><LI>MS425 stacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--713646744\" id=\"toc-hId--1456767960\">Other</H4><UL><LI>Good idea cmr</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:52Z"
+}

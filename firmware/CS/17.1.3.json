@@ -1,0 +1,57 @@
+{
+  "family": "CS",
+  "version": "17.1.3",
+  "title": "CS firmware versions CS 17.1.3 changelog",
+  "announcements": [
+    {
+      "post_id": "5517062",
+      "releaseType": "candidate",
+      "announced": "2024-09-12T17:47:08.697-07:00",
+      "post_subject": "A new candidate switchCatalyst firmware is now available on Thu, 12 Sep 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switchcatalyst-firmware-is-now-available-on-thu/ba-p/5517062"
+    },
+    {
+      "post_id": "5517712",
+      "releaseType": "candidate",
+      "announced": "2024-10-08T15:47:06.213-07:00",
+      "post_subject": "A new candidate switchCatalyst firmware is now available on Tue, 08 Oct 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switchcatalyst-firmware-is-now-available-on-tue/ba-p/5517712"
+    }
+  ],
+  "changelog_comment_id": "5517713",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-10-08T15:50:32.394-07:00",
+  "sections": {
+    "Important notes": [
+      "This version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New feature highlights": [
+      "Client Analytics",
+      "Device Uptime for MS390s",
+      "EEE (Energy Efficient Ethernet) Support",
+      "Multi-auth with support for guest/failed/critical",
+      "RADIUS Caching",
+      "VLAN to SGT mapping"
+    ],
+    "General fixed issues": [
+      "Fixed an issue causing switches to restart after stack failovers",
+      "Fixed an issue that caused incorrect PoE usage data to be shown in dashboard"
+    ],
+    "Ms390 fixed issues": [
+      "Fixed a problem that allowed MS425 devices to perform client sampling on ports directly connected to downstream MS390 switches",
+      "Resolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease"
+    ],
+    "C9300 known issues": [
+      "Downstream clients may experience packet loss for 60-200 seconds stack while the standby switch takes over the active stack member role when the active stack member is powered off"
+    ],
+    "General known issues": [
+      "Management plane connectivity may be interrupted when there are a large number of LLDP announcements",
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+      "Stacks of 5 or more switches may experience a configuration mismatch when making multiple consecutive port configuration changes to several interfaces in a row"
+    ]
+  },
+  "text": "CS firmware versions CS 17.1.3 changelog\nImportant notes\nThis version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload.\nNew feature highlights\nClient Analytics\nDevice Uptime for MS390s\nEEE (Energy Efficient Ethernet) Support\nMulti-auth with support for guest/failed/critical\nRADIUS Caching\nVLAN to SGT mapping\nGeneral fixed issues\nFixed an issue causing switches to restart after stack failovers\nFixed an issue that caused incorrect PoE usage data to be shown in dashboard\nMs390 fixed issues\nFixed a problem that allowed MS425 devices to perform client sampling on ports directly connected to downstream MS390 switches\nResolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease\nC9300 known issues\nDownstream clients may experience packet loss for 60-200 seconds stack while the standby switch takes over the active stack member role when the active stack member is powered off\nGeneral known issues\nManagement plane connectivity may be interrupted when there are a large number of LLDP announcements\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nStacks of 5 or more switches may experience a configuration mismatch when making multiple consecutive port configuration changes to several interfaces in a row",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845715425\" id=\"toc-hId--248812174\">CS firmware versions CS 17.1.3 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295982051\" id=\"toc-hId-1142813878\">Important notes</H4><UL><LI>This version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-446828284\" id=\"toc-hId--664640585\">New feature highlights</H4><UL><LI>Client Analytics</LI><LI>Device Uptime for MS390s</LI><LI>EEE (Energy Efficient Ethernet) Support</LI><LI>Multi-auth with support for guest/failed/critical</LI><LI>RADIUS Caching</LI><LI>VLAN to SGT mapping</LI></UL><H4 id=\"toc-hId--2105328677\" id=\"toc-hId-1822872248\">General fixed issues</H4><UL><LI>Fixed an issue causing switches to restart after stack failovers</LI><LI>Fixed an issue that caused incorrect PoE usage data to be shown in dashboard</LI></UL><H4 id=\"toc-hId--362518342\" id=\"toc-hId-15417785\">Ms390 fixed issues</H4><UL><LI>Fixed a problem that allowed MS425 devices to perform client sampling on ports directly connected to downstream MS390 switches</LI><LI>Resolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease</LI></UL><H4 id=\"toc-hId-1380291993\" id=\"toc-hId--1792036678\">C9300 known issues</H4><UL><LI>Downstream clients may experience packet loss for 60-200 seconds stack while the standby switch takes over the active stack member role when the active stack member is powered off</LI></UL><H4 id=\"toc-hId--1171864968\" id=\"toc-hId-695476155\">General known issues</H4><UL><LI>Management plane connectivity may be interrupted when there are a large number of LLDP announcements</LI><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI><LI>Stacks of 5 or more switches may experience a configuration mismatch when making multiple consecutive port configuration changes to several interfaces in a row</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:09Z"
+}

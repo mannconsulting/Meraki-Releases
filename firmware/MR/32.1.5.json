@@ -1,0 +1,46 @@
+{
+  "family": "MR",
+  "version": "32.1.5",
+  "title": "Wireless firmware versions MR 32.1.5 changelog",
+  "announcements": [
+    {
+      "post_id": "5461589",
+      "releaseType": "beta",
+      "announced": "2025-11-26T14:47:03.695-08:00",
+      "post_subject": "A new beta wireless firmware is now available on Wed, 26 Nov 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-wed-26-nov-2025/ba-p/5461589"
+    },
+    {
+      "post_id": "5461770",
+      "releaseType": "candidate",
+      "announced": "2025-12-15T12:47:03.559-08:00",
+      "post_subject": "A new candidate wireless firmware is now available on Mon, 15 Dec 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-mon-15-dec/ba-p/5461770"
+    }
+  ],
+  "changelog_comment_id": "5461771",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-12-15T15:23:26.619-08:00",
+  "sections": {
+    "Important note": [
+      "MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available."
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "APs that require 802.3bt PoE for full capability request greater than 30W via CDP when connected to 802.3at (30W-capable) switch port (Wi-Fi 7)",
+      "AP disassociates previously disassociated client with reason code 2 (Wi-Fi 6, 6e, Wi-Fi 7)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 32.1.5 changelog\nImportant note\nMR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.\nBug fixes\nGeneral stability, performance, and experience improvements\nAPs that require 802.3bt PoE for full capability request greater than 30W via CDP when connected to 802.3at (30W-capable) switch port (Wi-Fi 7)\nAP disassociates previously disassociated client with reason code 2 (Wi-Fi 6, 6e, Wi-Fi 7)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848726144\" id=\"toc-hId--273002282\">Wireless firmware versions MR 32.1.5 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1292971332\" id=\"toc-hId-1118623770\">Important note</H4><UL><LI>MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.</LI></UL><H4 id=\"toc-hId-449839003\" id=\"toc-hId--688830693\">Bug fixes</H4><UL><LI>General stability, performance, and experience improvements</LI><LI>APs that require 802.3bt PoE for full capability request greater than 30W via CDP when connected to 802.3at (30W-capable) switch port (Wi-Fi 7)</LI><LI>AP disassociates previously disassociated client with reason code 2 (Wi-Fi 6, 6e, Wi-Fi 7)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [
+    {
+      "id": "5461772",
+      "author": "CMR",
+      "posted": "2025-12-15T15:24:37.798-08:00",
+      "text": "This is simply the firmware being moved from the earlier beta to stable release candidate.",
+      "html": "<P>This is simply the firmware being moved from the earlier beta to stable release candidate.</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:40Z"
+}

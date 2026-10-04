@@ -1,0 +1,32 @@
+{
+  "family": "MV",
+  "version": "6.0.1",
+  "title": "Camera firmware versions MV 6.0.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5515857",
+      "releaseType": "beta",
+      "announced": "2024-06-21T11:47:05.149-07:00",
+      "post_subject": "A new beta camera firmware is now available on Fri, 21 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-fri-21-jun-2024/ba-p/5515857"
+    }
+  ],
+  "changelog_comment_id": "5515858",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-06-21T12:45:18.157-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue where restricted bandwidth mode uploads motion recap images when motion-based retention is enabled",
+      "Resolved an issue to ensure higher video recoding stability when an unsupported PoE standard is used on MV63(x)/MV93(x)"
+    ],
+    "General": [
+      "Improvements to vehicle tracking performance on MV63(x)/MV93(x)",
+      "Improvements to high-density object detection performance on MV33/MV93(x)",
+      "Improvements to object detection accuracy on MV33/MV93(x)"
+    ]
+  },
+  "text": "Camera firmware versions MV 6.0.1 changelog\nBug fixes\nResolved an issue where restricted bandwidth mode uploads motion recap images when motion-based retention is enabled\nResolved an issue to ensure higher video recoding stability when an unsupported PoE standard is used on MV63(x)/MV93(x)\nGeneral\nImprovements to vehicle tracking performance on MV63(x)/MV93(x)\nImprovements to high-density object detection performance on MV33/MV93(x)\nImprovements to object detection accuracy on MV33/MV93(x)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844138331\" id=\"toc-hId--248870666\">Camera firmware versions MV 6.0.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297559145\" id=\"toc-hId-1142755386\">Bug fixes</H4><UL><LI>Resolved an issue where restricted bandwidth mode uploads motion recap images when motion-based retention is enabled</LI><LI>Resolved an issue to ensure higher video recoding stability when an unsupported PoE standard is used on MV63(x)/MV93(x)</LI></UL><H4 id=\"toc-hId-445251190\" id=\"toc-hId--664699077\">General</H4><UL><LI>Improvements to vehicle tracking performance on MV63(x)/MV93(x)</LI><LI>Improvements to high-density object detection performance on MV33/MV93(x)</LI><LI>Improvements to object detection accuracy on MV33/MV93(x)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:16Z"
+}

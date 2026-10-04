@@ -1,0 +1,94 @@
+{
+  "family": "MS",
+  "version": "17.2.1",
+  "title": "Switch firmware versions MS 17.2.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5519646",
+      "releaseType": "stable",
+      "announced": "2025-03-19T17:47:04.100-07:00",
+      "post_subject": "A new stable switch firmware is now available on Wed, 19 Mar 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switch-firmware-is-now-available-on-wed-19-mar-2025/ba-p/5519646"
+    }
+  ],
+  "changelog_comment_id": "5519647",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-03-20T00:24:40.153-07:00",
+  "sections": {
+    "General important notes": [
+      "MS17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password"
+    ],
+    "Ms12x important notes": [
+      "MS 16 introduced DAI on MS100 series platforms. If you are upgrading to a current release from MS 15 or earlier please ensure trusted ports and/or DAI-allow lists are configured prior to upgrading."
+    ],
+    "New feature highlights": [
+      "DOM (Digital Optical Monitoring)",
+      "Intelligent Capture",
+      "RSPAN and VLAN Based SPAN",
+      "SmartPorts"
+    ],
+    "New ms130x feature highlights": [
+      "Adaptive Policy on MS130X/R models"
+    ],
+    "General fixed issues": [
+      "All new LAG configurations will block redundant links if the connected device is not configured for LACP. This change fixes an issue where switches would sometimes move LAG ports to an active forwarding state prior to LACP convergence, creating the potential for loops. The change does not apply to existing LAG configurations.",
+      "Corrected the Local Status Page to show the 1 Gbps (forced) option, previously mislabeled as 1 Gbps (auto)",
+      "Fixed a bug that caused some clients using Hybrid, 802.1X, or MAB Access Policies to fail to authenticate after a switch reboot",
+      "Port-bounce CoA commands now correctly cycle PoE ports",
+      "Resolved an issue that caused some clients to be incorrectly added to a configured Guest VLAN when authenticated via RADIUS immediately after a switch reboot",
+      "Resolved an issue that prevented some MS210 and MS225 devices from correctly releasing MAC addresses from the MAC forwarding table",
+      "Resolved an issue that sometimes caused MS350 switches to remove existing L3 SVIs when enabling Auto-stacking"
+    ],
+    "Ms120 fixed issues": [
+      "Fixed a bug that prevented MS120-48 switches from correctly forwarding multicast traffic on ports 25-48",
+      "Resolved a bug that caused Epson POS printers to fail to authenticate when using MAB hybrid auth access policies"
+    ],
+    "Ms12x fixed issues": [
+      "Fixed an issue that prevented MS120 and MS125 switches from forwarding link-local multicast (224.0.0.x) traffic when 'Flood unknown multicast traffic' was disabled"
+    ],
+    "Ms130 fixed issues": [
+      "Fixed a bug that caused some MS130-X switches to experience slow upstream when connected directly to an MX device via an mGig port"
+    ],
+    "Ms225 fixed issues": [
+      "Resolved an issue that caused some MS225-48FP devices to become unresponsive and fail to forward traffic until rebooted"
+    ],
+    "Ms350 fixed issues": [
+      "Fixed a bug that prevented cable tests from correctly functioning on mGig ports"
+    ],
+    "Ms35x fixed issues": [
+      "Resolved an issue that caused some MS350-24X and MS355 switches to fail to negotiate 802.3bt UPoE LLDP connections"
+    ],
+    "General known issues": [
+      "LACP links may take up to two minutes to come back up when the Active Member of a stack reboots",
+      "On MS250 and MS350 switches, MAC addresses learned via AGGR are not removed when LAG ports are disabled. Mac addresses will be removed correctly within 5 minutes of reenabling LAG ports.",
+      "RADIUS communications may not recover after an initial failure when Critical Auth is enabled",
+      "Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard"
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)"
+    ],
+    "Ms225 known issues": [
+      "In rare circumstances MS225 switches may encounter a software crash that results in a reboot"
+    ],
+    "Ms250 known issues": [
+      "In rare circumstances MS250 switches using Multi-Domain Hybrid auth access policies may enter a 'port not forwarding' state, sending clients to the Guest VLAN until the switch is rebooted"
+    ],
+    "Ms355 known issues": [
+      "When reconnecting a stack cable between MS355-48X2 swithces a stack member may go offline until both switches are rebooted"
+    ],
+    "Ms35x known issues": [
+      "In rare instances, stack ports fail to initialize after an upgrade (always present)",
+      "Incorrect SFP port mappings may disrupt SFP functionality",
+      "Switches may experience an unexpected reboot (present since MS 15)"
+    ],
+    "Ms425 known issues": [
+      "In rare circumstances MS425 switches may encounter a software crash that results in a reboot",
+      "MS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets",
+      "Powering off the active switch in a MS425 stack may result in up to 5 minutes of downtime while the stack reconverges"
+    ]
+  },
+  "text": "Switch firmware versions MS 17.2.1 changelog\nGeneral important notes\nMS17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password\nMs12x important notes\nMS 16 introduced DAI on MS100 series platforms. If you are upgrading to a current release from MS 15 or earlier please ensure trusted ports and/or DAI-allow lists are configured prior to upgrading.\nNew feature highlights\nDOM (Digital Optical Monitoring)\nIntelligent Capture\nRSPAN and VLAN Based SPAN\nSmartPorts\nNew ms130x feature highlights\nAdaptive Policy on MS130X/R models\nGeneral fixed issues\nAll new LAG configurations will block redundant links if the connected device is not configured for LACP. This change fixes an issue where switches would sometimes move LAG ports to an active forwarding state prior to LACP convergence, creating the potential for loops. The change does not apply to existing LAG configurations.\nCorrected the Local Status Page to show the 1 Gbps (forced) option, previously mislabeled as 1 Gbps (auto)\nFixed a bug that caused some clients using Hybrid, 802.1X, or MAB Access Policies to fail to authenticate after a switch reboot\nPort-bounce CoA commands now correctly cycle PoE ports\nResolved an issue that caused some clients to be incorrectly added to a configured Guest VLAN when authenticated via RADIUS immediately after a switch reboot\nResolved an issue that prevented some MS210 and MS225 devices from correctly releasing MAC addresses from the MAC forwarding table\nResolved an issue that sometimes caused MS350 switches to remove existing L3 SVIs when enabling Auto-stacking\nMs120 fixed issues\nFixed a bug that prevented MS120-48 switches from correctly forwarding multicast traffic on ports 25-48\nResolved a bug that caused Epson POS printers to fail to authenticate when using MAB hybrid auth access policies\nMs12x fixed issues\nFixed an issue that prevented MS120 and MS125 switches from forwarding link-local multicast (224.0.0.x) traffic when 'Flood unknown multicast traffic' was disabled\nMs130 fixed issues\nFixed a bug that caused some MS130-X switches to experience slow upstream when connected directly to an MX device via an mGig port\nMs225 fixed issues\nResolved an issue that caused some MS225-48FP devices to become unresponsive and fail to forward traffic until rebooted\nMs350 fixed issues\nFixed a bug that prevented cable tests from correctly functioning on mGig ports\nMs35x fixed issues\nResolved an issue that caused some MS350-24X and MS355 switches to fail to negotiate 802.3bt UPoE LLDP connections\nGeneral known issues\nLACP links may take up to two minutes to come back up when the Active Member of a stack reboots\nOn MS250 and MS350 switches, MAC addresses learned via AGGR are not removed when LAG ports are disabled. Mac addresses will be removed correctly within 5 minutes of reenabling LAG ports.\nRADIUS communications may not recover after an initial failure when Critical Auth is enabled\nSome switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nMs225 known issues\nIn rare circumstances MS225 switches may encounter a software crash that results in a reboot\nMs250 known issues\nIn rare circumstances MS250 switches using Multi-Domain Hybrid auth access policies may enter a 'port not forwarding' state, sending clients to the Guest VLAN until the switch is rebooted\nMs355 known issues\nWhen reconnecting a stack cable between MS355-48X2 swithces a stack member may go offline until both switches are rebooted\nMs35x known issues\nIn rare instances, stack ports fail to initialize after an upgrade (always present)\nIncorrect SFP port mappings may disrupt SFP functionality\nSwitches may experience an unexpected reboot (present since MS 15)\nMs425 known issues\nIn rare circumstances MS425 switches may encounter a software crash that results in a reboot\nMS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets\nPowering off the active switch in a MS425 stack may result in up to 5 minutes of downtime while the stack reconverges",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1846823278\" id=\"toc-hId--248753456\">Switch firmware versions MS 17.2.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294874198\" id=\"toc-hId-1142872596\">General important notes</H4><UL><LI>MS17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password</LI></UL><H4 id=\"toc-hId-447936137\" id=\"toc-hId--664581867\">Ms12x important notes</H4><UL><LI>MS 16 introduced DAI on MS100 series platforms. If you are upgrading to a current release from MS 15 or earlier please ensure trusted ports and/or DAI-allow lists are configured prior to upgrading.</LI></UL><H4 id=\"toc-hId--2104220824\" id=\"toc-hId-1822930966\">New feature highlights</H4><UL><LI>DOM (Digital Optical Monitoring)</LI><LI>Intelligent Capture</LI><LI>RSPAN and VLAN Based SPAN</LI><LI>SmartPorts</LI></UL><H4 id=\"toc-hId--361410489\" id=\"toc-hId-15476503\">New ms130x feature highlights</H4><UL><LI>Adaptive Policy on MS130X/R models</LI></UL><H4 id=\"toc-hId-1381399846\" id=\"toc-hId--1791977960\">General fixed issues</H4><UL><LI>All new LAG configurations will block redundant links if the connected device is not configured for LACP. This change fixes an issue where switches would sometimes move LAG ports to an active forwarding state prior to LACP convergence, creating the potential for loops. The change does not apply to existing LAG configurations.</LI><LI>Corrected the Local Status Page to show the 1 Gbps (forced) option, previously mislabeled as 1 Gbps (auto)</LI><LI>Fixed a bug that caused some clients using Hybrid, 802.1X, or MAB Access Policies to fail to authenticate after a switch reboot</LI><LI>Port-bounce CoA commands now correctly cycle PoE ports</LI><LI>Resolved an issue that caused some clients to be incorrectly added to a configured Guest VLAN when authenticated via RADIUS immediately after a switch reboot</LI><LI>Resolved an issue that prevented some MS210 and MS225 devices from correctly releasing MAC addresses from the MAC forwarding table</LI><LI>Resolved an issue that sometimes caused MS350 switches to remove existing L3 SVIs when enabling Auto-stacking</LI></UL><H4 id=\"toc-hId--1170757115\" id=\"toc-hId-695534873\">Ms120 fixed issues</H4><UL><LI>Fixed a bug that prevented MS120-48 switches from correctly forwarding multicast traffic on ports 25-48</LI><LI>Resolved a bug that caused Epson POS printers to fail to authenticate when using MAB hybrid auth access policies</LI></UL><H4 id=\"toc-hId-572053220\" id=\"toc-hId--1111919590\">Ms12x fixed issues</H4><UL><LI>Fixed an issue that prevented MS120 and MS125 switches from forwarding link-local multicast (224.0.0.x) traffic when 'Flood unknown multicast traffic' was disabled</LI></UL><H4 id=\"toc-hId--1980103741\" id=\"toc-hId-1375593243\">Ms130 fixed issues</H4><UL><LI>Fixed a bug that caused some MS130-X switches to experience slow upstream when connected directly to an MX device via an mGig port</LI></UL><H4 id=\"toc-hId--237293406\" id=\"toc-hId--431861220\">Ms225 fixed issues</H4><UL><LI>Resolved an issue that caused some MS225-48FP devices to become unresponsive and fail to forward traffic until rebooted</LI></UL><H4 id=\"toc-hId--810082214\" id=\"toc-hId--1008445084\">Ms350 fixed issues</H4><UL><LI>Fixed a bug that prevented cable tests from correctly functioning on mGig ports</LI></UL><H4 id=\"toc-hId-932728121\" id=\"toc-hId-1479067749\">Ms35x fixed issues</H4><UL><LI>Resolved an issue that caused some MS350-24X and MS355 switches to fail to negotiate 802.3bt UPoE LLDP connections</LI></UL><H4 id=\"toc-hId--1619428840\" id=\"toc-hId--328386714\">General known issues</H4><UL><LI>LACP links may take up to two minutes to come back up when the Active Member of a stack reboots</LI><LI>On MS250 and MS350 switches, MAC addresses learned via AGGR are not removed when LAG ports are disabled. Mac addresses will be removed correctly within 5 minutes of reenabling LAG ports.</LI><LI>RADIUS communications may not recover after an initial failure when Critical Auth is enabled</LI><LI>Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard</LI></UL><H4 id=\"toc-hId-123381495\" id=\"toc-hId--2135841177\">Ms120 known issues</H4><UL><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI></UL><H4 id=\"toc-hId-1866191830\" id=\"toc-hId-351671656\">Ms225 known issues</H4><UL><LI>In rare circumstances MS225 switches may encounter a software crash that results in a reboot</LI></UL><H4 id=\"toc-hId--685965131\" id=\"toc-hId--1455782807\">Ms250 known issues</H4><UL><LI>In rare circumstances MS250 switches using Multi-Domain Hybrid auth access policies may enter a 'port not forwarding' state, sending clients to the Guest VLAN until the switch is rebooted</LI></UL><H4 id=\"toc-hId-1056845204\" id=\"toc-hId-1031730026\">Ms355 known issues</H4><UL><LI>When reconnecting a stack cable between MS355-48X2 swithces a stack member may go offline until both switches are rebooted</LI></UL><H4 id=\"toc-hId--1495311757\" id=\"toc-hId--775724437\">Ms35x known issues</H4><UL><LI>In rare instances, stack ports fail to initialize after an upgrade (always present)</LI><LI>Incorrect SFP port mappings may disrupt SFP functionality</LI><LI>Switches may experience an unexpected reboot (present since MS 15)</LI></UL><H4 id=\"toc-hId-247498578\" id=\"toc-hId-1711788396\">Ms425 known issues</H4><UL><LI>In rare circumstances MS425 switches may encounter a software crash that results in a reboot</LI><LI>MS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets</LI><LI>Powering off the active switch in a MS425 stack may result in up to 5 minutes of downtime while the stack reconverges</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:57Z"
+}

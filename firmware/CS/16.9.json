@@ -1,0 +1,46 @@
+{
+  "family": "CS",
+  "version": "16.9",
+  "title": "CS firmware versions CS 16.9 changelog",
+  "announcements": [
+    {
+      "post_id": "5517162",
+      "releaseType": "stable",
+      "announced": "2024-09-16T15:47:06.372-07:00",
+      "post_subject": "A new stable switchCatalyst firmware is now available on Mon, 16 Sep 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-mon-16/ba-p/5517162"
+    }
+  ],
+  "changelog_comment_id": "5517163",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-09-17T01:31:20.851-07:00",
+  "sections": {
+    "Important notes": [
+      "This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload"
+    ],
+    "New feature highlights": [
+      "Supports compatibility with recent hardware updates",
+      "802.1X Control Direction",
+      "Adaptive Policy ACL hit counter live tool",
+      "Named VLAN",
+      "Support for 15 additional C9300-M SKUs",
+      "Support for MAC Allow list on access ports (currently in early access)"
+    ],
+    "Fixed issues": [
+      "C9300-NM-2Y compatibility issue resolved"
+    ],
+    "General known issues": [
+      "DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)",
+      "In rare instances, a full system restart may occur when the management plane restarts due to an upgrade, failover event, or unexpected restart (present since CS 15)",
+      "MS390 stack configuration may experience high memory consumption and as a result could lead to authentication failures. Reloading the active switch clears the issue temporarily.",
+      "MS390 stacks may fail to apply new configurations fetched from the network. This results from an issue with the NETCONF application, leading the system to revert to the previously stored configuration.",
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+      "Polycom phones are unable to access the network when leveraging LLDP",
+      "Switches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)"
+    ]
+  },
+  "text": "CS firmware versions CS 16.9 changelog\nImportant notes\nThis version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload\nNew feature highlights\nSupports compatibility with recent hardware updates\n802.1X Control Direction\nAdaptive Policy ACL hit counter live tool\nNamed VLAN\nSupport for 15 additional C9300-M SKUs\nSupport for MAC Allow list on access ports (currently in early access)\nFixed issues\nC9300-NM-2Y compatibility issue resolved\nGeneral known issues\nDHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)\nIn rare instances, a full system restart may occur when the management plane restarts due to an upgrade, failover event, or unexpected restart (present since CS 15)\nMS390 stack configuration may experience high memory consumption and as a result could lead to authentication failures. Reloading the active switch clears the issue temporarily.\nMS390 stacks may fail to apply new configurations fetched from the network. This results from an issue with the NETCONF application, leading the system to revert to the previously stored configuration.\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nPolycom phones are unable to access the network when leveraging LLDP\nSwitches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845027354\" id=\"toc-hId--248817785\">CS firmware versions CS 16.9 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1296670122\" id=\"toc-hId-1142808267\">Important notes</H4><UL><LI>This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload</LI></UL><H4 id=\"toc-hId-446140213\" id=\"toc-hId--664646196\">New feature highlights</H4><UL><LI>Supports compatibility with recent hardware updates</LI><LI>802.1X Control Direction</LI><LI>Adaptive Policy ACL hit counter live tool</LI><LI>Named VLAN</LI><LI>Support for 15 additional C9300-M SKUs</LI><LI>Support for MAC Allow list on access ports (currently in early access)</LI></UL><H4 id=\"toc-hId--2106016748\" id=\"toc-hId-1822866637\">Fixed issues</H4><UL><LI>C9300-NM-2Y compatibility issue resolved</LI></UL><H4 id=\"toc-hId--363206413\" id=\"toc-hId-15412174\">General known issues</H4><UL><LI>DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)</LI><LI>In rare instances, a full system restart may occur when the management plane restarts due to an upgrade, failover event, or unexpected restart (present since CS 15)</LI><LI>MS390 stack configuration may experience high memory consumption and as a result could lead to authentication failures. Reloading the active switch clears the issue temporarily.</LI><LI>MS390 stacks may fail to apply new configurations fetched from the network. This results from an issue with the NETCONF application, leading the system to revert to the previously stored configuration.</LI><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI><LI>Polycom phones are unable to access the network when leveraging LLDP</LI><LI>Switches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:09Z"
+}

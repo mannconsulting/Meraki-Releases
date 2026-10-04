@@ -1,0 +1,42 @@
+{
+  "family": "MX",
+  "version": "17.10.1",
+  "title": "Security appliance firmware versions MX 17.10.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5506163",
+      "releaseType": "candidate",
+      "announced": "2022-10-15T06:47:06.205-07:00",
+      "post_subject": "A new candidate appliance firmware is now available on Sat, 15 Oct 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-sat-15/ba-p/5506163"
+    }
+  ],
+  "changelog_comment_id": "5506164",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-10-15T08:07:05.419-07:00",
+  "sections": {
+    "Important notice": [
+      "While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.",
+      "HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.",
+      "The transition to Cisco Talos intelligence for our content filtering services means that some URL categories have changed names, some categories are no longer available, and multiple new categories are now available. Please review your configuration after upgrading to ensure content filtering is effectively tailored to your needs and deployment environment."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1, MX60, MX60W, MX80, and MX90 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.6."
+    ],
+    "Bug fixes": [
+      "Corrected a rare issue that resulted in AutoVPN connectivity failing to form when cellular active uplink was configured.",
+      "Performance and traffic reliability improvements.",
+      "Stability improvements for vMX appliances."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 17.10.1 changelog\nImportant notice\nWhile Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.\nHTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.\nThe transition to Cisco Talos intelligence for our content filtering services means that some URL categories have changed names, some categories are no longer available, and multiple new categories are now available. Please review your configuration after upgrading to ensure content filtering is effectively tailored to your needs and deployment environment.\nLegacy products notice\nWhen configured for this version, Z1, MX60, MX60W, MX80, and MX90 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.6.\nBug fixes\nCorrected a rare issue that resulted in AutoVPN connectivity failing to form when cellular active uplink was configured.\nPerformance and traffic reliability improvements.\nStability improvements for vMX appliances.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nClient traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1818964786\" id=\"toc-hId--249771096\">Security appliance firmware versions MX 17.10.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1322732690\" id=\"toc-hId-1141854956\">Important notice</H4><UL><LI>While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that traffic using TCP port 443 between 209.206.48.0/20 is allowed through any firewalls that may be deployed upstream of your Meraki appliances.</LI><LI>HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.</LI><LI>The transition to Cisco Talos intelligence for our content filtering services means that some URL categories have changed names, some categories are no longer available, and multiple new categories are now available. Please review your configuration after upgrading to ensure content filtering is effectively tailored to your needs and deployment environment.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-420077645\" id=\"toc-hId--665599507\">Legacy products notice</H4><UL><LI>When configured for this version, Z1, MX60, MX60W, MX80, and MX90 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.6.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2132079316\" id=\"toc-hId-1821913326\">Bug fixes</H4><UL><LI>Corrected a rare issue that resulted in AutoVPN connectivity failing to form when cellular active uplink was configured.</LI><LI>Performance and traffic reliability improvements.</LI><LI>Stability improvements for vMX appliances.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--389268981\" id=\"toc-hId-14458863\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:55Z"
+}

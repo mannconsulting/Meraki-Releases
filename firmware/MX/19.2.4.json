@@ -1,0 +1,51 @@
+{
+  "family": "MX",
+  "version": "19.2.4",
+  "title": "Security appliance firmware versions MX 19.2.4 changelog",
+  "announcements": [
+    {
+      "post_id": "5461424",
+      "releaseType": "candidate",
+      "announced": "2025-11-04T09:47:04.132-08:00",
+      "post_subject": "A new candidate appliance firmware is now available on Tue, 04 Nov 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-tue-04/ba-p/5461424"
+    }
+  ],
+  "changelog_comment_id": "5461425",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-11-04T09:53:17.007-08:00",
+  "sections": {
+    "Important notice": [
+      "As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.",
+      "Starting with MX 19.1 firmware on vMX platforms, Meraki has begun to deprecate the use of 3DES encryption for Phase 2 (IPsec) of Client and IPsec VPN connections due to its insecure nature. Subsequent firmware releases will continue to deprecate it on all platforms."
+    ],
+    "Executive summary": [
+      "This is a routine maintenance release and the latest generally available release for MX 19.2. It contains a variety of fixes including AnyConnect reliability improvements, setting the NAS-IP address parameter in RADIUS Access-Request messages, and more. Please read through the full details below."
+    ],
+    "Bug fixes - general fixes": [
+      "Corrected an issue that could result in MX appliances reaching out to Cisco Umbrella endpoints even when the Cisco Umbrella integration was not enabled. (MX-11668)",
+      "Corrected an issue that could result in an incorrect DHCP lease count in the Meraki Dashboard when a client roamed between multiple VLANs. (MX-16553)",
+      "Resolved an issue that could result in duplicate Client VPN authentication event log messages being posted. (MX-35150)",
+      "Corrected a rare issue that could cause a temporary disruption of traffic over AnyConnect VPN for 1-2 minutes. (MX-37126)",
+      "Resolved a rare issue that could result in AnyConnect VPN connections failing to form. (MX-40793)"
+    ],
+    "Bug fixes - limited platform fixes": [
+      "Fixed an issue that resulted in Z4(C) appliances forwarding traffic destined for the appliance out all LAN ports. (MX-43696)",
+      "Fixed an issue that resulted in Z3(C), Z4(C), MX67(C,W), 68(W,CW), and MX75 appliances incorrectly using 127.0.0.1 as the NAS-IP address in RADIUS Access-Request messages from 802.1X port authentication. (MX-26058)",
+      "Resolved an issue that resulted in Z3(C), Z4(C), MX67W, and MX68(W,CW) appliances incorrectly using 0.0.0.0 for the NAS-IP address in RADIUS Access-Request messages from WPA2 Enterprise SSIDs. (MX-39732)"
+    ],
+    "Legacy products notice": [
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Other": [
+      "The product complies with EN 18031-1:2024 and EN 18031-2: 2024"
+    ]
+  },
+  "text": "Security appliance firmware versions MX 19.2.4 changelog\nImportant notice\nAs of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.\nStarting with MX 19.1 firmware on vMX platforms, Meraki has begun to deprecate the use of 3DES encryption for Phase 2 (IPsec) of Client and IPsec VPN connections due to its insecure nature. Subsequent firmware releases will continue to deprecate it on all platforms.\nExecutive summary\nThis is a routine maintenance release and the latest generally available release for MX 19.2. It contains a variety of fixes including AnyConnect reliability improvements, setting the NAS-IP address parameter in RADIUS Access-Request messages, and more. Please read through the full details below.\nBug fixes - general fixes\nCorrected an issue that could result in MX appliances reaching out to Cisco Umbrella endpoints even when the Cisco Umbrella integration was not enabled. (MX-11668)\nCorrected an issue that could result in an incorrect DHCP lease count in the Meraki Dashboard when a client roamed between multiple VLANs. (MX-16553)\nResolved an issue that could result in duplicate Client VPN authentication event log messages being posted. (MX-35150)\nCorrected a rare issue that could cause a temporary disruption of traffic over AnyConnect VPN for 1-2 minutes. (MX-37126)\nResolved a rare issue that could result in AnyConnect VPN connections failing to form. (MX-40793)\nBug fixes - limited platform fixes\nFixed an issue that resulted in Z4(C) appliances forwarding traffic destined for the appliance out all LAN ports. (MX-43696)\nFixed an issue that resulted in Z3(C), Z4(C), MX67(C,W), 68(W,CW), and MX75 appliances incorrectly using 127.0.0.1 as the NAS-IP address in RADIUS Access-Request messages from 802.1X port authentication. (MX-26058)\nResolved an issue that resulted in Z3(C), Z4(C), MX67W, and MX68(W,CW) appliances incorrectly using 0.0.0.0 for the NAS-IP address in RADIUS Access-Request messages from WPA2 Enterprise SSIDs. (MX-39732)\nLegacy products notice\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.\nKnown issues status\nThis list is being reviewed and updated.\nOther\nThe product complies with EN 18031-1:2024 and EN 18031-2: 2024",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848662534\" id=\"toc-hId--273005316\">Security appliance firmware versions MX 19.2.4 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293034942\" id=\"toc-hId-1118620736\">Important notice</H4><UL><LI>As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.</LI><LI>Starting with MX 19.1 firmware on vMX platforms, Meraki has begun to deprecate the use of 3DES encryption for Phase 2 (IPsec) of Client and IPsec VPN connections due to its insecure nature. Subsequent firmware releases will continue to deprecate it on all platforms.</LI></UL><H4 id=\"toc-hId-449775393\" id=\"toc-hId--688833727\">Executive summary</H4><UL><LI>This is a routine maintenance release and the latest generally available release for MX 19.2. It contains a variety of fixes including AnyConnect reliability improvements, setting the NAS-IP address parameter in RADIUS Access-Request messages, and more. Please read through the full details below.</LI></UL><H4 id=\"toc-hId--2102381568\" id=\"toc-hId-1798679106\">Bug fixes - general fixes</H4><UL><LI>Corrected an issue that could result in MX appliances reaching out to Cisco Umbrella endpoints even when the Cisco Umbrella integration was not enabled. (MX-11668)</LI><LI>Corrected an issue that could result in an incorrect DHCP lease count in the Meraki Dashboard when a client roamed between multiple VLANs. (MX-16553)</LI><LI>Resolved an issue that could result in duplicate Client VPN authentication event log messages being posted. (MX-35150)</LI><LI>Corrected a rare issue that could cause a temporary disruption of traffic over AnyConnect VPN for 1-2 minutes. (MX-37126)</LI><LI>Resolved a rare issue that could result in AnyConnect VPN connections failing to form. (MX-40793)</LI></UL><H4 id=\"toc-hId--359571233\" id=\"toc-hId--8775357\">Bug fixes - limited platform fixes</H4><UL><LI>Fixed an issue that resulted in Z4(C) appliances forwarding traffic destined for the appliance out all LAN ports. (MX-43696)</LI><LI>Fixed an issue that resulted in Z3(C), Z4(C), MX67(C,W), 68(W,CW), and MX75 appliances incorrectly using 127.0.0.1 as the NAS-IP address in RADIUS Access-Request messages from 802.1X port authentication. (MX-26058)</LI><LI>Resolved an issue that resulted in Z3(C), Z4(C), MX67W, and MX68(W,CW) appliances incorrectly using 0.0.0.0 for the NAS-IP address in RADIUS Access-Request messages from WPA2 Enterprise SSIDs. (MX-39732)</LI></UL><H4 id=\"toc-hId-1383239102\" id=\"toc-hId--1816229820\">Legacy products notice</H4><UL><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.</LI></UL><H4 id=\"toc-hId--1168917859\" id=\"toc-hId-671283013\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId-573892476\" id=\"toc-hId--1136171450\">Other</H4><UL><LI>The product complies with EN 18031-1:2024 and EN 18031-2: 2024</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:41Z"
+}

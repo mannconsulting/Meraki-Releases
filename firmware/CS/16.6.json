@@ -1,0 +1,42 @@
+{
+  "family": "CS",
+  "version": "16.6",
+  "title": "CS firmware versions CS 16.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5513611",
+      "releaseType": "candidate",
+      "announced": "2023-12-22T15:47:04.664-08:00",
+      "post_subject": "A new candidate switchCatalyst firmware is now available on Fri, 22 Dec 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switchcatalyst-firmware-is-now-available-on-fri/ba-p/5513611"
+    }
+  ],
+  "changelog_comment_id": "5513612",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-12-24T09:04:31.264-08:00",
+  "sections": {
+    "IMPORTANT NOTES": [
+      "This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload"
+    ],
+    "NEW FEATURE HIGHLIGHTS": [
+      "802.1X Control Direction",
+      "Adaptive Policy ACL hit counter live tool",
+      "MAC Allow list on access ports",
+      "Named VLAN"
+    ],
+    "GENERAL FIXED ISSUES": [
+      "Configurations fail to apply when Encrypted Traffic Analytics is enabled (present since CS 16.5)",
+      "RADIUS authentication can fail to correctly send packets to the RADIUS server when AMI is configured (present since CS 16)"
+    ],
+    "GENERAL KNOWN ISSUES": [
+      "DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)",
+      "DHCP server information is incorrectly reported, such as, the subnet mask and \"Last Seen\" fields (always present)",
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+      "Switches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)"
+    ]
+  },
+  "text": "CS firmware versions CS 16.6 changelog\nIMPORTANT NOTES\nThis version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload\nNEW FEATURE HIGHLIGHTS\n802.1X Control Direction\nAdaptive Policy ACL hit counter live tool\nMAC Allow list on access ports\nNamed VLAN\nGENERAL FIXED ISSUES\nConfigurations fail to apply when Encrypted Traffic Analytics is enabled (present since CS 16.5)\nRADIUS authentication can fail to correctly send packets to the RADIUS server when AMI is configured (present since CS 16)\nGENERAL KNOWN ISSUES\nDHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)\nDHCP server information is incorrectly reported, such as, the subnet mask and \"Last Seen\" fields (always present)\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nSwitches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1842941983\" id=\"toc-hId--248932300\">CS firmware versions CS 16.6 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1298755493\" id=\"toc-hId-1142693752\">IMPORTANT NOTES</H4><UL><LI>This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload</LI></UL><H4 id=\"toc-hId-444054842\" id=\"toc-hId--664760711\">NEW FEATURE HIGHLIGHTS</H4><UL><LI>802.1X Control Direction</LI><LI>Adaptive Policy ACL hit counter live tool</LI><LI>MAC Allow list on access ports</LI><LI>Named VLAN</LI></UL><H4 id=\"toc-hId--2108102119\" id=\"toc-hId-1822752122\">GENERAL FIXED ISSUES</H4><UL><LI>Configurations fail to apply when Encrypted Traffic Analytics is enabled (present since CS 16.5)</LI><LI>RADIUS authentication can fail to correctly send packets to the RADIUS server when AMI is configured (present since CS 16)</LI></UL><H4 id=\"toc-hId--365291784\" id=\"toc-hId-15297659\">GENERAL KNOWN ISSUES</H4><UL><LI>DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)</LI><LI>DHCP server information is incorrectly reported, such as, the subnet mask and \"Last Seen\" fields (always present)</LI><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI><LI>Switches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:27Z"
+}

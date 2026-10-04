@@ -1,0 +1,78 @@
+{
+  "family": "MX",
+  "version": "19.1.10",
+  "title": "Security appliance firmware versions MX 19.1.10 changelog",
+  "announcements": [
+    {
+      "post_id": "5521838",
+      "releaseType": "stable",
+      "announced": "2025-08-19T15:47:03.575-07:00",
+      "post_subject": "A new stable appliance firmware is now available on Tue, 19 Aug 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-tue-19-aug/ba-p/5521838"
+    }
+  ],
+  "changelog_comment_id": "5521839",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-08-19T22:16:13.726-07:00",
+  "sections": {
+    "Important notice": [
+      "As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms."
+    ],
+    "Executive summary": [
+      "This is the first Stable release for MX 19.1. It contains a variety of new features that expand the MX product line’s connectivity and security capabilities, while also continuing to improve ease of management at scale.",
+      "For customers already on MX 19.1, this includes a few small bug fixes around packet routing, AutoVPN MTU when SGT is in use, and 802.1X port authentication on the MX67(C,W) and MX68(W,CW) appliances. Please read through the full details below.",
+      "With the promotion of MX 19.1 to Stable and MX 19.2 to Stable Release Candidate, we strongly encourage customers to begin their process of migrating from older releases. We do not intend for any significant fixes to become available through future MX 18.2 releases."
+    ],
+    "New feature highlights": [
+      "Added support for configuring eBGP over Non-Meraki site-to-site VPN connections.",
+      "Added support for failover (and failback) between Non-Meraki VPN tunnels",
+      "MX appliances can now integrate with the Cisco XDR network security product from the Meraki Dashboard",
+      "Significantly expanded the troubleshooting capabilities available from the device local status page",
+      "Improved traffic classification with SD-AVC (Software-Defined Application Visibility and Control)",
+      "Added support for Catalyst and Meraki SD-WAN fabric Interconnect",
+      "Added support for Advanced Security features on vMX appliances in routed mode",
+      "Added API support for configuring VPN NAT Translation",
+      "Added API support for configuring Multicast Forwarding",
+      "Added API support for configuring Split DNS"
+    ],
+    "What's new": [
+      "Updated the list of built-in APNs for the Bell provider to include “mcorp.bell.ca.ioe” for Z3C, Z4C, MX67C, and MX68CW appliances. (MG-5215)"
+    ],
+    "Bug fixes - general fixes": [
+      "Fixed an issue that resulted in the AutoVPN MTU not being updated when SGT was enabled. The maximum AutoVPN MTU is now 1426 bytes when SGT is enabled. (MX-39600)",
+      "Fixed an issue where packets would follow a less specific static IPsec route even if there was a more specific eBGP over IPsec learned route. (MX-37758)"
+    ],
+    "Bug fixes - limited platform fixes": [
+      "Resolved a rare issue on MX67(C,W) and MX68(W,CW) appliances that could result in ports configured for 802.1X authentication getting stuck in an unauthorized state. This would result in a lack of connectivity for clients connected to the port. (MX-37247)",
+      "Fixed an issue that could result in ICMP fragmentation needed messages sent from client VPN clients being incorrectly routed on MX75, MX85, MX95, MX105, MX250, and MX450 appliances. (MX-37532)",
+      "Resolved a MX 19.1 regression that could result in an unexpected device reboot on MX75 appliances when many firewall rules were present. (MX-41498)"
+    ],
+    "Legacy products notice": [
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Known issues": [
+      "During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)",
+      "Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)",
+      "When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)",
+      "During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)"
+    ],
+    "Other": [
+      "The product complies with EN 18031-1:2024 and EN 18031-2: 2024"
+    ]
+  },
+  "text": "Security appliance firmware versions MX 19.1.10 changelog\nImportant notice\nAs of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.\nExecutive summary\nThis is the first Stable release for MX 19.1. It contains a variety of new features that expand the MX product line’s connectivity and security capabilities, while also continuing to improve ease of management at scale.\nFor customers already on MX 19.1, this includes a few small bug fixes around packet routing, AutoVPN MTU when SGT is in use, and 802.1X port authentication on the MX67(C,W) and MX68(W,CW) appliances. Please read through the full details below.\nWith the promotion of MX 19.1 to Stable and MX 19.2 to Stable Release Candidate, we strongly encourage customers to begin their process of migrating from older releases. We do not intend for any significant fixes to become available through future MX 18.2 releases.\nNew feature highlights\nAdded support for configuring eBGP over Non-Meraki site-to-site VPN connections.\nAdded support for failover (and failback) between Non-Meraki VPN tunnels\nMX appliances can now integrate with the Cisco XDR network security product from the Meraki Dashboard\nSignificantly expanded the troubleshooting capabilities available from the device local status page\nImproved traffic classification with SD-AVC (Software-Defined Application Visibility and Control)\nAdded support for Catalyst and Meraki SD-WAN fabric Interconnect\nAdded support for Advanced Security features on vMX appliances in routed mode\nAdded API support for configuring VPN NAT Translation\nAdded API support for configuring Multicast Forwarding\nAdded API support for configuring Split DNS\nWhat's new\nUpdated the list of built-in APNs for the Bell provider to include “mcorp.bell.ca.ioe” for Z3C, Z4C, MX67C, and MX68CW appliances. (MG-5215)\nBug fixes - general fixes\nFixed an issue that resulted in the AutoVPN MTU not being updated when SGT was enabled. The maximum AutoVPN MTU is now 1426 bytes when SGT is enabled. (MX-39600)\nFixed an issue where packets would follow a less specific static IPsec route even if there was a more specific eBGP over IPsec learned route. (MX-37758)\nBug fixes - limited platform fixes\nResolved a rare issue on MX67(C,W) and MX68(W,CW) appliances that could result in ports configured for 802.1X authentication getting stuck in an unauthorized state. This would result in a lack of connectivity for clients connected to the port. (MX-37247)\nFixed an issue that could result in ICMP fragmentation needed messages sent from client VPN clients being incorrectly routed on MX75, MX85, MX95, MX105, MX250, and MX450 appliances. (MX-37532)\nResolved a MX 19.1 regression that could result in an unexpected device reboot on MX75 appliances when many firewall rules were present. (MX-41498)\nLegacy products notice\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.\nKnown issues status\nThis list is being reviewed and updated.\nKnown issues\nDuring the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)\nDue to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)\nWhen failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)\nDuring the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)\nOther\nThe product complies with EN 18031-1:2024 and EN 18031-2: 2024",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848512741\" id=\"toc-hId--248066370\">Security appliance firmware versions MX 19.1.10 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293184735\" id=\"toc-hId-1143559682\">Important notice</H4><UL><LI>As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.</LI></UL><H4 id=\"toc-hId-449625600\" id=\"toc-hId--663894781\">Executive summary</H4><UL><LI>This is the first Stable release for MX 19.1. It contains a variety of new features that expand the MX product line’s connectivity and security capabilities, while also continuing to improve ease of management at scale.</LI><LI>For customers already on MX 19.1, this includes a few small bug fixes around packet routing, AutoVPN MTU when SGT is in use, and 802.1X port authentication on the MX67(C,W) and MX68(W,CW) appliances. Please read through the full details below.</LI><LI>With the promotion of MX 19.1 to Stable and MX 19.2 to Stable Release Candidate, we strongly encourage customers to begin their process of migrating from older releases. We do not intend for any significant fixes to become available through future MX 18.2 releases.</LI></UL><H4 id=\"toc-hId--2102531361\" id=\"toc-hId-1823618052\">New feature highlights</H4><UL><LI>Added support for configuring eBGP over Non-Meraki site-to-site VPN connections.</LI><LI>Added support for failover (and failback) between Non-Meraki VPN tunnels</LI><LI>MX appliances can now integrate with the Cisco XDR network security product from the Meraki Dashboard</LI><LI>Significantly expanded the troubleshooting capabilities available from the device local status page</LI><LI>Improved traffic classification with SD-AVC (Software-Defined Application Visibility and Control)</LI><LI>Added support for Catalyst and Meraki SD-WAN fabric Interconnect</LI><LI>Added support for Advanced Security features on vMX appliances in routed mode</LI><LI>Added API support for configuring VPN NAT Translation</LI><LI>Added API support for configuring Multicast Forwarding</LI><LI>Added API support for configuring Split DNS</LI></UL><H4 id=\"toc-hId--359721026\" id=\"toc-hId-16163589\">What's new</H4><UL><LI>Updated the list of built-in APNs for the Bell provider to include “mcorp.bell.ca.ioe” for Z3C, Z4C, MX67C, and MX68CW appliances. (MG-5215)</LI></UL><H4 id=\"toc-hId-1383089309\" id=\"toc-hId--1791290874\">Bug fixes - general fixes</H4><UL><LI>Fixed an issue that resulted in the AutoVPN MTU not being updated when SGT was enabled. The maximum AutoVPN MTU is now 1426 bytes when SGT is enabled. (MX-39600)</LI><LI>Fixed an issue where packets would follow a less specific static IPsec route even if there was a more specific eBGP over IPsec learned route. (MX-37758)</LI></UL><H4 id=\"toc-hId--1169067652\" id=\"toc-hId-696221959\">Bug fixes - limited platform fixes</H4><UL><LI>Resolved a rare issue on MX67(C,W) and MX68(W,CW) appliances that could result in ports configured for 802.1X authentication getting stuck in an unauthorized state. This would result in a lack of connectivity for clients connected to the port. (MX-37247)</LI><LI>Fixed an issue that could result in ICMP fragmentation needed messages sent from client VPN clients being incorrectly routed on MX75, MX85, MX95, MX105, MX250, and MX450 appliances. (MX-37532)</LI><LI>Resolved a MX 19.1 regression that could result in an unexpected device reboot on MX75 appliances when many firewall rules were present. (MX-41498)</LI></UL><H4 id=\"toc-hId-573742683\" id=\"toc-hId--1111232504\">Legacy products notice</H4><UL><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.</LI></UL><H4 id=\"toc-hId--1978414278\" id=\"toc-hId-1376280329\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId--235603943\" id=\"toc-hId--431174134\">Known issues</H4><UL><LI>During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)</LI><LI>Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)</LI><LI>When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)</LI><LI>During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)</LI></UL><H4 id=\"toc-hId--808392751\" id=\"toc-hId--1007757998\">Other</H4><UL><LI>The product complies with EN 18031-1:2024 and EN 18031-2: 2024</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [
+    {
+      "id": "5521840",
+      "author": "CMR",
+      "posted": "2025-08-19T22:23:44.403-07:00",
+      "text": "Note that MX18 is officially deprecated as of this release.",
+      "html": "<P>Note that MX18 is officially deprecated as of this release.</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:46Z"
+}

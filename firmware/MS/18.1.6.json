@@ -1,0 +1,93 @@
+{
+  "family": "MS",
+  "version": "18.1.6",
+  "title": "Switches - MS software versions MS 18.1.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5463212",
+      "releaseType": "candidate",
+      "announced": "2026-03-12T15:47:03.847-07:00",
+      "post_subject": "A new candidate switch firmware is now available on Thu, 12 Mar 2026",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-thu-12-mar/ba-p/5463212"
+    }
+  ],
+  "changelog_comment_id": "5463213",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-03-13T00:14:26.325-07:00",
+  "sections": {
+    "New feature highlights": [
+      "Group Policy ACL on MS130 & MS150",
+      "Maximum MAC support in MAC Allowlists",
+      "802.1x limited access mode with pre-auth GPACL",
+      "Local Status Page connectivity diagnostics enhancements",
+      "Layer 2 multicast live tool",
+      "Traffic Mirroring: RSPAN & VLAN Based SPAN"
+    ],
+    "General fixed issues": [
+      "Fixed an issue affecting SGT tag configuration when a corresponding policy or VLAN mapping is not present",
+      "Resolved an issue that sometimes caused incorrect profile assignment when using Smartport Automations",
+      "Fixed an issue that caused some clients to fail to authenticate and resolve DHCP in voice VLANs",
+      "Fixed a bug that sometimes caused ports connected to 100Mbps devices on MS210, MS225 and MS250 switches to fail to pass traffic"
+    ],
+    "Ms130 fixed issues": [
+      "Resolved an issue that sometimes caused MS130 switches to fail to pass traffic until the switch was rebooted"
+    ],
+    "Ms150 fixed issues": [
+      "Resolved an issue that caused ports to fail to show their accurate connection status when a stacking cable was disconnected or reconnected",
+      "Fixed a bug that sometimes caused MS150 switches to experience spikes of sdma_tx errors and lose connectivity until they were rebooted",
+      "Fixed a bug that occasionally caused ports to flap, which caused clients to experience DHCP and other connectivity issues"
+    ],
+    "General known issues": [
+      "In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.",
+      "MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures",
+      "Some switches may experience multicast packet loss when storm control is enabled",
+      "Some MS130 switches may fail to provide PoE after upgrading from factory firmware to MS 18.1.6"
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)",
+      "Cable tests may report incorrect cable lengths"
+    ],
+    "Ms130 known issues": [
+      "MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally"
+    ],
+    "Ms150 known issues": [
+      "MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.",
+      "MS150 switches may produce a flood of unicast traffic when their uplink is using a LAG and is connected to a C9300X",
+      "Resolved an issue that caused some MS150 switches in stack configurations to incorrectly flood unknown multicast traffic while the setting was disabled"
+    ],
+    "Ms350x known issues": [
+      "Switches may experience an unexpected reboot (present since MS 15)"
+    ],
+    "Ms355 known issues": [
+      "Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade"
+    ],
+    "Ms410 known issues": [
+      "Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve"
+    ],
+    "Ms425 known issues": [
+      "In rare circumstances MS425 switches may encounter a software crash that results in a reboot",
+      "In rare circumstances MS425 switches in stack configurations may encounter a software crash that results in a reboot"
+    ],
+    "Other": [
+      "New Feature Highlights",
+      "• MS-21883: Group Policy ACL on MS130 & MS150",
+      "• MS-21889: Maximum MAC support in MAC Allowlists",
+      "• MS-21885: 802.1x limited access mode with pre-auth GPACL",
+      "• MS-28340: Local Status Page connectivity diagnostics enhancements",
+      "• MS-23684: Layer 2 multicast live tool",
+      "• MS-24285: Traffic Mirroring: RSPAN & VLAN Based SPAN"
+    ]
+  },
+  "text": "Switches - MS software versions MS 18.1.6 changelog\nNew feature highlights\nGroup Policy ACL on MS130 & MS150\nMaximum MAC support in MAC Allowlists\n802.1x limited access mode with pre-auth GPACL\nLocal Status Page connectivity diagnostics enhancements\nLayer 2 multicast live tool\nTraffic Mirroring: RSPAN & VLAN Based SPAN\nGeneral fixed issues\nFixed an issue affecting SGT tag configuration when a corresponding policy or VLAN mapping is not present\nResolved an issue that sometimes caused incorrect profile assignment when using Smartport Automations\nFixed an issue that caused some clients to fail to authenticate and resolve DHCP in voice VLANs\nFixed a bug that sometimes caused ports connected to 100Mbps devices on MS210, MS225 and MS250 switches to fail to pass traffic\nMs130 fixed issues\nResolved an issue that sometimes caused MS130 switches to fail to pass traffic until the switch was rebooted\nMs150 fixed issues\nResolved an issue that caused ports to fail to show their accurate connection status when a stacking cable was disconnected or reconnected\nFixed a bug that sometimes caused MS150 switches to experience spikes of sdma_tx errors and lose connectivity until they were rebooted\nFixed a bug that occasionally caused ports to flap, which caused clients to experience DHCP and other connectivity issues\nGeneral known issues\nIn rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.\nMS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures\nSome switches may experience multicast packet loss when storm control is enabled\nSome MS130 switches may fail to provide PoE after upgrading from factory firmware to MS 18.1.6\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nCable tests may report incorrect cable lengths\nMs130 known issues\nMS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally\nMs150 known issues\nMS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.\nMS150 switches may produce a flood of unicast traffic when their uplink is using a LAG and is connected to a C9300X\nResolved an issue that caused some MS150 switches in stack configurations to incorrectly flood unknown multicast traffic while the setting was disabled\nMs350x known issues\nSwitches may experience an unexpected reboot (present since MS 15)\nMs355 known issues\nSwitches in stack configuration may experience some ports failing to reconnect after a firmware upgrade\nMs410 known issues\nSome MS410 switches may encounter alerts for fan failures that will eventually self-resolve\nMs425 known issues\nIn rare circumstances MS425 switches may encounter a software crash that results in a reboot\nIn rare circumstances MS425 switches in stack configurations may encounter a software crash that results in a reboot\nOther\nNew Feature Highlights\n• MS-21883: Group Policy ACL on MS130 & MS150\n• MS-21889: Maximum MAC support in MAC Allowlists\n• MS-21885: 802.1x limited access mode with pre-auth GPACL\n• MS-28340: Local Status Page connectivity diagnostics enhancements\n• MS-23684: Layer 2 multicast live tool\n• MS-24285: Traffic Mirroring: RSPAN & VLAN Based SPAN",
+  "html": "<DIV class=\"\"><STRONG>Switches - MS software versions MS 18.1.6 changelog</STRONG></DIV><H3 id=\"toc-hId-1456468769\" id=\"toc-hId-428116889\"> </H3><DIV class=\"\"><H4 id=\"toc-hId--1292201697\" id=\"toc-hId-1118678363\">New feature highlights</H4><UL><LI><P class=\"\">Group Policy ACL on MS130 &amp; MS150</P></LI><LI><P class=\"\">Maximum MAC support in MAC Allowlists</P></LI><LI><P class=\"\">802.1x limited access mode with pre-auth GPACL</P></LI><LI><P class=\"\">Local Status Page connectivity diagnostics enhancements</P></LI><LI><P class=\"\">Layer 2 multicast live tool</P></LI><LI><P class=\"\">Traffic Mirroring: RSPAN &amp; VLAN Based SPAN</P></LI></UL><H4 id=\"toc-hId-450608638\" id=\"toc-hId--688776100\">General fixed issues</H4><UL><LI><P class=\"\">Fixed an issue affecting SGT tag configuration when a corresponding policy or VLAN mapping is not present</P></LI><LI><P class=\"\">Resolved an issue that sometimes caused incorrect profile assignment when using Smartport Automations</P></LI><LI><P class=\"\">Fixed an issue that caused some clients to fail to authenticate and resolve DHCP in voice VLANs</P></LI><LI><P class=\"\">Fixed a bug that sometimes caused ports connected to 100Mbps devices on MS210, MS225 and MS250 switches to fail to pass traffic</P></LI></UL><H4 id=\"toc-hId--2101548323\" id=\"toc-hId-1798736733\">Ms130 fixed issues</H4><UL><LI><P class=\"\">Resolved an issue that sometimes caused MS130 switches to fail to pass traffic until the switch was rebooted</P></LI></UL><H4 id=\"toc-hId--358737988\" id=\"toc-hId--8717730\">Ms150 fixed issues</H4><UL><LI><P class=\"\">Resolved an issue that caused ports to fail to show their accurate connection status when a stacking cable was disconnected or reconnected</P></LI><LI><P class=\"\">Fixed a bug that sometimes caused MS150 switches to experience spikes of sdma_tx errors and lose connectivity until they were rebooted</P></LI><LI><P class=\"\">Fixed a bug that occasionally caused ports to flap, which caused clients to experience DHCP and other connectivity issues</P></LI></UL><H4 id=\"toc-hId-1384072347\" id=\"toc-hId--1816172193\">General known issues</H4><UL><LI><P class=\"\">In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.</P></LI><LI><P class=\"\">MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures</P></LI><LI><P class=\"\">Some switches may experience multicast packet loss when storm control is enabled</P></LI><LI><P class=\"\">Some MS130 switches may fail to provide PoE after upgrading from factory firmware to MS 18.1.6</P></LI></UL><H4 id=\"toc-hId--1168084614\" id=\"toc-hId-671340640\">Ms120 known issues</H4><UL><LI><P class=\"\">Switches may fail to provide PoE power to legacy access points (always present)</P></LI><LI><P class=\"\">Cable tests may report incorrect cable lengths</P></LI></UL><H4 id=\"toc-hId-574725721\" id=\"toc-hId--1136113823\">Ms130 known issues</H4><UL><LI><P class=\"\">MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally</P></LI></UL><H4 id=\"toc-hId--1977431240\" id=\"toc-hId-1351399010\">Ms150 known issues</H4><UL><LI><P class=\"\">MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.</P></LI><LI><P class=\"\">MS150 switches may produce a flood of unicast traffic when their uplink is using a LAG and is connected to a C9300X</P></LI><LI><P class=\"\">Resolved an issue that caused some MS150 switches in stack configurations to incorrectly flood unknown multicast traffic while the setting was disabled</P></LI></UL><H4 id=\"toc-hId--234620905\" id=\"toc-hId--456055453\">Ms350x known issues</H4><UL><LI><P class=\"\">Switches may experience an unexpected reboot (present since MS 15)</P></LI></UL><H4 id=\"toc-hId--807409713\" id=\"toc-hId--1032639317\">Ms355 known issues</H4><UL><LI><P class=\"\">Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade</P></LI></UL><H4 id=\"toc-hId-935400622\" id=\"toc-hId-1454873516\">Ms410 known issues</H4><UL><LI><P class=\"\">Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve</P></LI></UL><H4 id=\"toc-hId--1616756339\" id=\"toc-hId--352580947\">Ms425 known issues</H4><UL><LI><P class=\"\">In rare circumstances MS425 switches may encounter a software crash that results in a reboot</P></LI><LI><P class=\"\">In rare circumstances MS425 switches in stack configurations may encounter a software crash that results in a reboot</P></LI></UL><H4 id=\"toc-hId-126053996\" id=\"toc-hId-2134931886\">Other</H4><UL><LI><P class=\"\">New Feature Highlights</P></LI><LI><P class=\"\">• MS-21883: Group Policy ACL on MS130 &amp; MS150</P></LI><LI><P class=\"\">• MS-21889: Maximum MAC support in MAC Allowlists</P></LI><LI><P class=\"\">• MS-21885: 802.1x limited access mode with pre-auth GPACL</P></LI><LI><P class=\"\">• MS-28340: Local Status Page connectivity diagnostics enhancements</P></LI><LI><P class=\"\">• MS-23684: Layer 2 multicast live tool</P></LI><LI><P class=\"\">• MS-24285: Traffic Mirroring: RSPAN &amp; VLAN Based SPAN</P></LI></UL></DIV>",
+  "other_comments": [
+    {
+      "id": "5463214",
+      "author": "CMR",
+      "posted": "2026-03-13T00:15:02.785-07:00",
+      "text": "This is listed as an MS150 known issue - but perhaps it is fixed?\nResolved an issue that caused some MS150 switches in stack configurations to incorrectly flood unknown multicast traffic while the setting was disabled",
+      "html": "<P>This is listed as an MS150 known issue - but perhaps it is fixed?</P><P>Resolved an issue that caused some MS150 switches in stack configurations to incorrectly flood unknown multicast traffic while the setting was disabled</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:34Z"
+}

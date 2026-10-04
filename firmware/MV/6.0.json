@@ -1,0 +1,35 @@
+{
+  "family": "MV",
+  "version": "6.0",
+  "title": "Camera firmware versions MV 6.0 changelog",
+  "announcements": [
+    {
+      "post_id": "5515693",
+      "releaseType": "beta",
+      "announced": "2024-06-06T17:47:05.053-07:00",
+      "post_subject": "A new beta camera firmware is now available on Thu, 06 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-thu-06-jun-2024/ba-p/5515693"
+    }
+  ],
+  "changelog_comment_id": "5515694",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-06-07T00:48:14.392-07:00",
+  "sections": {
+    "New": [
+      "Added support for Custom CV Webhooks"
+    ],
+    "Bug fixes": [
+      "Resolved an issue where cameras with motion-based retention alongside restricted bandwidth mode can disable motion detection",
+      "Resolved an issue where MV13/MV33/MV63(x)/MV93(x) can reboot when wireless profiles are enabled"
+    ],
+    "General": [
+      "Improved Color Matching for Attribute Search on MV13/MV63(x)",
+      "Improved Object Tracking on MV13/MV63(x)",
+      "Improvements to MT sensor connectivity performance with MV gateways"
+    ]
+  },
+  "text": "Camera firmware versions MV 6.0 changelog\nNew\nAdded support for Custom CV Webhooks\nBug fixes\nResolved an issue where cameras with motion-based retention alongside restricted bandwidth mode can disable motion detection\nResolved an issue where MV13/MV33/MV63(x)/MV93(x) can reboot when wireless profiles are enabled\nGeneral\nImproved Color Matching for Attribute Search on MV13/MV63(x)\nImproved Object Tracking on MV13/MV63(x)\nImprovements to MT sensor connectivity performance with MV gateways",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844103795\" id=\"toc-hId--248872468\">Camera firmware versions MV 6.0 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297593681\" id=\"toc-hId-1142753584\">New</H4><UL><LI>Added support for Custom CV Webhooks</LI></UL><H4 id=\"toc-hId-445216654\" id=\"toc-hId--664700879\">Bug fixes</H4><UL><LI>Resolved an issue where cameras with motion-based retention alongside restricted bandwidth mode can disable motion detection</LI><LI>Resolved an issue where MV13/MV33/MV63(x)/MV93(x) can reboot when wireless profiles are enabled</LI></UL><H4 id=\"toc-hId--2106940307\" id=\"toc-hId-1822811954\">General</H4><UL><LI>Improved Color Matching for Attribute Search on MV13/MV63(x)</LI><LI>Improved Object Tracking on MV13/MV63(x)</LI><LI>Improvements to MT sensor connectivity performance with MV gateways</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:17Z"
+}

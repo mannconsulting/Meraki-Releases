@@ -1,0 +1,45 @@
+{
+  "family": "MR",
+  "version": "32.1.1",
+  "title": "Wireless firmware versions MR 32.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5520453",
+      "releaseType": "beta",
+      "announced": "2025-05-21T09:47:04.264-07:00",
+      "post_subject": "A new beta wireless firmware is now available on Wed, 21 May 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-wed-21-may-2025/ba-p/5520453"
+    }
+  ],
+  "changelog_comment_id": "5520454",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-05-21T14:26:55.503-07:00",
+  "sections": {
+    "New feature": [
+      "Support for OWE Transition mode",
+      "Support for AAA accounting + Fast roaming (802.11r)",
+      "Support for Mandatory DHCP + Fast roaming (802.11r)",
+      "Support COA Support + Fast roaming (802.11r)",
+      "Support for Client Exclusion Policies (Manual)",
+      "Support for DHCP Option 82"
+    ],
+    "Enhancement": [
+      "Client Analytics support for Zebra devices",
+      "6GHz Support for Transition mode with SAE SSIDs",
+      "MLO Support with 802.3at power for CW9178/CW9176",
+      "Support for AP Auto Locate new Wi-Fi 7 HW support",
+      "AP Auto Locate (UWB AP-to-AP Ranging)",
+      "Safe Config Override for Site Surveying",
+      "Support for AP name in beacon without CCX"
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "MAB-based wired clients not re-authenticated after port reset (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)",
+      "Gateway MR to source RADIUS traffic from AMI (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 32.1.1 changelog\nNew feature\nSupport for OWE Transition mode\nSupport for AAA accounting + Fast roaming (802.11r)\nSupport for Mandatory DHCP + Fast roaming (802.11r)\nSupport COA Support + Fast roaming (802.11r)\nSupport for Client Exclusion Policies (Manual)\nSupport for DHCP Option 82\nEnhancement\nClient Analytics support for Zebra devices\n6GHz Support for Transition mode with SAE SSIDs\nMLO Support with 802.3at power for CW9178/CW9176\nSupport for AP Auto Locate new Wi-Fi 7 HW support\nAP Auto Locate (UWB AP-to-AP Ranging)\nSafe Config Override for Site Surveying\nSupport for AP name in beacon without CCX\nBug fixes\nGeneral stability, performance, and experience improvements\nMAB-based wired clients not re-authenticated after port reset (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)\nGateway MR to source RADIUS traffic from AMI (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847623976\" id=\"toc-hId--248099948\">Wireless firmware versions MR 32.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294073500\" id=\"toc-hId-1143526104\">New feature</H4><UL><LI>Support for OWE Transition mode</LI><LI>Support for AAA accounting + Fast roaming (802.11r)</LI><LI>Support for Mandatory DHCP + Fast roaming (802.11r)</LI><LI>Support COA Support + Fast roaming (802.11r)</LI><LI>Support for Client Exclusion Policies (Manual)</LI><LI>Support for DHCP Option 82</LI></UL><H4 id=\"toc-hId-448736835\" id=\"toc-hId--663928359\">Enhancement</H4><UL><LI>Client Analytics support for Zebra devices</LI><LI>6GHz Support for Transition mode with SAE SSIDs</LI><LI>MLO Support with 802.3at power for CW9178/CW9176</LI><LI>Support for AP Auto Locate new Wi-Fi 7 HW support</LI><LI>AP Auto Locate (UWB AP-to-AP Ranging)</LI><LI>Safe Config Override for Site Surveying</LI><LI>Support for AP name in beacon without CCX</LI></UL><H4 id=\"toc-hId--2103420126\" id=\"toc-hId-1823584474\">Bug fixes</H4><UL><LI>General stability, performance, and experience improvements</LI><LI>MAB-based wired clients not re-authenticated after port reset (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)</LI><LI>Gateway MR to source RADIUS traffic from AMI (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:53Z"
+}

@@ -1,0 +1,58 @@
+{
+  "family": "CS",
+  "version": "17.2.1.1",
+  "title": "CS firmware versions CS 17.2.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5520068",
+      "releaseType": "stable",
+      "announced": "2025-04-24T15:47:03.996-07:00",
+      "post_subject": "A new stable switchCatalyst firmware is now available on Thu, 24 Apr 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-thu-24/ba-p/5520068"
+    }
+  ],
+  "changelog_comment_id": "5520069",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-04-24T22:22:57.005-07:00",
+  "sections": {
+    "Important notes": [
+      "This version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New feature highlights": [
+      "Client Analytics",
+      "Device Uptime for MS390s",
+      "EEE (Energy Efficient Ethernet) Support",
+      "Multi-auth with support for guest/failed/critical",
+      "RADIUS Caching",
+      "Support for Multicast in Live Tool",
+      "VLAN to SGT mapping"
+    ],
+    "General fixed issues": [
+      "The local status page has been enhanced to enable managing the allowed VLANs range using a single configuration option",
+      "Fixed a bug with client analytics on Access switch ports that prevented clients from being correctly listed in Switch Summary, Switch Ports, and Client pages",
+      "Resolved an issue that caused MAC flapping and packet loss on downstream switches",
+      "Introduced measures to significantly decrease occurrences of the Meraki container becoming trapped in a reboot loop while switches maintain data traffic flow. This scenario may still occur in rare cases.",
+      "Corrected an issue that caused stack ports to be incorrectly displayed as \"Disconnected\" after a stack member was rebooted",
+      "Fixed a bug that caused the Static Gateway IP to display as '0.0.0.0' in the L3 Routing Switch tab",
+      "Resolved an issue that occasionally prevented the uplink port from being identified correctly on the Dashboard. This issue did not affect device connectivity.",
+      "Fixed a bug that caused a brief period of L3 traffic loss after the active member of a stack failed over",
+      "All new LAG configurations will block redundant links if the connected device is not configured for LACP. This change fixes an issue where switches would sometimes move LAG ports to an active forwarding state prior to LACP convergence, creating the potential for loops. The change does not apply to existing LAG configurations."
+    ],
+    "Ms390 fixed issues": [
+      "Resolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease",
+      "Fixed a bug that would infrequently prevent MS390 stacks from converging after a failover"
+    ],
+    "C9300 known issues": [
+      "Some C9300X stacks have been reported to fail due to memory exhaustion, requiring an ios restart to restore service"
+    ],
+    "Ms390 known issues": [
+      "In rare circumstances, MS390 stacks may display UDLD loop detection alerts that cannot be cleared by cycling the looping port",
+      "MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot",
+      "Items in italics were already fixed in the previous release, but are still listed in the notes for this release."
+    ]
+  },
+  "text": "CS firmware versions CS 17.2.1.1 changelog\nImportant notes\nThis version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.\nNew feature highlights\nClient Analytics\nDevice Uptime for MS390s\nEEE (Energy Efficient Ethernet) Support\nMulti-auth with support for guest/failed/critical\nRADIUS Caching\nSupport for Multicast in Live Tool\nVLAN to SGT mapping\nGeneral fixed issues\nThe local status page has been enhanced to enable managing the allowed VLANs range using a single configuration option\nFixed a bug with client analytics on Access switch ports that prevented clients from being correctly listed in Switch Summary, Switch Ports, and Client pages\nResolved an issue that caused MAC flapping and packet loss on downstream switches\nIntroduced measures to significantly decrease occurrences of the Meraki container becoming trapped in a reboot loop while switches maintain data traffic flow. This scenario may still occur in rare cases.\nCorrected an issue that caused stack ports to be incorrectly displayed as \"Disconnected\" after a stack member was rebooted\nFixed a bug that caused the Static Gateway IP to display as '0.0.0.0' in the L3 Routing Switch tab\nResolved an issue that occasionally prevented the uplink port from being identified correctly on the Dashboard. This issue did not affect device connectivity.\nFixed a bug that caused a brief period of L3 traffic loss after the active member of a stack failed over\nAll new LAG configurations will block redundant links if the connected device is not configured for LACP. This change fixes an issue where switches would sometimes move LAG ports to an active forwarding state prior to LACP convergence, creating the potential for loops. The change does not apply to existing LAG configurations.\nMs390 fixed issues\nResolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease\nFixed a bug that would infrequently prevent MS390 stacks from converging after a failover\nC9300 known issues\nSome C9300X stacks have been reported to fail due to memory exhaustion, requiring an ios restart to restore service\nMs390 known issues\nIn rare circumstances, MS390 stacks may display UDLD loop detection alerts that cannot be cleared by cycling the looping port\nMS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot\nItems in italics were already fixed in the previous release, but are still listed in the notes for this release.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847561503\" id=\"toc-hId--248103756\">CS firmware versions CS 17.2.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294135973\" id=\"toc-hId-1143522296\">Important notes</H4><UL><LI>This version's IOS image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-448674362\" id=\"toc-hId--663932167\">New feature highlights</H4><UL><LI>Client Analytics</LI><LI>Device Uptime for MS390s</LI><LI>EEE (Energy Efficient Ethernet) Support</LI><LI>Multi-auth with support for guest/failed/critical</LI><LI>RADIUS Caching</LI><LI>Support for Multicast in Live Tool</LI><LI>VLAN to SGT mapping</LI></UL><H4 id=\"toc-hId--2103482599\" id=\"toc-hId-1823580666\">General fixed issues</H4><UL><LI>The local status page has been enhanced to enable managing the allowed VLANs range using a single configuration option</LI><LI>Fixed a bug with client analytics on Access switch ports that prevented clients from being correctly listed in Switch Summary, Switch Ports, and Client pages</LI><LI>Resolved an issue that caused MAC flapping and packet loss on downstream switches</LI><LI><EM>Introduced measures to significantly decrease occurrences of the Meraki container becoming trapped in a reboot loop while switches maintain data traffic flow. This scenario may still occur in rare cases.</EM></LI><LI><EM>Corrected an issue that caused stack ports to be incorrectly displayed as \"Disconnected\" after a stack member was rebooted</EM></LI><LI><EM>Fixed a bug that caused the Static Gateway IP to display as '0.0.0.0' in the L3 Routing Switch tab</EM></LI><LI>Resolved an issue that occasionally prevented the uplink port from being identified correctly on the Dashboard. This issue did not affect device connectivity.</LI><LI><EM>Fixed a bug that caused a brief period of L3 traffic loss after the active member of a stack failed over</EM></LI><LI>All new LAG configurations will block redundant links if the connected device is not configured for LACP. This change fixes an issue where switches would sometimes move LAG ports to an active forwarding state prior to LACP convergence, creating the potential for loops. The change does not apply to existing LAG configurations.</LI></UL><H4 id=\"toc-hId--360672264\" id=\"toc-hId-16126203\"><EM>Ms390 fixed issues</EM></H4><UL><LI><EM>Resolved an issue that prevented the application of fixed IP assignments if the IP being assigned had an active DHCP lease</EM></LI><LI><EM>Fixed a bug that would infrequently prevent MS390 stacks from converging after a failover</EM></LI></UL><H4 id=\"toc-hId-1382138071\" id=\"toc-hId--1791328260\">C9300 known issues</H4><UL><LI>Some C9300X stacks have been reported to fail due to memory exhaustion, requiring an ios restart to restore service</LI></UL><H4 id=\"toc-hId--1170018890\" id=\"toc-hId-696184573\">Ms390 known issues</H4><UL><LI>In rare circumstances, MS390 stacks may display UDLD loop detection alerts that cannot be cleared by cycling the looping port</LI><LI>MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot</LI></UL><P>Items in italics were already fixed in the previous release, but are still listed in the notes for this release.</P></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:55Z"
+}

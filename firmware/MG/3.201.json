@@ -1,0 +1,45 @@
+{
+  "family": "MG",
+  "version": "3.201",
+  "title": "Cellular gateway firmware versions MG 3.201 changelog",
+  "announcements": [
+    {
+      "post_id": "5515136",
+      "releaseType": "beta",
+      "announced": "2024-05-02T16:47:04.524-07:00",
+      "post_subject": "A new beta cellularGateway firmware is now available on Thu, 02 May 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cellulargateway-firmware-is-now-available-on-thu-02/ba-p/5515136"
+    }
+  ],
+  "changelog_comment_id": "5515137",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-05-03T00:39:20.455-07:00",
+  "sections": {
+    "Important notices": [
+      "For MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.201. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance."
+    ],
+    "New feature highlights": [
+      "MG51/51E Cellular Modem firmware upgrade (Verizon Band N77)",
+      "Display IPv6 info on LSP"
+    ],
+    "Bug fixes": [
+      "MG41 - Fixed issue that caused MG to report “SIM Not Inserted” while online via Cellular",
+      "MG21 - Fixed issue causing Modem reboots",
+      "No cellular connectivity after SIM1 Failover",
+      "Fixed issue that would cause frequent ‘boot_count” reboots",
+      "MG41 - Fixed issue that would prevent integrated modems from initializing after a reset",
+      "Enhanced support and error correction for Modem Upgrades",
+      "Radio Toggle button added to Local Status page",
+      "Shortened the Cellular uplink Connection Monitor success/retry times",
+      "MG41 - Fixed rebooting to resolve connectivity while Connection Monitoring is good"
+    ],
+    "Known issues": [
+      "MG21 Unable to set MTU",
+      "Periodic MG Reboot"
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 3.201 changelog\nImportant notices\nFor MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.201. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.\nNew feature highlights\nMG51/51E Cellular Modem firmware upgrade (Verizon Band N77)\nDisplay IPv6 info on LSP\nBug fixes\nMG41 - Fixed issue that caused MG to report “SIM Not Inserted” while online via Cellular\nMG21 - Fixed issue causing Modem reboots\nNo cellular connectivity after SIM1 Failover\nFixed issue that would cause frequent ‘boot_count” reboots\nMG41 - Fixed issue that would prevent integrated modems from initializing after a reset\nEnhanced support and error correction for Modem Upgrades\nRadio Toggle button added to Local Status page\nShortened the Cellular uplink Connection Monitor success/retry times\nMG41 - Fixed rebooting to resolve connectivity while Connection Monitoring is good\nKnown issues\nMG21 Unable to set MTU\nPeriodic MG Reboot",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1843988420\" id=\"toc-hId--248877456\">Cellular gateway firmware versions MG 3.201 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297709056\" id=\"toc-hId-1142748596\">Important notices</H4><UL><LI>For MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.201. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.</LI></UL><H4 id=\"toc-hId-445101279\" id=\"toc-hId--664705867\">New feature highlights</H4><UL><LI>MG51/51E Cellular Modem firmware upgrade (Verizon Band N77)</LI><LI>Display IPv6 info on LSP</LI></UL><H4 id=\"toc-hId--2107055682\" id=\"toc-hId-1822806966\">Bug fixes</H4><UL><LI>MG41 - Fixed issue that caused MG to report “SIM Not Inserted” while online via Cellular</LI><LI>MG21 - Fixed issue causing Modem reboots</LI><LI>No cellular connectivity after SIM1 Failover</LI><LI>Fixed issue that would cause frequent ‘boot_count” reboots</LI><LI>MG41 - Fixed issue that would prevent integrated modems from initializing after a reset</LI><LI>Enhanced support and error correction for Modem Upgrades</LI><LI>Radio Toggle button added to Local Status page</LI><LI>Shortened the Cellular uplink Connection Monitor success/retry times</LI><LI>MG41 - Fixed rebooting to resolve connectivity while Connection Monitoring is good</LI></UL><H4 id=\"toc-hId--364245347\" id=\"toc-hId-15352503\">Known issues</H4><UL><LI>MG21 Unable to set MTU</LI><LI>Periodic MG Reboot</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:20Z"
+}

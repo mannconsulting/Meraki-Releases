@@ -1,0 +1,35 @@
+{
+  "family": "MG",
+  "version": "3.212",
+  "title": "Cellular gateway firmware versions MG 3.212 changelog",
+  "announcements": [
+    {
+      "post_id": "5516004",
+      "releaseType": "beta",
+      "announced": "2024-06-25T13:47:08.861-07:00",
+      "post_subject": "A new beta cellularGateway firmware is now available on Tue, 25 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cellulargateway-firmware-is-now-available-on-tue-25/ba-p/5516004"
+    }
+  ],
+  "changelog_comment_id": "5516005",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-06-25T16:39:56.092-07:00",
+  "sections": {
+    "Important notices": [
+      "For MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.212. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance."
+    ],
+    "Bug fixes": [
+      "Corrected an issue for MG21 that resulted in the modems not defaulting to 1500 MTU when the network MTU was not specified",
+      "Enabled Cellular Modem upgrade for MG51/51E (See Important Notice)",
+      "Improved MG21 modem reliability to prevent them from getting stuck",
+      "Fixed a problem that resulted in MG21 IPv4 custom APNs not working properly"
+    ],
+    "Known issues": [
+      "MG Frequent Reboot under investigation"
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 3.212 changelog\nImportant notices\nFor MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.212. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.\nBug fixes\nCorrected an issue for MG21 that resulted in the modems not defaulting to 1500 MTU when the network MTU was not specified\nEnabled Cellular Modem upgrade for MG51/51E (See Important Notice)\nImproved MG21 modem reliability to prevent them from getting stuck\nFixed a problem that resulted in MG21 IPv4 custom APNs not working properly\nKnown issues\nMG Frequent Reboot under investigation",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844142017\" id=\"toc-hId--248848721\">Cellular gateway firmware versions MG 3.212 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297555459\" id=\"toc-hId-1142777331\">Important notices</H4><UL><LI>For MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.212. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.</LI></UL><H4 id=\"toc-hId-445254876\" id=\"toc-hId--664677132\">Bug fixes</H4><UL><LI>Corrected an issue for MG21 that resulted in the modems not defaulting to 1500 MTU when the network MTU was not specified</LI><LI>Enabled Cellular Modem upgrade for MG51/51E (See Important Notice)</LI><LI>Improved MG21 modem reliability to prevent them from getting stuck</LI><LI>Fixed a problem that resulted in MG21 IPv4 custom APNs not working properly</LI></UL><H4 id=\"toc-hId--2106902085\" id=\"toc-hId-1822835701\">Known issues</H4><UL><LI>MG Frequent Reboot under investigation</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:15Z"
+}

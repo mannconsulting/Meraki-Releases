@@ -1,0 +1,39 @@
+{
+  "family": "MV",
+  "version": "5.5",
+  "title": "Camera firmware versions MV 5.5 changelog",
+  "announcements": [
+    {
+      "post_id": "5513406",
+      "releaseType": "beta",
+      "announced": "2023-12-11T19:47:05.876-08:00",
+      "post_subject": "A new beta camera firmware is now available on Mon, 11 Dec 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-mon-11-dec-2023/ba-p/5513406"
+    }
+  ],
+  "changelog_comment_id": "5513407",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-12-12T00:29:20.617-08:00",
+  "sections": {
+    "New": [
+      "Insufficient Power Detection support and Red LED state on MV63(x)/MV93(x)",
+      "Performance improvement for MT Sensor connection"
+    ],
+    "Bug fixes": [
+      "Resolved an issue where MV Sense on MV63(x)/MV93(x) does not send a complete payload to MQTT brokers for raw_detections",
+      "Resolved an issue leading to RTSP failures with specific VMS systems on MV63(x)/MV93(x)",
+      "Resolved an issue where MV12/MV2/MV22(x)/MV32/MV52/MV72(x) are not streaming audio to the Meraki Android app",
+      "Resolved an issue with historical playback on iOS and Safari"
+    ],
+    "General": [
+      "Improved performance for RTSP streaming on MV63(x)/MV93(x)",
+      "Improved Video Recording Stability on MV63(x)/MV93(x)",
+      "Improved accuracy of vehicle and person detection",
+      "General stability and performance improvements"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.5 changelog\nNew\nInsufficient Power Detection support and Red LED state on MV63(x)/MV93(x)\nPerformance improvement for MT Sensor connection\nBug fixes\nResolved an issue where MV Sense on MV63(x)/MV93(x) does not send a complete payload to MQTT brokers for raw_detections\nResolved an issue leading to RTSP failures with specific VMS systems on MV63(x)/MV93(x)\nResolved an issue where MV12/MV2/MV22(x)/MV32/MV52/MV72(x) are not streaming audio to the Meraki Android app\nResolved an issue with historical playback on iOS and Safari\nGeneral\nImproved performance for RTSP streaming on MV63(x)/MV93(x)\nImproved Video Recording Stability on MV63(x)/MV93(x)\nImproved accuracy of vehicle and person detection\nGeneral stability and performance improvements",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1842263510\" id=\"toc-hId--248934248\">Camera firmware versions MV 5.5 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1299433966\" id=\"toc-hId-1142691804\">New</H4><UL><LI>Insufficient Power Detection support and Red LED state on MV63(x)/MV93(x)</LI><LI>Performance improvement for MT Sensor connection</LI></UL><H4 id=\"toc-hId-443376369\" id=\"toc-hId--664762659\">Bug fixes</H4><UL><LI>Resolved an issue where MV Sense on MV63(x)/MV93(x) does not send a complete payload to MQTT brokers for raw_detections</LI><LI>Resolved an issue leading to RTSP failures with specific VMS systems on MV63(x)/MV93(x)</LI><LI>Resolved an issue where MV12/MV2/MV22(x)/MV32/MV52/MV72(x) are not streaming audio to the Meraki Android app</LI><LI>Resolved an issue with historical playback on iOS and Safari</LI></UL><H4 id=\"toc-hId--2108780592\" id=\"toc-hId-1822750174\">General</H4><UL><LI>Improved performance for RTSP streaming on MV63(x)/MV93(x)</LI><LI>Improved Video Recording Stability on MV63(x)/MV93(x)</LI><LI>Improved accuracy of vehicle and person detection</LI><LI>General stability and performance improvements</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:28Z"
+}

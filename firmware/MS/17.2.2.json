@@ -1,0 +1,101 @@
+{
+  "family": "MS",
+  "version": "17.2.2",
+  "title": "Switch firmware versions MS 17.2.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5521405",
+      "releaseType": "stable",
+      "announced": "2025-07-22T17:47:03.878-07:00",
+      "post_subject": "A new stable switch firmware is now available on Tue, 22 Jul 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switch-firmware-is-now-available-on-tue-22-jul-2025/ba-p/5521405"
+    }
+  ],
+  "changelog_comment_id": "5521406",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-07-23T00:41:52.948-07:00",
+  "sections": {
+    "Ms12x important notes": [
+      "MS 16 introduced DAI on MS100 series platforms. If you are upgrading to a current release from MS 15 or earlier please ensure trusted ports and/or DAI-allow lists are configured prior to upgrading."
+    ],
+    "New feature highlights": [
+      "DOM (Digital Optical Monitoring)",
+      "Intelligent Capture",
+      "SmartPorts Automation"
+    ],
+    "New ms130x feature highlights": [
+      "Adaptive Policy on MS130X/R models"
+    ],
+    "New ms150 feature highlights": [
+      "Static routing on all MS150 models"
+    ],
+    "General fixed issues": [
+      "Fixed an issue that caused switch stacks to learn MAC addresses from ports in the STP blocking state, triggering MAC flap messages in the event log",
+      "Fixed a bug that caused an unexpected LACP discarding state when connected to third party firewalls",
+      "Resolved an issue that sometimes prevented communication between VLANs on switches in stack configurations",
+      "Resolved a bug that caused the Ping tool in the Client details page to fail to display data on Dashboard for wired clients",
+      "Resolved a bug that occasionally caused switches in stack configurations to crash and reboot"
+    ],
+    "Ms120 fixed issues": [
+      "Resolved an issue that sometimes caused MS120 switches to unexpectedly reboot after upgrading to MS 17.2.1"
+    ],
+    "Ms130 fixed issues": [
+      "Fixed a bug that sometimes caused switches to fail to deliver PoE, and could cause all ports to display as disconnected in Dashboard"
+    ],
+    "Ms220 fixed issues": [
+      "Resolved an issue that caused MS220 switches to reboot after updating to MS 17"
+    ],
+    "Ms355 fixed issues": [
+      "Fixed a bug that sometimes caused SFP ports to fail to connect after a firmware upgrade",
+      "Resolved a bug that sometimes caused a stack member to go offline when a stacking cable was disconnected and reconnected"
+    ],
+    "Ms425 fixed issues": [
+      "Resolved a bug that occasionally caused MS425 switches in stack configurations to unexpectedly reboot",
+      "Fixed a bug that sometimes caused fail to collect reporting data on all SFP ports, or to only report data on port 1"
+    ],
+    "General known issues": [
+      "Clients authenticating via 802.1X with an access policy using hybrid authentication may not correctly log their RADIUS sessions",
+      "Clients that fail to pass RADIUS authentication and are connected to ports using access policies may get stuck in an authentication loop, possibly resulting in a switch reboot",
+      "In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.",
+      "LACP links may take an extended time to come back up when the Active Member of a stack reboots",
+      "Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard",
+      "On MS250 and MS350 switches, MAC addresses learned via AGGR are not removed when LAG ports are disabled. Mac addresses will be removed correctly within 5 minutes of reenabling LAG ports."
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)",
+      "Cable tests may report incorrect cable lengths"
+    ],
+    "Ms220 known issues": [
+      "Client devices connected to ports 24-48 on MS220-48LP switches may have their DHCP offers and ARP replies erroneously dropped"
+    ],
+    "Ms225 known issues": [
+      "MS225 switches may infrequently stop forwarding client traffic until the switch is rebooted",
+      "In rare circumstances, switches in stack configurations may experience a software crash that results in a reboot"
+    ],
+    "Ms250 known issues": [
+      "Switchport with Multi-Domain Hybrid auth access policy randomly goes into a port not forwarding state"
+    ],
+    "Ms350x known issues": [
+      "Switches may experience an unexpected reboot (present since MS 15)"
+    ],
+    "Ms355 known issues": [
+      "In rare instances, stack ports fail to initialize after an upgrade (always present)"
+    ],
+    "Ms410 known issues": [
+      "Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve"
+    ],
+    "Ms425 known issues": [
+      "Frequent notifications about new DHCP servers that have mismatched VLANs/subnets",
+      "In rare circumstances MS425 switches may encounter a software crash that results in a reboot",
+      "Powering off the active switch in a MS425 stack may result in up to 5 minutes of downtime while the stack reconverges",
+      "Switches in stack configurations may experience high CPU utilization in multicast scenarios that may result in network instability"
+    ],
+    "Other": [
+      "17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password"
+    ]
+  },
+  "text": "Switch firmware versions MS 17.2.2 changelog\nMs12x important notes\nMS 16 introduced DAI on MS100 series platforms. If you are upgrading to a current release from MS 15 or earlier please ensure trusted ports and/or DAI-allow lists are configured prior to upgrading.\nNew feature highlights\nDOM (Digital Optical Monitoring)\nIntelligent Capture\nSmartPorts Automation\nNew ms130x feature highlights\nAdaptive Policy on MS130X/R models\nNew ms150 feature highlights\nStatic routing on all MS150 models\nGeneral fixed issues\nFixed an issue that caused switch stacks to learn MAC addresses from ports in the STP blocking state, triggering MAC flap messages in the event log\nFixed a bug that caused an unexpected LACP discarding state when connected to third party firewalls\nResolved an issue that sometimes prevented communication between VLANs on switches in stack configurations\nResolved a bug that caused the Ping tool in the Client details page to fail to display data on Dashboard for wired clients\nResolved a bug that occasionally caused switches in stack configurations to crash and reboot\nMs120 fixed issues\nResolved an issue that sometimes caused MS120 switches to unexpectedly reboot after upgrading to MS 17.2.1\nMs130 fixed issues\nFixed a bug that sometimes caused switches to fail to deliver PoE, and could cause all ports to display as disconnected in Dashboard\nMs220 fixed issues\nResolved an issue that caused MS220 switches to reboot after updating to MS 17\nMs355 fixed issues\nFixed a bug that sometimes caused SFP ports to fail to connect after a firmware upgrade\nResolved a bug that sometimes caused a stack member to go offline when a stacking cable was disconnected and reconnected\nMs425 fixed issues\nResolved a bug that occasionally caused MS425 switches in stack configurations to unexpectedly reboot\nFixed a bug that sometimes caused fail to collect reporting data on all SFP ports, or to only report data on port 1\nGeneral known issues\nClients authenticating via 802.1X with an access policy using hybrid authentication may not correctly log their RADIUS sessions\nClients that fail to pass RADIUS authentication and are connected to ports using access policies may get stuck in an authentication loop, possibly resulting in a switch reboot\nIn rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.\nLACP links may take an extended time to come back up when the Active Member of a stack reboots\nSome switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard\nOn MS250 and MS350 switches, MAC addresses learned via AGGR are not removed when LAG ports are disabled. Mac addresses will be removed correctly within 5 minutes of reenabling LAG ports.\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nCable tests may report incorrect cable lengths\nMs220 known issues\nClient devices connected to ports 24-48 on MS220-48LP switches may have their DHCP offers and ARP replies erroneously dropped\nMs225 known issues\nMS225 switches may infrequently stop forwarding client traffic until the switch is rebooted\nIn rare circumstances, switches in stack configurations may experience a software crash that results in a reboot\nMs250 known issues\nSwitchport with Multi-Domain Hybrid auth access policy randomly goes into a port not forwarding state\nMs350x known issues\nSwitches may experience an unexpected reboot (present since MS 15)\nMs355 known issues\nIn rare instances, stack ports fail to initialize after an upgrade (always present)\nMs410 known issues\nSome MS410 switches may encounter alerts for fan failures that will eventually self-resolve\nMs425 known issues\nFrequent notifications about new DHCP servers that have mismatched VLANs/subnets\nIn rare circumstances MS425 switches may encounter a software crash that results in a reboot\nPowering off the active switch in a MS425 stack may result in up to 5 minutes of downtime while the stack reconverges\nSwitches in stack configurations may experience high CPU utilization in multicast scenarios that may result in network instability\nOther\n17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847802722\" id=\"toc-hId--248070310\">Switch firmware versions MS 17.2.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293894754\" id=\"toc-hId-1143555742\">Ms12x important notes</H4><UL><LI>MS 16 introduced DAI on MS100 series platforms. If you are upgrading to a current release from MS 15 or earlier please ensure trusted ports and/or DAI-allow lists are configured prior to upgrading.</LI></UL><H4 id=\"toc-hId-448915581\" id=\"toc-hId--663898721\">New feature highlights</H4><UL><LI>DOM (Digital Optical Monitoring)</LI><LI>Intelligent Capture</LI><LI>SmartPorts Automation</LI></UL><H4 id=\"toc-hId--2103241380\" id=\"toc-hId-1823614112\">New ms130x feature highlights</H4><UL><LI>Adaptive Policy on MS130X/R models</LI></UL><H4 id=\"toc-hId--360431045\" id=\"toc-hId-16159649\">New ms150 feature highlights</H4><UL><LI>Static routing on all MS150 models</LI></UL><H4 id=\"toc-hId-1382379290\" id=\"toc-hId--1791294814\">General fixed issues</H4><UL><LI>Fixed an issue that caused switch stacks to learn MAC addresses from ports in the STP blocking state, triggering MAC flap messages in the event log</LI><LI>Fixed a bug that caused an unexpected LACP discarding state when connected to third party firewalls</LI><LI>Resolved an issue that sometimes prevented communication between VLANs on switches in stack configurations</LI><LI>Resolved a bug that caused the Ping tool in the Client details page to fail to display data on Dashboard for wired clients</LI><LI>Resolved a bug that occasionally caused switches in stack configurations to crash and reboot</LI></UL><H4 id=\"toc-hId--1169777671\" id=\"toc-hId-696218019\">Ms120 fixed issues</H4><UL><LI>Resolved an issue that sometimes caused MS120 switches to unexpectedly reboot after upgrading to MS 17.2.1</LI></UL><H4 id=\"toc-hId-573032664\" id=\"toc-hId--1111236444\">Ms130 fixed issues</H4><UL><LI>Fixed a bug that sometimes caused switches to fail to deliver PoE, and could cause all ports to display as disconnected in Dashboard</LI></UL><H4 id=\"toc-hId--1979124297\" id=\"toc-hId-1376276389\">Ms220 fixed issues</H4><UL><LI>Resolved an issue that caused MS220 switches to reboot after updating to MS 17</LI></UL><H4 id=\"toc-hId--236313962\" id=\"toc-hId--431178074\">Ms355 fixed issues</H4><UL><LI>Fixed a bug that sometimes caused SFP ports to fail to connect after a firmware upgrade</LI><LI>Resolved a bug that sometimes caused a stack member to go offline when a stacking cable was disconnected and reconnected</LI></UL><H4 id=\"toc-hId--809102770\" id=\"toc-hId--1007761938\">Ms425 fixed issues</H4><UL><LI>Resolved a bug that occasionally caused MS425 switches in stack configurations to unexpectedly reboot</LI><LI>Fixed a bug that sometimes caused fail to collect reporting data on all SFP ports, or to only report data on port 1</LI></UL><H4 id=\"toc-hId-933707565\" id=\"toc-hId-1479750895\">General known issues</H4><UL><LI>Clients authenticating via 802.1X with an access policy using hybrid authentication may not correctly log their RADIUS sessions</LI><LI>Clients that fail to pass RADIUS authentication and are connected to ports using access policies may get stuck in an authentication loop, possibly resulting in a switch reboot</LI><LI>In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.</LI><LI>LACP links may take an extended time to come back up when the Active Member of a stack reboots</LI><LI>Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard</LI><LI>On MS250 and MS350 switches, MAC addresses learned via AGGR are not removed when LAG ports are disabled. Mac addresses will be removed correctly within 5 minutes of reenabling LAG ports.</LI></UL><H4 id=\"toc-hId--1618449396\" id=\"toc-hId--327703568\">Ms120 known issues</H4><UL><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI><LI>Cable tests may report incorrect cable lengths</LI></UL><H4 id=\"toc-hId-124360939\" id=\"toc-hId--2135158031\">Ms220 known issues</H4><UL><LI>Client devices connected to ports 24-48 on MS220-48LP switches may have their DHCP offers and ARP replies erroneously dropped</LI></UL><H4 id=\"toc-hId-1867171274\" id=\"toc-hId-352354802\">Ms225 known issues</H4><UL><LI>MS225 switches may infrequently stop forwarding client traffic until the switch is rebooted</LI><LI>In rare circumstances, switches in stack configurations may experience a software crash that results in a reboot</LI></UL><H4 id=\"toc-hId--684985687\" id=\"toc-hId--1455099661\">Ms250 known issues</H4><UL><LI>Switchport with Multi-Domain Hybrid auth access policy randomly goes into a port not forwarding state</LI></UL><H4 id=\"toc-hId-1057824648\" id=\"toc-hId-1032413172\">Ms350x known issues</H4><UL><LI>Switches may experience an unexpected reboot (present since MS 15)</LI></UL><H4 id=\"toc-hId--1494332313\" id=\"toc-hId--775041291\">Ms355 known issues</H4><UL><LI>In rare instances, stack ports fail to initialize after an upgrade (always present)</LI></UL><H4 id=\"toc-hId-248478022\" id=\"toc-hId-1712471542\">Ms410 known issues</H4><UL><LI>Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve</LI></UL><H4 id=\"toc-hId-1991288357\" id=\"toc-hId--94982921\">Ms425 known issues</H4><UL><LI>Frequent notifications about new DHCP servers that have mismatched VLANs/subnets</LI><LI>In rare circumstances MS425 switches may encounter a software crash that results in a reboot</LI><LI>Powering off the active switch in a MS425 stack may result in up to 5 minutes of downtime while the stack reconverges</LI><LI>Switches in stack configurations may experience high CPU utilization in multicast scenarios that may result in network instability</LI></UL><H4 id=\"toc-hId-1678410063\" id=\"toc-hId--1204275443\">Other</H4><UL><LI>17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:48Z"
+}

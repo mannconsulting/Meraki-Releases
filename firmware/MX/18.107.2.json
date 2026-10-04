@@ -1,0 +1,36 @@
+{
+  "family": "MX",
+  "version": "18.107.2",
+  "title": "Security appliance firmware versions MX 18.107.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5509915",
+      "releaseType": "candidate",
+      "announced": "2023-05-23T17:47:05.469-07:00",
+      "post_subject": "A new candidate appliance firmware is now available on Tue, 23 May 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-tue-23/ba-p/5509915"
+    }
+  ],
+  "changelog_comment_id": "5509916",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-05-24T12:36:37.979-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Corrected a rare issue that could result in large increases in latency experienced over AutoVPN connections on Z3(C) appliances."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 and MX80 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "MX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are properly configured on any MX's OSPF peers to avoid disruption after upgrading to MX 18.1.X.",
+      "Due to an MX 17 regression, RADIUS messages that transit across AutoVPN may fail to be routed correctly."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 18.107.2 changelog\nBug fixes\nCorrected a rare issue that could result in large increases in latency experienced over AutoVPN connections on Z3(C) appliances.\nLegacy products notice\nWhen configured for this version, Z1 and MX80 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nMX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are properly configured on any MX's OSPF peers to avoid disruption after upgrading to MX 18.1.X.\nDue to an MX 17 regression, RADIUS messages that transit across AutoVPN may fail to be routed correctly.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1820931917\" id=\"toc-hId--249674188\">Security appliance firmware versions MX 18.107.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1320765559\" id=\"toc-hId-1141951864\">Bug fixes</H4><UL><LI>Corrected a rare issue that could result in large increases in latency experienced over AutoVPN connections on Z3(C) appliances.</LI></UL><H4 id=\"toc-hId-422044776\" id=\"toc-hId--665502599\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 and MX80 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI></UL><H4 id=\"toc-hId--2130112185\" id=\"toc-hId-1822010234\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>MX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are properly configured on any MX's OSPF peers to avoid disruption after upgrading to MX 18.1.X.</LI><LI>Due to an MX 17 regression, RADIUS messages that transit across AutoVPN may fail to be routed correctly.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:43Z"
+}

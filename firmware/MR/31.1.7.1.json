@@ -1,0 +1,54 @@
+{
+  "family": "MR",
+  "version": "31.1.7.1",
+  "title": "For reference these are the release notes at the time of release, the only change from when it was a stable release candidate is the enhancement regarding Zebra devices:",
+  "announcements": [
+    {
+      "post_id": "5520622",
+      "releaseType": "candidate",
+      "announced": "2025-06-03T15:47:04.124-07:00",
+      "post_subject": "A new candidate wireless firmware is now available on Tue, 03 Jun 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-03-jun/ba-p/5520622"
+    },
+    {
+      "post_id": "5520784",
+      "releaseType": "stable",
+      "announced": "2025-06-10T09:47:04.497-07:00",
+      "post_subject": "A new stable wireless firmware is now available on Tue, 10 Jun 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-tue-10-jun/ba-p/5520784"
+    }
+  ],
+  "changelog_comment_id": "5520786",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-06-10T09:49:39.363-07:00",
+  "sections": {
+    "preamble": [
+      "For reference these are the release notes at the time of release, the only change from when it was a stable release candidate is the enhancement regarding Zebra devices:"
+    ],
+    "Enhancement": [
+      "Support for Zebra devices to report Serial Number, Device Type/Model Number and OS"
+    ],
+    "Important note": [
+      "Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)"
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "BPDUs not forwarded to LAN ports when using VLAN tagged SSIDs (MR36H APs)",
+      "APs not responding to probe/auth requests from clients on 2.4 & 5 GHz (Wi-Fi 6E APs)",
+      "MAB-based wired clients not re-authenticated after port reset (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)",
+      "SGT source & destination tags swapped (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)"
+    ]
+  },
+  "text": "For reference these are the release notes at the time of release, the only change from when it was a stable release candidate is the enhancement regarding Zebra devices:\nWireless firmware versions MR 31.1.7.1 changelog\nEnhancement\nSupport for Zebra devices to report Serial Number, Device Type/Model Number and OS\nImportant note\nWi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)\nBug fixes\nGeneral stability, performance, and experience improvements\nBPDUs not forwarded to LAN ports when using VLAN tagged SSIDs (MR36H APs)\nAPs not responding to probe/auth requests from clients on 2.4 & 5 GHz (Wi-Fi 6E APs)\nMAB-based wired clients not re-authenticated after port reset (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)\nSGT source & destination tags swapped (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)",
+  "html": "<P>For reference these are the release notes at the time of release, the only change from when it was a stable release candidate is the enhancement regarding Zebra devices:</P><DIV class=\"\"><H1 id=\"toc-hId-1847678716\" id=\"toc-hId--248096970\">Wireless firmware versions MR 31.1.7.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294018760\" id=\"toc-hId-1143529082\">Enhancement</H4><UL><LI>Support for Zebra devices to report Serial Number, Device Type/Model Number and OS</LI></UL><H4 id=\"toc-hId-448791575\" id=\"toc-hId--663925381\">Important note</H4><UL><LI>Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (<A href=\"https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ</A>)</LI></UL><H4 id=\"toc-hId--2103365386\" id=\"toc-hId-1823587452\">Bug fixes</H4><UL><LI>General stability, performance, and experience improvements</LI><LI>BPDUs not forwarded to LAN ports when using VLAN tagged SSIDs (MR36H APs)</LI><LI>APs not responding to probe/auth requests from clients on 2.4 &amp; 5 GHz (Wi-Fi 6E APs)</LI><LI>MAB-based wired clients not re-authenticated after port reset (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)</LI><LI>SGT source &amp; destination tags swapped (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [
+    {
+      "id": "5520785",
+      "author": "CMR",
+      "posted": "2025-06-10T09:48:05.050-07:00",
+      "text": "This is 31.1.7.1 moving from stable release candidate to stable.",
+      "html": "<P>This is 31.1.7.1 moving from stable release candidate to stable.</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:52Z"
+}

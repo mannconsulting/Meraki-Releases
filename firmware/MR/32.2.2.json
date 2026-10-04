@@ -1,0 +1,28 @@
+{
+  "family": "MR",
+  "version": "32.2.2",
+  "title": "Access points software versions MR 32.2.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5462974",
+      "releaseType": "beta",
+      "announced": "2026-03-05T10:47:03.929-08:00",
+      "post_subject": "A new beta wireless firmware is now available on Thu, 05 Mar 2026",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-thu-05-mar-2026/ba-p/5462974"
+    }
+  ],
+  "changelog_comment_id": "5462975",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-03-05T11:20:21.466-08:00",
+  "sections": {
+    "preamble": [
+      "Bug fixes",
+      "General stability, performance, and experience improvements.",
+      "APs don’t forward mDNS traffic out wireless interface when using named VLANs (Wi-Fi 7)"
+    ]
+  },
+  "text": "Access points software versions MR 32.2.2 changelog\nBug fixes\nGeneral stability, performance, and experience improvements.\nAPs don’t forward mDNS traffic out wireless interface when using named VLANs (Wi-Fi 7)",
+  "html": "<P><STRONG>Access points software versions MR 32.2.2 changelog</STRONG></P><P>Bug fixes</P><UL><LI>General stability, performance, and experience improvements.</LI><LI>APs don’t forward mDNS traffic out wireless interface when using named VLANs (Wi-Fi 7)</LI></UL>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:35Z"
+}

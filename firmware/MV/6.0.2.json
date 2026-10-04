@@ -1,0 +1,26 @@
+{
+  "family": "MV",
+  "version": "6.0.2",
+  "title": "Camera firmware versions MV 6.0.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5516467",
+      "releaseType": "beta",
+      "announced": "2024-07-25T14:47:04.929-07:00",
+      "post_subject": "A new beta camera firmware is now available on Thu, 25 Jul 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-thu-25-jul-2024/ba-p/5516467"
+    }
+  ],
+  "changelog_comment_id": "5516468",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-07-25T15:24:22.301-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved a timestamp related issue which could cause de-synced playback of historical footage"
+    ]
+  },
+  "text": "Camera firmware versions MV 6.0.2 changelog\nBug fixes\nResolved a timestamp related issue which could cause de-synced playback of historical footage",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844881032\" id=\"toc-hId--248844688\">Camera firmware versions MV 6.0.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1296816444\" id=\"toc-hId-1142781364\">Bug fixes</H4><UL><LI>Resolved a timestamp related issue which could cause de-synced playback of historical footage</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:13Z"
+}

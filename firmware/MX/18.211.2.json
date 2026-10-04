@@ -1,0 +1,53 @@
+{
+  "family": "MX",
+  "version": "18.211.2",
+  "title": "Security appliance firmware versions MX 18.211.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5515543",
+      "releaseType": "stable",
+      "announced": "2024-06-05T17:47:04.730-07:00",
+      "post_subject": "A new stable appliance firmware is now available on Wed, 05 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-wed-05-jun/ba-p/5515543"
+    }
+  ],
+  "changelog_comment_id": "5515544",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-06-05T23:16:21.937-07:00",
+  "sections": {
+    "Important notice": [
+      "USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements."
+    ],
+    "Bug fixes": [
+      "Corrected an issue that resulted in Non-Meraki VPN tunnels persisting on the backup, non-primary uplink after failing back to the primary uplink when the WAN interface used IPv6.",
+      "Fixed an issue that resulted in the VPN status being reported incorrectly for Non-Meraki VPN peers connected via FQDN.",
+      "Resolved an issue that could cause MX appliances upgrading to MX 18.2 from very old, unsupported firmware versions to hang during the upgrade process.",
+      "Corrected a rare issue that could cause upgrades from MX 18.1 to MX 18.2 versions to fail to complete successfully.",
+      "Fixed an MX 18.2 regression that resulted in the link light LED for WAN2 on MX75 appliances failing to light up if WAN2 is the only wired interface in use.",
+      "Resolved a rare issue that could result in data failing to pass over the cellular interface of Z3C, MX67C, and MX68CW appliances, even when the modem was reported as connected.",
+      "Corrected an issue that could result in MX appliances encountering an unexpected reboot when ThreatGrid was enabled.",
+      "Fixed an issue that caused the Non-Meraki VPN service to fail to properly establish IKEv2 tunnels when the MX appliance was acting as the IKEv2 responder and many allowed subnets were configured.",
+      "Resolved several cases that could result in an unexpected device reboot."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9.",
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.10."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Known issues": [
+      "In rare cases, MX67C, MX68CW, and Z3C appliances may fail to enter into a \"Ready\" state despite being able to register to a cellular network and obtain an IP address for the modem.",
+      "Due to an issue with no known method of reproduction, the IDS and IPS process may unexpectedly restart.",
+      "MX AutoVPN tunnels fail to generate new connections when the AutoVPN flow has been blocked or filtered unidirectionally by an upstream or intermediary device. This prevents appliances from automatically working around this partially connected state.",
+      "MX appliances may experience unstable eBGP connections when 1) the MX appliance is configured in Routed mode and 2) the MX learns a large number of routes from its eBGP neighbor. This may result in eBGP-learned routes being inaccessible.",
+      "Trusted traffic exclusions will not function on Z4(C) appliances if AMP is configured.",
+      "Due to an MX 18.211 regression, MX75, MX85, MX95, MX105, MX250, and MX450 appliances when configured as Wireless Concentrator for SSID Tunneling and Layer 3 Roaming, will fail to forward return Radius Authentication traffic causing clients to fail to connect to the SSIDs."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 18.211.2 changelog\nImportant notice\nUSB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.\nBug fixes\nCorrected an issue that resulted in Non-Meraki VPN tunnels persisting on the backup, non-primary uplink after failing back to the primary uplink when the WAN interface used IPv6.\nFixed an issue that resulted in the VPN status being reported incorrectly for Non-Meraki VPN peers connected via FQDN.\nResolved an issue that could cause MX appliances upgrading to MX 18.2 from very old, unsupported firmware versions to hang during the upgrade process.\nCorrected a rare issue that could cause upgrades from MX 18.1 to MX 18.2 versions to fail to complete successfully.\nFixed an MX 18.2 regression that resulted in the link light LED for WAN2 on MX75 appliances failing to light up if WAN2 is the only wired interface in use.\nResolved a rare issue that could result in data failing to pass over the cellular interface of Z3C, MX67C, and MX68CW appliances, even when the modem was reported as connected.\nCorrected an issue that could result in MX appliances encountering an unexpected reboot when ThreatGrid was enabled.\nFixed an issue that caused the Non-Meraki VPN service to fail to properly establish IKEv2 tunnels when the MX appliance was acting as the IKEv2 responder and many allowed subnets were configured.\nResolved several cases that could result in an unexpected device reboot.\nLegacy products notice\nWhen configured for this version, Z1 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.10.\nKnown issues status\nThis list is being reviewed and updated.\nKnown issues\nIn rare cases, MX67C, MX68CW, and Z3C appliances may fail to enter into a \"Ready\" state despite being able to register to a cellular network and obtain an IP address for the modem.\nDue to an issue with no known method of reproduction, the IDS and IPS process may unexpectedly restart.\nMX AutoVPN tunnels fail to generate new connections when the AutoVPN flow has been blocked or filtered unidirectionally by an upstream or intermediary device. This prevents appliances from automatically working around this partially connected state.\nMX appliances may experience unstable eBGP connections when 1) the MX appliance is configured in Routed mode and 2) the MX learns a large number of routes from its eBGP neighbor. This may result in eBGP-learned routes being inaccessible.\nTrusted traffic exclusions will not function on Z4(C) appliances if AMP is configured.\nDue to an MX 18.211 regression, MX75, MX85, MX95, MX105, MX250, and MX450 appliances when configured as Wireless Concentrator for SSID Tunneling and Layer 3 Roaming, will fail to forward return Radius Authentication traffic causing clients to fail to connect to the SSIDs.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844082442\" id=\"toc-hId--248873584\">Security appliance firmware versions MX 18.211.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297615034\" id=\"toc-hId-1142752468\">Important notice</H4><UL><LI>USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.</LI></UL><H4 id=\"toc-hId-445195301\" id=\"toc-hId--664701995\">Bug fixes</H4><UL><LI>Corrected an issue that resulted in Non-Meraki VPN tunnels persisting on the backup, non-primary uplink after failing back to the primary uplink when the WAN interface used IPv6.</LI><LI>Fixed an issue that resulted in the VPN status being reported incorrectly for Non-Meraki VPN peers connected via FQDN.</LI><LI>Resolved an issue that could cause MX appliances upgrading to MX 18.2 from very old, unsupported firmware versions to hang during the upgrade process.</LI><LI>Corrected a rare issue that could cause upgrades from MX 18.1 to MX 18.2 versions to fail to complete successfully.</LI><LI>Fixed an MX 18.2 regression that resulted in the link light LED for WAN2 on MX75 appliances failing to light up if WAN2 is the only wired interface in use.</LI><LI>Resolved a rare issue that could result in data failing to pass over the cellular interface of Z3C, MX67C, and MX68CW appliances, even when the modem was reported as connected.</LI><LI>Corrected an issue that could result in MX appliances encountering an unexpected reboot when ThreatGrid was enabled.</LI><LI>Fixed an issue that caused the Non-Meraki VPN service to fail to properly establish IKEv2 tunnels when the MX appliance was acting as the IKEv2 responder and many allowed subnets were configured.</LI><LI>Resolved several cases that could result in an unexpected device reboot.</LI></UL><H4 id=\"toc-hId--2106961660\" id=\"toc-hId-1822810838\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.10.</LI></UL><H4 id=\"toc-hId--364151325\" id=\"toc-hId-15356375\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId-1378659010\" id=\"toc-hId--1792098088\">Known issues</H4><UL><LI>In rare cases, MX67C, MX68CW, and Z3C appliances may fail to enter into a \"Ready\" state despite being able to register to a cellular network and obtain an IP address for the modem.</LI><LI>Due to an issue with no known method of reproduction, the IDS and IPS process may unexpectedly restart.</LI><LI>MX AutoVPN tunnels fail to generate new connections when the AutoVPN flow has been blocked or filtered unidirectionally by an upstream or intermediary device. This prevents appliances from automatically working around this partially connected state.</LI><LI>MX appliances may experience unstable eBGP connections when 1) the MX appliance is configured in Routed mode and 2) the MX learns a large number of routes from its eBGP neighbor. This may result in eBGP-learned routes being inaccessible.</LI><LI>Trusted traffic exclusions will not function on Z4(C) appliances if AMP is configured.</LI><LI>Due to an MX 18.211 regression, MX75, MX85, MX95, MX105, MX250, and MX450 appliances when configured as Wireless Concentrator for SSID Tunneling and Layer 3 Roaming, will fail to forward return Radius Authentication traffic causing clients to fail to connect to the SSIDs.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:17Z"
+}

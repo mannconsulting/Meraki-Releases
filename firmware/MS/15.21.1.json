@@ -1,0 +1,104 @@
+{
+  "family": "MS",
+  "version": "15.21.1",
+  "title": "Switch firmware versions MS 15.21.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5509139",
+      "releaseType": "stable",
+      "announced": "2023-03-20T17:47:06.704-07:00",
+      "post_subject": "A new stable switch firmware is now available on Mon, 20 Mar 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switch-firmware-is-now-available-on-mon-20-mar-2023/ba-p/5509139"
+    }
+  ],
+  "changelog_comment_id": "5509140",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-03-21T01:03:09.942-07:00",
+  "sections": {
+    "Alerts": [
+      "HTTP proxy is no longer supported on MS 15+. Nodes that use HTTP proxy without any other means to connect to dashboard may fail to connect.",
+      "While Meraki switches have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MS 15.1+ we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki switches. These requirements have been updated on Nov 2022, so it’s important that you review them."
+    ],
+    "Ms390 alerts": [
+      "Switches can only downgrade to MS 12 with an incremental step to MS 14",
+      "Upgrades from MS 15.20 or later will result in minimal impact to client traffic"
+    ],
+    "Ms390 features": [
+      "Additional client analytics added",
+      "Alternate Management Interface (AMI) support",
+      "Critical/failed authentication support",
+      "Group policy ACL support",
+      "IPv6 static routing support",
+      "MAC flap detection support",
+      "Meraki authentication support",
+      "Multi-auth with voice VLAN bypass support",
+      "Netflow and Encrypted Traffic Analytics (ETA) support",
+      "STP anomaly detection",
+      "Stack power is supported by default",
+      "UDLD support",
+      "UPoE (802.3bt) support",
+      "URL redirect support"
+    ],
+    "New features": [
+      "IPv6 management interface support"
+    ],
+    "Bug fixes": [
+      "Meraki Go switches fail to provide PoE to connected Powered Devices (present since MS 15.20) Note: this does not apply to MS model switches, and only applies to Meraki Go (GS model)"
+    ],
+    "General known issues": [
+      "Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)",
+      "Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)"
+    ],
+    "Known issues": [
+      "In rare instances, the port status will fail to update to dashboard until the system reboots (present since MS 14)"
+    ],
+    "Ms120 known issues": [
+      "In rare instances, switches may return empty packet captures until they are rebooted",
+      "Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)"
+    ],
+    "Ms125 known issues": [
+      "The local status page cannot be accessed from the management port (always present)"
+    ],
+    "Ms12x known issues": [
+      "Ports with an odd-numbered MTU value fail to initialize (predates MS 11)",
+      "Switches will never move a RADIUS server's connectivity status to available if it was ever lost resulting in all authentications being placed into the critical auth VLAN (present since MS 14.32)"
+    ],
+    "Ms2xx/35x/4xx known issues": [
+      "Cross-stack LACP bundles experiencing a switch reboot will cause the remaining online port to experience an outage for up to 30 seconds. The same is seen again when the switch comes back online (present since MS 10)",
+      "If the same MAC address is associated with multiple IPs, adding or removing an SVI may lead to an incorrect VLAN ID mapping leading to packet loss on one or more SVIs",
+      "Loops can be seen when rebooting a stack member containing a cross-stack lag port (always present)",
+      "Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log"
+    ],
+    "Ms355 known issues": [
+      "In rare instances, stack ports fail to initialize after an upgrade (always present)"
+    ],
+    "Ms35x known issues": [
+      "Enabling Combined Power results in events being logged once per minute (present since MS 11)",
+      "UPoE does not negotiate over LLDP correctly (always present)",
+      "mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G."
+    ],
+    "Ms390 known issues": [
+      "\"Port Up/Down\" events will generate an event log for each stack member",
+      "Adding additional ports to a port bundle will cause the entire bundle to be reconfigured causing traffic loss (always present)",
+      "Cloning a stack member results in configurations for LACP to be missing, requiring the bundles to be reconfigured or the system to be rebooted (present since MS 15.14)",
+      "DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)",
+      "IGMP snooping enabled will send an IGMP message on every configured VLAN every 125 seconds (always present)",
+      "If a link aggregate has an adaptive policy group added or removed, the link aggregate ports will be disabled and stay disabled",
+      "Large stacks may experience intermittent management plane loss resulting in config fetch delays (always present)",
+      "Loop detection is not supported",
+      "Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)",
+      "Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)",
+      "Warm spare/VRRP is not supported"
+    ],
+    "Ms425 known issues": [
+      "Stacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)"
+    ],
+    "Ms4xx known issues": [
+      "When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)"
+    ]
+  },
+  "text": "Switch firmware versions MS 15.21.1 changelog\nAlerts\nHTTP proxy is no longer supported on MS 15+. Nodes that use HTTP proxy without any other means to connect to dashboard may fail to connect.\nWhile Meraki switches have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MS 15.1+ we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki switches. These requirements have been updated on Nov 2022, so it’s important that you review them.\nMs390 alerts\nSwitches can only downgrade to MS 12 with an incremental step to MS 14\nUpgrades from MS 15.20 or later will result in minimal impact to client traffic\nMs390 features\nAdditional client analytics added\nAlternate Management Interface (AMI) support\nCritical/failed authentication support\nGroup policy ACL support\nIPv6 static routing support\nMAC flap detection support\nMeraki authentication support\nMulti-auth with voice VLAN bypass support\nNetflow and Encrypted Traffic Analytics (ETA) support\nSTP anomaly detection\nStack power is supported by default\nUDLD support\nUPoE (802.3bt) support\nURL redirect support\nNew features\nIPv6 management interface support\nBug fixes\nMeraki Go switches fail to provide PoE to connected Powered Devices (present since MS 15.20) Note: this does not apply to MS model switches, and only applies to Meraki Go (GS model)\nGeneral known issues\nConnecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)\nNon-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nKnown issues\nIn rare instances, the port status will fail to update to dashboard until the system reboots (present since MS 14)\nMs120 known issues\nIn rare instances, switches may return empty packet captures until they are rebooted\nSwitches in extremely rare instances will experience reboots every few minutes (present since MS 11)\nMs125 known issues\nThe local status page cannot be accessed from the management port (always present)\nMs12x known issues\nPorts with an odd-numbered MTU value fail to initialize (predates MS 11)\nSwitches will never move a RADIUS server's connectivity status to available if it was ever lost resulting in all authentications being placed into the critical auth VLAN (present since MS 14.32)\nMs2xx/35x/4xx known issues\nCross-stack LACP bundles experiencing a switch reboot will cause the remaining online port to experience an outage for up to 30 seconds. The same is seen again when the switch comes back online (present since MS 10)\nIf the same MAC address is associated with multiple IPs, adding or removing an SVI may lead to an incorrect VLAN ID mapping leading to packet loss on one or more SVIs\nLoops can be seen when rebooting a stack member containing a cross-stack lag port (always present)\nSwitch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log\nMs355 known issues\nIn rare instances, stack ports fail to initialize after an upgrade (always present)\nMs35x known issues\nEnabling Combined Power results in events being logged once per minute (present since MS 11)\nUPoE does not negotiate over LLDP correctly (always present)\nmGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.\nMs390 known issues\n\"Port Up/Down\" events will generate an event log for each stack member\nAdding additional ports to a port bundle will cause the entire bundle to be reconfigured causing traffic loss (always present)\nCloning a stack member results in configurations for LACP to be missing, requiring the bundles to be reconfigured or the system to be rebooted (present since MS 15.14)\nDHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)\nIGMP snooping enabled will send an IGMP message on every configured VLAN every 125 seconds (always present)\nIf a link aggregate has an adaptive policy group added or removed, the link aggregate ports will be disabled and stay disabled\nLarge stacks may experience intermittent management plane loss resulting in config fetch delays (always present)\nLoop detection is not supported\nRebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)\nReceiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)\nWarm spare/VRRP is not supported\nMs425 known issues\nStacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)\nMs4xx known issues\nWhen an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1820098918\" id=\"toc-hId--249681789\">Switch firmware versions MS 15.21.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1321598558\" id=\"toc-hId-1141944263\">Alerts</H4><UL><LI>HTTP proxy is no longer supported on MS 15+. Nodes that use HTTP proxy without any other means to connect to dashboard may fail to connect.</LI><LI>While Meraki switches have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MS 15.1+ we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help &gt; Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki switches. These requirements have been updated on Nov 2022, so it’s important that you review them.</LI></UL><H4 id=\"toc-hId-421211777\" id=\"toc-hId--665510200\">Ms390 alerts</H4><UL><LI>Switches can only downgrade to MS 12 with an incremental step to MS 14</LI><LI>Upgrades from MS 15.20 or later will result in minimal impact to client traffic</LI></UL><H4 id=\"toc-hId--2130945184\" id=\"toc-hId-1822002633\">Ms390 features</H4><UL><LI>Additional client analytics added</LI><LI>Alternate Management Interface (AMI) support</LI><LI>Critical/failed authentication support</LI><LI>Group policy ACL support</LI><LI>IPv6 static routing support</LI><LI>MAC flap detection support</LI><LI>Meraki authentication support</LI><LI>Multi-auth with voice VLAN bypass support</LI><LI>Netflow and Encrypted Traffic Analytics (ETA) support</LI><LI>STP anomaly detection</LI><LI>Stack power is supported by default</LI><LI>UDLD support</LI><LI>UPoE (802.3bt) support</LI><LI>URL redirect support</LI></UL><H4 id=\"toc-hId--388134849\" id=\"toc-hId-14548170\">New features</H4><UL><LI>IPv6 management interface support</LI></UL><H4 id=\"toc-hId-1354675486\" id=\"toc-hId--1792906293\">Bug fixes</H4><UL><LI>Meraki Go switches fail to provide PoE to connected Powered Devices (present since MS 15.20) Note: this does not apply to MS model switches, and only applies to Meraki Go (GS model)</LI></UL><H4 id=\"toc-hId--1197481475\" id=\"toc-hId-694606540\">General known issues</H4><UL><LI>Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)</LI><LI>Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI></UL><H4 id=\"toc-hId-545328860\" id=\"toc-hId--1112847923\">Known issues</H4><UL><LI>In rare instances, the port status will fail to update to dashboard until the system reboots (present since MS 14)</LI></UL><H4 id=\"toc-hId--2006828101\" id=\"toc-hId-1374664910\">Ms120 known issues</H4><UL><LI>In rare instances, switches may return empty packet captures until they are rebooted</LI><LI>Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)</LI></UL><H4 id=\"toc-hId--264017766\" id=\"toc-hId--432789553\">Ms125 known issues</H4><UL><LI>The local status page cannot be accessed from the management port (always present)</LI></UL><H4 id=\"toc-hId--836806574\" id=\"toc-hId--1009373417\">Ms12x known issues</H4><UL><LI>Ports with an odd-numbered MTU value fail to initialize (predates MS 11)</LI><LI>Switches will never move a RADIUS server's connectivity status to available if it was ever lost resulting in all authentications being placed into the critical auth VLAN (present since MS 14.32)</LI></UL><H4 id=\"toc-hId-906003761\" id=\"toc-hId-1478139416\">Ms2xx/35x/4xx known issues</H4><UL><LI>Cross-stack LACP bundles experiencing a switch reboot will cause the remaining online port to experience an outage for up to 30 seconds. The same is seen again when the switch comes back online (present since MS 10)</LI><LI>If the same MAC address is associated with multiple IPs, adding or removing an SVI may lead to an incorrect VLAN ID mapping leading to packet loss on one or more SVIs</LI><LI>Loops can be seen when rebooting a stack member containing a cross-stack lag port (always present)</LI><LI>Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log</LI></UL><H4 id=\"toc-hId--1646153200\" id=\"toc-hId--329315047\">Ms355 known issues</H4><UL><LI>In rare instances, stack ports fail to initialize after an upgrade (always present)</LI></UL><H4 id=\"toc-hId-96657135\" id=\"toc-hId--2136769510\">Ms35x known issues</H4><UL><LI>Enabling Combined Power results in events being logged once per minute (present since MS 11)</LI><LI>UPoE does not negotiate over LLDP correctly (always present)</LI><LI>mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.</LI></UL><H4 id=\"toc-hId-1839467470\" id=\"toc-hId-350743323\">Ms390 known issues</H4><UL><LI>\"Port Up/Down\" events will generate an event log for each stack member</LI><LI>Adding additional ports to a port bundle will cause the entire bundle to be reconfigured causing traffic loss (always present)</LI><LI>Cloning a stack member results in configurations for LACP to be missing, requiring the bundles to be reconfigured or the system to be rebooted (present since MS 15.14)</LI><LI>DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)</LI><LI>IGMP snooping enabled will send an IGMP message on every configured VLAN every 125 seconds (always present)</LI><LI>If a link aggregate has an adaptive policy group added or removed, the link aggregate ports will be disabled and stay disabled</LI><LI>Large stacks may experience intermittent management plane loss resulting in config fetch delays (always present)</LI><LI>Loop detection is not supported</LI><LI>Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)</LI><LI>Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)</LI><LI>Warm spare/VRRP is not supported</LI></UL><H4 id=\"toc-hId--712689491\" id=\"toc-hId--1456711140\">Ms425 known issues</H4><UL><LI>Stacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)</LI></UL><H4 id=\"toc-hId-1030120844\" id=\"toc-hId-1030801693\">Ms4xx known issues</H4><UL><LI>When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:46Z"
+}

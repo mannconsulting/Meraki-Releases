@@ -1,0 +1,43 @@
+{
+  "family": "MR",
+  "version": "33.1.1",
+  "title": "Access points software versions MR 33.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5561812",
+      "releaseType": "beta",
+      "announced": "2026-07-01T22:00:04.161-07:00",
+      "post_subject": "A new Beta MR Wireless firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mr-wireless-firmware-is-now-available/ba-p/5561812"
+    }
+  ],
+  "changelog_comment_id": "5563704",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-07-12T11:20:10.527-07:00",
+  "sections": {
+    "Info": [
+      "Detailed release notes available at: https://documentation.meraki.com/Wireless/Product_Information/Compatibility_and_Firmware/MR_Firmware_Release_Notes"
+    ],
+    "General Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "RRM channel and power changes occur every 30 minutes",
+      "Access points stop sending probe responses and 802.11 open authentications on all bands (radios)",
+      "Wi-Fi 7 APs don’t capture client wireless latency if at least one active SSID is using GCMP256 and/or SAE-EXT and 802.11be is off",
+      "HF ESL container offline in VCloud and does not recover due to stuck container after loss of connectivity",
+      "Wi-Fi 6 APs report \"Config fetch error\" alerts daily after firmware upgrade",
+      "Named VLAN does not assign the expected VLAN",
+      "Clients not redirected to CWA splash",
+      "AP fails to update Cisco ISE splash state override when client performs 11r roam",
+      "Intermittent webpage stalls on NAT mode SSID on Wi-Fi 7 APs",
+      "Campus Gateway clients intermittently lose network connectivity with excessive IPv6 link-local address churn"
+    ],
+    "Model specific fixes - MR": [
+      "MR57 configured for LACP causes MAC flap events after a failover by sending traffic out both of its uplinks",
+      "MR36H LAN ports intermittently fail to establish a physical Ethernet link when connected to certain Room Control Units (RCUs)"
+    ]
+  },
+  "text": "Access points software versions MR 33.1.1 changelog\nInfo\nDetailed release notes available at: https://documentation.meraki.com/Wireless/Product_Information/Compatibility_and_Firmware/MR_Firmware_Release_Notes\nGeneral Bug fixes\nGeneral stability, performance, and experience improvements\nRRM channel and power changes occur every 30 minutes\nAccess points stop sending probe responses and 802.11 open authentications on all bands (radios)\nWi-Fi 7 APs don’t capture client wireless latency if at least one active SSID is using GCMP256 and/or SAE-EXT and 802.11be is off\nHF ESL container offline in VCloud and does not recover due to stuck container after loss of connectivity\nWi-Fi 6 APs report \"Config fetch error\" alerts daily after firmware upgrade\nNamed VLAN does not assign the expected VLAN\nClients not redirected to CWA splash\nAP fails to update Cisco ISE splash state override when client performs 11r roam\nIntermittent webpage stalls on NAT mode SSID on Wi-Fi 7 APs\nCampus Gateway clients intermittently lose network connectivity with excessive IPv6 link-local address churn\nModel specific fixes - MR\nMR57 configured for LACP causes MAC flap events after a failover by sending traffic out both of its uplinks\nMR36H LAN ports intermittently fail to establish a physical Ethernet link when connected to certain Room Control Units (RCUs)",
+  "html": "<H3 id=\"toc-hId-456750815\">Access points<SPAN>&nbsp;</SPAN>software versions<SPAN>&nbsp;</SPAN>MR 33.1.1<SPAN>&nbsp;</SPAN>changelog</H3><DIV class=\"\"><H4 id=\"toc-hId-1147312289\">Info</H4><UL><LI><P class=\"\">Detailed release notes available at: <A href=\"https://documentation.meraki.com/Wireless/Product_Information/Compatibility_and_Firmware/MR_Firmware_Release_Notes\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/Wireless/Product_Information/Compatibility_and_Firmware/MR_Firmware_Release_Notes</A></P></LI></UL><H4 id=\"toc-hId--660142174\">General Bug fixes</H4><UL><LI><P class=\"\">General stability, performance, and experience improvements</P></LI><LI><P class=\"\">RRM channel and power changes occur every 30 minutes</P></LI><LI><P class=\"\">Access points stop sending probe responses and 802.11 open authentications on all bands (radios)</P></LI><LI><P class=\"\">Wi-Fi 7 APs don’t capture client wireless latency if at least one active SSID is using GCMP256 and/or SAE-EXT and 802.11be is off</P></LI><LI><P class=\"\">HF ESL container offline in VCloud and does not recover due to stuck container after loss of connectivity</P></LI><LI><P class=\"\">Wi-Fi 6 APs report \"Config fetch error\" alerts daily after firmware upgrade</P></LI><LI><P class=\"\">Named VLAN does not assign the expected VLAN</P></LI><LI><P class=\"\">Clients not redirected to CWA splash</P></LI><LI><P class=\"\">AP fails to update Cisco ISE splash state override when client performs 11r roam</P></LI><LI><P class=\"\">Intermittent webpage stalls on NAT mode SSID on Wi-Fi 7 APs</P></LI><LI><P class=\"\">Campus Gateway clients intermittently lose network connectivity with excessive IPv6 link-local address churn</P></LI></UL><H4 id=\"toc-hId-1827370659\">Model specific fixes - MR</H4><UL><LI><P class=\"\">MR57 configured for LACP causes MAC flap events after a failover by sending traffic out both of its uplinks</P></LI><LI><P class=\"\">MR36H LAN ports intermittently fail to establish a physical Ethernet link when connected to certain Room Control Units (RCUs)</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:27Z"
+}

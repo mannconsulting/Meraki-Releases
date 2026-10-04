@@ -1,0 +1,55 @@
+{
+  "family": "MX",
+  "version": "19.1.11",
+  "title": "Security appliance firmware versions MX 19.1.11 changelog",
+  "announcements": [
+    {
+      "post_id": "5522078",
+      "releaseType": "stable",
+      "announced": "2025-09-08T21:47:04.109-07:00",
+      "post_subject": "A new stable appliance firmware is now available on Mon, 08 Sep 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-mon-08-sep/ba-p/5522078"
+    }
+  ],
+  "changelog_comment_id": "5522079",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-09-09T15:34:20.478-07:00",
+  "sections": {
+    "Important notice": [
+      "As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.",
+      "Starting with MX 19.1 firmware on vMX platforms, Meraki has begun to deprecate the use of 3DES encryption for Phase 2 (IPsec) of Client and IPsec VPN connections due to its insecure nature. Subsequent firmware releases will continue to deprecate it on all platforms."
+    ],
+    "Executive summary": [
+      "This is a routine maintenance release for MX 19.1. It contains fixes related to IPsec VPN connections and stability improvements for MX75 and MX85 appliances. Please read through the full details below.",
+      "We strongly encourage customers running older releases to begin the process of migrating to MX 19.1 or MX 19.2.",
+      "Additionally, customers with MX75 and MX85 appliances that are already running previous MX 19.1 releases are also encouraged to upgrade. The additional fixes in this release build upon the previous improvements in MX 19.1, which meaningfully address the most frequent causes of unexpected device reboots on the MX75 and MX85 appliances."
+    ],
+    "Bug fixes - general fixes": [
+      "Resolved a rare case that could result in eBGP sessions failing to form over IPsec VPN connections. (MX-38146)",
+      "Corrected an issue that could result in IPsec VPN traffic not correctly failing over to the Internet when tunnel monitoring health checks were simultaneous failing on both WAN uplinks. (MX-36301)",
+      "Resolved an issue that resulted in MX appliances not performing TCP MSS clamping for IPsec VPN peers. (MX-2492)"
+    ],
+    "Bug fixes - limited platform fixes": [
+      "Stability improvements for MX75 and MX85 appliances. (MX-34321)"
+    ],
+    "Legacy products notice": [
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Known issues": [
+      "During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)",
+      "Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)",
+      "When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)",
+      "During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)"
+    ],
+    "Other": [
+      "The product complies with EN 18031-1:2024 and EN 18031-2: 2024"
+    ]
+  },
+  "text": "Security appliance firmware versions MX 19.1.11 changelog\nImportant notice\nAs of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.\nStarting with MX 19.1 firmware on vMX platforms, Meraki has begun to deprecate the use of 3DES encryption for Phase 2 (IPsec) of Client and IPsec VPN connections due to its insecure nature. Subsequent firmware releases will continue to deprecate it on all platforms.\nExecutive summary\nThis is a routine maintenance release for MX 19.1. It contains fixes related to IPsec VPN connections and stability improvements for MX75 and MX85 appliances. Please read through the full details below.\nWe strongly encourage customers running older releases to begin the process of migrating to MX 19.1 or MX 19.2.\nAdditionally, customers with MX75 and MX85 appliances that are already running previous MX 19.1 releases are also encouraged to upgrade. The additional fixes in this release build upon the previous improvements in MX 19.1, which meaningfully address the most frequent causes of unexpected device reboots on the MX75 and MX85 appliances.\nBug fixes - general fixes\nResolved a rare case that could result in eBGP sessions failing to form over IPsec VPN connections. (MX-38146)\nCorrected an issue that could result in IPsec VPN traffic not correctly failing over to the Internet when tunnel monitoring health checks were simultaneous failing on both WAN uplinks. (MX-36301)\nResolved an issue that resulted in MX appliances not performing TCP MSS clamping for IPsec VPN peers. (MX-2492)\nBug fixes - limited platform fixes\nStability improvements for MX75 and MX85 appliances. (MX-34321)\nLegacy products notice\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.\nKnown issues status\nThis list is being reviewed and updated.\nKnown issues\nDuring the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)\nDue to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)\nWhen failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)\nDuring the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)\nOther\nThe product complies with EN 18031-1:2024 and EN 18031-2: 2024",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848546444\" id=\"toc-hId--248044143\">Security appliance firmware versions MX 19.1.11 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293151032\" id=\"toc-hId-1143581909\">Important notice</H4><UL><LI>As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.</LI><LI>Starting with MX 19.1 firmware on vMX platforms, Meraki has begun to deprecate the use of 3DES encryption for Phase 2 (IPsec) of Client and IPsec VPN connections due to its insecure nature. Subsequent firmware releases will continue to deprecate it on all platforms.</LI></UL><H4 id=\"toc-hId-449659303\" id=\"toc-hId--663872554\">Executive summary</H4><UL><LI>This is a routine maintenance release for MX 19.1. It contains fixes related to IPsec VPN connections and stability improvements for MX75 and MX85 appliances. Please read through the full details below.</LI><LI>We strongly encourage customers running older releases to begin the process of migrating to MX 19.1 or MX 19.2.</LI><LI>Additionally, customers with MX75 and MX85 appliances that are already running previous MX 19.1 releases are also encouraged to upgrade. The additional fixes in this release build upon the previous improvements in MX 19.1, which meaningfully address the most frequent causes of unexpected device reboots on the MX75 and MX85 appliances.</LI></UL><H4 id=\"toc-hId--2102497658\" id=\"toc-hId-1823640279\">Bug fixes - general fixes</H4><UL><LI>Resolved a rare case that could result in eBGP sessions failing to form over IPsec VPN connections. (MX-38146)</LI><LI>Corrected an issue that could result in IPsec VPN traffic not correctly failing over to the Internet when tunnel monitoring health checks were simultaneous failing on both WAN uplinks. (MX-36301)</LI><LI>Resolved an issue that resulted in MX appliances not performing TCP MSS clamping for IPsec VPN peers. (MX-2492)</LI></UL><H4 id=\"toc-hId--359687323\" id=\"toc-hId-16185816\">Bug fixes - limited platform fixes</H4><UL><LI>Stability improvements for MX75 and MX85 appliances. (MX-34321)</LI></UL><H4 id=\"toc-hId-1383123012\" id=\"toc-hId--1791268647\">Legacy products notice</H4><UL><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.</LI></UL><H4 id=\"toc-hId--1169033949\" id=\"toc-hId-696244186\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId-573776386\" id=\"toc-hId--1111210277\">Known issues</H4><UL><LI>During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)</LI><LI>Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)</LI><LI>When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)</LI><LI>During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)</LI></UL><H4 id=\"toc-hId--1978380575\" id=\"toc-hId-1376302556\">Other</H4><UL><LI>The product complies with EN 18031-1:2024 and EN 18031-2: 2024</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:44Z"
+}

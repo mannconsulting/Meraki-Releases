@@ -1,0 +1,90 @@
+{
+  "family": "MS",
+  "version": "18.1.8",
+  "title": "Switches - MS software versions MS 18.1.8 changelog",
+  "announcements": [
+    {
+      "post_id": "5563112",
+      "releaseType": "Generally Available",
+      "announced": "2026-07-08T16:00:05.647-07:00",
+      "post_subject": "A new Generally Available MS Switch firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-ms-switch-firmware-is-now-available/ba-p/5563112"
+    }
+  ],
+  "changelog_comment_id": "5563703",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-07-12T11:17:00.527-07:00",
+  "sections": {
+    "New feature highlights": [
+      "Group Policy ACL on MS130 & MS150",
+      "Maximum MAC support in MAC Allowlists",
+      "802.1x limited access mode with pre-auth GPACL",
+      "Local Status Page connectivity diagnostics enhancements",
+      "Layer 2 multicast live tool",
+      "Traffic Mirroring: RSPAN & VLAN Based SPAN[General Fixed Issues]Resolved a bug that caused MS130 and stacked MS150 switches to unexpectedly reboot"
+    ],
+    "General fixed issues": [
+      "Fixed a bug that sometimes caused switches to experience uplink instability when IPv6 link-local addresses were enabled",
+      "Resolved an issue that caused some switches to experience multicast packet loss when storm control was enabled",
+      "Resolved a bug that caused switches configured for DHCP relay to incorrectly relay unicast DHCP requests",
+      "Fixed a bug that caused unexpected VRRP transitions in some networks containing HA pairs and redundant blocked ports",
+      "Fixed a bug that caused some 1GB SFPs to incorrectly maintain an active link when disabled",
+      "Resolved a bug that caused some MS120 and MS130 switches to incorrectly show themselves as STP root bridge"
+    ],
+    "Ms120 fixed issues": [
+      "Fixed an issue where MS120 switches could fail to reestablish upstream links after a firmware upgrade or power loss event"
+    ],
+    "Ms130 fixed issues": [
+      "Resolved an issue that caused some MS130 switches to fail to provide PoE after upgrading from factory firmware",
+      "Resolved a bug that caused slow uploads for clients connected at 1Gbps"
+    ],
+    "Ms150 fixed issues": [
+      "Fixed a bug that sometimes caused MS150 switches to produce a flood of unicast traffic when connected to an upstream C9300X using a LAG",
+      "Fixed a bug that caused some wireless clients to experience DNS and DHCP resolution failures after roaming between MS150 stack members",
+      "Resolved an issue that caused port flaps in MS150 stacks, causing connectivity issues while the stacked switches reconverged",
+      "Fixed a bug that caused physical switch ports to incorrectly map to ports displayed in Dashboard",
+      "Resolved an issue that prevented Adaptive Policy ACL Log events from being correctly written to the Event Log",
+      "Improved PoE autorecovery to prevent possible PoE failures after firmware upgrades"
+    ],
+    "Ms225 fixed issues": [
+      "Fixed a bug that caused unexpected reboots with the reason \"click\""
+    ],
+    "Ms250 fixed issues": [
+      "Resolved an issue that sometimes caused clients to be assigned an IP address in an incorrect VLAN when SmartPort automation was enabled"
+    ],
+    "Ms410 fixed issues": [
+      "Fixed a bug that caused some MS410 switches to incorrectly raise alerts for fan failures"
+    ],
+    "Ms425 fixed issues": [
+      "Fixed a bug that caused switch ports to fail to allow any VLANs when reverted to a standard port after being configured as a stack port",
+      "Resolved a bug that sometimes caused unexpected reboots in MS425 switches",
+      "Fixed an issue where LAG ports on MS425 switches could trigger loop detection on upstream devices during stack member reboots or firmware upgrades, potentially causing err-disabled ports and temporary connectivity loss"
+    ],
+    "General known issues": [
+      "MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures"
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)",
+      "Cable tests may report incorrect cable lengths"
+    ],
+    "Ms130 known issues": [
+      "MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally"
+    ],
+    "Ms150 known issues": [
+      "MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue."
+    ],
+    "Ms350x known issues": [
+      "Switches may experience an unexpected reboot (present since MS 15)"
+    ],
+    "Ms355 known issues": [
+      "Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade"
+    ],
+    "Ms425 known issues": [
+      "In rare circumstances MS425 switches in stack configurations may encounter a software crash that result"
+    ]
+  },
+  "text": "Switches - MS software versions MS 18.1.8 changelog\nNew feature highlights\nGroup Policy ACL on MS130 & MS150\nMaximum MAC support in MAC Allowlists\n802.1x limited access mode with pre-auth GPACL\nLocal Status Page connectivity diagnostics enhancements\nLayer 2 multicast live tool\nTraffic Mirroring: RSPAN & VLAN Based SPAN[General Fixed Issues]Resolved a bug that caused MS130 and stacked MS150 switches to unexpectedly reboot\nGeneral fixed issues\nFixed a bug that sometimes caused switches to experience uplink instability when IPv6 link-local addresses were enabled\nResolved an issue that caused some switches to experience multicast packet loss when storm control was enabled\nResolved a bug that caused switches configured for DHCP relay to incorrectly relay unicast DHCP requests\nFixed a bug that caused unexpected VRRP transitions in some networks containing HA pairs and redundant blocked ports\nFixed a bug that caused some 1GB SFPs to incorrectly maintain an active link when disabled\nResolved a bug that caused some MS120 and MS130 switches to incorrectly show themselves as STP root bridge\nMs120 fixed issues\nFixed an issue where MS120 switches could fail to reestablish upstream links after a firmware upgrade or power loss event\nMs130 fixed issues\nResolved an issue that caused some MS130 switches to fail to provide PoE after upgrading from factory firmware\nResolved a bug that caused slow uploads for clients connected at 1Gbps\nMs150 fixed issues\nFixed a bug that sometimes caused MS150 switches to produce a flood of unicast traffic when connected to an upstream C9300X using a LAG\nFixed a bug that caused some wireless clients to experience DNS and DHCP resolution failures after roaming between MS150 stack members\nResolved an issue that caused port flaps in MS150 stacks, causing connectivity issues while the stacked switches reconverged\nFixed a bug that caused physical switch ports to incorrectly map to ports displayed in Dashboard\nResolved an issue that prevented Adaptive Policy ACL Log events from being correctly written to the Event Log\nImproved PoE autorecovery to prevent possible PoE failures after firmware upgrades\nMs225 fixed issues\nFixed a bug that caused unexpected reboots with the reason \"click\"\nMs250 fixed issues\nResolved an issue that sometimes caused clients to be assigned an IP address in an incorrect VLAN when SmartPort automation was enabled\nMs410 fixed issues\nFixed a bug that caused some MS410 switches to incorrectly raise alerts for fan failures\nMs425 fixed issues\nFixed a bug that caused switch ports to fail to allow any VLANs when reverted to a standard port after being configured as a stack port\nResolved a bug that sometimes caused unexpected reboots in MS425 switches\nFixed an issue where LAG ports on MS425 switches could trigger loop detection on upstream devices during stack member reboots or firmware upgrades, potentially causing err-disabled ports and temporary connectivity loss\nGeneral known issues\nMS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nCable tests may report incorrect cable lengths\nMs130 known issues\nMS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally\nMs150 known issues\nMS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.\nMs350x known issues\nSwitches may experience an unexpected reboot (present since MS 15)\nMs355 known issues\nSwitches in stack configuration may experience some ports failing to reconnect after a firmware upgrade\nMs425 known issues\nIn rare circumstances MS425 switches in stack configurations may encounter a software crash that result",
+  "html": "<H3 id=\"toc-hId-456750814\">Switches - MS<SPAN>&nbsp;</SPAN>software versions<SPAN>&nbsp;</SPAN>MS 18.1.8<SPAN>&nbsp;</SPAN>changelog</H3><DIV class=\"\"><H4 id=\"toc-hId-1147312288\">New feature highlights</H4><UL><LI><P class=\"\">Group Policy ACL on MS130 &amp; MS150</P></LI><LI><P class=\"\">Maximum MAC support in MAC Allowlists</P></LI><LI><P class=\"\">802.1x limited access mode with pre-auth GPACL</P></LI><LI><P class=\"\">Local Status Page connectivity diagnostics enhancements</P></LI><LI><P class=\"\">Layer 2 multicast live tool</P></LI><LI><P class=\"\">Traffic Mirroring: RSPAN &amp; VLAN Based SPAN[General Fixed Issues]Resolved a bug that caused MS130 and stacked MS150 switches to unexpectedly reboot</P></LI></UL><H4 id=\"toc-hId--660142175\">General fixed issues</H4><UL><LI><P class=\"\">Fixed a bug that sometimes caused switches to experience uplink instability when IPv6 link-local addresses were enabled</P></LI><LI><P class=\"\">Resolved an issue that caused some switches to experience multicast packet loss when storm control was enabled</P></LI><LI><P class=\"\">Resolved a bug that caused switches configured for DHCP relay to incorrectly relay unicast DHCP requests</P></LI><LI><P class=\"\">Fixed a bug that caused unexpected VRRP transitions in some networks containing HA pairs and redundant blocked ports</P></LI><LI><P class=\"\">Fixed a bug that caused some 1GB SFPs to incorrectly maintain an active link when disabled</P></LI><LI><P class=\"\">Resolved a bug that caused some MS120 and MS130 switches to incorrectly show themselves as STP root bridge</P></LI></UL><H4 id=\"toc-hId-1827370658\">Ms120 fixed issues</H4><UL><LI><P class=\"\">Fixed an issue where MS120 switches could fail to reestablish upstream links after a firmware upgrade or power loss event</P></LI></UL><H4 id=\"toc-hId-19916195\">Ms130 fixed issues</H4><UL><LI><P class=\"\">Resolved an issue that caused some MS130 switches to fail to provide PoE after upgrading from factory firmware</P></LI><LI><P class=\"\">Resolved a bug that caused slow uploads for clients connected at 1Gbps</P></LI></UL><H4 id=\"toc-hId--1787538268\">Ms150 fixed issues</H4><UL><LI><P class=\"\">Fixed a bug that sometimes caused MS150 switches to produce a flood of unicast traffic when connected to an upstream C9300X using a LAG</P></LI><LI><P class=\"\">Fixed a bug that caused some wireless clients to experience DNS and DHCP resolution failures after roaming between MS150 stack members</P></LI><LI><P class=\"\">Resolved an issue that caused port flaps in MS150 stacks, causing connectivity issues while the stacked switches reconverged</P></LI><LI><P class=\"\">Fixed a bug that caused physical switch ports to incorrectly map to ports displayed in Dashboard</P></LI><LI><P class=\"\">Resolved an issue that prevented Adaptive Policy ACL Log events from being correctly written to the Event Log</P></LI><LI><P class=\"\">Improved PoE autorecovery to prevent possible PoE failures after firmware upgrades</P></LI></UL><H4 id=\"toc-hId-699974565\">Ms225 fixed issues</H4><UL><LI><P class=\"\">Fixed a bug that caused unexpected reboots with the reason \"click\"</P></LI></UL><H4 id=\"toc-hId--1107479898\">Ms250 fixed issues</H4><UL><LI><P class=\"\">Resolved an issue that sometimes caused clients to be assigned an IP address in an incorrect VLAN when SmartPort automation was enabled</P></LI></UL><H4 id=\"toc-hId-1380032935\">Ms410 fixed issues</H4><UL><LI><P class=\"\">Fixed a bug that caused some MS410 switches to incorrectly raise alerts for fan failures</P></LI></UL><H4 id=\"toc-hId--427421528\">Ms425 fixed issues</H4><UL><LI><P class=\"\">Fixed a bug that caused switch ports to fail to allow any VLANs when reverted to a standard port after being configured as a stack port</P></LI><LI><P class=\"\">Resolved a bug that sometimes caused unexpected reboots in MS425 switches</P></LI><LI><P class=\"\">Fixed an issue where LAG ports on MS425 switches could trigger loop detection on upstream devices during stack member reboots or firmware upgrades, potentially causing err-disabled ports and temporary connectivity loss</P></LI></UL><H4 id=\"toc-hId--1004005392\">General known issues</H4><UL><LI><P class=\"\">MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures</P></LI></UL><H4 id=\"toc-hId-1483507441\">Ms120 known issues</H4><UL><LI><P class=\"\">Switches may fail to provide PoE power to legacy access points (always present)</P></LI><LI><P class=\"\">Cable tests may report incorrect cable lengths</P></LI></UL><H4 id=\"toc-hId--323947022\">Ms130 known issues</H4><UL><LI><P class=\"\">MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally</P></LI></UL><H4 id=\"toc-hId--2131401485\">Ms150 known issues</H4><UL><LI><P class=\"\">MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.</P></LI></UL><H4 id=\"toc-hId-356111348\">Ms350x known issues</H4><UL><LI><P class=\"\">Switches may experience an unexpected reboot (present since MS 15)</P></LI></UL><H4 id=\"toc-hId--1451343115\">Ms355 known issues</H4><UL><LI><P class=\"\">Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade</P></LI></UL><H4 id=\"toc-hId-1036169718\">Ms425 known issues</H4><UL><LI><P class=\"\">In rare circumstances MS425 switches in stack configurations may encounter a software crash that result</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:27Z"
+}

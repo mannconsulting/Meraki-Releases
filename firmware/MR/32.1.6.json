@@ -1,0 +1,52 @@
+{
+  "family": "MR",
+  "version": "32.1.6",
+  "title": "Access points software versions MR 32.1.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5461954",
+      "releaseType": "candidate",
+      "announced": "2026-01-27T15:47:03.688-08:00",
+      "post_subject": "A new candidate wireless firmware is now available on Tue, 27 Jan 2026",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-27-jan/ba-p/5461954"
+    },
+    {
+      "post_id": "5462732",
+      "releaseType": "stable",
+      "announced": "2026-02-12T22:47:15.690-08:00",
+      "post_subject": "A new stable wireless firmware is now available on Thu, 12 Feb 2026",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-thu-12-feb/ba-p/5462732"
+    }
+  ],
+  "changelog_comment_id": "5462733",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-02-12T23:08:04.219-08:00",
+  "sections": {
+    "Important note": [
+      "MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available."
+    ],
+    "Enhancement": [
+      "Enable class 2 PoE (7W) output when AP is supplied with PoE+ (802.3at) power budget for CW9172H (https://documentation.meraki.com/Wireless/Product_Information/Overviews_and_Datasheets/CW9172H_Datasheet)",
+      "Enhancements to Ethernet link negotiation mechanisms have been implemented to detect temporal link degradation and attempt link recovery when a degraded state is identified."
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "APs not using configured SGT tag (Wi-Fi 6, 6e, Wi-Fi 7)",
+      "RADSec authentication stuck (Wi-Fi 6, 6e, Wi-Fi 7)",
+      "Wi-Fi calling not working (Wi-Fi 6, 6e, Wi-Fi 7)",
+      "WebEx DeskPro connectivity issues (Wi-Fi 6, 6e, Wi-Fi 7)"
+    ]
+  },
+  "text": "Access points software versions MR 32.1.6 changelog\nImportant note\nMR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.\nEnhancement\nEnable class 2 PoE (7W) output when AP is supplied with PoE+ (802.3at) power budget for CW9172H (https://documentation.meraki.com/Wireless/Product_Information/Overviews_and_Datasheets/CW9172H_Datasheet)\nEnhancements to Ethernet link negotiation mechanisms have been implemented to detect temporal link degradation and attempt link recovery when a degraded state is identified.\nBug fixes\nGeneral stability, performance, and experience improvements\nAPs not using configured SGT tag (Wi-Fi 6, 6e, Wi-Fi 7)\nRADSec authentication stuck (Wi-Fi 6, 6e, Wi-Fi 7)\nWi-Fi calling not working (Wi-Fi 6, 6e, Wi-Fi 7)\nWebEx DeskPro connectivity issues (Wi-Fi 6, 6e, Wi-Fi 7)",
+  "html": "<DIV class=\"\">Access points<SPAN> </SPAN>software versions<SPAN> </SPAN>MR 32.1.6<SPAN> </SPAN>changelog</DIV><H3 id=\"toc-hId-1456412074\" id=\"toc-hId-428091965\"> </H3><H4 id=\"toc-hId--1292258392\" id=\"toc-hId-1118653439\">Important note</H4><UL><LI><P class=\"\">MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.</P></LI></UL><H4 id=\"toc-hId-450551943\" id=\"toc-hId--688801024\">Enhancement</H4><UL><LI><P class=\"\">Enable class 2 PoE (7W) output when AP is supplied with PoE+ (802.3at) power budget for CW9172H (<A href=\"https://documentation.meraki.com/Wireless/Product_Information/Overviews_and_Datasheets/CW9172H_Datasheet\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/Wireless/Product_Information/Overviews_and_Datasheets/CW9172H_Datasheet</A>)</P></LI><LI><P class=\"\">Enhancements to Ethernet link negotiation mechanisms have been implemented to detect temporal link degradation and attempt link recovery when a degraded state is identified.</P></LI></UL><H4 id=\"toc-hId--2101605018\" id=\"toc-hId-1798711809\">Bug fixes</H4><UL><LI><P class=\"\">General stability, performance, and experience improvements</P></LI><LI><P class=\"\">APs not using configured SGT tag (Wi-Fi 6, 6e, Wi-Fi 7)</P></LI><LI><P class=\"\">RADSec authentication stuck (Wi-Fi 6, 6e, Wi-Fi 7)</P></LI><LI><P class=\"\">Wi-Fi calling not working (Wi-Fi 6, 6e, Wi-Fi 7)</P></LI><LI><P class=\"\">WebEx DeskPro connectivity issues (Wi-Fi 6, 6e, Wi-Fi 7)</P></LI></UL><DIV class=\"\"> </DIV>",
+  "other_comments": [
+    {
+      "id": "5462734",
+      "author": "CMR",
+      "posted": "2026-02-12T23:08:58.169-08:00",
+      "text": "This is the former release candidate being marked as stable.",
+      "html": "<P>This is the former release candidate being marked as stable.</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:37Z"
+}

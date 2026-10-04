@@ -1,0 +1,35 @@
+{
+  "family": "MR",
+  "version": "31.1.7",
+  "title": "Wireless firmware versions MR 31.1.7 changelog",
+  "announcements": [
+    {
+      "post_id": "5519931",
+      "releaseType": "candidate",
+      "announced": "2025-04-15T15:47:04.026-07:00",
+      "post_subject": "A new candidate wireless firmware is now available on Tue, 15 Apr 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-15-apr/ba-p/5519931"
+    }
+  ],
+  "changelog_comment_id": "5519932",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-04-15T23:37:01.845-07:00",
+  "sections": {
+    "Important note": [
+      "Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "False positive DFS alerts in Japan on MR56 APs",
+      "APs stop transmitting on wired interfaces (Wi-Fi 6 APs)",
+      "Clients disconnect with error code 17 (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)",
+      "Clients disconnect with reason code 0 (reserved) (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)",
+      "Association ID mismatch (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)",
+      "2.4GHz 802.11n clients unable to connect (Wi-Fi 7 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 31.1.7 changelog\nImportant note\nWi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)\nBug fixes\nGeneral stability and performance improvements\nFalse positive DFS alerts in Japan on MR56 APs\nAPs stop transmitting on wired interfaces (Wi-Fi 6 APs)\nClients disconnect with error code 17 (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)\nClients disconnect with reason code 0 (reserved) (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)\nAssociation ID mismatch (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)\n2.4GHz 802.11n clients unable to connect (Wi-Fi 7 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1846907008\" id=\"toc-hId--248750609\">Wireless firmware versions MR 31.1.7 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294790468\" id=\"toc-hId-1142875443\">Important note</H4><UL><LI>Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (<A href=\"https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ</A>)</LI></UL><H4 id=\"toc-hId-448019867\" id=\"toc-hId--664579020\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>False positive DFS alerts in Japan on MR56 APs</LI><LI>APs stop transmitting on wired interfaces (Wi-Fi 6 APs)</LI><LI>Clients disconnect with error code 17 (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)</LI><LI>Clients disconnect with reason code 0 (reserved) (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)</LI><LI>Association ID mismatch (Wi-Fi 6, Wi-Fi 6E, Wi-Fi 7 APs)</LI><LI>2.4GHz 802.11n clients unable to connect (Wi-Fi 7 APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:56Z"
+}

@@ -1,0 +1,37 @@
+{
+  "family": "MG",
+  "version": "4.1.1",
+  "title": "Cellular gateway firmware versions MG 4.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5521182",
+      "releaseType": "candidate",
+      "announced": "2025-07-09T18:47:04.585-07:00",
+      "post_subject": "A new candidate cellularGateway firmware is now available on Wed, 09 Jul 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-cellulargateway-firmware-is-now-available-on-wed/ba-p/5521182"
+    }
+  ],
+  "changelog_comment_id": "5521183",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-07-10T00:39:19.000-07:00",
+  "sections": {
+    "Executive summary": [
+      "This is an update to the new MG 4.1 feature release. It mainly includes HTTPS support for the device local status page.",
+      "Additionally, we have improved connectivity through the addition of a new provider and more built-in APNs to AutoAPN and improved band support for MG52 appliance’s “day 0” connectivity through eSIM."
+    ],
+    "What's new": [
+      "Added HTTPS support for the device local status page.",
+      "Added support for the Transatel provider.",
+      "Updated the list of built-in APNs for the Mint provider to include “wholesale”.",
+      "Updated the list of built-in APNs for the Bell provider to include “mnet.bell.ca.ioe”.",
+      "MG52s will now be able to establish “day 0” connectivity across a wider range of bands and providers using the built-in eSIM."
+    ],
+    "Other": [
+      "Updated the default login credentials for the device local status page. The new login is a username is \"admin\" and the password is the device's serial number in upper case, with dashes included. If a custom login credentials have already been configured on the Meraki Dashboard, those will continue to be used."
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 4.1.1 changelog\nExecutive summary\nThis is an update to the new MG 4.1 feature release. It mainly includes HTTPS support for the device local status page.\nAdditionally, we have improved connectivity through the addition of a new provider and more built-in APNs to AutoAPN and improved band support for MG52 appliance’s “day 0” connectivity through eSIM.\nWhat's new\nAdded HTTPS support for the device local status page.\nAdded support for the Transatel provider.\nUpdated the list of built-in APNs for the Mint provider to include “wholesale”.\nUpdated the list of built-in APNs for the Bell provider to include “mnet.bell.ca.ioe”.\nMG52s will now be able to establish “day 0” connectivity across a wider range of bands and providers using the built-in eSIM.\nOther\nUpdated the default login credentials for the device local status page. The new login is a username is \"admin\" and the password is the device's serial number in upper case, with dashes included. If a custom login credentials have already been configured on the Meraki Dashboard, those will continue to be used.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847767841\" id=\"toc-hId--248072948\">Cellular gateway firmware versions MG 4.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293929635\" id=\"toc-hId-1143553104\">Executive summary</H4><UL><LI>This is an update to the new MG 4.1 feature release. It mainly includes HTTPS support for the device local status page.</LI><LI>Additionally, we have improved connectivity through the addition of a new provider and more built-in APNs to AutoAPN and improved band support for MG52 appliance’s “day 0” connectivity through eSIM.</LI></UL><H4 id=\"toc-hId-448880700\" id=\"toc-hId--663901359\">What's new</H4><UL><LI>Added HTTPS support for the device local status page.</LI><LI>Added support for the Transatel provider.</LI><LI>Updated the list of built-in APNs for the Mint provider to include “wholesale”.</LI><LI>Updated the list of built-in APNs for the Bell provider to include “mnet.bell.ca.ioe”.</LI><LI>MG52s will now be able to establish “day 0” connectivity across a wider range of bands and providers using the built-in eSIM.</LI></UL><H4 id=\"toc-hId--2103276261\" id=\"toc-hId-1823611474\">Other</H4><UL><LI>Updated the default login credentials for the device local status page. The new login is a username is \"admin\" and the password is the device's serial number in upper case, with dashes included. If a custom login credentials have already been configured on the Meraki Dashboard, those will continue to be used.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:49Z"
+}

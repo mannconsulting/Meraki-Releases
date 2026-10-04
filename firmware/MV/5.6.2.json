@@ -1,0 +1,26 @@
+{
+  "family": "MV",
+  "version": "5.6.2",
+  "title": "Camera firmware versions MV 5.6.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5516257",
+      "releaseType": "stable",
+      "announced": "2024-07-08T17:47:04.796-07:00",
+      "post_subject": "A new stable camera firmware is now available on Mon, 08 Jul 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-mon-08-jul-2024/ba-p/5516257"
+    }
+  ],
+  "changelog_comment_id": "5516258",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-07-09T00:51:47.072-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue where restricted bandwidth mode uploads motion recap images when motion-based retention is enabled"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.6.2 changelog\nBug fixes\nResolved an issue where restricted bandwidth mode uploads motion recap images when motion-based retention is enabled",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844820670\" id=\"toc-hId--248846641\">Camera firmware versions MV 5.6.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1296876806\" id=\"toc-hId-1142779411\">Bug fixes</H4><UL><LI>Resolved an issue where restricted bandwidth mode uploads motion recap images when motion-based retention is enabled</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:14Z"
+}

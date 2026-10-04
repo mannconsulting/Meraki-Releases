@@ -1,0 +1,47 @@
+{
+  "family": "MX",
+  "version": "18.107.5",
+  "title": "Security appliance firmware versions MX 18.107.5 changelog",
+  "announcements": [
+    {
+      "post_id": "5512159",
+      "releaseType": "stable",
+      "announced": "2023-09-05T13:47:04.637-07:00",
+      "post_subject": "A new stable appliance firmware is now available on Tue, 05 Sep 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-tue-05-sep/ba-p/5512159"
+    }
+  ],
+  "changelog_comment_id": "5512160",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-09-05T13:59:15.356-07:00",
+  "sections": {
+    "Important notice": [
+      "USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements."
+    ],
+    "Bug fixes": [
+      "Stability improvements for MX75 appliances.",
+      "Corrected an issue that could result in AnyConnect client VPN clients from being unable to ping hosts on the MX WAN if the MX was configured in passthrough mode.",
+      "Fixed an issue that resulted in some AutoVPN subnets becoming unreachable when there were more than 4093 AutoVPN peers configured.",
+      "Resolved an issue that resulted in performance probes used for measuring AutoVPN path performance being sent too frequently.",
+      "Corrected an issue that resulted in wireless broadcast traffic being improperly routed on MX64W and MX65W appliances.",
+      "Fixed an issue that could result in CPU time being spent on wireless processes when no SSIDs were enabled on MX64W and MX65W appliances.",
+      "Resolved an issue that resulted in MX appliances configured in high availability using their WAN interface IP address for establishing EBGP sessions when a VIP was configured.",
+      "Fixed an issue that could result in IP addresses not being freed and returned to the lease pool when IPSec client VPN connections were terminated.",
+      "Corrected an issue that resulted in MX95, MX105, MX250, and MX450 appliances not dropping untagged traffic when configured to do so.",
+      "Resolved an MX 18.1XX regression that resulted in peripheral devices, such as the USB port, not receiving the correct amount of power on MX65(W) appliances."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "MX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are properly configured on any MX's OSPF peers to avoid disruption after upgrading to MX 18.1.X."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 18.107.5 changelog\nImportant notice\nUSB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.\nBug fixes\nStability improvements for MX75 appliances.\nCorrected an issue that could result in AnyConnect client VPN clients from being unable to ping hosts on the MX WAN if the MX was configured in passthrough mode.\nFixed an issue that resulted in some AutoVPN subnets becoming unreachable when there were more than 4093 AutoVPN peers configured.\nResolved an issue that resulted in performance probes used for measuring AutoVPN path performance being sent too frequently.\nCorrected an issue that resulted in wireless broadcast traffic being improperly routed on MX64W and MX65W appliances.\nFixed an issue that could result in CPU time being spent on wireless processes when no SSIDs were enabled on MX64W and MX65W appliances.\nResolved an issue that resulted in MX appliances configured in high availability using their WAN interface IP address for establishing EBGP sessions when a VIP was configured.\nFixed an issue that could result in IP addresses not being freed and returned to the lease pool when IPSec client VPN connections were terminated.\nCorrected an issue that resulted in MX95, MX105, MX250, and MX450 appliances not dropping untagged traffic when configured to do so.\nResolved an MX 18.1XX regression that resulted in peripheral devices, such as the USB port, not receiving the correct amount of power on MX65(W) appliances.\nLegacy products notice\nWhen configured for this version, Z1 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nMX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are properly configured on any MX's OSPF peers to avoid disruption after upgrading to MX 18.1.X.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1841304248\" id=\"toc-hId--248966743\">Security appliance firmware versions MX 18.107.5 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1300393228\" id=\"toc-hId-1142659309\">Important notice</H4><UL><LI>USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.</LI></UL><H4 id=\"toc-hId-442417107\" id=\"toc-hId--664795154\">Bug fixes</H4><UL><LI>Stability improvements for MX75 appliances.</LI><LI>Corrected an issue that could result in AnyConnect client VPN clients from being unable to ping hosts on the MX WAN if the MX was configured in passthrough mode.</LI><LI>Fixed an issue that resulted in some AutoVPN subnets becoming unreachable when there were more than 4093 AutoVPN peers configured.</LI><LI>Resolved an issue that resulted in performance probes used for measuring AutoVPN path performance being sent too frequently.</LI><LI>Corrected an issue that resulted in wireless broadcast traffic being improperly routed on MX64W and MX65W appliances.</LI><LI>Fixed an issue that could result in CPU time being spent on wireless processes when no SSIDs were enabled on MX64W and MX65W appliances.</LI><LI>Resolved an issue that resulted in MX appliances configured in high availability using their WAN interface IP address for establishing EBGP sessions when a VIP was configured.</LI><LI>Fixed an issue that could result in IP addresses not being freed and returned to the lease pool when IPSec client VPN connections were terminated.</LI><LI>Corrected an issue that resulted in MX95, MX105, MX250, and MX450 appliances not dropping untagged traffic when configured to do so.</LI><LI>Resolved an MX 18.1XX regression that resulted in peripheral devices, such as the USB port, not receiving the correct amount of power on MX65(W) appliances.</LI></UL><H4 id=\"toc-hId--2109739854\" id=\"toc-hId-1822717679\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI></UL><H4 id=\"toc-hId--366929519\" id=\"toc-hId-15263216\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>MX appliances will now properly validate that DBD packets conform to the appropriate MTU size. If the MX's OSPF peer has an improper MTU configured, it may cause the OSPF adjacency to fail to properly form. The updated behavior properly conforms to RFC. Please ensure these settings are properly configured on any MX's OSPF peers to avoid disruption after upgrading to MX 18.1.X.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:35Z"
+}

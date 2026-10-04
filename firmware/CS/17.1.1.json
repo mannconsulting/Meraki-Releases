@@ -1,0 +1,50 @@
+{
+  "family": "CS",
+  "version": "17.1.1",
+  "title": "CS firmware versions CS 17.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5515214",
+      "releaseType": "beta",
+      "announced": "2024-05-16T15:47:04.348-07:00",
+      "post_subject": "A new beta switchCatalyst firmware is now available on Thu, 16 May 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switchcatalyst-firmware-is-now-available-on-thu-16/ba-p/5515214"
+    }
+  ],
+  "changelog_comment_id": "5515215",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-05-17T00:39:30.876-07:00",
+  "sections": {
+    "Important notes": [
+      "This version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New feature highlights": [
+      "Client Analytics",
+      "Device Uptime for MS390s",
+      "EEE (Energy Efficient Ethernet) Support (API Only)",
+      "Multi-auth with support for guest/failed/critical",
+      "RADIUS Caching",
+      "VLAN to SGT mapping"
+    ],
+    "General fixed issues": [
+      "Fixed an issue that in some circumstances prevented switches from restoring a safe configuration after incorrect configuration had been applied (i.e. disabling uplink)",
+      "Fixed an issue where an event with system information could be generated when a support data bundle was created"
+    ],
+    "Ms390 fixed issues": [
+      "Resolved an issue that could prevent link aggregation configuration from being applied when the active member rebooted in an MS390 stack configured for cross-stack link aggregation"
+    ],
+    "General known issues": [
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+      "Switch Port Packet Counter live tool shows 0 packets on uplinks for all fields except for Live Data"
+    ],
+    "Ms390 known issues": [
+      "MS390 stacks may experience an unexpected reboot when both active and standby EHSA are down",
+      "MS390 stack configuration may experience high memory consumption and as a result could lead to authentication failures. Reloading the active switch clears the issue temporarily.",
+      "MS390 stacks may fail to apply new configurations fetched from the network. This results from an issue with the NETCONF application, leading the system to revert to the previously stored configuration."
+    ]
+  },
+  "text": "CS firmware versions CS 17.1.1 changelog\nImportant notes\nThis version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload.\nNew feature highlights\nClient Analytics\nDevice Uptime for MS390s\nEEE (Energy Efficient Ethernet) Support (API Only)\nMulti-auth with support for guest/failed/critical\nRADIUS Caching\nVLAN to SGT mapping\nGeneral fixed issues\nFixed an issue that in some circumstances prevented switches from restoring a safe configuration after incorrect configuration had been applied (i.e. disabling uplink)\nFixed an issue where an event with system information could be generated when a support data bundle was created\nMs390 fixed issues\nResolved an issue that could prevent link aggregation configuration from being applied when the active member rebooted in an MS390 stack configured for cross-stack link aggregation\nGeneral known issues\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nSwitch Port Packet Counter live tool shows 0 packets on uplinks for all fields except for Live Data\nMs390 known issues\nMS390 stacks may experience an unexpected reboot when both active and standby EHSA are down\nMS390 stack configuration may experience high memory consumption and as a result could lead to authentication failures. Reloading the active switch clears the issue temporarily.\nMS390 stacks may fail to apply new configurations fetched from the network. This results from an issue with the NETCONF application, leading the system to revert to the previously stored configuration.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844022858\" id=\"toc-hId--248876559\">CS firmware versions CS 17.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297674618\" id=\"toc-hId-1142749493\">Important notes</H4><UL><LI>This version's IOS image is based on 17.12.3 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-445135717\" id=\"toc-hId--664704970\">New feature highlights</H4><UL><LI>Client Analytics</LI><LI>Device Uptime for MS390s</LI><LI>EEE (Energy Efficient Ethernet) Support (API Only)</LI><LI>Multi-auth with support for guest/failed/critical</LI><LI>RADIUS Caching</LI><LI>VLAN to SGT mapping</LI></UL><H4 id=\"toc-hId--2107021244\" id=\"toc-hId-1822807863\">General fixed issues</H4><UL><LI>Fixed an issue that in some circumstances prevented switches from restoring a safe configuration after incorrect configuration had been applied (i.e. disabling uplink)</LI><LI>Fixed an issue where an event with system information could be generated when a support data bundle was created</LI></UL><H4 id=\"toc-hId--364210909\" id=\"toc-hId-15353400\">Ms390 fixed issues</H4><UL><LI>Resolved an issue that could prevent link aggregation configuration from being applied when the active member rebooted in an MS390 stack configured for cross-stack link aggregation</LI></UL><H4 id=\"toc-hId-1378599426\" id=\"toc-hId--1792101063\">General known issues</H4><UL><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI><LI>Switch Port Packet Counter live tool shows 0 packets on uplinks for all fields except for Live Data</LI></UL><H4 id=\"toc-hId--1173557535\" id=\"toc-hId-695411770\">Ms390 known issues</H4><UL><LI>MS390 stacks may experience an unexpected reboot when both active and standby EHSA are down</LI><LI>MS390 stack configuration may experience high memory consumption and as a result could lead to authentication failures. Reloading the active switch clears the issue temporarily.</LI><LI>MS390 stacks may fail to apply new configurations fetched from the network. This results from an issue with the NETCONF application, leading the system to revert to the previously stored configuration.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:19Z"
+}

@@ -1,0 +1,39 @@
+{
+  "family": "MX",
+  "version": "16.16.9",
+  "title": "Security appliance firmware versions MX 16.16.9 changelog",
+  "announcements": [
+    {
+      "post_id": "5508491",
+      "releaseType": "stable",
+      "announced": "2023-02-08T19:47:06.520-08:00",
+      "post_subject": "A new stable appliance firmware is now available on Wed, 08 Feb 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-wed-08-feb/ba-p/5508491"
+    }
+  ],
+  "changelog_comment_id": "5508492",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-02-09T02:14:08.394-08:00",
+  "sections": {
+    "Important notice": [
+      "While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.",
+      "HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions."
+    ],
+    "Bug fixes": [
+      "Fixed a rare issue that could result in disruptions to DHCP in High Availability configurations."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 and MX80 appliances will run MX 14.56."
+    ],
+    "Known issues": [
+      "After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions",
+      "Due to MX 15 regressions, USB cellular connectivity may be less reliable on some modems",
+      "Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page",
+      "Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 16.16.9 changelog\nImportant notice\nWhile Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.\nHTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.\nBug fixes\nFixed a rare issue that could result in disruptions to DHCP in High Availability configurations.\nLegacy products notice\nWhen configured for this version, Z1 and MX80 appliances will run MX 14.56.\nKnown issues\nAfter making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions\nDue to MX 15 regressions, USB cellular connectivity may be less reliable on some modems\nDue to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page\nClient traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1819974763\" id=\"toc-hId--249708540\">Security appliance firmware versions MX 16.16.9 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1321722713\" id=\"toc-hId-1141917512\">Important notice</H4><UL><LI>While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MX 16 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help &gt; Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.</LI><LI>HTTP proxy, which allows default management traffic from MX appliances to be sent through a proxy, is deprecated on MX 16 and higher firmware versions.</LI></UL><H4 id=\"toc-hId-421087622\" id=\"toc-hId--665536951\">Bug fixes</H4><UL><LI>Fixed a rare issue that could result in disruptions to DHCP in High Availability configurations.</LI></UL><H4 id=\"toc-hId--2131069339\" id=\"toc-hId-1821975882\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 and MX80 appliances will run MX 14.56.</LI></UL><H4 id=\"toc-hId--388259004\" id=\"toc-hId-14521419\">Known issues</H4><UL><LI>After making some configuration changes on MX84 appliances, a brief period of packet loss may occur. This will affect all MX84 appliances on all MX firmware versions</LI><LI>Due to MX 15 regressions, USB cellular connectivity may be less reliable on some modems</LI><LI>Due to an MX 15 regression, the management port on MX84 appliances does not provide access to the local status page</LI><LI>Client traffic will be dropped by MX65(W), MX67(C,W), and MX68(W,CW) appliances if 1) The client is connected to a LAN port with 802.1X authentication enabled and 2) The VLAN ID of the port is configured to 16, 32, 48, 64, 80, 96, 112, 128, 144, 160, 176, 192, 208, 224, or 240.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:48Z"
+}

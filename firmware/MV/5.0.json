@@ -1,0 +1,40 @@
+{
+  "family": "MV",
+  "version": "5.0",
+  "title": "Camera firmware versions MV 5.0 changelog",
+  "announcements": [
+    {
+      "post_id": "5506632",
+      "releaseType": "beta",
+      "announced": "2022-11-01T13:47:05.789-07:00",
+      "post_subject": "A new beta camera firmware is now available on Tue, 01 Nov 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-tue-01-nov-2022/ba-p/5506632"
+    }
+  ],
+  "changelog_comment_id": "5506633",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-11-01T15:13:02.902-07:00",
+  "sections": {
+    "Note": [
+      "Upgrading to this firmware does NOT allow for the ability to downgrade to MV 4.X branch",
+      "Smart Codec support is enabled in this firmware branch (MV12/MV32/MV22(x)/MV72(x)/MV63(x)/MV93(x))"
+    ],
+    "New": [
+      "Initial firmware support for MV63/MV63X/MV93/MV93X"
+    ],
+    "Bug fixes": [
+      "Resolve an issue where live video streaming can become intermittent due to a software fault"
+    ],
+    "General": [
+      "Improved connectivity performance for MT sensors",
+      "Improved accuracy and performance of vehicle and person detection",
+      "Improved performance of MV Sense",
+      "Improved performance of motion recap image generation",
+      "General stability and performance improvements"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.0 changelog\nNote\nUpgrading to this firmware does NOT allow for the ability to downgrade to MV 4.X branch\nSmart Codec support is enabled in this firmware branch (MV12/MV32/MV22(x)/MV72(x)/MV63(x)/MV93(x))\nNew\nInitial firmware support for MV63/MV63X/MV93/MV93X\nBug fixes\nResolve an issue where live video streaming can become intermittent due to a software fault\nGeneral\nImproved connectivity performance for MT sensors\nImproved accuracy and performance of vehicle and person detection\nImproved performance of MV Sense\nImproved performance of motion recap image generation\nGeneral stability and performance improvements",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1819049568\" id=\"toc-hId--249766385\">Camera firmware versions MV 5.0 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1322647908\" id=\"toc-hId-1141859667\">Note</H4><UL><LI>Upgrading to this firmware does NOT allow for the ability to downgrade to MV 4.X branch</LI><LI>Smart Codec support is enabled in this firmware branch (MV12/MV32/MV22(x)/MV72(x)/MV63(x)/MV93(x))</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-420162427\" id=\"toc-hId--665594796\">New</H4><UL><LI>Initial firmware support for MV63/MV63X/MV93/MV93X</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2131994534\" id=\"toc-hId-1821918037\">Bug fixes</H4><UL><LI>Resolve an issue where live video streaming can become intermittent due to a software fault</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--389184199\" id=\"toc-hId-14463574\">General</H4><UL><LI>Improved connectivity performance for MT sensors</LI><LI>Improved accuracy and performance of vehicle and person detection</LI><LI>Improved performance of MV Sense</LI><LI>Improved performance of motion recap image generation</LI><LI>General stability and performance improvements</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:54Z"
+}

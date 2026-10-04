@@ -1,0 +1,29 @@
+{
+  "family": "MV",
+  "version": "6.2.1",
+  "title": "Camera firmware versions MV 6.2.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5518998",
+      "releaseType": "beta",
+      "announced": "2025-01-24T17:47:03.784-08:00",
+      "post_subject": "A new beta camera firmware is now available on Fri, 24 Jan 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-fri-24-jan-2025/ba-p/5518998"
+    }
+  ],
+  "changelog_comment_id": "5518999",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-01-25T02:05:59.841-08:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue affecting cameras using Motion-based Retention on MV6.2, ensuring retention policies are correctly enforced"
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 devices will run MV4.15"
+    ]
+  },
+  "text": "Camera firmware versions MV 6.2.1 changelog\nBug fixes\nResolved an issue affecting cameras using Motion-based Retention on MV6.2, ensuring retention policies are correctly enforced\nNotice\nWhen configured for this version, MV21 & MV71 devices will run MV4.15",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1846641554\" id=\"toc-hId--248780207\">Camera firmware versions MV 6.2.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295055922\" id=\"toc-hId-1142845845\">Bug fixes</H4><UL><LI>Resolved an issue affecting cameras using Motion-based Retention on MV6.2, ensuring retention policies are correctly enforced</LI></UL><H4 id=\"toc-hId-447754413\" id=\"toc-hId--664608618\">Notice</H4><UL><LI>When configured for this version, MV21 &amp; MV71 devices will run MV4.15</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:01Z"
+}

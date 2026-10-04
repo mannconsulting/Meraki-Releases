@@ -1,0 +1,26 @@
+{
+  "family": "MV",
+  "version": "5.4.1",
+  "title": "Camera firmware versions MV 5.4.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5513001",
+      "releaseType": "beta",
+      "announced": "2023-11-03T15:47:05.723-07:00",
+      "post_subject": "A new beta camera firmware is now available on Fri, 03 Nov 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-fri-03-nov-2023/ba-p/5513001"
+    }
+  ],
+  "changelog_comment_id": "5513002",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-11-03T15:49:18.055-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved a bug where Advanced Presence Sensing detects Vehicles as People on MV52/MV72(x)"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.4.1 changelog\nBug fixes\nResolved a bug where Advanced Presence Sensing detects Vehicles as People on MV52/MV72(x)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1842141215\" id=\"toc-hId--248938097\">Camera firmware versions MV 5.4.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1299556261\" id=\"toc-hId-1142687955\">Bug fixes</H4><UL><LI>Resolved a bug where Advanced Presence Sensing detects Vehicles as People on MV52/MV72(x)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:30Z"
+}

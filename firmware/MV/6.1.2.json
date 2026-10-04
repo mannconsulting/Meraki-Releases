@@ -1,0 +1,30 @@
+{
+  "family": "MV",
+  "version": "6.1.2",
+  "title": "Camera firmware versions MV 6.1.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5518132",
+      "releaseType": "stable",
+      "announced": "2024-11-04T15:47:05.792-08:00",
+      "post_subject": "A new stable camera firmware is now available on Mon, 04 Nov 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-mon-04-nov-2024/ba-p/5518132"
+    }
+  ],
+  "changelog_comment_id": "5518133",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-11-04T16:14:48.234-08:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue causing delayed access to historical video when Cloud Archive is enabled on MV12(s)/MV2/MV22(x)/MV32/MV52/MV72(x).",
+      "Resolved an issue that was preventing impacted cameras from storing new video"
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 devices will run MV4.15"
+    ]
+  },
+  "text": "Camera firmware versions MV 6.1.2 changelog\nBug fixes\nResolved an issue causing delayed access to historical video when Cloud Archive is enabled on MV12(s)/MV2/MV22(x)/MV32/MV52/MV72(x).\nResolved an issue that was preventing impacted cameras from storing new video\nNotice\nWhen configured for this version, MV21 & MV71 devices will run MV4.15",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845805758\" id=\"toc-hId--248788087\">Camera firmware versions MV 6.1.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295891718\" id=\"toc-hId-1142837965\">Bug fixes</H4><UL><LI>Resolved an issue causing delayed access to historical video when Cloud Archive is enabled on MV12(s)/MV2/MV22(x)/MV32/MV52/MV72(x).</LI><LI>Resolved an issue that was preventing impacted cameras from storing new video</LI></UL><H4 id=\"toc-hId-446918617\" id=\"toc-hId--664616498\">Notice</H4><UL><LI>When configured for this version, MV21 &amp; MV71 devices will run MV4.15</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:04Z"
+}

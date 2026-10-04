@@ -1,0 +1,34 @@
+{
+  "family": "MV",
+  "version": "5.3",
+  "title": "Camera firmware versions MV 5.3 changelog",
+  "announcements": [
+    {
+      "post_id": "5509370",
+      "releaseType": "beta",
+      "announced": "2023-04-29T11:46:18.220-07:00",
+      "post_subject": "A new beta camera firmware is now available on Sat, 29 Apr 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-sat-29-apr-2023/ba-p/5509370"
+    }
+  ],
+  "changelog_comment_id": "5509371",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-04-30T01:49:03.217-07:00",
+  "sections": {
+    "New": [
+      "Improved Image Quality for MV63(x)/MV93(x)",
+      "Smartcodec Support for MV2/MV52",
+      "Advanced Presence Sensing Support for MV63(x)/MV93(x)"
+    ],
+    "Bug fixes": [
+      "Resolved an issue where MV72(x) could go offline after upgrading to MV5.1/5.2",
+      "Resolved an issue where MV63(x)/MV93(x) LED turns off during camera initialization",
+      "Resolved an issue where MV63(x) low-resolution stream could become corrupted",
+      "Resolved an issue where MV63(x)/MV93(x) can experience fps fluctuations"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.3 changelog\nNew\nImproved Image Quality for MV63(x)/MV93(x)\nSmartcodec Support for MV2/MV52\nAdvanced Presence Sensing Support for MV63(x)/MV93(x)\nBug fixes\nResolved an issue where MV72(x) could go offline after upgrading to MV5.1/5.2\nResolved an issue where MV63(x)/MV93(x) LED turns off during camera initialization\nResolved an issue where MV63(x) low-resolution stream could become corrupted\nResolved an issue where MV63(x)/MV93(x) can experience fps fluctuations",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1820845710\" id=\"toc-hId--249679773\">Camera firmware versions MV 5.3 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1320851766\" id=\"toc-hId-1141946279\">New</H4><UL><LI>Improved Image Quality for MV63(x)/MV93(x)</LI><LI>Smartcodec Support for MV2/MV52</LI><LI>Advanced Presence Sensing Support for MV63(x)/MV93(x)</LI></UL><H4 id=\"toc-hId-421958569\" id=\"toc-hId--665508184\">Bug fixes</H4><UL><LI>Resolved an issue where MV72(x) could go offline after upgrading to MV5.1/5.2</LI><LI>Resolved an issue where MV63(x)/MV93(x) LED turns off during camera initialization</LI><LI>Resolved an issue where MV63(x) low-resolution stream could become corrupted</LI><LI>Resolved an issue where MV63(x)/MV93(x) can experience fps fluctuations</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:45Z"
+}

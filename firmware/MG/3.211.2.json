@@ -1,0 +1,35 @@
+{
+  "family": "MG",
+  "version": "3.211.2",
+  "title": "Cellular gateway firmware versions MG 3.211.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5515728",
+      "releaseType": "beta",
+      "announced": "2024-06-07T17:47:04.742-07:00",
+      "post_subject": "A new beta cellularGateway firmware is now available on Fri, 07 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cellulargateway-firmware-is-now-available-on-fri-07/ba-p/5515728"
+    }
+  ],
+  "changelog_comment_id": "5515729",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-06-08T00:39:36.210-07:00",
+  "sections": {
+    "Important notices": [
+      "For MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.211. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance."
+    ],
+    "Bug fixes": [
+      "Fixed an issue that resulted in the Status Light of MG52/52E appearing off despite the device being powered on and connected",
+      "Fixed an issue that caused SIMs to show up as 'Not inserted' even when a SIM is present",
+      "Added Additional AT&T APNs for 5G"
+    ],
+    "Known issues": [
+      "MG21 Unable to set MTU",
+      "MG Frequent Reboot with \"boot_count\" Reason"
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 3.211.2 changelog\nImportant notices\nFor MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.211. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.\nBug fixes\nFixed an issue that resulted in the Status Light of MG52/52E appearing off despite the device being powered on and connected\nFixed an issue that caused SIMs to show up as 'Not inserted' even when a SIM is present\nAdded Additional AT&T APNs for 5G\nKnown issues\nMG21 Unable to set MTU\nMG Frequent Reboot with \"boot_count\" Reason",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844105468\" id=\"toc-hId--248871719\">Cellular gateway firmware versions MG 3.211.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297592008\" id=\"toc-hId-1142754333\">Important notices</H4><UL><LI>For MG51/51E, Applying this firmware will upgrade the firmware of the Modem. This upgrade begins automatically after the MG has finished upgrading to MG 3.211. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.</LI></UL><H4 id=\"toc-hId-445218327\" id=\"toc-hId--664700130\">Bug fixes</H4><UL><LI>Fixed an issue that resulted in the Status Light of MG52/52E appearing off despite the device being powered on and connected</LI><LI>Fixed an issue that caused SIMs to show up as 'Not inserted' even when a SIM is present</LI><LI>Added Additional AT&amp;T APNs for 5G</LI></UL><H4 id=\"toc-hId--2106938634\" id=\"toc-hId-1822812703\">Known issues</H4><UL><LI>MG21 Unable to set MTU</LI><LI>MG Frequent Reboot with \"boot_count\" Reason</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:16Z"
+}

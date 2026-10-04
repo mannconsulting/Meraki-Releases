@@ -1,0 +1,27 @@
+{
+  "family": "MR",
+  "version": "32.2.3",
+  "title": "Access points software versions MR 32.2.3 changelog",
+  "announcements": [
+    {
+      "post_id": "5541748",
+      "releaseType": "beta",
+      "announced": "2026-03-31T12:19:28.908-07:00",
+      "post_subject": "A new Beta MR Wireless firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mr-wireless-firmware-is-now-available/ba-p/5541748"
+    }
+  ],
+  "changelog_comment_id": "5542763",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-04-03T06:24:05.163-07:00",
+  "sections": {
+    "Bug fixes": [
+      "General stability, performance, and experience improvements.",
+      "Intermittent ACK frames ignored due to devices not honoring SIFS backoff (Wi-Fi 7)"
+    ]
+  },
+  "text": "Access points software versions MR 32.2.3 changelog\nBug fixes\nGeneral stability, performance, and experience improvements.\nIntermittent ACK frames ignored due to devices not honoring SIFS backoff (Wi-Fi 7)",
+  "html": "<DIV class=\"\"><STRONG>Access points&nbsp;software versions&nbsp;MR 32.2.3&nbsp;changelog</STRONG></DIV><DIV class=\"\"><H4 id=\"toc-hId--1342077192\">Bug fixes</H4><UL><LI><P class=\"\">General stability, performance, and experience improvements.</P></LI><LI><P class=\"\">Intermittent ACK frames ignored due to devices not honoring SIFS backoff (Wi-Fi 7)</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:33Z"
+}

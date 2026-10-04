@@ -1,0 +1,34 @@
+{
+  "family": "MR",
+  "version": "32.1.2",
+  "title": "Wireless firmware versions MR 32.1.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5520976",
+      "releaseType": "beta",
+      "announced": "2025-06-23T11:47:04.232-07:00",
+      "post_subject": "A new beta wireless firmware is now available on Mon, 23 Jun 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-mon-23-jun-2025/ba-p/5520976"
+    }
+  ],
+  "changelog_comment_id": "5520977",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-06-23T12:11:59.021-07:00",
+  "sections": {
+    "New feature": [
+      "Local firmware fetch for MRs to reduce WAN consumption during firmware upgrades",
+      "Support for DHCP Option 82"
+    ],
+    "Important note": [
+      "MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.7.1) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available."
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "Dashboard channel utilization incorrectly reported above 100% (Wi-Fi 7 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 32.1.2 changelog\nNew feature\nLocal firmware fetch for MRs to reduce WAN consumption during firmware upgrades\nSupport for DHCP Option 82\nImportant note\nMR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.7.1) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.\nBug fixes\nGeneral stability, performance, and experience improvements\nDashboard channel utilization incorrectly reported above 100% (Wi-Fi 7 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847710398\" id=\"toc-hId--248095078\">Wireless firmware versions MR 32.1.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293987078\" id=\"toc-hId-1143530974\">New feature</H4><UL><LI>Local firmware fetch for MRs to reduce WAN consumption during firmware upgrades</LI><LI>Support for DHCP Option 82</LI></UL><H4 id=\"toc-hId-448823257\" id=\"toc-hId--663923489\">Important note</H4><UL><LI>MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.7.1) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.</LI></UL><H4 id=\"toc-hId--2103333704\" id=\"toc-hId-1823589344\">Bug fixes</H4><UL><LI>General stability, performance, and experience improvements</LI><LI>Dashboard channel utilization incorrectly reported above 100% (Wi-Fi 7 APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:50Z"
+}

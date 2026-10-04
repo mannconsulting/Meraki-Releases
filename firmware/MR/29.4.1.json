@@ -1,0 +1,36 @@
+{
+  "family": "MR",
+  "version": "29.4.1",
+  "title": "Wireless firmware versions MR 29.4.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5506316",
+      "releaseType": "candidate",
+      "announced": "2022-10-17T11:47:06.522-07:00",
+      "post_subject": "A new candidate wireless firmware is now available on Mon, 17 Oct 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-mon-17-oct/ba-p/5506316"
+    }
+  ],
+  "changelog_comment_id": "5506317",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-10-17T11:49:19.705-07:00",
+  "sections": {
+    "Important note": [
+      "Meraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)"
+    ],
+    "Legacy product notice": [
+      "When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3."
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "AP may be unable to download configuration when NTP servers are inaccessible"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 29.4.1 changelog\nImportant note\nMeraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)\nLegacy product notice\nWhen configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3.\nBug fixes\nGeneral stability and performance improvements\nAP may be unable to download configuration when NTP servers are inaccessible\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1818966706\" id=\"toc-hId--249769326\">Wireless firmware versions MR 29.4.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1322730770\" id=\"toc-hId-1141856726\">Important note</H4><UL><LI>Meraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-420079565\" id=\"toc-hId--665597737\">Legacy product notice</H4><UL><LI>When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2132077396\" id=\"toc-hId-1821915096\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>AP may be unable to download configuration when NTP servers are inaccessible</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--389267061\" id=\"toc-hId-14460633\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:55Z"
+}

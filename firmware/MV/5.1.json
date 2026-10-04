@@ -1,0 +1,38 @@
+{
+  "family": "MV",
+  "version": "5.1",
+  "title": "Camera firmware versions MV 5.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5508132",
+      "releaseType": "beta",
+      "announced": "2023-02-03T15:47:07.924-08:00",
+      "post_subject": "A new beta camera firmware is now available on Fri, 03 Feb 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-fri-03-feb-2023/ba-p/5508132"
+    }
+  ],
+  "changelog_comment_id": "5508133",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-02-04T00:56:27.984-08:00",
+  "sections": {
+    "New": [
+      "Initial firmware support for Audio Recording on MV63(x)/MV93(x)",
+      "Initial firmware support for Sensor Crop on MV63(x)"
+    ],
+    "Bug fixes": [
+      "Fixed an issue where local video streaming can become unresponsive",
+      "Fixed an issue where 2nd gen experimental model would fail to initialize",
+      "Fixed an issue where Gen2 cameras do not report LLDP information"
+    ],
+    "General": [
+      "Improved connectivity performance for MT sensors",
+      "Improved accuracy and performance of vehicle and person detection",
+      "Improved performance of motion recap image generation",
+      "General stability and performance improvements"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.1 changelog\nNew\nInitial firmware support for Audio Recording on MV63(x)/MV93(x)\nInitial firmware support for Sensor Crop on MV63(x)\nBug fixes\nFixed an issue where local video streaming can become unresponsive\nFixed an issue where 2nd gen experimental model would fail to initialize\nFixed an issue where Gen2 cameras do not report LLDP information\nGeneral\nImproved connectivity performance for MT sensors\nImproved accuracy and performance of vehicle and person detection\nImproved performance of motion recap image generation\nGeneral stability and performance improvements",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1819948849\" id=\"toc-hId--249711608\">Camera firmware versions MV 5.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1321748627\" id=\"toc-hId-1141914444\">New</H4><UL><LI>Initial firmware support for Audio Recording on MV63(x)/MV93(x)</LI><LI>Initial firmware support for Sensor Crop on MV63(x)</LI></UL><H4 id=\"toc-hId-421061708\" id=\"toc-hId--665540019\">Bug fixes</H4><UL><LI>Fixed an issue where local video streaming can become unresponsive</LI><LI>Fixed an issue where 2nd gen experimental model would fail to initialize</LI><LI>Fixed an issue where Gen2 cameras do not report LLDP information</LI></UL><H4 id=\"toc-hId--2131095253\" id=\"toc-hId-1821972814\">General</H4><UL><LI>Improved connectivity performance for MT sensors</LI><LI>Improved accuracy and performance of vehicle and person detection</LI><LI>Improved performance of motion recap image generation</LI><LI>General stability and performance improvements</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:49Z"
+}

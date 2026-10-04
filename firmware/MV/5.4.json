@@ -1,0 +1,35 @@
+{
+  "family": "MV",
+  "version": "5.4",
+  "title": "Camera firmware versions MV 5.4 changelog",
+  "announcements": [
+    {
+      "post_id": "5512377",
+      "releaseType": "beta",
+      "announced": "2023-09-29T09:54:59.962-07:00",
+      "post_subject": "A new beta camera firmware is now available on Tue, 19 Sep 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-tue-19-sep-2023/ba-p/5512377"
+    }
+  ],
+  "changelog_comment_id": "5512378",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-09-29T10:21:06.872-07:00",
+  "sections": {
+    "New": [
+      "Added firmware support for Advanced Presence Sensing 'Areas' on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)"
+    ],
+    "Bug fixes": [
+      "Resolved an issue where MV12/MV2/MV22(x)/MV32/MV52/MV72(x) sends incomplete payload for MQTT raw_detections",
+      "Resolved an issue that can cause temporary video loss after the HDR setting is toggled."
+    ],
+    "General": [
+      "Improved Video Recording Stability on MV52",
+      "Improved performance for RTSP streaming on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)",
+      "Improved Audio playback performance on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.4 changelog\nNew\nAdded firmware support for Advanced Presence Sensing 'Areas' on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)\nBug fixes\nResolved an issue where MV12/MV2/MV22(x)/MV32/MV52/MV72(x) sends incomplete payload for MQTT raw_detections\nResolved an issue that can cause temporary video loss after the HDR setting is toggled.\nGeneral\nImproved Video Recording Stability on MV52\nImproved performance for RTSP streaming on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)\nImproved Audio playback performance on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1842018274\" id=\"toc-hId--248964782\">Camera firmware versions MV 5.4 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1299679202\" id=\"toc-hId-1142661270\">New</H4><UL><LI>Added firmware support for Advanced Presence Sensing 'Areas' on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)</LI></UL><H4 id=\"toc-hId-443131133\" id=\"toc-hId--664793193\">Bug fixes</H4><UL><LI>Resolved an issue where MV12/MV2/MV22(x)/MV32/MV52/MV72(x) sends incomplete payload for MQTT raw_detections</LI><LI>Resolved an issue that can cause temporary video loss after the HDR setting is toggled.</LI></UL><H4 id=\"toc-hId--2109025828\" id=\"toc-hId-1822719640\">General</H4><UL><LI>Improved Video Recording Stability on MV52</LI><LI>Improved performance for RTSP streaming on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)</LI><LI>Improved Audio playback performance on MV12/MV2/MV22(x)/MV32/MV52/MV72(x)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:33Z"
+}

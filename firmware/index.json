@@ -1,0 +1,3796 @@
+{
+  "CS/16.1": {
+    "family": "CS",
+    "version": "16.1",
+    "file": "CS/16.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-06-14T13:47:26.258-07:00",
+    "last_announced": "2023-06-14T13:47:26.258-07:00",
+    "sections": [
+      "Alerts",
+      "New features",
+      "Bug fixes",
+      "General known issues"
+    ]
+  },
+  "CS/16.1.1": {
+    "family": "CS",
+    "version": "16.1.1",
+    "file": "CS/16.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-06-23T09:47:05.261-07:00",
+    "last_announced": "2023-06-23T09:47:05.261-07:00",
+    "sections": [
+      "Alerts",
+      "New features",
+      "Bug fixes",
+      "General known issues"
+    ]
+  },
+  "CS/16.2": {
+    "family": "CS",
+    "version": "16.2",
+    "file": "CS/16.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-07-06T17:47:11.197-07:00",
+    "last_announced": "2023-07-06T17:47:11.197-07:00",
+    "sections": [
+      "Alerts",
+      "New features",
+      "Bug fixes",
+      "General known issues"
+    ]
+  },
+  "CS/16.3": {
+    "family": "CS",
+    "version": "16.3",
+    "file": "CS/16.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-08-31T17:47:05.052-07:00",
+    "last_announced": "2023-08-31T17:47:05.052-07:00",
+    "sections": [
+      "Alerts",
+      "New features",
+      "Bug fixes",
+      "General known issues"
+    ]
+  },
+  "CS/16.6": {
+    "family": "CS",
+    "version": "16.6",
+    "file": "CS/16.6.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-12-22T15:47:04.664-08:00",
+    "last_announced": "2023-12-22T15:47:04.664-08:00",
+    "sections": [
+      "IMPORTANT NOTES",
+      "NEW FEATURE HIGHLIGHTS",
+      "GENERAL FIXED ISSUES",
+      "GENERAL KNOWN ISSUES"
+    ]
+  },
+  "CS/16.7": {
+    "family": "CS",
+    "version": "16.7",
+    "file": "CS/16.7.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-02-28T19:47:05.152-08:00",
+    "last_announced": "2024-02-28T19:47:05.152-08:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "C9300x fixed issues",
+      "C9300x-48hxn fixed issues",
+      "General fixed issues",
+      "General known issues"
+    ]
+  },
+  "CS/16.8": {
+    "family": "CS",
+    "version": "16.8",
+    "file": "CS/16.8.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-04-10T15:47:04.352-07:00",
+    "last_announced": "2024-04-10T15:47:04.352-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "Fixed issues",
+      "General known issues"
+    ]
+  },
+  "CS/16.9": {
+    "family": "CS",
+    "version": "16.9",
+    "file": "CS/16.9.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-09-16T15:47:06.372-07:00",
+    "last_announced": "2024-09-16T15:47:06.372-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "Fixed issues",
+      "General known issues"
+    ]
+  },
+  "CS/17.1.1": {
+    "family": "CS",
+    "version": "17.1.1",
+    "file": "CS/17.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-05-16T15:47:04.348-07:00",
+    "last_announced": "2024-05-16T15:47:04.348-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "General fixed issues",
+      "Ms390 fixed issues",
+      "General known issues",
+      "Ms390 known issues"
+    ]
+  },
+  "CS/17.1.3": {
+    "family": "CS",
+    "version": "17.1.3",
+    "file": "CS/17.1.3.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-09-12T17:47:08.697-07:00",
+    "last_announced": "2024-10-08T15:47:06.213-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "General fixed issues",
+      "Ms390 fixed issues",
+      "C9300 known issues",
+      "General known issues"
+    ]
+  },
+  "CS/17.1.4": {
+    "family": "CS",
+    "version": "17.1.4",
+    "file": "CS/17.1.4.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2024-10-30T14:47:06.316-07:00",
+    "last_announced": "2024-11-15T12:47:05.785-08:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "Fixed issues",
+      "General known issues"
+    ]
+  },
+  "CS/17.15.1": {
+    "family": "CS",
+    "version": "17.15.1",
+    "file": "CS/17.15.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-10-02T16:47:05.922-07:00",
+    "last_announced": "2024-10-02T16:47:05.922-07:00",
+    "sections": [
+      "Overview",
+      "New feature highlights",
+      "Fixed issues",
+      "Known issues",
+      "Temporary feature gaps: cs/ms17 vs ios xe 17.15.1",
+      "Supported models"
+    ]
+  },
+  "CS/17.15.2": {
+    "family": "CS",
+    "version": "17.15.2",
+    "file": "CS/17.15.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-02-06T13:47:04.086-08:00",
+    "last_announced": "2025-02-06T13:47:04.086-08:00",
+    "sections": [
+      "Important notes",
+      "Cloud-native ios xe beta overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Fixed issues",
+      "Known issues",
+      "Supported models",
+      "Transitioning from cs to ios xe 17.15: unsupported features"
+    ]
+  },
+  "CS/17.15.3": {
+    "family": "CS",
+    "version": "17.15.3",
+    "file": "CS/17.15.3.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-04-07T14:47:03.898-07:00",
+    "last_announced": "2025-04-07T14:47:03.898-07:00",
+    "sections": [
+      "Important notes",
+      "Cloud-native ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Known issues",
+      "Fixed issues",
+      "Supported models"
+    ]
+  },
+  "CS/17.15.3.1": {
+    "family": "CS",
+    "version": "17.15.3.1",
+    "file": "CS/17.15.3.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-06-16T16:47:03.972-07:00",
+    "last_announced": "2025-06-16T16:47:03.972-07:00",
+    "sections": [
+      "Important notes",
+      "Cloud-native ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Known issues",
+      "Fixed issues",
+      "Supported models",
+      "Transitioning from cs to ios xe 17.15: unsupported features"
+    ]
+  },
+  "CS/17.15.4": {
+    "family": "CS",
+    "version": "17.15.4",
+    "file": "CS/17.15.4.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-08-12T13:47:03.988-07:00",
+    "last_announced": "2025-08-12T13:47:03.988-07:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Known issues",
+      "Fixed issues",
+      "Supported models",
+      "Transitioning from cs to ios xe 17.15: unsupported features"
+    ]
+  },
+  "CS/17.15.4.1": {
+    "family": "CS",
+    "version": "17.15.4.1",
+    "file": "CS/17.15.4.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-11-13T17:47:04.165-08:00",
+    "last_announced": "2025-11-13T17:47:04.165-08:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Known issues",
+      "Fixed issues",
+      "Share your post-upgrade feedback!",
+      "Supported models",
+      "Transitioning from cs to ios xe 17.15: unsupported features"
+    ]
+  },
+  "CS/17.15.5": {
+    "family": "CS",
+    "version": "17.15.5",
+    "file": "CS/17.15.5.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2026-02-26T14:47:03.280-08:00",
+    "last_announced": "2026-02-26T14:47:03.280-08:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Known issues in 17.15.5",
+      "Fixed issues in 17.15.5",
+      "Share your post-upgrade feedback!",
+      "Supported models",
+      "Transitioning from cs to ios xe 17.15: unsupported features"
+    ]
+  },
+  "CS/17.18.1": {
+    "family": "CS",
+    "version": "17.18.1",
+    "file": "CS/17.18.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-09-03T09:47:04.867-07:00",
+    "last_announced": "2025-09-03T09:47:04.867-07:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Supported models",
+      "Known issues",
+      "Fixed issues"
+    ]
+  },
+  "CS/17.18.2": {
+    "family": "CS",
+    "version": "17.18.2",
+    "file": "CS/17.18.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-12-19T15:47:03.543-08:00",
+    "last_announced": "2025-12-19T15:47:03.543-08:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Known issues",
+      "C9350 known issues",
+      "Fixed issues",
+      "Transitioning from cs to ios xe 17.18: unsupported features"
+    ]
+  },
+  "CS/17.18.4": {
+    "family": "CS",
+    "version": "17.18.4",
+    "file": "CS/17.18.4.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-08-05T14:00:10.492-07:00",
+    "last_announced": "2026-08-05T14:00:10.492-07:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Known issues",
+      "C9350 known issues",
+      "Fixed issues"
+    ]
+  },
+  "CS/17.18.4.1": {
+    "family": "CS",
+    "version": "17.18.4.1",
+    "file": "CS/17.18.4.1.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-08-24T12:00:05.279-07:00",
+    "last_announced": "2026-08-24T12:00:05.279-07:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Share your post-upgrade feedback!",
+      "Known issues",
+      "C9350 known issues",
+      "Fixed issues"
+    ]
+  },
+  "CS/17.2.1": {
+    "family": "CS",
+    "version": "17.2.1",
+    "file": "CS/17.2.1.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-03-24T11:47:04.704-07:00",
+    "last_announced": "2025-03-24T11:47:04.704-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "General fixed issues",
+      "Ms390 fixed issues",
+      "C9300 known issues",
+      "General known issues",
+      "Ms390 known issues"
+    ]
+  },
+  "CS/17.2.1.1": {
+    "family": "CS",
+    "version": "17.2.1.1",
+    "file": "CS/17.2.1.1.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-04-24T15:47:03.996-07:00",
+    "last_announced": "2025-04-24T15:47:03.996-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "General fixed issues",
+      "Ms390 fixed issues",
+      "C9300 known issues",
+      "Ms390 known issues"
+    ]
+  },
+  "CS/17.2.2": {
+    "family": "CS",
+    "version": "17.2.2",
+    "file": "CS/17.2.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-07-21T16:47:04.098-07:00",
+    "last_announced": "2025-07-21T16:47:04.098-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "General fixed issues",
+      "Ms390 fixed issues",
+      "General known issues",
+      "C9300 known issues",
+      "Ms390 known issues"
+    ]
+  },
+  "CS/17.2.3": {
+    "family": "CS",
+    "version": "17.2.3",
+    "file": "CS/17.2.3.json",
+    "releaseTypes": [
+      "Recommended Release",
+      "stable"
+    ],
+    "first_announced": "2025-09-26T15:47:03.713-07:00",
+    "last_announced": "2026-04-24T12:00:04.502-07:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "Fixed issues",
+      "General known issues",
+      "C9300 known issues",
+      "Ms390 known issues"
+    ]
+  },
+  "CS/26.1.1": {
+    "family": "CS",
+    "version": "26.1.1",
+    "file": "CS/26.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-04-21T17:00:05.488-07:00",
+    "last_announced": "2026-04-21T17:00:05.488-07:00",
+    "sections": [
+      "Important notes",
+      "Cloud management with ios xe overview",
+      "Release highlights",
+      "Before you upgrade or migrate: key considerations",
+      "Known issues in 26.1.1",
+      "Fixed issues in 26.1.1",
+      "Share your post-upgrade feedback!",
+      "Supported models",
+      "Transitioning from cs to ios xe 26.1: unsupported features"
+    ]
+  },
+  "CS/26.2.1": {
+    "family": "CS",
+    "version": "26.2.1",
+    "file": "CS/26.2.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-09-29T14:00:06.945-07:00",
+    "last_announced": "2026-09-29T14:00:06.945-07:00",
+    "sections": [
+      "preamble"
+    ]
+  },
+  "MG/26.1.1": {
+    "family": "MG",
+    "version": "26.1.1",
+    "file": "MG/26.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-03-18T22:47:03.672-07:00",
+    "last_announced": "2026-03-18T22:47:03.672-07:00",
+    "sections": [
+      "Executive summary",
+      "What's new"
+    ]
+  },
+  "MG/26.1.2": {
+    "family": "MG",
+    "version": "26.1.2",
+    "file": "MG/26.1.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-04-10T14:00:05.395-07:00",
+    "last_announced": "2026-04-10T14:00:05.395-07:00",
+    "sections": [
+      "Executive summary",
+      "Bug fixes"
+    ]
+  },
+  "MG/3.0": {
+    "family": "MG",
+    "version": "3.0",
+    "file": "MG/3.0.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-03-13T13:47:07.323-07:00",
+    "last_announced": "2023-03-13T13:47:07.323-07:00",
+    "sections": [
+      "Important notice",
+      "New product highlights",
+      "New feature highlights",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MG/3.100": {
+    "family": "MG",
+    "version": "3.100",
+    "file": "MG/3.100.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-03-14T17:47:11.861-07:00",
+    "last_announced": "2023-03-14T17:47:11.861-07:00",
+    "sections": [
+      "Important notice",
+      "New feature highlights",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MG/3.101": {
+    "family": "MG",
+    "version": "3.101",
+    "file": "MG/3.101.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-08-16T19:47:11.688-07:00",
+    "last_announced": "2023-09-06T21:47:05.003-07:00",
+    "sections": [
+      "preamble",
+      "NEW FEATURE HIGHLIGHTS",
+      "BUG FIXES"
+    ]
+  },
+  "MG/3.102": {
+    "family": "MG",
+    "version": "3.102",
+    "file": "MG/3.102.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2024-03-01T15:47:04.671-08:00",
+    "last_announced": "2024-06-25T13:47:04.351-07:00",
+    "sections": [
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MG/3.201": {
+    "family": "MG",
+    "version": "3.201",
+    "file": "MG/3.201.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-05-02T16:47:04.524-07:00",
+    "last_announced": "2024-05-02T16:47:04.524-07:00",
+    "sections": [
+      "Important notices",
+      "New feature highlights",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MG/3.211": {
+    "family": "MG",
+    "version": "3.211",
+    "file": "MG/3.211.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-05-24T13:47:04.835-07:00",
+    "last_announced": "2024-05-24T13:47:04.835-07:00",
+    "sections": [
+      "Important notices",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MG/3.211.2": {
+    "family": "MG",
+    "version": "3.211.2",
+    "file": "MG/3.211.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-06-07T17:47:04.742-07:00",
+    "last_announced": "2024-06-07T17:47:04.742-07:00",
+    "sections": [
+      "Important notices",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MG/3.212": {
+    "family": "MG",
+    "version": "3.212",
+    "file": "MG/3.212.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-06-25T13:47:08.861-07:00",
+    "last_announced": "2024-06-25T13:47:08.861-07:00",
+    "sections": [
+      "Important notices",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MG/3.213": {
+    "family": "MG",
+    "version": "3.213",
+    "file": "MG/3.213.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-04-22T16:47:04.099-07:00",
+    "last_announced": "2025-04-22T16:47:04.099-07:00",
+    "sections": [
+      "Important notices",
+      "New feature highlights",
+      "Supported products notice",
+      "Bug fixes"
+    ]
+  },
+  "MG/4.1": {
+    "family": "MG",
+    "version": "4.1",
+    "file": "MG/4.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-04-30T16:47:04.547-07:00",
+    "last_announced": "2025-04-30T16:47:04.547-07:00",
+    "sections": [
+      "Important notices",
+      "New feature highlights",
+      "Bug fixes"
+    ]
+  },
+  "MG/4.1.1": {
+    "family": "MG",
+    "version": "4.1.1",
+    "file": "MG/4.1.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-07-09T18:47:04.585-07:00",
+    "last_announced": "2025-07-09T18:47:04.585-07:00",
+    "sections": [
+      "Executive summary",
+      "What's new",
+      "Other"
+    ]
+  },
+  "MG/4.1.2": {
+    "family": "MG",
+    "version": "4.1.2",
+    "file": "MG/4.1.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-08-12T18:47:03.674-07:00",
+    "last_announced": "2025-08-12T18:47:03.674-07:00",
+    "sections": [
+      "Executive summary",
+      "What's new",
+      "Other"
+    ]
+  },
+  "MR/29.3": {
+    "family": "MR",
+    "version": "29.3",
+    "file": "MR/29.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-08-24T12:55:00.000-07:00",
+    "last_announced": "2022-08-24T12:55:00.000-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/29.4": {
+    "family": "MR",
+    "version": "29.4",
+    "file": "MR/29.4.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-09-30T11:47:05.663-07:00",
+    "last_announced": "2022-09-30T11:47:05.663-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/29.4.1": {
+    "family": "MR",
+    "version": "29.4.1",
+    "file": "MR/29.4.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2022-10-17T11:47:06.522-07:00",
+    "last_announced": "2022-10-17T11:47:06.522-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/29.5": {
+    "family": "MR",
+    "version": "29.5",
+    "file": "MR/29.5.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2022-11-15T17:47:05.511-08:00",
+    "last_announced": "2022-11-15T17:47:05.511-08:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/29.5.1": {
+    "family": "MR",
+    "version": "29.5.1",
+    "file": "MR/29.5.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-01-23T13:47:14.305-08:00",
+    "last_announced": "2023-01-23T13:47:14.305-08:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/29.6": {
+    "family": "MR",
+    "version": "29.6",
+    "file": "MR/29.6.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-04-30T22:47:05.673-07:00",
+    "last_announced": "2023-04-30T22:47:05.673-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/29.6.1": {
+    "family": "MR",
+    "version": "29.6.1",
+    "file": "MR/29.6.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-05-26T11:47:06.218-07:00",
+    "last_announced": "2023-05-26T11:47:06.218-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/29.7": {
+    "family": "MR",
+    "version": "29.7",
+    "file": "MR/29.7.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-08-09T17:47:05.807-07:00",
+    "last_announced": "2023-08-09T17:47:05.807-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Security fixes",
+      "Known issues"
+    ]
+  },
+  "MR/30.1": {
+    "family": "MR",
+    "version": "30.1",
+    "file": "MR/30.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-05-03T00:47:05.046-07:00",
+    "last_announced": "2023-05-03T00:47:05.046-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "New feature",
+      "Enhancement",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/30.2": {
+    "family": "MR",
+    "version": "30.2",
+    "file": "MR/30.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-06-16T19:47:05.359-07:00",
+    "last_announced": "2023-06-16T19:47:05.359-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issue"
+    ]
+  },
+  "MR/30.3": {
+    "family": "MR",
+    "version": "30.3",
+    "file": "MR/30.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-07-13T07:47:05.557-07:00",
+    "last_announced": "2023-07-13T07:47:05.557-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/30.4": {
+    "family": "MR",
+    "version": "30.4",
+    "file": "MR/30.4.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-08-17T12:47:05.378-07:00",
+    "last_announced": "2023-08-17T12:47:05.378-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/30.5": {
+    "family": "MR",
+    "version": "30.5",
+    "file": "MR/30.5.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-09-11T11:47:04.708-07:00",
+    "last_announced": "2023-09-11T11:47:04.708-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/30.5.1": {
+    "family": "MR",
+    "version": "30.5.1",
+    "file": "MR/30.5.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-11-29T23:47:05.104-08:00",
+    "last_announced": "2023-11-29T23:47:05.104-08:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/30.6": {
+    "family": "MR",
+    "version": "30.6",
+    "file": "MR/30.6.json",
+    "releaseTypes": [
+      "candidate",
+      "legacy",
+      "stable"
+    ],
+    "first_announced": "2024-02-20T11:47:06.431-08:00",
+    "last_announced": "2026-10-01T13:00:13.114-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Enhancement",
+      "Known issues"
+    ]
+  },
+  "MR/30.7": {
+    "family": "MR",
+    "version": "30.7",
+    "file": "MR/30.7.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2024-06-06T11:47:04.921-07:00",
+    "last_announced": "2024-06-27T09:47:04.660-07:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "New feature",
+      "Bug fixes",
+      "Security fixes",
+      "Known issues"
+    ]
+  },
+  "MR/30.7.1": {
+    "family": "MR",
+    "version": "30.7.1",
+    "file": "MR/30.7.1.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2024-10-22T14:47:05.757-07:00",
+    "last_announced": "2024-11-04T09:47:05.908-08:00",
+    "sections": [
+      "Important note",
+      "Legacy product notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/31.1.1": {
+    "family": "MR",
+    "version": "31.1.1",
+    "file": "MR/31.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-05-21T11:47:05.009-07:00",
+    "last_announced": "2024-05-21T11:47:05.009-07:00",
+    "sections": [
+      "Important note",
+      "New feature",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/31.1.2": {
+    "family": "MR",
+    "version": "31.1.2",
+    "file": "MR/31.1.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-06-26T11:47:05.113-07:00",
+    "last_announced": "2024-06-26T11:47:05.113-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/31.1.4": {
+    "family": "MR",
+    "version": "31.1.4",
+    "file": "MR/31.1.4.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-08-12T11:47:05.819-07:00",
+    "last_announced": "2024-08-12T11:47:05.819-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/31.1.5": {
+    "family": "MR",
+    "version": "31.1.5",
+    "file": "MR/31.1.5.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-09-26T12:47:05.896-07:00",
+    "last_announced": "2024-09-26T12:47:05.896-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/31.1.5.1": {
+    "family": "MR",
+    "version": "31.1.5.1",
+    "file": "MR/31.1.5.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-10-14T15:47:05.994-07:00",
+    "last_announced": "2024-10-14T15:47:05.994-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MR/31.1.6": {
+    "family": "MR",
+    "version": "31.1.6",
+    "file": "MR/31.1.6.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-02-18T09:47:04.023-08:00",
+    "last_announced": "2025-02-18T09:47:04.023-08:00",
+    "sections": [
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/31.1.7": {
+    "family": "MR",
+    "version": "31.1.7",
+    "file": "MR/31.1.7.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-04-15T15:47:04.026-07:00",
+    "last_announced": "2025-04-15T15:47:04.026-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/31.1.7.1": {
+    "family": "MR",
+    "version": "31.1.7.1",
+    "file": "MR/31.1.7.1.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2025-06-03T15:47:04.124-07:00",
+    "last_announced": "2025-06-10T09:47:04.497-07:00",
+    "sections": [
+      "preamble",
+      "Enhancement",
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/31.1.8": {
+    "family": "MR",
+    "version": "31.1.8",
+    "file": "MR/31.1.8.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-08-13T09:47:04.273-07:00",
+    "last_announced": "2025-08-13T09:47:04.273-07:00",
+    "sections": [
+      "Important note",
+      "New feature",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.1.1": {
+    "family": "MR",
+    "version": "32.1.1",
+    "file": "MR/32.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-05-21T09:47:04.264-07:00",
+    "last_announced": "2025-05-21T09:47:04.264-07:00",
+    "sections": [
+      "New feature",
+      "Enhancement",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.1.2": {
+    "family": "MR",
+    "version": "32.1.2",
+    "file": "MR/32.1.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-06-23T11:47:04.232-07:00",
+    "last_announced": "2025-06-23T11:47:04.232-07:00",
+    "sections": [
+      "New feature",
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.1.3": {
+    "family": "MR",
+    "version": "32.1.3",
+    "file": "MR/32.1.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-07-31T16:47:10.923-07:00",
+    "last_announced": "2025-07-31T16:47:10.923-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.1.4": {
+    "family": "MR",
+    "version": "32.1.4",
+    "file": "MR/32.1.4.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-10-01T09:47:04.210-07:00",
+    "last_announced": "2025-10-01T09:47:04.210-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.1.5": {
+    "family": "MR",
+    "version": "32.1.5",
+    "file": "MR/32.1.5.json",
+    "releaseTypes": [
+      "beta",
+      "candidate"
+    ],
+    "first_announced": "2025-11-26T14:47:03.695-08:00",
+    "last_announced": "2025-12-15T12:47:03.559-08:00",
+    "sections": [
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.1.6": {
+    "family": "MR",
+    "version": "32.1.6",
+    "file": "MR/32.1.6.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2026-01-27T15:47:03.688-08:00",
+    "last_announced": "2026-02-12T22:47:15.690-08:00",
+    "sections": [
+      "Important note",
+      "Enhancement",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.1.7": {
+    "family": "MR",
+    "version": "32.1.7",
+    "file": "MR/32.1.7.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-04-27T11:00:06.423-07:00",
+    "last_announced": "2026-04-27T11:00:06.423-07:00",
+    "sections": [
+      "Important note",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.2.1": {
+    "family": "MR",
+    "version": "32.2.1",
+    "file": "MR/32.2.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-12-23T15:47:03.383-08:00",
+    "last_announced": "2025-12-23T15:47:03.383-08:00",
+    "sections": [
+      "New feature",
+      "Enhancement",
+      "Bug fixes"
+    ]
+  },
+  "MR/32.2.2": {
+    "family": "MR",
+    "version": "32.2.2",
+    "file": "MR/32.2.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-03-05T10:47:03.929-08:00",
+    "last_announced": "2026-03-05T10:47:03.929-08:00",
+    "sections": [
+      "preamble"
+    ]
+  },
+  "MR/32.2.3": {
+    "family": "MR",
+    "version": "32.2.3",
+    "file": "MR/32.2.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-03-31T12:19:28.908-07:00",
+    "last_announced": "2026-03-31T12:19:28.908-07:00",
+    "sections": [
+      "Bug fixes"
+    ]
+  },
+  "MR/32.2.4": {
+    "family": "MR",
+    "version": "32.2.4",
+    "file": "MR/32.2.4.json",
+    "releaseTypes": [
+      "Generally Available",
+      "Recommended Release"
+    ],
+    "first_announced": "2026-07-15T16:00:04.422-07:00",
+    "last_announced": "2026-07-27T14:00:04.879-07:00",
+    "sections": [
+      "MR 32.2.4 Release Notes",
+      "Article contents",
+      "Release summary",
+      "MR Access Point",
+      "Fixed issues",
+      "Known issues"
+    ]
+  },
+  "MR/33.1.1": {
+    "family": "MR",
+    "version": "33.1.1",
+    "file": "MR/33.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-07-01T22:00:04.161-07:00",
+    "last_announced": "2026-07-01T22:00:04.161-07:00",
+    "sections": [
+      "Info",
+      "General Bug fixes",
+      "Model specific fixes - MR"
+    ]
+  },
+  "MR/33.1.2": {
+    "family": "MR",
+    "version": "33.1.2",
+    "file": "MR/33.1.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-07-23T15:00:02.812-07:00",
+    "last_announced": "2026-07-23T15:00:02.812-07:00",
+    "sections": [
+      "MR 33.1.2 Release Notes",
+      "Article contents",
+      "Release summary",
+      "Fixed issues"
+    ]
+  },
+  "MR/33.1.3": {
+    "family": "MR",
+    "version": "33.1.3",
+    "file": "MR/33.1.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-08-17T10:00:05.950-07:00",
+    "last_announced": "2026-08-17T10:00:05.950-07:00",
+    "sections": [
+      "Fixed issues",
+      "Known issues"
+    ]
+  },
+  "MS/15.17": {
+    "family": "MS",
+    "version": "15.17",
+    "file": "MS/15.17.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-11-04T15:47:05.515-07:00",
+    "last_announced": "2022-11-04T15:47:05.515-07:00",
+    "sections": [
+      "preamble",
+      "Alerts",
+      "Branch additions",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MS/15.18": {
+    "family": "MS",
+    "version": "15.18",
+    "file": "MS/15.18.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2022-11-30T15:47:06.805-08:00",
+    "last_announced": "2022-11-30T15:47:06.805-08:00",
+    "sections": [
+      "preamble",
+      "Alerts",
+      "New features",
+      "Bug fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms120/125 known issues",
+      "Ms120/220 known issues",
+      "Ms125 known issues",
+      "Ms210/225/350/355/425/450 known issues",
+      "Ms350/355 known issues",
+      "Ms350x/355 known issues",
+      "Ms390 known issues",
+      "Ms400 known issues",
+      "Ms425 known issues",
+      "Other"
+    ]
+  },
+  "MS/15.19": {
+    "family": "MS",
+    "version": "15.19",
+    "file": "MS/15.19.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-01-24T17:47:17.946-08:00",
+    "last_announced": "2023-01-24T17:47:17.946-08:00",
+    "sections": [
+      "Alerts",
+      "Ms390 alerts",
+      "Ms390 features",
+      "New features",
+      "General fixes",
+      "Ms2xx/350/355/4xx fixes",
+      "Ms390 fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms120/125 known issues",
+      "Ms125 known issues",
+      "Ms2xx/350/355/4xx known issues",
+      "Ms350/355 known issues",
+      "Ms355 known issues",
+      "Ms390 known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/15.20": {
+    "family": "MS",
+    "version": "15.20",
+    "file": "MS/15.20.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-02-17T11:47:05.725-08:00",
+    "last_announced": "2023-02-17T11:47:05.725-08:00",
+    "sections": [
+      "Alerts",
+      "Ms390 alerts",
+      "Ms390 features",
+      "New features",
+      "General fixes",
+      "Ms2xx/35x/4xx fixes",
+      "Ms390 fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms120/125 known issues",
+      "Ms125 known issues",
+      "Ms2xx/350/355/4xx known issues",
+      "Ms350/355 known issues",
+      "Ms355 known issues",
+      "Ms390 known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/15.21": {
+    "family": "MS",
+    "version": "15.21",
+    "file": "MS/15.21.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-03-15T17:47:07.317-07:00",
+    "last_announced": "2023-03-15T17:47:07.317-07:00",
+    "sections": [
+      "Alerts",
+      "Ms390 alerts",
+      "Ms390 features",
+      "New features",
+      "Ms220/320 fixes",
+      "Ms320 fixes",
+      "Ms390 fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms390 known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/15.21.1": {
+    "family": "MS",
+    "version": "15.21.1",
+    "file": "MS/15.21.1.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-03-20T17:47:06.704-07:00",
+    "last_announced": "2023-03-20T17:47:06.704-07:00",
+    "sections": [
+      "Alerts",
+      "Ms390 alerts",
+      "Ms390 features",
+      "New features",
+      "Bug fixes",
+      "General known issues",
+      "Known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms390 known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/15.22": {
+    "family": "MS",
+    "version": "15.22",
+    "file": "MS/15.22.json",
+    "releaseTypes": [
+      "legacy",
+      "stable"
+    ],
+    "first_announced": "2023-08-17T11:47:05.675-07:00",
+    "last_announced": "2026-10-01T13:00:10.636-07:00",
+    "sections": [
+      "Alerts",
+      "New features",
+      "Ms120 fixes",
+      "Ms210/225/250 fixes",
+      "General known issues",
+      "Known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/15.23": {
+    "family": "MS",
+    "version": "15.23",
+    "file": "MS/15.23.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-11-16T11:47:04.771-08:00",
+    "last_announced": "2023-11-16T11:47:04.771-08:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "Ms130 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.1": {
+    "family": "MS",
+    "version": "16.1",
+    "file": "MS/16.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-06-02T15:08:33.527-07:00",
+    "last_announced": "2023-06-02T15:08:33.527-07:00",
+    "sections": [
+      "Alerts",
+      "General features",
+      "Ms12x features",
+      "General fixes",
+      "Ms210/225/250/35x/425/450 fixes",
+      "Ms4xx fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.2": {
+    "family": "MS",
+    "version": "16.2",
+    "file": "MS/16.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-07-06T17:47:05.462-07:00",
+    "last_announced": "2023-07-06T17:47:05.462-07:00",
+    "sections": [
+      "Alerts",
+      "General features",
+      "Ms12x features",
+      "General fixes",
+      "Ms120 fixes",
+      "Ms2xx/35x/4xx fixes",
+      "Ms450 fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.2.1": {
+    "family": "MS",
+    "version": "16.2.1",
+    "file": "MS/16.2.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-07-07T19:47:04.724-07:00",
+    "last_announced": "2023-07-07T19:47:04.724-07:00",
+    "sections": [
+      "Alerts",
+      "General features",
+      "Ms12x features",
+      "General fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.3": {
+    "family": "MS",
+    "version": "16.3",
+    "file": "MS/16.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-08-17T11:47:11.159-07:00",
+    "last_announced": "2023-08-17T11:47:11.159-07:00",
+    "sections": [
+      "Alerts",
+      "General features",
+      "Ms12x features",
+      "General fixes",
+      "Ms12x fixes",
+      "Ms210/225/250 fixes",
+      "Ms2xx/35x/4xx fixes",
+      "Ms425 fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.4": {
+    "family": "MS",
+    "version": "16.4",
+    "file": "MS/16.4.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-09-01T17:47:04.533-07:00",
+    "last_announced": "2023-09-01T17:47:04.533-07:00",
+    "sections": [
+      "Alerts",
+      "Ms12x alerts",
+      "General features",
+      "Ms12x features",
+      "Ms225/250/35x/4xx fixes",
+      "Ms425 fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.6": {
+    "family": "MS",
+    "version": "16.6",
+    "file": "MS/16.6.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-10-05T11:47:04.717-07:00",
+    "last_announced": "2023-10-05T11:47:04.717-07:00",
+    "sections": [
+      "MS12X ALERTS",
+      "MS420 ALERTS",
+      "GENERAL FEATURES",
+      "MS12X FEATURES",
+      "NEW FEATURES",
+      "GENERAL FIXES",
+      "GENERAL KNOWN ISSUES",
+      "MS120 KNOWN ISSUES",
+      "MS125 KNOWN ISSUES",
+      "MS12X KNOWN ISSUES",
+      "MS210 KNOWN ISSUES",
+      "MS2XX/35X/4XX KNOWN ISSUES",
+      "MS355 KNOWN ISSUES",
+      "MS355/450 KNOWN ISSUES",
+      "MS35X KNOWN ISSUES",
+      "MS4XX KNOWN ISSUES"
+    ]
+  },
+  "MS/16.6.1": {
+    "family": "MS",
+    "version": "16.6.1",
+    "file": "MS/16.6.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-10-18T11:47:06.060-07:00",
+    "last_announced": "2023-10-18T11:47:06.060-07:00",
+    "sections": [
+      "Ms12x alerts",
+      "Ms420 alerts",
+      "General features",
+      "Ms12x features",
+      "Ms125 fixes",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms355 known issues",
+      "Ms355/450 known issues",
+      "Ms35x known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.7": {
+    "family": "MS",
+    "version": "16.7",
+    "file": "MS/16.7.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-10-31T19:47:05.465-07:00",
+    "last_announced": "2023-10-31T19:47:05.465-07:00",
+    "sections": [
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New ms12x feature highlights",
+      "New feature highlights",
+      "General fixed issues",
+      "Ms130 fixed issues",
+      "Ms210/225/250/425 fixed issues",
+      "Ms355/450 fixed issues",
+      "Ms35x fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms125 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.7.1": {
+    "family": "MS",
+    "version": "16.7.1",
+    "file": "MS/16.7.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-01-23T11:47:04.794-08:00",
+    "last_announced": "2024-01-23T11:47:04.794-08:00",
+    "sections": [
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New feature highlights",
+      "New ms12x feature highlights",
+      "Ms130r fixes",
+      "Ms130x fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.8": {
+    "family": "MS",
+    "version": "16.8",
+    "file": "MS/16.8.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-04-22T17:47:04.509-07:00",
+    "last_announced": "2024-04-22T17:47:04.509-07:00",
+    "sections": [
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New feature highlights",
+      "New ms12x feature highlights",
+      "Fixed issues",
+      "Ms120 fixed issues",
+      "Ms130 fixed issues",
+      "Ms350 fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms210 known issues",
+      "Ms250 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/16.9": {
+    "family": "MS",
+    "version": "16.9",
+    "file": "MS/16.9.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-07-09T19:47:07.053-07:00",
+    "last_announced": "2024-07-09T19:47:07.053-07:00",
+    "sections": [
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New feature highlights",
+      "New ms12x feature highlights",
+      "General fixed issues",
+      "Ms12x/130 fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms12x known issues] ms120/125s may fail to forward link-local multicast [224.0.0.x",
+      "Ms210 known issues",
+      "Ms250 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms350 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/17.1.1": {
+    "family": "MS",
+    "version": "17.1.1",
+    "file": "MS/17.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-07-11T22:47:04.508-07:00",
+    "last_announced": "2024-07-11T22:47:04.508-07:00",
+    "sections": [
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New feature highlights",
+      "New ms130x feature highlights",
+      "Fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms12x known issues] ms120/125s may fail to forward link-local multicast [224.0.0.x",
+      "Ms130 known issues",
+      "Ms210 known issues",
+      "Ms250 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/17.1.2": {
+    "family": "MS",
+    "version": "17.1.2",
+    "file": "MS/17.1.2.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-08-28T15:47:06.198-07:00",
+    "last_announced": "2024-08-28T15:47:06.198-07:00",
+    "sections": [
+      "General important notes",
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New feature highlights",
+      "New ms130x feature highlights",
+      "General fixed issues",
+      "Ms130 fixed issues",
+      "Ms210 fixed issues",
+      "Ms355 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms12x known issues",
+      "Ms210 known issues",
+      "Ms220 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms350 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/17.1.3": {
+    "family": "MS",
+    "version": "17.1.3",
+    "file": "MS/17.1.3.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2024-11-08T15:47:06.298-08:00",
+    "last_announced": "2024-12-05T15:47:06.025-08:00",
+    "sections": [
+      "General important notes",
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New feature highlights",
+      "New ms130x feature highlights",
+      "General fixed issues",
+      "Ms130 fixed issues",
+      "Ms210 fixed issues",
+      "Ms220 fixed issues",
+      "Ms355 fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms12x known issues] ms120/125s may fail to forward link-local multicast [224.0.0.x",
+      "Ms130 known issues",
+      "Ms250 known issues",
+      "Ms350 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/17.1.4": {
+    "family": "MS",
+    "version": "17.1.4",
+    "file": "MS/17.1.4.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-01-14T16:47:03.348-08:00",
+    "last_announced": "2025-01-14T16:47:03.348-08:00",
+    "sections": [
+      "Firmware version ms 17.1.4 is identical to ms 17.1.3 for all ms devices",
+      "General important notes",
+      "Ms12x important notes",
+      "Ms420 important notes",
+      "New feature highlights",
+      "New ms130x feature highlights",
+      "General fixed issues",
+      "Ms130 fixed issues",
+      "Ms210 fixed issues",
+      "Ms220 fixed issues",
+      "Ms355 fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms12x known issues",
+      "Ms130 known issues",
+      "Ms250 known issues",
+      "Ms2xx/35x/4xx known issues",
+      "Ms350 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues",
+      "Ms4xx known issues"
+    ]
+  },
+  "MS/17.2.1": {
+    "family": "MS",
+    "version": "17.2.1",
+    "file": "MS/17.2.1.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-03-19T17:47:04.100-07:00",
+    "last_announced": "2025-03-19T17:47:04.100-07:00",
+    "sections": [
+      "General important notes",
+      "Ms12x important notes",
+      "New feature highlights",
+      "New ms130x feature highlights",
+      "General fixed issues",
+      "Ms120 fixed issues",
+      "Ms12x fixed issues",
+      "Ms130 fixed issues",
+      "Ms225 fixed issues",
+      "Ms350 fixed issues",
+      "Ms35x fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms225 known issues",
+      "Ms250 known issues",
+      "Ms355 known issues",
+      "Ms35x known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/17.2.2": {
+    "family": "MS",
+    "version": "17.2.2",
+    "file": "MS/17.2.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-07-22T17:47:03.878-07:00",
+    "last_announced": "2025-07-22T17:47:03.878-07:00",
+    "sections": [
+      "Ms12x important notes",
+      "New feature highlights",
+      "New ms130x feature highlights",
+      "New ms150 feature highlights",
+      "General fixed issues",
+      "Ms120 fixed issues",
+      "Ms130 fixed issues",
+      "Ms220 fixed issues",
+      "Ms355 fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms220 known issues",
+      "Ms225 known issues",
+      "Ms250 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues",
+      "Other"
+    ]
+  },
+  "MS/18.1.1": {
+    "family": "MS",
+    "version": "18.1.1",
+    "file": "MS/18.1.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-08-19T16:47:03.685-07:00",
+    "last_announced": "2025-08-19T16:47:03.685-07:00",
+    "sections": [
+      "New feature highlights",
+      "General fixed issues",
+      "Ms130 fixed issues",
+      "Ms150 fixed issues",
+      "Ms225 fixed issues",
+      "Ms250 fixed issues",
+      "Ms35x fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms225 known issues",
+      "Ms35x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.2": {
+    "family": "MS",
+    "version": "18.1.2",
+    "file": "MS/18.1.2.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-09-17T11:47:03.721-07:00",
+    "last_announced": "2025-09-17T11:47:03.721-07:00",
+    "sections": [
+      "New feature highlights",
+      "Fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms225 known issues",
+      "Ms35x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.3.1": {
+    "family": "MS",
+    "version": "18.1.3.1",
+    "file": "MS/18.1.3.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-10-28T16:47:03.557-07:00",
+    "last_announced": "2025-12-05T12:47:03.340-08:00",
+    "sections": [
+      "New feature highlights",
+      "General fixed issues",
+      "Ms150 fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms150 known issues",
+      "Ms225 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.4": {
+    "family": "MS",
+    "version": "18.1.4",
+    "file": "MS/18.1.4.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-12-01T17:47:04.490-08:00",
+    "last_announced": "2025-12-01T17:47:04.490-08:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "Ms150 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.5": {
+    "family": "MS",
+    "version": "18.1.5",
+    "file": "MS/18.1.5.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2026-01-05T10:47:03.505-08:00",
+    "last_announced": "2026-01-05T10:47:03.505-08:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "General fixed issues",
+      "Ms150 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.5.1": {
+    "family": "MS",
+    "version": "18.1.5.1",
+    "file": "MS/18.1.5.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2026-01-26T12:47:03.434-08:00",
+    "last_announced": "2026-01-26T12:47:03.434-08:00",
+    "sections": [
+      "Important notes",
+      "New feature highlights",
+      "Ms150 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.6": {
+    "family": "MS",
+    "version": "18.1.6",
+    "file": "MS/18.1.6.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2026-03-12T15:47:03.847-07:00",
+    "last_announced": "2026-03-12T15:47:03.847-07:00",
+    "sections": [
+      "New feature highlights",
+      "General fixed issues",
+      "Ms130 fixed issues",
+      "Ms150 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues",
+      "Other"
+    ]
+  },
+  "MS/18.1.7": {
+    "family": "MS",
+    "version": "18.1.7",
+    "file": "MS/18.1.7.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-04-03T12:21:23.018-07:00",
+    "last_announced": "2026-04-03T12:21:23.018-07:00",
+    "sections": [
+      "New feature highlights",
+      "Ms150 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms410 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.8": {
+    "family": "MS",
+    "version": "18.1.8",
+    "file": "MS/18.1.8.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-07-08T16:00:05.647-07:00",
+    "last_announced": "2026-07-08T16:00:05.647-07:00",
+    "sections": [
+      "New feature highlights",
+      "General fixed issues",
+      "Ms120 fixed issues",
+      "Ms130 fixed issues",
+      "Ms150 fixed issues",
+      "Ms225 fixed issues",
+      "Ms250 fixed issues",
+      "Ms410 fixed issues",
+      "Ms425 fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MS/18.1.8.1": {
+    "family": "MS",
+    "version": "18.1.8.1",
+    "file": "MS/18.1.8.1.json",
+    "releaseTypes": [
+      "Generally Available",
+      "Recommended Release"
+    ],
+    "first_announced": "2026-08-21T14:00:05.700-07:00",
+    "last_announced": "2026-08-31T18:00:04.495-07:00",
+    "sections": [
+      "Important alerts",
+      "New feature highlights",
+      "General fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms425 known issues"
+    ]
+  },
+  "MT/1.6": {
+    "family": "MT",
+    "version": "1.6",
+    "file": "MT/1.6.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-01-31T15:47:05.616-08:00",
+    "last_announced": "2024-01-31T15:47:05.616-08:00",
+    "sections": [
+      "New feature",
+      "Bug fixes"
+    ]
+  },
+  "MT/2.0": {
+    "family": "MT",
+    "version": "2.0",
+    "file": "MT/2.0.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-04-25T17:47:04.477-07:00",
+    "last_announced": "2024-04-25T17:47:04.477-07:00",
+    "sections": [
+      "New",
+      "Bug fixes"
+    ]
+  },
+  "MV/5.0": {
+    "family": "MV",
+    "version": "5.0",
+    "file": "MV/5.0.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-11-01T13:47:05.789-07:00",
+    "last_announced": "2022-11-01T13:47:05.789-07:00",
+    "sections": [
+      "Note",
+      "New",
+      "Bug fixes",
+      "General"
+    ]
+  },
+  "MV/5.1": {
+    "family": "MV",
+    "version": "5.1",
+    "file": "MV/5.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-02-03T15:47:07.924-08:00",
+    "last_announced": "2023-02-03T15:47:07.924-08:00",
+    "sections": [
+      "New",
+      "Bug fixes",
+      "General"
+    ]
+  },
+  "MV/5.3": {
+    "family": "MV",
+    "version": "5.3",
+    "file": "MV/5.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-04-29T11:46:18.220-07:00",
+    "last_announced": "2023-04-29T11:46:18.220-07:00",
+    "sections": [
+      "New",
+      "Bug fixes"
+    ]
+  },
+  "MV/5.4": {
+    "family": "MV",
+    "version": "5.4",
+    "file": "MV/5.4.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-09-29T09:54:59.962-07:00",
+    "last_announced": "2023-09-29T09:54:59.962-07:00",
+    "sections": [
+      "New",
+      "Bug fixes",
+      "General"
+    ]
+  },
+  "MV/5.4.1": {
+    "family": "MV",
+    "version": "5.4.1",
+    "file": "MV/5.4.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-11-03T15:47:05.723-07:00",
+    "last_announced": "2023-11-03T15:47:05.723-07:00",
+    "sections": [
+      "Bug fixes"
+    ]
+  },
+  "MV/5.5": {
+    "family": "MV",
+    "version": "5.5",
+    "file": "MV/5.5.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-12-11T19:47:05.876-08:00",
+    "last_announced": "2023-12-11T19:47:05.876-08:00",
+    "sections": [
+      "New",
+      "Bug fixes",
+      "General"
+    ]
+  },
+  "MV/5.5.1": {
+    "family": "MV",
+    "version": "5.5.1",
+    "file": "MV/5.5.1.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-02-02T10:47:05.100-08:00",
+    "last_announced": "2024-02-02T10:47:05.100-08:00",
+    "sections": [
+      "Bug fixes"
+    ]
+  },
+  "MV/5.6": {
+    "family": "MV",
+    "version": "5.6",
+    "file": "MV/5.6.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-03-29T11:47:05.995-07:00",
+    "last_announced": "2024-03-29T11:47:05.995-07:00",
+    "sections": [
+      "Bug fixes",
+      "General"
+    ]
+  },
+  "MV/5.6.2": {
+    "family": "MV",
+    "version": "5.6.2",
+    "file": "MV/5.6.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-07-08T17:47:04.796-07:00",
+    "last_announced": "2024-07-08T17:47:04.796-07:00",
+    "sections": [
+      "Bug fixes"
+    ]
+  },
+  "MV/6.0": {
+    "family": "MV",
+    "version": "6.0",
+    "file": "MV/6.0.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-06-06T17:47:05.053-07:00",
+    "last_announced": "2024-06-06T17:47:05.053-07:00",
+    "sections": [
+      "New",
+      "Bug fixes",
+      "General"
+    ]
+  },
+  "MV/6.0.1": {
+    "family": "MV",
+    "version": "6.0.1",
+    "file": "MV/6.0.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-06-21T11:47:05.149-07:00",
+    "last_announced": "2024-06-21T11:47:05.149-07:00",
+    "sections": [
+      "Bug fixes",
+      "General"
+    ]
+  },
+  "MV/6.0.2": {
+    "family": "MV",
+    "version": "6.0.2",
+    "file": "MV/6.0.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-07-25T14:47:04.929-07:00",
+    "last_announced": "2024-07-25T14:47:04.929-07:00",
+    "sections": [
+      "Bug fixes"
+    ]
+  },
+  "MV/6.1": {
+    "family": "MV",
+    "version": "6.1",
+    "file": "MV/6.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-09-10T13:47:05.820-07:00",
+    "last_announced": "2024-09-10T13:47:05.820-07:00",
+    "sections": [
+      "General",
+      "Other"
+    ]
+  },
+  "MV/6.1.2": {
+    "family": "MV",
+    "version": "6.1.2",
+    "file": "MV/6.1.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-11-04T15:47:05.792-08:00",
+    "last_announced": "2024-11-04T15:47:05.792-08:00",
+    "sections": [
+      "Bug fixes",
+      "Notice"
+    ]
+  },
+  "MV/6.2.1": {
+    "family": "MV",
+    "version": "6.2.1",
+    "file": "MV/6.2.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2025-01-24T17:47:03.784-08:00",
+    "last_announced": "2025-01-24T17:47:03.784-08:00",
+    "sections": [
+      "Bug fixes",
+      "Notice"
+    ]
+  },
+  "MV/6.3.2": {
+    "family": "MV",
+    "version": "6.3.2",
+    "file": "MV/6.3.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-05-20T11:47:03.836-07:00",
+    "last_announced": "2025-05-20T11:47:03.836-07:00",
+    "sections": [
+      "Bug fixes",
+      "General",
+      "Notice"
+    ]
+  },
+  "MV/7.1.1": {
+    "family": "MV",
+    "version": "7.1.1",
+    "file": "MV/7.1.1.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-09-19T23:47:04.070-07:00",
+    "last_announced": "2025-09-19T23:47:04.070-07:00",
+    "sections": [
+      "Bug fixes",
+      "General",
+      "Notice"
+    ]
+  },
+  "MV/7.2": {
+    "family": "MV",
+    "version": "7.2",
+    "file": "MV/7.2.json",
+    "releaseTypes": [
+      "beta",
+      "stable"
+    ],
+    "first_announced": "2026-01-13T13:47:03.480-08:00",
+    "last_announced": "2026-03-12T09:47:03.269-07:00",
+    "sections": [
+      "New",
+      "Bug fixes",
+      "General",
+      "Notice"
+    ]
+  },
+  "MV/7.2.1": {
+    "family": "MV",
+    "version": "7.2.1",
+    "file": "MV/7.2.1.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-04-16T10:00:04.872-07:00",
+    "last_announced": "2026-04-16T10:00:04.872-07:00",
+    "sections": [
+      "Bug fixes",
+      "Notice"
+    ]
+  },
+  "MV/7.2.2": {
+    "family": "MV",
+    "version": "7.2.2",
+    "file": "MV/7.2.2.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-06-29T12:00:05.871-07:00",
+    "last_announced": "2026-06-29T12:00:05.871-07:00",
+    "sections": [
+      "Bug fixes",
+      "Notice"
+    ]
+  },
+  "MV/7.3.1": {
+    "family": "MV",
+    "version": "7.3.1",
+    "file": "MV/7.3.1.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-07-13T15:00:05.519-07:00",
+    "last_announced": "2026-07-13T15:00:05.519-07:00",
+    "sections": [
+      "New",
+      "Bug fixes",
+      "General",
+      "Notice",
+      "Other"
+    ]
+  },
+  "MV/7.3.2": {
+    "family": "MV",
+    "version": "7.3.2",
+    "file": "MV/7.3.2.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-08-05T13:00:03.897-07:00",
+    "last_announced": "2026-08-05T13:00:03.897-07:00",
+    "sections": [
+      "Bug fixes",
+      "Notice"
+    ]
+  },
+  "MV/8.0": {
+    "family": "MV",
+    "version": "8.0",
+    "file": "MV/8.0.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-09-11T17:00:05.475-07:00",
+    "last_announced": "2026-09-11T17:00:05.475-07:00",
+    "sections": [
+      "Bug fixes",
+      "General",
+      "Notice"
+    ]
+  },
+  "MX/16.16.6": {
+    "family": "MX",
+    "version": "16.16.6",
+    "file": "MX/16.16.6.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2022-09-28T15:47:05.312-07:00",
+    "last_announced": "2022-09-28T15:47:05.312-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/16.16.7": {
+    "family": "MX",
+    "version": "16.16.7",
+    "file": "MX/16.16.7.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2022-11-16T18:47:17.161-08:00",
+    "last_announced": "2022-11-16T18:47:17.161-08:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/16.16.8": {
+    "family": "MX",
+    "version": "16.16.8",
+    "file": "MX/16.16.8.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2022-12-21T15:47:07.723-08:00",
+    "last_announced": "2022-12-21T15:47:07.723-08:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/16.16.9": {
+    "family": "MX",
+    "version": "16.16.9",
+    "file": "MX/16.16.9.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-02-08T19:47:06.520-08:00",
+    "last_announced": "2023-02-08T19:47:06.520-08:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/17.10": {
+    "family": "MX",
+    "version": "17.10",
+    "file": "MX/17.10.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2022-09-23T11:47:05.433-07:00",
+    "last_announced": "2022-09-23T11:47:05.433-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/17.10.1": {
+    "family": "MX",
+    "version": "17.10.1",
+    "file": "MX/17.10.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2022-10-15T06:47:06.205-07:00",
+    "last_announced": "2022-10-15T06:47:06.205-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/17.10.2": {
+    "family": "MX",
+    "version": "17.10.2",
+    "file": "MX/17.10.2.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2022-10-26T15:47:05.910-07:00",
+    "last_announced": "2022-10-26T15:47:05.910-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/17.10.6": {
+    "family": "MX",
+    "version": "17.10.6",
+    "file": "MX/17.10.6.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-06-02T15:08:26.251-07:00",
+    "last_announced": "2023-06-02T15:08:26.251-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/17.10.7": {
+    "family": "MX",
+    "version": "17.10.7",
+    "file": "MX/17.10.7.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-06-30T13:47:05.692-07:00",
+    "last_announced": "2023-06-30T13:47:05.692-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/18.101": {
+    "family": "MX",
+    "version": "18.101",
+    "file": "MX/18.101.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-09-01T13:38:33.674-07:00",
+    "last_announced": "2022-09-01T13:38:33.674-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.102": {
+    "family": "MX",
+    "version": "18.102",
+    "file": "MX/18.102.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-10-15T06:47:12.343-07:00",
+    "last_announced": "2022-10-15T06:47:12.343-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "New features",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/18.103": {
+    "family": "MX",
+    "version": "18.103",
+    "file": "MX/18.103.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-11-07T17:47:05.195-08:00",
+    "last_announced": "2022-11-07T17:47:05.195-08:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "New features",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/18.104": {
+    "family": "MX",
+    "version": "18.104",
+    "file": "MX/18.104.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2022-12-08T21:47:05.553-08:00",
+    "last_announced": "2022-12-08T21:47:05.553-08:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/18.105": {
+    "family": "MX",
+    "version": "18.105",
+    "file": "MX/18.105.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-01-23T13:47:07.919-08:00",
+    "last_announced": "2023-01-23T13:47:07.919-08:00",
+    "sections": [
+      "New features",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.106": {
+    "family": "MX",
+    "version": "18.106",
+    "file": "MX/18.106.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-02-23T11:47:06.453-08:00",
+    "last_announced": "2023-02-23T11:47:06.453-08:00",
+    "sections": [
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.107.1": {
+    "family": "MX",
+    "version": "18.107.1",
+    "file": "MX/18.107.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-05-05T12:47:04.983-07:00",
+    "last_announced": "2023-05-05T12:47:04.983-07:00",
+    "sections": [
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/18.107.10": {
+    "family": "MX",
+    "version": "18.107.10",
+    "file": "MX/18.107.10.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-04-09T16:47:07.214-07:00",
+    "last_announced": "2024-04-09T16:47:07.214-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.107.2": {
+    "family": "MX",
+    "version": "18.107.2",
+    "file": "MX/18.107.2.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2023-05-23T17:47:05.469-07:00",
+    "last_announced": "2023-05-23T17:47:05.469-07:00",
+    "sections": [
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/18.107.3": {
+    "family": "MX",
+    "version": "18.107.3",
+    "file": "MX/18.107.3.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-07-26T19:47:05.140-07:00",
+    "last_announced": "2023-07-26T19:47:05.140-07:00",
+    "sections": [
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.107.4": {
+    "family": "MX",
+    "version": "18.107.4",
+    "file": "MX/18.107.4.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-08-08T19:47:05.841-07:00",
+    "last_announced": "2023-08-08T19:47:05.841-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/18.107.5": {
+    "family": "MX",
+    "version": "18.107.5",
+    "file": "MX/18.107.5.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-09-05T13:47:04.637-07:00",
+    "last_announced": "2023-09-05T13:47:04.637-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/18.107.6": {
+    "family": "MX",
+    "version": "18.107.6",
+    "file": "MX/18.107.6.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-10-25T11:47:07.440-07:00",
+    "last_announced": "2023-10-25T11:47:07.440-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/18.107.7": {
+    "family": "MX",
+    "version": "18.107.7",
+    "file": "MX/18.107.7.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2023-12-15T17:47:04.627-08:00",
+    "last_announced": "2023-12-15T17:47:04.627-08:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.107.8": {
+    "family": "MX",
+    "version": "18.107.8",
+    "file": "MX/18.107.8.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-01-25T17:47:05.664-08:00",
+    "last_announced": "2024-01-25T17:47:05.664-08:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/18.107.9": {
+    "family": "MX",
+    "version": "18.107.9",
+    "file": "MX/18.107.9.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-03-11T19:47:04.708-07:00",
+    "last_announced": "2024-03-11T19:47:04.708-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.205": {
+    "family": "MX",
+    "version": "18.205",
+    "file": "MX/18.205.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-10-16T15:47:05.479-07:00",
+    "last_announced": "2023-10-16T15:47:05.479-07:00",
+    "sections": [
+      "What\u2019s new",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/18.207": {
+    "family": "MX",
+    "version": "18.207",
+    "file": "MX/18.207.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2023-12-13T19:47:04.822-08:00",
+    "last_announced": "2023-12-13T19:47:04.822-08:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.208": {
+    "family": "MX",
+    "version": "18.208",
+    "file": "MX/18.208.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-02-13T18:47:05.943-08:00",
+    "last_announced": "2024-04-02T23:47:05.811-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.208.0.1": {
+    "family": "MX",
+    "version": "18.208.0.1",
+    "file": "MX/18.208.0.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-03-05T21:47:05.033-08:00",
+    "last_announced": "2024-03-05T21:47:05.033-08:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/18.211": {
+    "family": "MX",
+    "version": "18.211",
+    "file": "MX/18.211.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-05-08T17:47:04.038-07:00",
+    "last_announced": "2024-05-08T17:47:04.038-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.211.0.1": {
+    "family": "MX",
+    "version": "18.211.0.1",
+    "file": "MX/18.211.0.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-05-20T19:47:04.176-07:00",
+    "last_announced": "2024-05-20T19:47:04.176-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/18.211.2": {
+    "family": "MX",
+    "version": "18.211.2",
+    "file": "MX/18.211.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-06-05T17:47:04.730-07:00",
+    "last_announced": "2024-06-05T17:47:04.730-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/18.211.3": {
+    "family": "MX",
+    "version": "18.211.3",
+    "file": "MX/18.211.3.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-08-09T14:47:06.410-07:00",
+    "last_announced": "2024-08-09T14:47:06.410-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.211.4": {
+    "family": "MX",
+    "version": "18.211.4",
+    "file": "MX/18.211.4.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2024-10-29T13:47:05.349-07:00",
+    "last_announced": "2024-10-29T13:47:05.349-07:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.211.5": {
+    "family": "MX",
+    "version": "18.211.5",
+    "file": "MX/18.211.5.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-01-14T11:47:03.432-08:00",
+    "last_announced": "2025-01-14T11:47:03.432-08:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platforms",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/18.211.5.1": {
+    "family": "MX",
+    "version": "18.211.5.1",
+    "file": "MX/18.211.5.1.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-02-02T20:47:03.739-08:00",
+    "last_announced": "2025-02-02T20:47:03.739-08:00",
+    "sections": [
+      "Important notice",
+      "Bug fixes - limited platforms",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/18.211.5.2": {
+    "family": "MX",
+    "version": "18.211.5.2",
+    "file": "MX/18.211.5.2.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-03-10T12:47:04.656-07:00",
+    "last_announced": "2025-03-10T12:47:04.656-07:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "Bug fixes - limited platforms",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Known issues - february 18th update"
+    ]
+  },
+  "MX/18.211.6": {
+    "family": "MX",
+    "version": "18.211.6",
+    "file": "MX/18.211.6.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-06-02T14:47:03.913-07:00",
+    "last_announced": "2025-06-02T14:47:03.913-07:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platforms",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.10": {
+    "family": "MX",
+    "version": "19.1.10",
+    "file": "MX/19.1.10.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-08-19T15:47:03.575-07:00",
+    "last_announced": "2025-08-19T15:47:03.575-07:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "New feature highlights",
+      "What's new",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.11": {
+    "family": "MX",
+    "version": "19.1.11",
+    "file": "MX/19.1.11.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2025-09-08T21:47:04.109-07:00",
+    "last_announced": "2025-09-08T21:47:04.109-07:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.3": {
+    "family": "MX",
+    "version": "19.1.3",
+    "file": "MX/19.1.3.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-05-30T19:47:04.918-07:00",
+    "last_announced": "2024-05-30T19:47:04.918-07:00",
+    "sections": [
+      "What's new",
+      "Supported products notice",
+      "Legacy products notice",
+      "Known issues"
+    ]
+  },
+  "MX/19.1.4": {
+    "family": "MX",
+    "version": "19.1.4",
+    "file": "MX/19.1.4.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2024-10-08T10:47:06.537-07:00",
+    "last_announced": "2024-10-08T10:47:06.537-07:00",
+    "sections": [
+      "Important notice",
+      "What's new",
+      "Supported products notice",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.5": {
+    "family": "MX",
+    "version": "19.1.5",
+    "file": "MX/19.1.5.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-10-31T12:47:06.210-07:00",
+    "last_announced": "2024-10-31T12:47:06.210-07:00",
+    "sections": [
+      "Important notice",
+      "What's new",
+      "Legacy products notice",
+      "Bug fixes",
+      "Known issues"
+    ]
+  },
+  "MX/19.1.6": {
+    "family": "MX",
+    "version": "19.1.6",
+    "file": "MX/19.1.6.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2024-12-02T22:47:06.708-08:00",
+    "last_announced": "2024-12-02T22:47:06.708-08:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.7": {
+    "family": "MX",
+    "version": "19.1.7",
+    "file": "MX/19.1.7.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-01-30T18:47:03.795-08:00",
+    "last_announced": "2025-01-30T18:47:03.795-08:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "Legacy products notice",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.7.1": {
+    "family": "MX",
+    "version": "19.1.7.1",
+    "file": "MX/19.1.7.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-02-05T14:47:04.567-08:00",
+    "last_announced": "2025-02-05T14:47:04.567-08:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Bug fixes - limited platform fixes",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/19.1.7.2": {
+    "family": "MX",
+    "version": "19.1.7.2",
+    "file": "MX/19.1.7.2.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-03-19T00:47:04.293-07:00",
+    "last_announced": "2025-03-19T00:47:04.293-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Executive summary",
+      "Bug fixes - limited platform fixes",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.8": {
+    "family": "MX",
+    "version": "19.1.8",
+    "file": "MX/19.1.8.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-05-02T18:47:03.755-07:00",
+    "last_announced": "2025-05-02T18:47:03.755-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Known issues status",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/19.1.8.1": {
+    "family": "MX",
+    "version": "19.1.8.1",
+    "file": "MX/19.1.8.1.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-06-13T16:47:03.783-07:00",
+    "last_announced": "2025-06-13T16:47:03.783-07:00",
+    "sections": [
+      "Important notice",
+      "Legacy products notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/19.1.9": {
+    "family": "MX",
+    "version": "19.1.9",
+    "file": "MX/19.1.9.json",
+    "releaseTypes": [
+      "candidate",
+      "stable"
+    ],
+    "first_announced": "2025-07-07T14:47:04.294-07:00",
+    "last_announced": "2025-07-31T16:47:04.456-07:00",
+    "sections": [
+      "preamble",
+      "Important notice",
+      "Legacy products notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Known issues status",
+      "Known issues"
+    ]
+  },
+  "MX/19.2.2": {
+    "family": "MX",
+    "version": "19.2.2",
+    "file": "MX/19.2.2.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-07-31T16:47:07.809-07:00",
+    "last_announced": "2025-07-31T16:47:07.809-07:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "What's new",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Other"
+    ]
+  },
+  "MX/19.2.3": {
+    "family": "MX",
+    "version": "19.2.3",
+    "file": "MX/19.2.3.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-09-16T17:47:04.723-07:00",
+    "last_announced": "2025-09-16T17:47:04.723-07:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Other"
+    ]
+  },
+  "MX/19.2.4": {
+    "family": "MX",
+    "version": "19.2.4",
+    "file": "MX/19.2.4.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2025-11-04T09:47:04.132-08:00",
+    "last_announced": "2025-11-04T09:47:04.132-08:00",
+    "sections": [
+      "Important notice",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Other"
+    ]
+  },
+  "MX/19.2.7": {
+    "family": "MX",
+    "version": "19.2.7",
+    "file": "MX/19.2.7.json",
+    "releaseTypes": [
+      "stable"
+    ],
+    "first_announced": "2026-02-05T21:47:04.241-08:00",
+    "last_announced": "2026-02-05T21:47:04.241-08:00",
+    "sections": [
+      "Important notice",
+      "New feature highlights",
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues status",
+      "Other"
+    ]
+  },
+  "MX/26.1.2": {
+    "family": "MX",
+    "version": "26.1.2",
+    "file": "MX/26.1.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-02-09T16:47:03.381-08:00",
+    "last_announced": "2026-02-09T16:47:03.381-08:00",
+    "sections": [
+      "Executive summary",
+      "What's new",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/26.1.3": {
+    "family": "MX",
+    "version": "26.1.3",
+    "file": "MX/26.1.3.json",
+    "releaseTypes": [
+      "candidate"
+    ],
+    "first_announced": "2026-03-10T11:47:03.874-07:00",
+    "last_announced": "2026-03-10T11:47:03.874-07:00",
+    "sections": [
+      "Executive summary",
+      "New feature highlights",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/26.1.4": {
+    "family": "MX",
+    "version": "26.1.4",
+    "file": "MX/26.1.4.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-04-22T11:00:04.460-07:00",
+    "last_announced": "2026-04-22T11:00:04.460-07:00",
+    "sections": [
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/26.1.5": {
+    "family": "MX",
+    "version": "26.1.5",
+    "file": "MX/26.1.5.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-06-17T23:00:03.052-07:00",
+    "last_announced": "2026-06-17T23:00:03.052-07:00",
+    "sections": [
+      "Executive summary",
+      "What's new",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Other"
+    ]
+  },
+  "MX/26.1.6": {
+    "family": "MX",
+    "version": "26.1.6",
+    "file": "MX/26.1.6.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-07-23T10:00:11.990-07:00",
+    "last_announced": "2026-07-23T10:00:11.990-07:00",
+    "sections": [
+      "Executive summary",
+      "What's new",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/26.1.7": {
+    "family": "MX",
+    "version": "26.1.7",
+    "file": "MX/26.1.7.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-08-27T15:00:04.822-07:00",
+    "last_announced": "2026-08-27T15:00:04.822-07:00",
+    "sections": [
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/26.1.7.1": {
+    "family": "MX",
+    "version": "26.1.7.1",
+    "file": "MX/26.1.7.1.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-09-08T14:00:03.998-07:00",
+    "last_announced": "2026-09-08T14:00:03.998-07:00",
+    "sections": [
+      "Executive summary",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/26.2.1": {
+    "family": "MX",
+    "version": "26.2.1",
+    "file": "MX/26.2.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-06-22T22:00:05.627-07:00",
+    "last_announced": "2026-06-22T22:00:05.627-07:00",
+    "sections": [
+      "Executive summary",
+      "What's new",
+      "Legacy products notice",
+      "Other"
+    ]
+  },
+  "MX/26.2.2": {
+    "family": "MX",
+    "version": "26.2.2",
+    "file": "MX/26.2.2.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-07-16T00:00:04.906-07:00",
+    "last_announced": "2026-07-16T00:00:04.906-07:00",
+    "sections": [
+      "Executive summary",
+      "What's new",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  },
+  "MX/26.2.3": {
+    "family": "MX",
+    "version": "26.2.3",
+    "file": "MX/26.2.3.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-08-31T22:00:05.951-07:00",
+    "last_announced": "2026-08-31T22:00:05.951-07:00",
+    "sections": [
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "MX series appliances",
+      "G series appliances",
+      "Legacy products notice",
+      "Known issues",
+      "Other"
+    ]
+  }
+}

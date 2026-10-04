@@ -1,0 +1,43 @@
+{
+  "family": "CS",
+  "version": "16.1.1",
+  "title": "CS firmware versions CS 16.1.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5510590",
+      "releaseType": "beta",
+      "announced": "2023-06-23T09:47:05.261-07:00",
+      "post_subject": "A new beta switchCatalyst firmware is now available on Fri, 23 Jun 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switchcatalyst-firmware-is-now-available-on-fri-23/ba-p/5510590"
+    }
+  ],
+  "changelog_comment_id": "5510591",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-06-23T12:19:20.733-07:00",
+  "sections": {
+    "Alerts": [
+      "This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New features": [
+      "802.1X Control Direction",
+      "Adaptive Policy ACL hit counter live tool",
+      "MAC Allow list on access ports",
+      "Named VLAN"
+    ],
+    "Bug fixes": [
+      "Devices may be provided incorrect firmware download URLs resulting in firmware images failing to be downloaded and devices remaining on prior release (present since CS 16.1)"
+    ],
+    "General known issues": [
+      "\"Port Up/Down\" events will generate an event log for each stack member",
+      "DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)",
+      "DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)",
+      "Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)",
+      "Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)",
+      "Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)"
+    ]
+  },
+  "text": "CS firmware versions CS 16.1.1 changelog\nAlerts\nThis version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload.\nNew features\n802.1X Control Direction\nAdaptive Policy ACL hit counter live tool\nMAC Allow list on access ports\nNamed VLAN\nBug fixes\nDevices may be provided incorrect firmware download URLs resulting in firmware images failing to be downloaded and devices remaining on prior release (present since CS 16.1)\nGeneral known issues\n\"Port Up/Down\" events will generate an event log for each stack member\nDHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)\nDHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)\nNon-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nRebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)\nReceiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1821047359\" id=\"toc-hId--249022387\">CS firmware versions CS 16.1.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1320650117\" id=\"toc-hId-1142603665\">Alerts</H4><UL><LI>This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-422160218\" id=\"toc-hId--664850798\">New features</H4><UL><LI>802.1X Control Direction</LI><LI>Adaptive Policy ACL hit counter live tool</LI><LI>MAC Allow list on access ports</LI><LI>Named VLAN</LI></UL><H4 id=\"toc-hId--2129996743\" id=\"toc-hId-1822662035\">Bug fixes</H4><UL><LI>Devices may be provided incorrect firmware download URLs resulting in firmware images failing to be downloaded and devices remaining on prior release (present since CS 16.1)</LI></UL><H4 id=\"toc-hId--387186408\" id=\"toc-hId-15207572\">General known issues</H4><UL><LI>\"Port Up/Down\" events will generate an event log for each stack member</LI><LI>DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)</LI><LI>DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)</LI><LI>Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI><LI>Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)</LI><LI>Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:41Z"
+}

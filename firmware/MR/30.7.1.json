@@ -1,0 +1,45 @@
+{
+  "family": "MR",
+  "version": "30.7.1",
+  "title": "Wireless firmware versions MR 30.7.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5517802",
+      "releaseType": "candidate",
+      "announced": "2024-10-22T14:47:05.757-07:00",
+      "post_subject": "A new candidate wireless firmware is now available on Tue, 22 Oct 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-22-oct/ba-p/5517802"
+    },
+    {
+      "post_id": "5518108",
+      "releaseType": "stable",
+      "announced": "2024-11-04T09:47:05.908-08:00",
+      "post_subject": "A new stable wireless firmware is now available on Mon, 04 Nov 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-wireless-firmware-is-now-available-on-mon-04-nov/ba-p/5518108"
+    }
+  ],
+  "changelog_comment_id": "5518109",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-11-04T10:04:33.634-08:00",
+  "sections": {
+    "Important note": [
+      "WEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)"
+    ],
+    "Legacy product notice": [
+      "When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements",
+      "Client balancing rejects clients when the 9th or 10th SSID is enabled",
+      "AP instability when RADSec is enabled (Wi-Fi 5 Wave 2 APs)",
+      "VLAN override fails on SSIDs configured to use VLAN ID tagging"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 30.7.1 changelog\nImportant note\nWEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)\nLegacy product notice\nWhen configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3\nBug fixes\nGeneral stability and performance improvements\nClient balancing rejects clients when the 9th or 10th SSID is enabled\nAP instability when RADSec is enabled (Wi-Fi 5 Wave 2 APs)\nVLAN override fails on SSIDs configured to use VLAN ID tagging\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845805545\" id=\"toc-hId--248788174\">Wireless firmware versions MR 30.7.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295891931\" id=\"toc-hId-1142837878\">Important note</H4><UL><LI>WEP deprecation (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs</A>)</LI></UL><H4 id=\"toc-hId-446918404\" id=\"toc-hId--664616585\">Legacy product notice</H4><UL><LI>When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3</LI></UL><H4 id=\"toc-hId--2105238557\" id=\"toc-hId-1822896248\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI><LI>Client balancing rejects clients when the 9th or 10th SSID is enabled</LI><LI>AP instability when RADSec is enabled (Wi-Fi 5 Wave 2 APs)</LI><LI>VLAN override fails on SSIDs configured to use VLAN ID tagging</LI></UL><H4 id=\"toc-hId--362428222\" id=\"toc-hId-15441785\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:06Z"
+}

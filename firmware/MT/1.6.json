@@ -1,0 +1,29 @@
+{
+  "family": "MT",
+  "version": "1.6",
+  "title": "Sensor firmware versions MT 1.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5513973",
+      "releaseType": "beta",
+      "announced": "2024-01-31T15:47:05.616-08:00",
+      "post_subject": "A new beta sensor firmware is now available on Wed, 31 Jan 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-sensor-firmware-is-now-available-on-wed-31-jan-2024/ba-p/5513973"
+    }
+  ],
+  "changelog_comment_id": "5513974",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-01-31T23:34:12.914-08:00",
+  "sections": {
+    "New feature": [
+      "Update MT15 to use Public Building Air Quality (PBAQ) algorithm for TVOC"
+    ],
+    "Bug fixes": [
+      "General bug fixes and performance improvement [mt10, mt12, mt15, mt20, mt30 and mt40]"
+    ]
+  },
+  "text": "Sensor firmware versions MT 1.6 changelog\nNew feature\nUpdate MT15 to use Public Building Air Quality (PBAQ) algorithm for TVOC\nBug fixes\nGeneral bug fixes and performance improvement [mt10, mt12, mt15, mt20, mt30 and mt40]",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1843037961\" id=\"toc-hId--248929229\">Sensor firmware versions MT 1.6 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1298659515\" id=\"toc-hId-1142696823\">New feature</H4><UL><LI>Update MT15 to use Public Building Air Quality (PBAQ) algorithm for TVOC</LI></UL><H4 id=\"toc-hId-444150820\" id=\"toc-hId--664757640\">Bug fixes</H4><UL><LI>General bug fixes and performance improvement [mt10, mt12, mt15, mt20, mt30 and mt40]</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:25Z"
+}

@@ -1,0 +1,41 @@
+{
+  "family": "MG",
+  "version": "3.102",
+  "title": "Cellular gateway firmware versions MG 3.102 changelog",
+  "announcements": [
+    {
+      "post_id": "5514487",
+      "releaseType": "candidate",
+      "announced": "2024-03-01T15:47:04.671-08:00",
+      "post_subject": "A new candidate cellularGateway firmware is now available on Fri, 01 Mar 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-cellulargateway-firmware-is-now-available-on-fri/ba-p/5514487"
+    },
+    {
+      "post_id": "5515903",
+      "releaseType": "stable",
+      "announced": "2024-06-25T13:47:04.351-07:00",
+      "post_subject": "A new stable cellularGateway firmware is now available on Tue, 25 Jun 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-cellulargateway-firmware-is-now-available-on-tue-25/ba-p/5515903"
+    }
+  ],
+  "changelog_comment_id": "5515904",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-06-25T16:44:15.074-07:00",
+  "sections": {
+    "Bug fixes": [
+      "Fixed an issue that causes units to reboot during times of high traffic",
+      "Corrected an issue causing units in passthrough mode to drop outbound ESP traffic",
+      "Improvements to the functionality of Day-0 Zero-touch connectivity"
+    ],
+    "Known issues": [
+      "MG Identifier not included in Dashboard SNMP MIB",
+      "Dashboard reports SIM in MG41 as not inserted despite the device being online via Cellular",
+      "API Calls to MG21 returns \"Not running configured version\"",
+      "MG’s have yellow status on Organization > Overview when on Cellular"
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 3.102 changelog\nBug fixes\nFixed an issue that causes units to reboot during times of high traffic\nCorrected an issue causing units in passthrough mode to drop outbound ESP traffic\nImprovements to the functionality of Day-0 Zero-touch connectivity\nKnown issues\nMG Identifier not included in Dashboard SNMP MIB\nDashboard reports SIM in MG41 as not inserted despite the device being online via Cellular\nAPI Calls to MG21 returns \"Not running configured version\"\nMG’s have yellow status on Organization > Overview when on Cellular",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844142020\" id=\"toc-hId--248869864\">Cellular gateway firmware versions MG 3.102 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1297555456\" id=\"toc-hId-1142756188\">Bug fixes</H4><UL><LI>Fixed an issue that causes units to reboot during times of high traffic</LI><LI>Corrected an issue causing units in passthrough mode to drop outbound ESP traffic</LI><LI>Improvements to the functionality of Day-0 Zero-touch connectivity</LI></UL><H4 id=\"toc-hId-445254879\" id=\"toc-hId--664698275\">Known issues</H4><UL><LI>MG Identifier not included in Dashboard SNMP MIB</LI><LI>Dashboard reports SIM in MG41 as not inserted despite the device being online via Cellular</LI><LI>API Calls to MG21 returns \"Not running configured version\"</LI><LI>MG’s have yellow status on Organization &gt; Overview when on Cellular</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:23Z"
+}

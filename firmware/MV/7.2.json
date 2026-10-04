@@ -1,0 +1,55 @@
+{
+  "family": "MV",
+  "version": "7.2",
+  "title": "Cameras software versions MV 7.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5461891",
+      "releaseType": "beta",
+      "announced": "2026-01-13T13:47:03.480-08:00",
+      "post_subject": "A new beta camera firmware is now available on Tue, 13 Jan 2026",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-tue-13-jan-2026/ba-p/5461891"
+    },
+    {
+      "post_id": "5463195",
+      "releaseType": "stable",
+      "announced": "2026-03-12T09:47:03.269-07:00",
+      "post_subject": "A new stable camera firmware is now available on Thu, 12 Mar 2026",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-thu-12-mar-2026/ba-p/5463195"
+    }
+  ],
+  "changelog_comment_id": "5463196",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-03-12T10:07:17.943-07:00",
+  "sections": {
+    "New": [
+      "Added support for Video Clips API",
+      "Added support for Rapid Review"
+    ],
+    "Bug fixes": [
+      "Resolved an issue on MV84 series cameras where a short recording disruption could occur immediately after a firmware upgrade.",
+      "Resolved an issue where privacy windows might not appear on the video stream when using Standard video quality settings on MV84X",
+      "General security and stability improvements"
+    ],
+    "General": [
+      "Improvements to video recording stability on MV84X",
+      "Improvements to Image Quality for MV84X"
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 cameras will run MV4.15",
+      "MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches"
+    ]
+  },
+  "text": "Cameras software versions MV 7.2 changelog\nNew\nAdded support for Video Clips API\nAdded support for Rapid Review\nBug fixes\nResolved an issue on MV84 series cameras where a short recording disruption could occur immediately after a firmware upgrade.\nResolved an issue where privacy windows might not appear on the video stream when using Standard video quality settings on MV84X\nGeneral security and stability improvements\nGeneral\nImprovements to video recording stability on MV84X\nImprovements to Image Quality for MV84X\nNotice\nWhen configured for this version, MV21 & MV71 cameras will run MV4.15\nMV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches",
+  "html": "<DIV class=\"\"><FONT size=\"5\"><STRONG>Cameras software versions MV 7.2 changelog</STRONG></FONT></DIV><H3 id=\"toc-hId-1456447790\" id=\"toc-hId-428116179\"> </H3><DIV class=\"\"><H4 id=\"toc-hId--1292222676\" id=\"toc-hId-1118677653\">New</H4><UL><LI><P class=\"\">Added support for Video Clips API</P></LI><LI><P class=\"\">Added support for Rapid Review</P></LI></UL><H4 id=\"toc-hId-450587659\" id=\"toc-hId--688776810\">Bug fixes</H4><UL><LI><P class=\"\">Resolved an issue on MV84 series cameras where a short recording disruption could occur immediately after a firmware upgrade.</P></LI><LI><P class=\"\">Resolved an issue where privacy windows might not appear on the video stream when using Standard video quality settings on MV84X</P></LI><LI><P class=\"\">General security and stability improvements</P></LI></UL><H4 id=\"toc-hId--2101569302\" id=\"toc-hId-1798736023\">General</H4><UL><LI><P class=\"\">Improvements to video recording stability on MV84X</P></LI><LI><P class=\"\">Improvements to Image Quality for MV84X</P></LI></UL><H4 id=\"toc-hId--358758967\" id=\"toc-hId--8718440\">Notice</H4><UL><LI><P class=\"\">When configured for this version, MV21 &amp; MV71 cameras will run MV4.15</P></LI><LI><P class=\"\">MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches</P></LI></UL></DIV>",
+  "other_comments": [
+    {
+      "id": "5463197",
+      "author": "CMR",
+      "posted": "2026-03-12T10:08:07.873-07:00",
+      "text": "This is the January beta release moving to stable.",
+      "html": "<P>This is the January beta release moving to stable.</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:37Z"
+}

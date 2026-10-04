@@ -1,0 +1,49 @@
+{
+  "family": "CS",
+  "version": "16.1",
+  "title": "CS firmware versions CS 16.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5510498",
+      "releaseType": "beta",
+      "announced": "2023-06-14T13:47:26.258-07:00",
+      "post_subject": "A new beta switchCatalyst firmware is now available on Wed, 14 Jun 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switchcatalyst-firmware-is-now-available-on-wed-14/ba-p/5510498"
+    }
+  ],
+  "changelog_comment_id": "5510499",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-06-14T14:35:41.354-07:00",
+  "sections": {
+    "Alerts": [
+      "This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New features": [
+      "802.1X Control Direction",
+      "Adaptive Policy ACL hit counter live tool",
+      "MAC Allow list on access ports",
+      "Named VLAN"
+    ],
+    "Bug fixes": [
+      "A stack may fully reboot if a stack member crashes (present since CS 15)",
+      "Cloning a stack member results in configurations for LACP to be missing, requiring the bundles to be reconfigured or the system to be rebooted (present since MS 15.14)",
+      "IPv6 information is incorrectly presented in CDP/LLDP packets (always present)",
+      "Modifying storm control can result in the configuration lines not being removed (present since MS 15)",
+      "Portchannel is going down upon attaching adaptive policy configs and not coming back up after removing adaptive policy configs as well.",
+      "Ports that are in LACP suspended show as offline instead of errored in dashboard (present since MS 14)",
+      "RADIUS message NAS IP address is incorrectly 1.1.3.1 (present since CS 15)"
+    ],
+    "General known issues": [
+      "\"Port Up/Down\" events will generate an event log for each stack member",
+      "DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)",
+      "DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)",
+      "Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)",
+      "Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)",
+      "Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)"
+    ]
+  },
+  "text": "CS firmware versions CS 16.1 changelog\nAlerts\nThis version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload.\nNew features\n802.1X Control Direction\nAdaptive Policy ACL hit counter live tool\nMAC Allow list on access ports\nNamed VLAN\nBug fixes\nA stack may fully reboot if a stack member crashes (present since CS 15)\nCloning a stack member results in configurations for LACP to be missing, requiring the bundles to be reconfigured or the system to be rebooted (present since MS 15.14)\nIPv6 information is incorrectly presented in CDP/LLDP packets (always present)\nModifying storm control can result in the configuration lines not being removed (present since MS 15)\nPortchannel is going down upon attaching adaptive policy configs and not coming back up after removing adaptive policy configs as well.\nPorts that are in LACP suspended show as offline instead of errored in dashboard (present since MS 14)\nRADIUS message NAS IP address is incorrectly 1.1.3.1 (present since CS 15)\nGeneral known issues\n\"Port Up/Down\" events will generate an event log for each stack member\nDHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)\nDHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)\nNon-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nRebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)\nReceiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1820993703\" id=\"toc-hId--249023340\">CS firmware versions CS 16.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1320703773\" id=\"toc-hId-1142602712\">Alerts</H4><UL><LI>This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload.</LI></UL><H4 id=\"toc-hId-422106562\" id=\"toc-hId--664851751\">New features</H4><UL><LI>802.1X Control Direction</LI><LI>Adaptive Policy ACL hit counter live tool</LI><LI>MAC Allow list on access ports</LI><LI>Named VLAN</LI></UL><H4 id=\"toc-hId--2130050399\" id=\"toc-hId-1822661082\">Bug fixes</H4><UL><LI>A stack may fully reboot if a stack member crashes (present since CS 15)</LI><LI>Cloning a stack member results in configurations for LACP to be missing, requiring the bundles to be reconfigured or the system to be rebooted (present since MS 15.14)</LI><LI>IPv6 information is incorrectly presented in CDP/LLDP packets (always present)</LI><LI>Modifying storm control can result in the configuration lines not being removed (present since MS 15)</LI><LI>Portchannel is going down upon attaching adaptive policy configs and not coming back up after removing adaptive policy configs as well.</LI><LI>Ports that are in LACP suspended show as offline instead of errored in dashboard (present since MS 14)</LI><LI>RADIUS message NAS IP address is incorrectly 1.1.3.1 (present since CS 15)</LI></UL><H4 id=\"toc-hId--387240064\" id=\"toc-hId-15206619\">General known issues</H4><UL><LI>\"Port Up/Down\" events will generate an event log for each stack member</LI><LI>DHCP options longer than 180 characters may fail to be configured on the device resulting in the configuration being reverted (always present)</LI><LI>DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)</LI><LI>Non-MS390 switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 unless the bundles are configured on the MS390 first. All Non-MS390 ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI><LI>Rebooting a switch in a stack via the UI will result in the entire stack rebooting (always present)</LI><LI>Receiving incorrectly flooded CDP packets may incorrectly report VLAN mismatches and SFP port information (present since MS 12)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:41Z"
+}

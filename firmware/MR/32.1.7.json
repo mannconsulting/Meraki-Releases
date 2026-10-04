@@ -1,0 +1,31 @@
+{
+  "family": "MR",
+  "version": "32.1.7",
+  "title": "Access points software versions MR 32.1.7 changelog",
+  "announcements": [
+    {
+      "post_id": "5548419",
+      "releaseType": "Generally Available",
+      "announced": "2026-04-27T11:00:06.423-07:00",
+      "post_subject": "A new Generally Available MR Wireless firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mr-wireless-firmware-is-now-available/ba-p/5548419"
+    }
+  ],
+  "changelog_comment_id": "5548437",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-04-27T11:58:54.392-07:00",
+  "sections": {
+    "Important note": [
+      "MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available."
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "Wireless devices unable to reach wired devices on same VLAN when using adaptive policies and connectivity is allowed between them (Wi-Fi 6, Wi-Fi 6e, Wi-Fi 7)",
+      "DFS false positives (Wi-Fi 6, Wi-Fi 6e, Wi-Fi 7)"
+    ]
+  },
+  "text": "Access points software versions MR 32.1.7 changelog\nImportant note\nMR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.\nBug fixes\nGeneral stability, performance, and experience improvements\nWireless devices unable to reach wired devices on same VLAN when using adaptive policies and connectivity is allowed between them (Wi-Fi 6, Wi-Fi 6e, Wi-Fi 7)\nDFS false positives (Wi-Fi 6, Wi-Fi 6e, Wi-Fi 7)",
+  "html": "<DIV class=\"\"><FONT size=\"5\">Access points<SPAN>&nbsp;</SPAN>software versions<SPAN>&nbsp;</SPAN>MR 32.1.7<SPAN>&nbsp;</SPAN>changelog</FONT></DIV><DIV class=\"\"><H4 id=\"toc-hId--1341901418\">Important note</H4><UL><LI><P class=\"\">MR45/55 APs are not supported on MR 32.x.x and will instead upgrade to the backup version (MR 31.1.8) if they are in networks configured for MR 32.x.x versions, and thus, new features will not be available.</P></LI></UL><H4 id=\"toc-hId-1145611415\">Bug fixes</H4><UL><LI><P class=\"\">General stability, performance, and experience improvements</P></LI><LI><P class=\"\">Wireless devices unable to reach wired devices on same VLAN when using adaptive policies and connectivity is allowed between them (Wi-Fi 6, Wi-Fi 6e, Wi-Fi 7)</P></LI><LI><P class=\"\">DFS false positives (Wi-Fi 6, Wi-Fi 6e, Wi-Fi 7)</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:31Z"
+}

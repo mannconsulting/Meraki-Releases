@@ -1,0 +1,29 @@
+{
+  "family": "MV",
+  "version": "6.1",
+  "title": "Camera firmware versions MV 6.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5517032",
+      "releaseType": "beta",
+      "announced": "2024-09-10T13:47:05.820-07:00",
+      "post_subject": "A new beta camera firmware is now available on Tue, 10 Sep 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-camera-firmware-is-now-available-on-tue-10-sep-2024/ba-p/5517032"
+    }
+  ],
+  "changelog_comment_id": "5517033",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-09-10T14:00:24.443-07:00",
+  "sections": {
+    "General": [
+      "Implemented performance enhancements to video recording stability"
+    ],
+    "Other": [
+      "Bug Fixes] Resolved an issue where MV Snapshot API would return an image 5 seconds prior to the requested timestamp."
+    ]
+  },
+  "text": "Camera firmware versions MV 6.1 changelog\nGeneral\nImplemented performance enhancements to video recording stability\nOther\nBug Fixes] Resolved an issue where MV Snapshot API would return an image 5 seconds prior to the requested timestamp.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1845003074\" id=\"toc-hId--248818839\">Camera firmware versions MV 6.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1296694402\" id=\"toc-hId-1142807213\">General</H4><UL><LI>Implemented performance enhancements to video recording stability</LI></UL><H4 id=\"toc-hId-446115933\" id=\"toc-hId--664647250\">Other</H4><UL><LI>Bug Fixes] Resolved an issue where MV Snapshot API would return an image 5 seconds prior to the requested timestamp.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:10Z"
+}

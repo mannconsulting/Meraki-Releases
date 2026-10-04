@@ -1,0 +1,36 @@
+{
+  "family": "MR",
+  "version": "31.1.8",
+  "title": "Wireless firmware versions MR 31.1.8 changelog",
+  "announcements": [
+    {
+      "post_id": "5521791",
+      "releaseType": "candidate",
+      "announced": "2025-08-13T09:47:04.273-07:00",
+      "post_subject": "A new candidate wireless firmware is now available on Wed, 13 Aug 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-wed-13-aug/ba-p/5521791"
+    }
+  ],
+  "changelog_comment_id": "5521792",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-08-13T09:59:44.522-07:00",
+  "sections": {
+    "Important note": [
+      "Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)"
+    ],
+    "New feature": [
+      "Previously connected clients in the wireless network can authenticate and join the network using cached credentials even if the cloud RADIUS server connection fails (https://documentation.meraki.com/MR/Encryption_and_Authentication/Meraki_Local_Authentication_-_MR_802.1X)",
+      "iPSK with RADIUS - Easy PSK support (https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication#Easy_PSK)"
+    ],
+    "Bug fixes": [
+      "General stability, performance, and experience improvements",
+      "6GHz/160MHz mesh not forming on MR57, CW9166I, CW9166D1, CW9164I APs",
+      "APs do not send beacon frames on the 5GHz radio (Wi-Fi 7 APs)",
+      "Increased CPU & memory utilization on MR57 APs"
+    ]
+  },
+  "text": "Wireless firmware versions MR 31.1.8 changelog\nImportant note\nWi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ)\nNew feature\nPreviously connected clients in the wireless network can authenticate and join the network using cached credentials even if the cloud RADIUS server connection fails (https://documentation.meraki.com/MR/Encryption_and_Authentication/Meraki_Local_Authentication_-_MR_802.1X)\niPSK with RADIUS - Easy PSK support (https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication#Easy_PSK)\nBug fixes\nGeneral stability, performance, and experience improvements\n6GHz/160MHz mesh not forming on MR57, CW9166I, CW9166D1, CW9164I APs\nAPs do not send beacon frames on the 5GHz radio (Wi-Fi 7 APs)\nIncreased CPU & memory utilization on MR57 APs",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848486919\" id=\"toc-hId--248067152\">Wireless firmware versions MR 31.1.8 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293210557\" id=\"toc-hId-1143558900\">Important note</H4><UL><LI>Wi-Fi 5 Wave 2 MRs support - This version and subsequent MR 31.x.x are only supported on 802.11ax (Wi-Fi 6) and newer MR models. 802.11ac Wave 2 and older products will upgrade to the backup version (MR 30.7.1) if they are in networks configured for MR 31.x.x versions, and thus, the new features will not be available. The bug fixes listed below will also not apply to Wi-Fi 5 Wave 2 and older MRs. (<A href=\"https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Other_Topics/Cisco_Meraki_MR_Firmware_Restrictions_Overview_and_FAQ</A>)</LI></UL><H4 id=\"toc-hId-449599778\" id=\"toc-hId--663895563\">New feature</H4><UL><LI>Previously connected clients in the wireless network can authenticate and join the network using cached credentials even if the cloud RADIUS server connection fails (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/Meraki_Local_Authentication_-_MR_802.1X\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/Meraki_Local_Authentication_-_MR_802.1X</A>)</LI><LI>iPSK with RADIUS - Easy PSK support (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication#Easy_PSK\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/IPSK_with_RADIUS_Authentication#Easy_PSK</A>)</LI></UL><H4 id=\"toc-hId--2102557183\" id=\"toc-hId-1823617270\">Bug fixes</H4><UL><LI>General stability, performance, and experience improvements</LI><LI>6GHz/160MHz mesh not forming on MR57, CW9166I, CW9166D1, CW9164I APs</LI><LI>APs do not send beacon frames on the 5GHz radio (Wi-Fi 7 APs)</LI><LI>Increased CPU &amp; memory utilization on MR57 APs</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:46Z"
+}

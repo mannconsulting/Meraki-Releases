@@ -1,0 +1,35 @@
+{
+  "family": "MR",
+  "version": "29.5",
+  "title": "Wireless firmware versions MR 29.5 changelog",
+  "announcements": [
+    {
+      "post_id": "5507068",
+      "releaseType": "candidate",
+      "announced": "2022-11-15T17:47:05.511-08:00",
+      "post_subject": "A new candidate wireless firmware is now available on Tue, 15 Nov 2022",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-wireless-firmware-is-now-available-on-tue-15-nov/ba-p/5507068"
+    }
+  ],
+  "changelog_comment_id": "5507069",
+  "changelog_author": "CMR",
+  "changelog_posted": "2022-11-16T02:22:23.147-08:00",
+  "sections": {
+    "Important note": [
+      "Meraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)"
+    ],
+    "Legacy product notice": [
+      "When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3."
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 29.5 changelog\nImportant note\nMeraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)\nLegacy product notice\nWhen configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3.\nBug fixes\nGeneral stability and performance improvements\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1819086958\" id=\"toc-hId--249742261\">Wireless firmware versions MR 29.5 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1322610518\" id=\"toc-hId-1141883791\">Important note</H4><UL><LI>Meraki APs use UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications when running MR 27 and older firmware. When running MR 28+ firmware, Meraki APs will now use TCP port 443 as the primary means for cloud connectivity. In order to maintain connectivity to the Meraki cloud on MR 28+ ensure that TCP port 443 is allowed to communicate with 209.206.48.0/20 on firewalls that are deployed upstream of your Meraki APs. (Wi-Fi 6 and Wi-Fi 6E APs)</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId-420199817\" id=\"toc-hId--665570672\">Legacy product notice</H4><UL><LI>When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3.</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--2131957144\" id=\"toc-hId-1821942161\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI></UL></DIV><DIV class=\"\"><H4 id=\"toc-hId--389146809\" id=\"toc-hId-14487698\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI></UL></DIV></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:53Z"
+}

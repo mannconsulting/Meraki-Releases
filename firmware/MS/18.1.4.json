@@ -1,0 +1,73 @@
+{
+  "family": "MS",
+  "version": "18.1.4",
+  "title": "Switch firmware versions MS 18.1.4 changelog",
+  "announcements": [
+    {
+      "post_id": "5461627",
+      "releaseType": "candidate",
+      "announced": "2025-12-01T17:47:04.490-08:00",
+      "post_subject": "A new candidate switch firmware is now available on Mon, 01 Dec 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-mon-01-dec/ba-p/5461627"
+    }
+  ],
+  "changelog_comment_id": "5461628",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-12-02T00:39:43.986-08:00",
+  "sections": {
+    "Important notes": [
+      "This firmware release only includes updates for MS150 switches. All other MS switches on MS 18.1.4 will run firmware identical to MS 18.1.3.1."
+    ],
+    "New feature highlights": [
+      "Group Policy ACL on MS130 & MS150",
+      "Maximum MAC support in MAC Allowlists",
+      "802.1x limited access mode with pre-auth GPACL",
+      "Local Status Page connectivity diagnostics enhancements",
+      "Layer 2 multicast live tool",
+      "Traffic Mirroring: RSPAN & VLAN Based SPAN"
+    ],
+    "Ms150 fixed issues": [
+      "Fixed a bug that caused MS150 switches to incorrectly remove or update SGT tags when no policy or VLAN mapping was defined",
+      "Resolved an issue that caused some SFP and QSFP modules to experience intermittent flapping",
+      "Fixed a bug that caused some MS150 switches in stack configurations to lose connectivity while reporting redundant uplinks as blocked",
+      "Resolved a bug that caused some 48 port MS150 switches connected to MX gateways to experience reductions in uplink throughput if the uplink was connected to any port in the 41-48 range"
+    ],
+    "General known issues": [
+      "MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures",
+      "In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.",
+      "Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard"
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)",
+      "Cable tests may report incorrect cable lengths"
+    ],
+    "Ms130 known issues": [
+      "Switches may incorrectly remove or update SGT tags when no policy or VLAN mapping is defined. Until a firmware fix is available, correct SGT tags can be preserved by defining a policy for the SGT group in Adaptive Policies, and binding the SGT group to a VLAN using VLAN profiles.",
+      "MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally"
+    ],
+    "Ms150 known issues": [
+      "When a stacking cable is disconnected from MS150 switches in stack configurations the disconnected port will incorrectly continue to be marked as connected while the still-connected stacking port will incorrectly be marked as disconnected",
+      "In rare circumstances MS150 switches in stack configurations may experience a software crash following a stack member reboot, resulting in an unexpected active member election",
+      "In rare circumstances MS150 switches in stack configurations may experience a software crash following a stack member reboot, resulting in a multicast storm and possible interruption of connectivity until the stack has been rebooted",
+      "MS150 switches incorrectly advertise 60-watt PoE++ on all ports. PoE++ is only available on mGig ports; ports 17-24 on MS150 24MP-4X switches, and ports 33-48 on MS150 48MP-4x switches.",
+      "In certain circumstances, MS150 switches using cross-stack LACP may place a port into a discarding state after a stack member reboot, with the affected port failing to transmit LACPDUs until the LAG group is recreated.",
+      "MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue."
+    ],
+    "Ms350x known issues": [
+      "Switches may experience an unexpected reboot (present since MS 15)"
+    ],
+    "Ms355 known issues": [
+      "Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade"
+    ],
+    "Ms410 known issues": [
+      "Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve"
+    ],
+    "Ms425 known issues": [
+      "In rare circumstances MS425 switches may encounter a software crash that results in a reboot"
+    ]
+  },
+  "text": "Switch firmware versions MS 18.1.4 changelog\nImportant notes\nThis firmware release only includes updates for MS150 switches. All other MS switches on MS 18.1.4 will run firmware identical to MS 18.1.3.1.\nNew feature highlights\nGroup Policy ACL on MS130 & MS150\nMaximum MAC support in MAC Allowlists\n802.1x limited access mode with pre-auth GPACL\nLocal Status Page connectivity diagnostics enhancements\nLayer 2 multicast live tool\nTraffic Mirroring: RSPAN & VLAN Based SPAN\nFixed issues\nMs150 fixed issues\nFixed a bug that caused MS150 switches to incorrectly remove or update SGT tags when no policy or VLAN mapping was defined\nResolved an issue that caused some SFP and QSFP modules to experience intermittent flapping\nFixed a bug that caused some MS150 switches in stack configurations to lose connectivity while reporting redundant uplinks as blocked\nResolved a bug that caused some 48 port MS150 switches connected to MX gateways to experience reductions in uplink throughput if the uplink was connected to any port in the 41-48 range\nKnown issues\nGeneral known issues\nMS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures\nIn rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.\nSome switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nCable tests may report incorrect cable lengths\nMs130 known issues\nSwitches may incorrectly remove or update SGT tags when no policy or VLAN mapping is defined. Until a firmware fix is available, correct SGT tags can be preserved by defining a policy for the SGT group in Adaptive Policies, and binding the SGT group to a VLAN using VLAN profiles.\nMS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally\nMs150 known issues\nWhen a stacking cable is disconnected from MS150 switches in stack configurations the disconnected port will incorrectly continue to be marked as connected while the still-connected stacking port will incorrectly be marked as disconnected\nIn rare circumstances MS150 switches in stack configurations may experience a software crash following a stack member reboot, resulting in an unexpected active member election\nIn rare circumstances MS150 switches in stack configurations may experience a software crash following a stack member reboot, resulting in a multicast storm and possible interruption of connectivity until the stack has been rebooted\nMS150 switches incorrectly advertise 60-watt PoE++ on all ports. PoE++ is only available on mGig ports; ports 17-24 on MS150 24MP-4X switches, and ports 33-48 on MS150 48MP-4x switches.\nIn certain circumstances, MS150 switches using cross-stack LACP may place a port into a discarding state after a stack member reboot, with the affected port failing to transmit LACPDUs until the LAG group is recreated.\nMS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.\nMs350x known issues\nSwitches may experience an unexpected reboot (present since MS 15)\nMs355 known issues\nSwitches in stack configuration may experience some ports failing to reconnect after a firmware upgrade\nMs410 known issues\nSome MS410 switches may encounter alerts for fan failures that will eventually self-resolve\nMs425 known issues\nIn rare circumstances MS425 switches may encounter a software crash that results in a reboot",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1848697383\" id=\"toc-hId--273003391\">Switch firmware versions MS 18.1.4 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1293000093\" id=\"toc-hId-1118622661\">Important notes</H4><UL><LI>This firmware release only includes updates for MS150 switches. All other MS switches on MS 18.1.4 will run firmware identical to MS 18.1.3.1.</LI></UL><H4 id=\"toc-hId-449810242\" id=\"toc-hId--688831802\">New feature highlights</H4><UL><LI>Group Policy ACL on MS130 &amp; MS150</LI><LI>Maximum MAC support in MAC Allowlists</LI><LI>802.1x limited access mode with pre-auth GPACL</LI><LI>Local Status Page connectivity diagnostics enhancements</LI><LI>Layer 2 multicast live tool</LI><LI>Traffic Mirroring: RSPAN &amp; VLAN Based SPAN</LI></UL><H4 id=\"toc-hId--2102346719\" id=\"toc-hId-1798681031\">Fixed issues</H4><H4 id=\"toc-hId--359536384\" id=\"toc-hId--8773432\">Ms150 fixed issues</H4><UL><LI>Fixed a bug that caused MS150 switches to incorrectly remove or update SGT tags when no policy or VLAN mapping was defined</LI><LI>Resolved an issue that caused some SFP and QSFP modules to experience intermittent flapping</LI><LI>Fixed a bug that caused some MS150 switches in stack configurations to lose connectivity while reporting redundant uplinks as blocked</LI><LI>Resolved a bug that caused some 48 port MS150 switches connected to MX gateways to experience reductions in uplink throughput if the uplink was connected to any port in the 41-48 range</LI></UL><H4 id=\"toc-hId-1383273951\" id=\"toc-hId--1816227895\">Known issues</H4><H4 id=\"toc-hId--1168883010\" id=\"toc-hId-671284938\">General known issues</H4><UL><LI>MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures</LI><LI>In rare circumstances switches may experience uplink instability when IPv6 link-local addresses are enabled. If this issue is encountered it can be resolved by enabling IPv6 RA Guard to block ICMPv6 neighbor discovery messages.</LI><LI>Some switches may encounter an error, \"incompatible configuration for attributes: allowed_vlans\" when attempting to aggregate ports regardless of allowed VLANs configured in Dashboard</LI></UL><H4 id=\"toc-hId-573927325\" id=\"toc-hId--1136169525\">Ms120 known issues</H4><UL><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI><LI>Cable tests may report incorrect cable lengths</LI></UL><H4 id=\"toc-hId--1978229636\" id=\"toc-hId-1351343308\">Ms130 known issues</H4><UL><LI>Switches may incorrectly remove or update SGT tags when no policy or VLAN mapping is defined. Until a firmware fix is available, correct SGT tags can be preserved by defining a policy for the SGT group in Adaptive Policies, and binding the SGT group to a VLAN using VLAN profiles.</LI><LI>MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally</LI></UL><H4 id=\"toc-hId--235419301\" id=\"toc-hId--456111155\">Ms150 known issues</H4><UL><LI>When a stacking cable is disconnected from MS150 switches in stack configurations the disconnected port will incorrectly continue to be marked as connected while the still-connected stacking port will incorrectly be marked as disconnected</LI><LI>In rare circumstances MS150 switches in stack configurations may experience a software crash following a stack member reboot, resulting in an unexpected active member election</LI><LI>In rare circumstances MS150 switches in stack configurations may experience a software crash following a stack member reboot, resulting in a multicast storm and possible interruption of connectivity until the stack has been rebooted</LI><LI>MS150 switches incorrectly advertise 60-watt PoE++ on all ports. PoE++ is only available on mGig ports; ports 17-24 on MS150 24MP-4X switches, and ports 33-48 on MS150 48MP-4x switches.</LI><LI>In certain circumstances, MS150 switches using cross-stack LACP may place a port into a discarding state after a stack member reboot, with the affected port failing to transmit LACPDUs until the LAG group is recreated.</LI><LI>MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.</LI></UL><H4 id=\"toc-hId--808208109\" id=\"toc-hId--1032695019\">Ms350x known issues</H4><UL><LI>Switches may experience an unexpected reboot (present since MS 15)</LI></UL><H4 id=\"toc-hId-934602226\" id=\"toc-hId-1454817814\">Ms355 known issues</H4><UL><LI>Switches in stack configuration may experience some ports failing to reconnect after a firmware upgrade</LI></UL><H4 id=\"toc-hId--1617554735\" id=\"toc-hId--352636649\">Ms410 known issues</H4><UL><LI>Some MS410 switches may encounter alerts for fan failures that will eventually self-resolve</LI></UL><H4 id=\"toc-hId-125255600\" id=\"toc-hId-2134876184\">Ms425 known issues</H4><UL><LI>In rare circumstances MS425 switches may encounter a software crash that results in a reboot</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:40Z"
+}

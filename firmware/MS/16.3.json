@@ -1,0 +1,94 @@
+{
+  "family": "MS",
+  "version": "16.3",
+  "title": "Switch firmware versions MS 16.3 changelog",
+  "announcements": [
+    {
+      "post_id": "5511874",
+      "releaseType": "beta",
+      "announced": "2023-08-17T11:47:11.159-07:00",
+      "post_subject": "A new beta switch firmware is now available on Thu, 17 Aug 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-switch-firmware-is-now-available-on-thu-17-aug-2023/ba-p/5511874"
+    }
+  ],
+  "changelog_comment_id": "5511875",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-08-17T12:08:29.755-07:00",
+  "sections": {
+    "Alerts": [
+      "MS420 devices configured for this version will run MS 15.22"
+    ],
+    "General features": [
+      "ACL hit counter",
+      "DHCPv6 and IPv6 RA guard",
+      "Local Status Page Packet Capture"
+    ],
+    "Ms12x features": [
+      "DAI support"
+    ],
+    "General fixes": [
+      "Having SecurePort enabled causes a large influx of event logs for each port supporting SecurePort resulting in events to be dropped (present since MS 16)",
+      "SecurePort may fail to successfully authenticate an MR for multiple minutes (always present)"
+    ],
+    "Ms12x fixes": [
+      "Storm control significantly degrades the network by blocking valid traffic (present since MS 16.2)"
+    ],
+    "Ms210/225/250 fixes": [
+      "100Mbps devices fail to re-establish a link after a cable test is run (present since MS 14)"
+    ],
+    "Ms2xx/35x/4xx fixes": [
+      "Incorrect route information may be used for ECMP resulting in packet loss for some destinations (always present)",
+      "Stacks that have routes to virtual IPs may reach a state where the next hop port is incorrect (present since MS 14)"
+    ],
+    "Ms425 fixes": [
+      "Large number of SNMP walks to switches in H.A. may destabilize the VRRP connection resulting in flapping (present since MS 15)"
+    ],
+    "General known issues": [
+      "Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)",
+      "Critical Authentication may incorrectly keep RADIUS server status as unreachable after a failed connection resulting in all subsequent authentication attempts failing (always present)",
+      "Cross-stack LACP groups may fail to fully initialize, resulting in one or more ports staying offline (present since MS 16.1)",
+      "In rare instances, the port status will fail to update to dashboard until the system reboots (present since MS 14)",
+      "Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)"
+    ],
+    "Ms120 known issues": [
+      "Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)",
+      "Switches may fail to provide PoE power to legacy access points (always present)"
+    ],
+    "Ms125 known issues": [
+      "The local status page cannot be accessed from the management port (always present)"
+    ],
+    "Ms12x known issues": [
+      "Ports with an odd-numbered MTU value fail to initialize (predates MS 11)"
+    ],
+    "Ms210 known issues": [
+      "Stack ports have an orange LED instead of green (present since MS 11)"
+    ],
+    "Ms2xx/35x/4xx known issues": [
+      "IPv6 multicast packets tagged for a VLAN may not be filtered correctly resulting in packets egressing into other VLANs (present since MS 14)",
+      "IPv6 solicited-node packets bypass port isolation (present since MS 14)",
+      "Rebooting a stack member may result in internal stacking packets to be sent out into the LAN (present since MS 15)",
+      "SVI default route can be incorrectly removed from the routing table after L3 changes are made on dashboard. Removing and re-adding the route is required to resync the stack (present since MS 15)",
+      "Stack routing tables can get out of sync when L3 changes are made. Making an additional change to L3 can resolve the sync issue (present since MS 15)",
+      "Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log"
+    ],
+    "Ms355 known issues": [
+      "In rare instances, stack ports fail to initialize after an upgrade (always present)"
+    ],
+    "Ms35x known issues": [
+      "Enabling Combined Power results in events being logged once per minute (present since MS 11)",
+      "UPoE does not negotiate over LLDP correctly (always present)",
+      "mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G."
+    ],
+    "Ms425 known issues": [
+      "1Gbps ports may randomly fail and go down until the system is rebooted (present since MS 16.1)",
+      "Stacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)"
+    ],
+    "Ms4xx known issues": [
+      "When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)"
+    ]
+  },
+  "text": "Switch firmware versions MS 16.3 changelog\nAlerts\nMS420 devices configured for this version will run MS 15.22\nGeneral features\nACL hit counter\nDHCPv6 and IPv6 RA guard\nLocal Status Page Packet Capture\nMs12x features\nDAI support\nGeneral fixes\nHaving SecurePort enabled causes a large influx of event logs for each port supporting SecurePort resulting in events to be dropped (present since MS 16)\nSecurePort may fail to successfully authenticate an MR for multiple minutes (always present)\nMs12x fixes\nStorm control significantly degrades the network by blocking valid traffic (present since MS 16.2)\nMs210/225/250 fixes\n100Mbps devices fail to re-establish a link after a cable test is run (present since MS 14)\nMs2xx/35x/4xx fixes\nIncorrect route information may be used for ECMP resulting in packet loss for some destinations (always present)\nStacks that have routes to virtual IPs may reach a state where the next hop port is incorrect (present since MS 14)\nMs425 fixes\nLarge number of SNMP walks to switches in H.A. may destabilize the VRRP connection resulting in flapping (present since MS 15)\nGeneral known issues\nConnecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)\nCritical Authentication may incorrectly keep RADIUS server status as unreachable after a failed connection resulting in all subsequent authentication attempts failing (always present)\nCross-stack LACP groups may fail to fully initialize, resulting in one or more ports staying offline (present since MS 16.1)\nIn rare instances, the port status will fail to update to dashboard until the system reboots (present since MS 14)\nSwitches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nMs120 known issues\nSwitches in extremely rare instances will experience reboots every few minutes (present since MS 11)\nSwitches may fail to provide PoE power to legacy access points (always present)\nMs125 known issues\nThe local status page cannot be accessed from the management port (always present)\nMs12x known issues\nPorts with an odd-numbered MTU value fail to initialize (predates MS 11)\nMs210 known issues\nStack ports have an orange LED instead of green (present since MS 11)\nMs2xx/35x/4xx known issues\nIPv6 multicast packets tagged for a VLAN may not be filtered correctly resulting in packets egressing into other VLANs (present since MS 14)\nIPv6 solicited-node packets bypass port isolation (present since MS 14)\nRebooting a stack member may result in internal stacking packets to be sent out into the LAN (present since MS 15)\nSVI default route can be incorrectly removed from the routing table after L3 changes are made on dashboard. Removing and re-adding the route is required to resync the stack (present since MS 15)\nStack routing tables can get out of sync when L3 changes are made. Making an additional change to L3 can resolve the sync issue (present since MS 15)\nSwitch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log\nMs355 known issues\nIn rare instances, stack ports fail to initialize after an upgrade (always present)\nMs35x known issues\nEnabling Combined Power results in events being logged once per minute (present since MS 11)\nUPoE does not negotiate over LLDP correctly (always present)\nmGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.\nMs425 known issues\n1Gbps ports may randomly fail and go down until the system is rebooted (present since MS 16.1)\nStacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)\nMs4xx known issues\nWhen an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1841244855\" id=\"toc-hId--248989771\">Switch firmware versions MS 16.3 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1300452621\" id=\"toc-hId-1142636281\">Alerts</H4><UL><LI>MS420 devices configured for this version will run MS 15.22</LI></UL><H4 id=\"toc-hId-442357714\" id=\"toc-hId--664818182\">General features</H4><UL><LI>ACL hit counter</LI><LI>DHCPv6 and IPv6 RA guard</LI><LI>Local Status Page Packet Capture</LI></UL><H4 id=\"toc-hId--2109799247\" id=\"toc-hId-1822694651\">Ms12x features</H4><UL><LI>DAI support</LI></UL><H4 id=\"toc-hId--366988912\" id=\"toc-hId-15240188\">General fixes</H4><UL><LI>Having SecurePort enabled causes a large influx of event logs for each port supporting SecurePort resulting in events to be dropped (present since MS 16)</LI><LI>SecurePort may fail to successfully authenticate an MR for multiple minutes (always present)</LI></UL><H4 id=\"toc-hId-1375821423\" id=\"toc-hId--1792214275\">Ms12x fixes</H4><UL><LI>Storm control significantly degrades the network by blocking valid traffic (present since MS 16.2)</LI></UL><H4 id=\"toc-hId--1176335538\" id=\"toc-hId-695298558\">Ms210/225/250 fixes</H4><UL><LI>100Mbps devices fail to re-establish a link after a cable test is run (present since MS 14)</LI></UL><H4 id=\"toc-hId-566474797\" id=\"toc-hId--1112155905\">Ms2xx/35x/4xx fixes</H4><UL><LI>Incorrect route information may be used for ECMP resulting in packet loss for some destinations (always present)</LI><LI>Stacks that have routes to virtual IPs may reach a state where the next hop port is incorrect (present since MS 14)</LI></UL><H4 id=\"toc-hId--1985682164\" id=\"toc-hId-1375356928\">Ms425 fixes</H4><UL><LI>Large number of SNMP walks to switches in H.A. may destabilize the VRRP connection resulting in flapping (present since MS 15)</LI></UL><H4 id=\"toc-hId--242871829\" id=\"toc-hId--432097535\">General known issues</H4><UL><LI>Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)</LI><LI>Critical Authentication may incorrectly keep RADIUS server status as unreachable after a failed connection resulting in all subsequent authentication attempts failing (always present)</LI><LI>Cross-stack LACP groups may fail to fully initialize, resulting in one or more ports staying offline (present since MS 16.1)</LI><LI>In rare instances, the port status will fail to update to dashboard until the system reboots (present since MS 14)</LI><LI>Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI></UL><H4 id=\"toc-hId--815660637\" id=\"toc-hId--1008681399\">Ms120 known issues</H4><UL><LI>Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)</LI><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI></UL><H4 id=\"toc-hId-927149698\" id=\"toc-hId-1478831434\">Ms125 known issues</H4><UL><LI>The local status page cannot be accessed from the management port (always present)</LI></UL><H4 id=\"toc-hId--1625007263\" id=\"toc-hId--328623029\">Ms12x known issues</H4><UL><LI>Ports with an odd-numbered MTU value fail to initialize (predates MS 11)</LI></UL><H4 id=\"toc-hId-117803072\" id=\"toc-hId--2136077492\">Ms210 known issues</H4><UL><LI>Stack ports have an orange LED instead of green (present since MS 11)</LI></UL><H4 id=\"toc-hId-1860613407\" id=\"toc-hId-351435341\">Ms2xx/35x/4xx known issues</H4><UL><LI>IPv6 multicast packets tagged for a VLAN may not be filtered correctly resulting in packets egressing into other VLANs (present since MS 14)</LI><LI>IPv6 solicited-node packets bypass port isolation (present since MS 14)</LI><LI>Rebooting a stack member may result in internal stacking packets to be sent out into the LAN (present since MS 15)</LI><LI>SVI default route can be incorrectly removed from the routing table after L3 changes are made on dashboard. Removing and re-adding the route is required to resync the stack (present since MS 15)</LI><LI>Stack routing tables can get out of sync when L3 changes are made. Making an additional change to L3 can resolve the sync issue (present since MS 15)</LI><LI>Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log</LI></UL><H4 id=\"toc-hId--691543554\" id=\"toc-hId--1456019122\">Ms355 known issues</H4><UL><LI>In rare instances, stack ports fail to initialize after an upgrade (always present)</LI></UL><H4 id=\"toc-hId-1051266781\" id=\"toc-hId-1031493711\">Ms35x known issues</H4><UL><LI>Enabling Combined Power results in events being logged once per minute (present since MS 11)</LI><LI>UPoE does not negotiate over LLDP correctly (always present)</LI><LI>mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.</LI></UL><H4 id=\"toc-hId--1500890180\" id=\"toc-hId--775960752\">Ms425 known issues</H4><UL><LI>1Gbps ports may randomly fail and go down until the system is rebooted (present since MS 16.1)</LI><LI>Stacks in rare instances will start dropping DHCP traffic on trusted ports while DAI is enabled until rebooted (present since MS 12)</LI></UL><H4 id=\"toc-hId-241920155\" id=\"toc-hId-1711552081\">Ms4xx known issues</H4><UL><LI>When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:36Z"
+}

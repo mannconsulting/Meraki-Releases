@@ -1,0 +1,37 @@
+{
+  "family": "MR",
+  "version": "30.5.1",
+  "title": "Wireless firmware versions MR 30.5.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5513264",
+      "releaseType": "beta",
+      "announced": "2023-11-29T23:47:05.104-08:00",
+      "post_subject": "A new beta wireless firmware is now available on Wed, 29 Nov 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-wireless-firmware-is-now-available-on-wed-29-nov-2023/ba-p/5513264"
+    }
+  ],
+  "changelog_comment_id": "5513265",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-11-30T02:00:10.079-08:00",
+  "sections": {
+    "Important note": [
+      "While Meraki APs have traditionally relied on UDP port 7351 for cloud communication, and TCP ports 80 and 443 for backup communications, with MR 28+ we are beginning the transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the \"Help\" > \"Firewall Info\" page is allowed through any firewalls or security devices that are deployed upstream of your Meraki APs. These requirements have been updated in November of 2022, so it is important that you review them. (Wi-Fi 6 and Wi-Fi 6E APs)",
+      "WEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)"
+    ],
+    "Legacy product notice": [
+      "When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3"
+    ],
+    "Bug fixes": [
+      "General stability and performance improvements"
+    ],
+    "Known issues": [
+      "Sporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)",
+      "In high capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)"
+    ]
+  },
+  "text": "Wireless firmware versions MR 30.5.1 changelog\nImportant note\nWhile Meraki APs have traditionally relied on UDP port 7351 for cloud communication, and TCP ports 80 and 443 for backup communications, with MR 28+ we are beginning the transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the \"Help\" > \"Firewall Info\" page is allowed through any firewalls or security devices that are deployed upstream of your Meraki APs. These requirements have been updated in November of 2022, so it is important that you review them. (Wi-Fi 6 and Wi-Fi 6E APs)\nWEP deprecation (https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs)\nLegacy product notice\nWhen configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3\nBug fixes\nGeneral stability and performance improvements\nKnown issues\nSporadic packet loss & instability on Layer 3 roaming & Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)\nIn high capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1842230712\" id=\"toc-hId--248935986\">Wireless firmware versions MR 30.5.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1299466764\" id=\"toc-hId-1142690066\">Important note</H4><UL><LI>While Meraki APs have traditionally relied on UDP port 7351 for cloud communication, and TCP ports 80 and 443 for backup communications, with MR 28+ we are beginning the transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the \"Help\" &gt; \"Firewall Info\" page is allowed through any firewalls or security devices that are deployed upstream of your Meraki APs. These requirements have been updated in November of 2022, so it is important that you review them. (Wi-Fi 6 and Wi-Fi 6E APs)</LI><LI>WEP deprecation (<A href=\"https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">https://documentation.meraki.com/MR/Encryption_and_Authentication/WEP_Deprecation_on_MRs</A>)</LI></UL><H4 id=\"toc-hId-443343571\" id=\"toc-hId--664764397\">Legacy product notice</H4><UL><LI>When configured for this version, MR12, MR16, MR18, MR24, MR26, MR32, MR34, MR62, MR66, and MR72 will run MR 26.8.3</LI></UL><H4 id=\"toc-hId--2108813390\" id=\"toc-hId-1822748436\">Bug fixes</H4><UL><LI>General stability and performance improvements</LI></UL><H4 id=\"toc-hId--366003055\" id=\"toc-hId-15293973\">Known issues</H4><UL><LI>Sporadic packet loss &amp; instability on Layer 3 roaming &amp; Teleworker VPN SSID's (Wi-Fi 5 Wave 2 and Wi-Fi 6 APs)</LI><LI>In high capacity wireless networks, APs may experience instability when the “Client Balancing” feature is enabled (Wi-Fi 5 Wave 2, Wi-Fi 6 and Wi-Fi 6E APs)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:28Z"
+}

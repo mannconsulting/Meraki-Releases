@@ -1,0 +1,48 @@
+{
+  "family": "MX",
+  "version": "18.211.5.1",
+  "title": "Security appliance firmware versions MX 18.211.5.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5519157",
+      "releaseType": "stable",
+      "announced": "2025-02-02T20:47:03.739-08:00",
+      "post_subject": "A new stable appliance firmware is now available on Sun, 02 Feb 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-appliance-firmware-is-now-available-on-sun-02-feb/ba-p/5519157"
+    }
+  ],
+  "changelog_comment_id": "5519158",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-02-02T22:57:44.053-08:00",
+  "sections": {
+    "Important notice": [
+      "USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements."
+    ],
+    "Bug fixes - limited platforms": [
+      "Fixed an MX 18.211.5 regression that could result in MX75, MX85, MX95, MX105, MX250, and MX450 appliances servicing many clients to experience intermittent periods of heightened packet drops and latency."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 devices will run MX 14.56.",
+      "When configured for this version, MX400 and MX600 devices will run MX 16.16.9.",
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.12."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Known issues": [
+      "Trusted traffic exclusions will not function on Z4(C) appliances if AMP is configured.",
+      "Due to a rare issue, MX appliances may fail to initiate non-Meraki site-to-site VPN connections when IKEv2 is used. This is most likely to occur when there are mismatched VPN subnets configured between the MX and the non-Meraki VPN peer. This will be resolved in MX 19.1 releases.",
+      "Due to an issue under investigation, VMX-XL appliances fail to add local networks into the routing table.",
+      "Due to an issue under investigation, MX appliances may incorrectly report 100% loss on the SD-WAN monitoring page.",
+      "In rare cases MX75, MX85, MX95, MX105, MX250, and MX450 appliances may encounter an unexpected device reboot.",
+      "Due to an issue under investigation MX75, MX85, MX95, MX105, MX250, and MX450 appliances may report an erroneous spike in network traffic usage.",
+      "Z4(C) appliances fail to forward ARP messages that have a VLAN tag, even if the VLAN tagging correctly matches with the Z4(C)'s port configuration.",
+      "Due to issues under investigation, MX75 and MX85 appliances may encounter unexpected device reboots.",
+      "Z4(C) appliances fail to properly forward STP frames received on its LAN interfaces."
+    ]
+  },
+  "text": "Security appliance firmware versions MX 18.211.5.1 changelog\nImportant notice\nUSB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.\nBug fixes - limited platforms\nFixed an MX 18.211.5 regression that could result in MX75, MX85, MX95, MX105, MX250, and MX450 appliances servicing many clients to experience intermittent periods of heightened packet drops and latency.\nLegacy products notice\nWhen configured for this version, Z1 devices will run MX 14.56.\nWhen configured for this version, MX400 and MX600 devices will run MX 16.16.9.\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.12.\nKnown issues status\nThis list is being reviewed and updated.\nKnown issues\nTrusted traffic exclusions will not function on Z4(C) appliances if AMP is configured.\nDue to a rare issue, MX appliances may fail to initiate non-Meraki site-to-site VPN connections when IKEv2 is used. This is most likely to occur when there are mismatched VPN subnets configured between the MX and the non-Meraki VPN peer. This will be resolved in MX 19.1 releases.\nDue to an issue under investigation, VMX-XL appliances fail to add local networks into the routing table.\nDue to an issue under investigation, MX appliances may incorrectly report 100% loss on the SD-WAN monitoring page.\nIn rare cases MX75, MX85, MX95, MX105, MX250, and MX450 appliances may encounter an unexpected device reboot.\nDue to an issue under investigation MX75, MX85, MX95, MX105, MX250, and MX450 appliances may report an erroneous spike in network traffic usage.\nZ4(C) appliances fail to forward ARP messages that have a VLAN tag, even if the VLAN tagging correctly matches with the Z4(C)'s port configuration.\nDue to issues under investigation, MX75 and MX85 appliances may encounter unexpected device reboots.\nZ4(C) appliances fail to properly forward STP frames received on its LAN interfaces.",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1846669610\" id=\"toc-hId--248758229\">Security appliance firmware versions MX 18.211.5.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1295027866\" id=\"toc-hId-1142867823\">Important notice</H4><UL><LI>USB modems with MX/Z series devices running firmware MX 18 or newer will be limited to best effort support and will not be receiving any future firmware fixes or improvements.</LI></UL><H4 id=\"toc-hId-447782469\" id=\"toc-hId--664586640\">Bug fixes - limited platforms</H4><UL><LI>Fixed an MX 18.211.5 regression that could result in MX75, MX85, MX95, MX105, MX250, and MX450 appliances servicing many clients to experience intermittent periods of heightened packet drops and latency.</LI></UL><H4 id=\"toc-hId--2104374492\" id=\"toc-hId-1822926193\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 devices will run MX 14.56.</LI><LI>When configured for this version, MX400 and MX600 devices will run MX 16.16.9.</LI><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.12.</LI></UL><H4 id=\"toc-hId--361564157\" id=\"toc-hId-15471730\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId-1381246178\" id=\"toc-hId--1791982733\">Known issues</H4><UL><LI>Trusted traffic exclusions will not function on Z4(C) appliances if AMP is configured.</LI><LI>Due to a rare issue, MX appliances may fail to initiate non-Meraki site-to-site VPN connections when IKEv2 is used. This is most likely to occur when there are mismatched VPN subnets configured between the MX and the non-Meraki VPN peer. This will be resolved in MX 19.1 releases.</LI><LI>Due to an issue under investigation, VMX-XL appliances fail to add local networks into the routing table.</LI><LI>Due to an issue under investigation, MX appliances may incorrectly report 100% loss on the SD-WAN monitoring page.</LI><LI>In rare cases MX75, MX85, MX95, MX105, MX250, and MX450 appliances may encounter an unexpected device reboot.</LI><LI>Due to an issue under investigation MX75, MX85, MX95, MX105, MX250, and MX450 appliances may report an erroneous spike in network traffic usage.</LI><LI>Z4(C) appliances fail to forward ARP messages that have a VLAN tag, even if the VLAN tagging correctly matches with the Z4(C)'s port configuration.</LI><LI>Due to issues under investigation, MX75 and MX85 appliances may encounter unexpected device reboots.</LI><LI>Z4(C) appliances fail to properly forward STP frames received on its LAN interfaces.</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:01Z"
+}

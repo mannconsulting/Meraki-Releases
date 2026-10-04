@@ -1,0 +1,26 @@
+{
+  "family": "MV",
+  "version": "5.5.1",
+  "title": "Camera firmware versions MV 5.5.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5513995",
+      "releaseType": "stable",
+      "announced": "2024-02-02T10:47:05.100-08:00",
+      "post_subject": "A new stable camera firmware is now available on Fri, 02 Feb 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-camera-firmware-is-now-available-on-fri-02-feb-2024/ba-p/5513995"
+    }
+  ],
+  "changelog_comment_id": "5513996",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-02-02T10:56:08.351-08:00",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an intermittent issue with live streaming on Vision Portal"
+    ]
+  },
+  "text": "Camera firmware versions MV 5.5.1 changelog\nBug fixes\nResolved an intermittent issue with live streaming on Vision Portal",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1843060867\" id=\"toc-hId--248929165\">Camera firmware versions MV 5.5.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1298636609\" id=\"toc-hId-1142696887\">Bug fixes</H4><UL><LI>Resolved an intermittent issue with live streaming on Vision Portal</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:25Z"
+}

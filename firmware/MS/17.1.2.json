@@ -1,0 +1,97 @@
+{
+  "family": "MS",
+  "version": "17.1.2",
+  "title": "Switch firmware versions MS 17.1.2 changelog",
+  "announcements": [
+    {
+      "post_id": "5516961",
+      "releaseType": "candidate",
+      "announced": "2024-08-28T15:47:06.198-07:00",
+      "post_subject": "A new candidate switch firmware is now available on Wed, 28 Aug 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-wed-28-aug/ba-p/5516961"
+    }
+  ],
+  "changelog_comment_id": "5516962",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-09-02T15:36:57.320-07:00",
+  "sections": {
+    "General important notes": [
+      "MS17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password"
+    ],
+    "Ms12x important notes": [
+      "If DAI is enabled prior to upgrading the network to MS 17, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages."
+    ],
+    "Ms420 important notes": [
+      "Devices configured for this version will run MS 15.22"
+    ],
+    "New feature highlights": [
+      "DOM (Digital Optical Monitoring)",
+      "Intelligent Capture",
+      "SmartPorts"
+    ],
+    "New ms130x feature highlights": [
+      "Adaptive Policy on MS130X/R models"
+    ],
+    "General fixed issues": [
+      "Addressed an issue where Access-Reject did not immediately remove previously authenticated clients from authentication tables",
+      "Fixed an error where Local Status Page packet captures for a duration of 5 minutes displayed an \"Invalid timeout given\" error message",
+      "Fixed an issue where interruptions to aggregate links initiated by restarts or reconnection produced unexpected LACP discarding states",
+      "Fixed an issue where port isolation was not working between aggregate groups",
+      "Resolved an issue where multicast traffic wasn't properly forwarded between switches in stack configurations when the source and receiver were in different VLANs or different stacks"
+    ],
+    "Ms130 fixed issues": [
+      "Corrected an issue where some MS130 switches experienced management plane congestion that resulted in UDLD alerts and STP transitions",
+      "Fixed a problem where port mirroring failed to mirror traffic after a switch reboot",
+      "Resolved an issue where disabling a switch port could incorrectly disable another peer port"
+    ],
+    "Ms210 fixed issues": [
+      "Corrected a situation where Cisco RPS2300 continued to provide backup power to MS210 after the AC main power was restored"
+    ],
+    "Ms355 fixed issues": [
+      "Fixed an issue that sometimes caused MS355 ports to be incorrectly set to half-duplex via the Local Status Page"
+    ],
+    "General known issues": [
+      "RADIUS communications may not recover after an initial failure when Critical Auth is enabled",
+      "Some clients may be incorrectly added to a configured Guest VLAN when authenticated via RADIUS immediately after a switch reboot",
+      "Stack port configurations may become isolated or changed upon multiple flaps or when disabled",
+      "Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)"
+    ],
+    "Ms120 known issues": [
+      "Switches may fail to provide PoE power to legacy access points (always present)"
+    ],
+    "Ms12x known issues": [
+      "MS120/125s not forwarding link-local multicast (224.0.0.x) traffic when 'Flood unknown multicast traffic' is disabled"
+    ],
+    "Ms210 known issues": [
+      "Stack ports have an orange LED instead of green (present since MS 11)"
+    ],
+    "Ms220 known issues": [
+      "Local status page packet captures may generate a blank packet capture file on MS220 switches"
+    ],
+    "Ms2xx/35x/4xx known issues": [
+      "Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log"
+    ],
+    "Ms350 known issues": [
+      "Cable tests may fail to execute on mGig ports"
+    ],
+    "Ms35x known issues": [
+      "Enabling Auto-stacking on MS350s may remove existing L3 SVIs",
+      "In rare instances, stack ports fail to initialize after an upgrade (always present)",
+      "Incorrect SFP port mappings may disrupt SFP functionality",
+      "Switches may experience an unexpected reboot (present since MS 15)",
+      "mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G."
+    ],
+    "Ms425 known issues": [
+      "MS425 does not see traffic from trunk link for certain VLAN",
+      "MS425 switches in stack configurations may experience high device utilization when multicast routing is enabled",
+      "MS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets"
+    ],
+    "Ms4xx known issues": [
+      "When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)"
+    ]
+  },
+  "text": "Switch firmware versions MS 17.1.2 changelog\nGeneral important notes\nMS17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password\nMs12x important notes\nIf DAI is enabled prior to upgrading the network to MS 17, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages.\nMs420 important notes\nDevices configured for this version will run MS 15.22\nNew feature highlights\nDOM (Digital Optical Monitoring)\nIntelligent Capture\nSmartPorts\nNew ms130x feature highlights\nAdaptive Policy on MS130X/R models\nGeneral fixed issues\nAddressed an issue where Access-Reject did not immediately remove previously authenticated clients from authentication tables\nFixed an error where Local Status Page packet captures for a duration of 5 minutes displayed an \"Invalid timeout given\" error message\nFixed an issue where interruptions to aggregate links initiated by restarts or reconnection produced unexpected LACP discarding states\nFixed an issue where port isolation was not working between aggregate groups\nResolved an issue where multicast traffic wasn't properly forwarded between switches in stack configurations when the source and receiver were in different VLANs or different stacks\nMs130 fixed issues\nCorrected an issue where some MS130 switches experienced management plane congestion that resulted in UDLD alerts and STP transitions\nFixed a problem where port mirroring failed to mirror traffic after a switch reboot\nResolved an issue where disabling a switch port could incorrectly disable another peer port\nMs210 fixed issues\nCorrected a situation where Cisco RPS2300 continued to provide backup power to MS210 after the AC main power was restored\nMs355 fixed issues\nFixed an issue that sometimes caused MS355 ports to be incorrectly set to half-duplex via the Local Status Page\nGeneral known issues\nRADIUS communications may not recover after an initial failure when Critical Auth is enabled\nSome clients may be incorrectly added to a configured Guest VLAN when authenticated via RADIUS immediately after a switch reboot\nStack port configurations may become isolated or changed upon multiple flaps or when disabled\nSwitches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nMs120 known issues\nSwitches may fail to provide PoE power to legacy access points (always present)\nMs12x known issues\nMS120/125s not forwarding link-local multicast (224.0.0.x) traffic when 'Flood unknown multicast traffic' is disabled\nMs210 known issues\nStack ports have an orange LED instead of green (present since MS 11)\nMs220 known issues\nLocal status page packet captures may generate a blank packet capture file on MS220 switches\nMs2xx/35x/4xx known issues\nSwitch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log\nMs350 known issues\nCable tests may fail to execute on mGig ports\nMs35x known issues\nEnabling Auto-stacking on MS350s may remove existing L3 SVIs\nIn rare instances, stack ports fail to initialize after an upgrade (always present)\nIncorrect SFP port mappings may disrupt SFP functionality\nSwitches may experience an unexpected reboot (present since MS 15)\nmGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.\nMs425 known issues\nMS425 does not see traffic from trunk link for certain VLAN\nMS425 switches in stack configurations may experience high device utilization when multicast routing is enabled\nMS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets\nMs4xx known issues\nWhen an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1844974431\" id=\"toc-hId--248839889\">Switch firmware versions MS 17.1.2 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1296723045\" id=\"toc-hId-1142786163\">General important notes</H4><UL><LI>MS17 introduces a change to the default login credentials for the device local status page, using \"admin\" as the username, and the device serial number (upper case with dashes) as the password</LI></UL><H4 id=\"toc-hId-446087290\" id=\"toc-hId--664668300\">Ms12x important notes</H4><UL><LI>If DAI is enabled prior to upgrading the network to MS 17, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages.</LI></UL><H4 id=\"toc-hId--2106069671\" id=\"toc-hId-1822844533\">Ms420 important notes</H4><UL><LI>Devices configured for this version will run MS 15.22</LI></UL><H4 id=\"toc-hId--363259336\" id=\"toc-hId-15390070\">New feature highlights</H4><UL><LI>DOM (Digital Optical Monitoring)</LI><LI>Intelligent Capture</LI><LI>SmartPorts</LI></UL><H4 id=\"toc-hId-1379550999\" id=\"toc-hId--1792064393\">New ms130x feature highlights</H4><UL><LI>Adaptive Policy on MS130X/R models</LI></UL><H4 id=\"toc-hId--1172605962\" id=\"toc-hId-695448440\">General fixed issues</H4><UL><LI>Addressed an issue where Access-Reject did not immediately remove previously authenticated clients from authentication tables</LI><LI>Fixed an error where Local Status Page packet captures for a duration of 5 minutes displayed an \"Invalid timeout given\" error message</LI><LI>Fixed an issue where interruptions to aggregate links initiated by restarts or reconnection produced unexpected LACP discarding states</LI><LI>Fixed an issue where port isolation was not working between aggregate groups</LI><LI>Resolved an issue where multicast traffic wasn't properly forwarded between switches in stack configurations when the source and receiver were in different VLANs or different stacks</LI></UL><H4 id=\"toc-hId-570204373\" id=\"toc-hId--1112006023\">Ms130 fixed issues</H4><UL><LI>Corrected an issue where some MS130 switches experienced management plane congestion that resulted in UDLD alerts and STP transitions</LI><LI>Fixed a problem where port mirroring failed to mirror traffic after a switch reboot</LI><LI>Resolved an issue where disabling a switch port could incorrectly disable another peer port</LI></UL><H4 id=\"toc-hId--1981952588\" id=\"toc-hId-1375506810\">Ms210 fixed issues</H4><UL><LI>Corrected a situation where Cisco RPS2300 continued to provide backup power to MS210 after the AC main power was restored</LI></UL><H4 id=\"toc-hId--239142253\" id=\"toc-hId--431947653\">Ms355 fixed issues</H4><UL><LI>Fixed an issue that sometimes caused MS355 ports to be incorrectly set to half-duplex via the Local Status Page</LI></UL><H4 id=\"toc-hId--811931061\" id=\"toc-hId--1008531517\">General known issues</H4><UL><LI>RADIUS communications may not recover after an initial failure when Critical Auth is enabled</LI><LI>Some clients may be incorrectly added to a configured Guest VLAN when authenticated via RADIUS immediately after a switch reboot</LI><LI>Stack port configurations may become isolated or changed upon multiple flaps or when disabled</LI><LI>Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI></UL><H4 id=\"toc-hId-930879274\" id=\"toc-hId-1478981316\">Ms120 known issues</H4><UL><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI></UL><H4 id=\"toc-hId--1621277687\" id=\"toc-hId--328473147\">Ms12x known issues</H4><UL><LI>MS120/125s not forwarding link-local multicast (224.0.0.x) traffic when 'Flood unknown multicast traffic' is disabled</LI></UL><H4 id=\"toc-hId-121532648\" id=\"toc-hId--2135927610\">Ms210 known issues</H4><UL><LI>Stack ports have an orange LED instead of green (present since MS 11)</LI></UL><H4 id=\"toc-hId-1864342983\" id=\"toc-hId-351585223\">Ms220 known issues</H4><UL><LI>Local status page packet captures may generate a blank packet capture file on MS220 switches</LI></UL><H4 id=\"toc-hId--687813978\" id=\"toc-hId--1455869240\">Ms2xx/35x/4xx known issues</H4><UL><LI>Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log</LI></UL><H4 id=\"toc-hId-1054996357\" id=\"toc-hId-1031643593\">Ms350 known issues</H4><UL><LI>Cable tests may fail to execute on mGig ports</LI></UL><H4 id=\"toc-hId--1497160604\" id=\"toc-hId--775810870\">Ms35x known issues</H4><UL><LI>Enabling Auto-stacking on MS350s may remove existing L3 SVIs</LI><LI>In rare instances, stack ports fail to initialize after an upgrade (always present)</LI><LI>Incorrect SFP port mappings may disrupt SFP functionality</LI><LI>Switches may experience an unexpected reboot (present since MS 15)</LI><LI>mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.</LI></UL><H4 id=\"toc-hId-245649731\" id=\"toc-hId-1711701963\">Ms425 known issues</H4><UL><LI>MS425 does not see traffic from trunk link for certain VLAN</LI><LI>MS425 switches in stack configurations may experience high device utilization when multicast routing is enabled</LI><LI>MS425s in stack configurations may periodically trigger New DHCP Server alerts that include mismatched VLANs/subnets</LI></UL><H4 id=\"toc-hId-1988460066\" id=\"toc-hId--95752500\">Ms4xx known issues</H4><UL><LI>When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:10Z"
+}

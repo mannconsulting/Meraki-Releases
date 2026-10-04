@@ -1,0 +1,50 @@
+{
+  "family": "CS",
+  "version": "16.7",
+  "title": "CS firmware versions CS 16.7 changelog",
+  "announcements": [
+    {
+      "post_id": "5514429",
+      "releaseType": "stable",
+      "announced": "2024-02-28T19:47:05.152-08:00",
+      "post_subject": "A new stable switchCatalyst firmware is now available on Wed, 28 Feb 2024",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-wed-28/ba-p/5514429"
+    }
+  ],
+  "changelog_comment_id": "5514430",
+  "changelog_author": "CMR",
+  "changelog_posted": "2024-02-28T22:44:28.842-08:00",
+  "sections": {
+    "Important notes": [
+      "This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload"
+    ],
+    "New feature highlights": [
+      "802.1X Control Direction",
+      "Adaptive Policy ACL hit counter live tool",
+      "MAC Allow list on access ports",
+      "Named VLAN"
+    ],
+    "C9300x fixed issues": [
+      "Devices may fail to initialize correctly resulting in erroneous behavior (always present)"
+    ],
+    "C9300x-48hxn fixed issues": [
+      "Switchports can fail to initialize resulting in the device needing to be RMA'd (always present)"
+    ],
+    "General fixed issues": [
+      "Event logs are generated in excess when a configuration failure occurs making it difficult to pinpoint the original cause for failure (always present)",
+      "Some event logs could have a timestamp up to a minute ahead of when the actual event occurred (present since CS 16)",
+      "The local status page support bundle can take an extended amount of time to finish if the device does not have internet connectivity (always present)",
+      "UDLD configurations fail to be applied at boot (present since CS 16.4)"
+    ],
+    "General known issues": [
+      "DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)",
+      "In rare instances, a full system restart may occur when the management plane restarts due to an upgrade, failover event, or unexpected restart (present since CS 15)",
+      "Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)",
+      "Switches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)"
+    ]
+  },
+  "text": "CS firmware versions CS 16.7 changelog\nImportant notes\nThis version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload\nNew feature highlights\n802.1X Control Direction\nAdaptive Policy ACL hit counter live tool\nMAC Allow list on access ports\nNamed VLAN\nC9300x fixed issues\nDevices may fail to initialize correctly resulting in erroneous behavior (always present)\nC9300x-48hxn fixed issues\nSwitchports can fail to initialize resulting in the device needing to be RMA'd (always present)\nGeneral fixed issues\nEvent logs are generated in excess when a configuration failure occurs making it difficult to pinpoint the original cause for failure (always present)\nSome event logs could have a timestamp up to a minute ahead of when the actual event occurred (present since CS 16)\nThe local status page support bundle can take an extended amount of time to finish if the device does not have internet connectivity (always present)\nUDLD configurations fail to be applied at boot (present since CS 16.4)\nGeneral known issues\nDHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)\nIn rare instances, a full system restart may occur when the management plane restarts due to an upgrade, failover event, or unexpected restart (present since CS 15)\nMeraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)\nSwitches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1843150299\" id=\"toc-hId--248904371\">CS firmware versions CS 16.7 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1298547177\" id=\"toc-hId-1142721681\">Important notes</H4><UL><LI>This version's IOS image is based on 17.9.3 CCO. Upgrades to this version will result in a full system reload</LI></UL><H4 id=\"toc-hId-444263158\" id=\"toc-hId--664732782\">New feature highlights</H4><UL><LI>802.1X Control Direction</LI><LI>Adaptive Policy ACL hit counter live tool</LI><LI>MAC Allow list on access ports</LI><LI>Named VLAN</LI></UL><H4 id=\"toc-hId--2107893803\" id=\"toc-hId-1822780051\">C9300x fixed issues</H4><UL><LI>Devices may fail to initialize correctly resulting in erroneous behavior (always present)</LI></UL><H4 id=\"toc-hId--365083468\" id=\"toc-hId-15325588\">C9300x-48hxn fixed issues</H4><UL><LI>Switchports can fail to initialize resulting in the device needing to be RMA'd (always present)</LI></UL><H4 id=\"toc-hId-1377726867\" id=\"toc-hId--1792128875\">General fixed issues</H4><UL><LI>Event logs are generated in excess when a configuration failure occurs making it difficult to pinpoint the original cause for failure (always present)</LI><LI>Some event logs could have a timestamp up to a minute ahead of when the actual event occurred (present since CS 16)</LI><LI>The local status page support bundle can take an extended amount of time to finish if the device does not have internet connectivity (always present)</LI><LI>UDLD configurations fail to be applied at boot (present since CS 16.4)</LI></UL><H4 id=\"toc-hId--1174430094\" id=\"toc-hId-695383958\">General known issues</H4><UL><LI>DHCP server information is incorrectly reported, such as the subnet mask and \"Last Seen\" fields (always present)</LI><LI>In rare instances, a full system restart may occur when the management plane restarts due to an upgrade, failover event, or unexpected restart (present since CS 15)</LI><LI>Meraki native switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switch unless the bundles are configured on the Catalyst side first. All Meraki native ports are configured in passive LACP mode so that loops do not occur between Meraki native switches (always present)</LI><LI>Switches may fail to fully initialize after initial onboarding and migration. Devices encountering this will require an RMA (always present)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:24Z"
+}

@@ -1,0 +1,57 @@
+{
+  "family": "CS",
+  "version": "17.2.3",
+  "title": "Switches - CS / IOS XE software versions CS 17.2.3 changelog",
+  "announcements": [
+    {
+      "post_id": "5461052",
+      "releaseType": "stable",
+      "announced": "2025-09-26T15:47:03.713-07:00",
+      "post_subject": "A new stable switchCatalyst firmware is now available on Fri, 26 Sep 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-stable-switchcatalyst-firmware-is-now-available-on-fri-26/ba-p/5461052"
+    },
+    {
+      "post_id": "5548057",
+      "releaseType": "Recommended Release",
+      "announced": "2026-04-24T12:00:04.502-07:00",
+      "post_subject": "A new Recommended Release CS Switch firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-cs-switch-firmware-is-now-available/ba-p/5548057"
+    }
+  ],
+  "changelog_comment_id": "5548442",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-04-27T12:05:36.512-07:00",
+  "sections": {
+    "Important notes": [
+      "This version's IOS XE image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload."
+    ],
+    "New feature highlights": [
+      "EEE (Energy Efficient Ethernet) Support",
+      "RADIUS Caching",
+      "Device Uptime for MS390s",
+      "Multi-auth with support for guest/failed/critical",
+      "VLAN to SGT mapping",
+      "Client Analytics (parity)",
+      "Support for Multicast in Live Tool"
+    ],
+    "Fixed issues": [
+      "Resolved a bug that occasionally caused the Meraki container to reboot and temporarily lose Dashboard connectivity",
+      "Fixed a bug that sometimes caused longer than expected boot times, and in very rare circumstances could cause switches to fail to communicate with Dashboard"
+    ],
+    "General known issues": [
+      "Client traffic reporting may fail on high-speed (greater than 10Gbps) or trunk ports",
+      "Link aggregates may take some time to be reinitialized when a switch stack failover occurs. During this time traffic traversing the link aggregate will be interrupted."
+    ],
+    "C9300 known issues": [
+      "In rare circumstances, high levels of MAC flapping can lead to memory exhaustion in C9300X switches in stack configurations. An iosxe restart is required to restore service to affected switches."
+    ],
+    "Ms390 known issues": [
+      "MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot",
+      "Clients may fail to obtain a fixed IP address if their DHCP discover packet doesn't contain a client identifier field. These clients will instead be assigned an IP address from the DHCP pool."
+    ]
+  },
+  "text": "Switches - CS / IOS XE software versions CS 17.2.3 changelog\nImportant notes\nThis version's IOS XE image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.\nNew feature highlights\nEEE (Energy Efficient Ethernet) Support\nRADIUS Caching\nDevice Uptime for MS390s\nMulti-auth with support for guest/failed/critical\nVLAN to SGT mapping\nClient Analytics (parity)\nSupport for Multicast in Live Tool\nFixed issues\nResolved a bug that occasionally caused the Meraki container to reboot and temporarily lose Dashboard connectivity\nFixed a bug that sometimes caused longer than expected boot times, and in very rare circumstances could cause switches to fail to communicate with Dashboard\nGeneral known issues\nClient traffic reporting may fail on high-speed (greater than 10Gbps) or trunk ports\nLink aggregates may take some time to be reinitialized when a switch stack failover occurs. During this time traffic traversing the link aggregate will be interrupted.\nC9300 known issues\nIn rare circumstances, high levels of MAC flapping can lead to memory exhaustion in C9300X switches in stack configurations. An iosxe restart is required to restore service to affected switches.\nMs390 known issues\nMS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot\nClients may fail to obtain a fixed IP address if their DHCP discover packet doesn't contain a client identifier field. These clients will instead be assigned an IP address from the DHCP pool.",
+  "html": "<DIV class=\"\"><FONT size=\"5\"><STRONG>Switches - CS / IOS XE&nbsp;software versions&nbsp;CS 17.2.3&nbsp;changelog</STRONG></FONT></DIV><DIV class=\"\"><H4 id=\"toc-hId--1341901392\">Important notes</H4><UL><LI><P class=\"\">This version's IOS XE image is based on 17.12.4 CCO. Upgrades to this version will result in a full system reload.</P></LI></UL><H4 id=\"toc-hId-1145611441\">New feature highlights</H4><UL><LI><P class=\"\">EEE (Energy Efficient Ethernet) Support</P></LI><LI><P class=\"\">RADIUS Caching</P></LI><LI><P class=\"\">Device Uptime for MS390s</P></LI><LI><P class=\"\">Multi-auth with support for guest/failed/critical</P></LI><LI><P class=\"\">VLAN to SGT mapping</P></LI><LI><P class=\"\">Client Analytics (parity)</P></LI><LI><P class=\"\">Support for Multicast in Live Tool</P></LI></UL><H4 id=\"toc-hId--661843022\">Fixed issues</H4><UL><LI><P class=\"\">Resolved a bug that occasionally caused the Meraki container to reboot and temporarily lose Dashboard connectivity</P></LI><LI><P class=\"\">Fixed a bug that sometimes caused longer than expected boot times, and in very rare circumstances could cause switches to fail to communicate with Dashboard</P></LI></UL><H4 id=\"toc-hId-1825669811\">General known issues</H4><UL><LI><P class=\"\">Client traffic reporting may fail on high-speed (greater than 10Gbps) or trunk ports</P></LI><LI><P class=\"\">Link aggregates may take some time to be reinitialized when a switch stack failover occurs. During this time traffic traversing the link aggregate will be interrupted.</P></LI></UL><H4 id=\"toc-hId-18215348\">C9300 known issues</H4><UL><LI><P class=\"\">In rare circumstances, high levels of MAC flapping can lead to memory exhaustion in C9300X switches in stack configurations. An iosxe restart is required to restore service to affected switches.</P></LI></UL><H4 id=\"toc-hId--1789239115\">Ms390 known issues</H4><UL><LI><P class=\"\">MS390s may display an alert, \"A power supply is offline\" when a PSU isn't installed in the second slot</P></LI><LI><P class=\"\">Clients may fail to obtain a fixed IP address if their DHCP discover packet doesn't contain a client identifier field. These clients will instead be assigned an IP address from the DHCP pool.</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:43Z"
+}

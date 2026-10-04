@@ -1,0 +1,47 @@
+{
+  "family": "MX",
+  "version": "19.1.8.1",
+  "title": "Security appliance firmware versions MX 19.1.8.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5520830",
+      "releaseType": "candidate",
+      "announced": "2025-06-13T16:47:03.783-07:00",
+      "post_subject": "A new candidate appliance firmware is now available on Fri, 13 Jun 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-appliance-firmware-is-now-available-on-fri-13/ba-p/5520830"
+    }
+  ],
+  "changelog_comment_id": "5520831",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-06-14T00:23:51.025-07:00",
+  "sections": {
+    "Important notice": [
+      "As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z1 devices will run MX 14.56.",
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13."
+    ],
+    "Executive summary": [
+      "This is a small hotfix release for MX 19.1.8 that addresses a possible device reboot when content filtering is in use.",
+      "Customers already running on MX 19.1.8 without using content filtering can skip this release. There are no other changes present."
+    ],
+    "Bug fixes - general fixes": [
+      "Resolved an issue that could result in an unexpected device reboot when content filtering was enabled and MX appliances lost connectivity to the TALOS URL service."
+    ],
+    "Known issues status": [
+      "This list is being reviewed and updated."
+    ],
+    "Known issues": [
+      "During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)",
+      "Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)",
+      "Due to an issue under investigation, making certain configuration changes to WAN interfaces (such as disabling or enabling an interface) can cause the IDPS process to fail. This issue may also cause high device utilization. The issue can be worked around by rebooting the MX appliance or disabling and then re-enabling IDPS. (MX-34504)",
+      "When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)",
+      "During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)"
+    ]
+  },
+  "text": "Security appliance firmware versions MX 19.1.8.1 changelog\nImportant notice\nAs of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.\nLegacy products notice\nWhen configured for this version, Z1 devices will run MX 14.56.\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.\nExecutive summary\nThis is a small hotfix release for MX 19.1.8 that addresses a possible device reboot when content filtering is in use.\nCustomers already running on MX 19.1.8 without using content filtering can skip this release. There are no other changes present.\nBug fixes - general fixes\nResolved an issue that could result in an unexpected device reboot when content filtering was enabled and MX appliances lost connectivity to the TALOS URL service.\nKnown issues status\nThis list is being reviewed and updated.\nKnown issues\nDuring the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)\nDue to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)\nDue to an issue under investigation, making certain configuration changes to WAN interfaces (such as disabling or enabling an interface) can cause the IDPS process to fail. This issue may also cause high device utilization. The issue can be worked around by rebooting the MX appliance or disabling and then re-enabling IDPS. (MX-34504)\nWhen failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)\nDuring the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847683339\" id=\"toc-hId--248096169\">Security appliance firmware versions MX 19.1.8.1 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294014137\" id=\"toc-hId-1143529883\">Important notice</H4><UL><LI>As of MX 19.1, Cisco Meraki will no longer support USB-based Cellular Failover on the MX and Z platforms.</LI></UL><H4 id=\"toc-hId-448796198\" id=\"toc-hId--663924580\">Legacy products notice</H4><UL><LI>When configured for this version, Z1 devices will run MX 14.56.</LI><LI>When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.</LI></UL><H4 id=\"toc-hId--2103360763\" id=\"toc-hId-1823588253\">Executive summary</H4><UL><LI>This is a small hotfix release for MX 19.1.8 that addresses a possible device reboot when content filtering is in use.</LI><LI>Customers already running on MX 19.1.8 without using content filtering can skip this release. There are no other changes present.</LI></UL><H4 id=\"toc-hId--360550428\" id=\"toc-hId-16133790\">Bug fixes - general fixes</H4><UL><LI>Resolved an issue that could result in an unexpected device reboot when content filtering was enabled and MX appliances lost connectivity to the TALOS URL service.</LI></UL><H4 id=\"toc-hId-1382259907\" id=\"toc-hId--1791320673\">Known issues status</H4><UL><LI>This list is being reviewed and updated.</LI></UL><H4 id=\"toc-hId--1169897054\" id=\"toc-hId-696192160\">Known issues</H4><UL><LI>During the upgrade process, MX appliances upgrading from version prior to MX 19 may experience a failure to properly classify traffic. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36307)</LI><LI>Due to an issue under investigation, MX appliances may incorrectly route traffic destined to subnets learned through eBGP over a Non-Meraki VPN connection. (MX-34803)</LI><LI>Due to an issue under investigation, making certain configuration changes to WAN interfaces (such as disabling or enabling an interface) can cause the IDPS process to fail. This issue may also cause high device utilization. The issue can be worked around by rebooting the MX appliance or disabling and then re-enabling IDPS. (MX-34504)</LI><LI>When failover is configured between non-Meraki VPN tunnels, the Route Table page on Dashboard may incorrectly show the route for the primary VPN tunnel is inactive. (MX-36316)</LI><LI>During the upgrade process, MX appliances upgrading from versions prior to MX 19 will experience a failure to connect to non-Meraki VPN peers if any VPN peer names contain a space. This issue will be resolved once the appliance has completed the upgrade to MX 19. (MX-36312)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:51Z"
+}

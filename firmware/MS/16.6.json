@@ -1,0 +1,78 @@
+{
+  "family": "MS",
+  "version": "16.6",
+  "title": "Switch firmware versions MS 16.6 changelog",
+  "announcements": [
+    {
+      "post_id": "5512484",
+      "releaseType": "candidate",
+      "announced": "2023-10-05T11:47:04.717-07:00",
+      "post_subject": "A new candidate switch firmware is now available on Thu, 05 Oct 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-switch-firmware-is-now-available-on-thu-05-oct/ba-p/5512484"
+    }
+  ],
+  "changelog_comment_id": "5512485",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-10-06T04:59:01.825-07:00",
+  "sections": {
+    "MS12X ALERTS": [
+      "If DAI is enabled prior to upgrading the network to MS 16, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages."
+    ],
+    "MS420 ALERTS": [
+      "Devices configured for this version will run MS 15.22"
+    ],
+    "GENERAL FEATURES": [
+      "ACL hit counter",
+      "DHCPv6 and IPv6 RA guard",
+      "Local Status Page Packet Capture"
+    ],
+    "MS12X FEATURES": [
+      "DAI support"
+    ],
+    "NEW FEATURES": [
+      "MS Classic Packet Ingress Pipeline Enhancement"
+    ],
+    "GENERAL FIXES": [
+      "Single host mode clients may fail to be moved to the critical VLAN when the RADIUS server is unreachable",
+      "Stacks with a large number of LACP bundles (10+) may see ports failing to come up after a member reboot (present since MS 16)"
+    ],
+    "GENERAL KNOWN ISSUES": [
+      "Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)",
+      "Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)"
+    ],
+    "MS120 KNOWN ISSUES": [
+      "Factory resetting a device can lead to the local status page being unavailable from the LAN port (present since MS 15)",
+      "Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)",
+      "Switches may fail to provide PoE power to legacy access points (always present)"
+    ],
+    "MS125 KNOWN ISSUES": [
+      "The local status page cannot be accessed from the management port (always present)"
+    ],
+    "MS12X KNOWN ISSUES": [
+      "Ports with an odd-numbered MTU value fail to initialize (predates MS 11)"
+    ],
+    "MS210 KNOWN ISSUES": [
+      "Stack ports have an orange LED instead of green (present since MS 11)"
+    ],
+    "MS2XX/35X/4XX KNOWN ISSUES": [
+      "Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log"
+    ],
+    "MS355 KNOWN ISSUES": [
+      "In rare instances, stack ports fail to initialize after an upgrade (always present)"
+    ],
+    "MS355/450 KNOWN ISSUES": [
+      "QSFP ports without modules inserted at system boot will fail to initialize and come up until a module is inserted and the system is rebooted (present since MS 16)"
+    ],
+    "MS35X KNOWN ISSUES": [
+      "UPoE does not negotiate over LLDP correctly (always present)",
+      "mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G."
+    ],
+    "MS4XX KNOWN ISSUES": [
+      "When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)"
+    ]
+  },
+  "text": "Switch firmware versions MS 16.6 changelog\nMS12X ALERTS\nIf DAI is enabled prior to upgrading the network to MS 16, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages.\nMS420 ALERTS\nDevices configured for this version will run MS 15.22\nGENERAL FEATURES\nACL hit counter\nDHCPv6 and IPv6 RA guard\nLocal Status Page Packet Capture\nMS12X FEATURES\nDAI support\nNEW FEATURES\nMS Classic Packet Ingress Pipeline Enhancement\nGENERAL FIXES\nSingle host mode clients may fail to be moved to the critical VLAN when the RADIUS server is unreachable\nStacks with a large number of LACP bundles (10+) may see ports failing to come up after a member reboot (present since MS 16)\nGENERAL KNOWN ISSUES\nConnecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)\nSwitches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)\nMS120 KNOWN ISSUES\nFactory resetting a device can lead to the local status page being unavailable from the LAN port (present since MS 15)\nSwitches in extremely rare instances will experience reboots every few minutes (present since MS 11)\nSwitches may fail to provide PoE power to legacy access points (always present)\nMS125 KNOWN ISSUES\nThe local status page cannot be accessed from the management port (always present)\nMS12X KNOWN ISSUES\nPorts with an odd-numbered MTU value fail to initialize (predates MS 11)\nMS210 KNOWN ISSUES\nStack ports have an orange LED instead of green (present since MS 11)\nMS2XX/35X/4XX KNOWN ISSUES\nSwitch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log\nMS355 KNOWN ISSUES\nIn rare instances, stack ports fail to initialize after an upgrade (always present)\nMS355/450 KNOWN ISSUES\nQSFP ports without modules inserted at system boot will fail to initialize and come up until a module is inserted and the system is rebooted (present since MS 16)\nMS35X KNOWN ISSUES\nUPoE does not negotiate over LLDP correctly (always present)\nmGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.\nMS4XX KNOWN ISSUES\nWhen an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1842025094\" id=\"toc-hId--248963793\">Switch firmware versions MS 16.6 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1299672382\" id=\"toc-hId-1142662259\">MS12X ALERTS</H4><UL><LI>If DAI is enabled prior to upgrading the network to MS 16, ensure that trusted ports and/or DAI-allow lists are configured prior to upgrading to avoid potential network outages.</LI></UL><H4 id=\"toc-hId-443137953\" id=\"toc-hId--664792204\">MS420 ALERTS</H4><UL><LI>Devices configured for this version will run MS 15.22</LI></UL><H4 id=\"toc-hId--2109019008\" id=\"toc-hId-1822720629\">GENERAL FEATURES</H4><UL><LI>ACL hit counter</LI><LI>DHCPv6 and IPv6 RA guard</LI><LI>Local Status Page Packet Capture</LI></UL><H4 id=\"toc-hId--366208673\" id=\"toc-hId-15266166\">MS12X FEATURES</H4><UL><LI>DAI support</LI></UL><H4 id=\"toc-hId-1376601662\" id=\"toc-hId--1792188297\">NEW FEATURES</H4><UL><LI>MS Classic Packet Ingress Pipeline Enhancement</LI></UL><H4 id=\"toc-hId--1175555299\" id=\"toc-hId-695324536\"><FONT color=\"#00FF00\">GENERAL FIXES</FONT></H4><UL><LI><FONT color=\"#00FF00\">Single host mode clients may fail to be moved to the critical VLAN when the RADIUS server is unreachable</FONT></LI><LI><FONT color=\"#00FF00\">Stacks with a large number of LACP bundles (10+) may see ports failing to come up after a member reboot (present since MS 16)</FONT></LI></UL><H4 id=\"toc-hId-567255036\" id=\"toc-hId--1112129927\">GENERAL KNOWN ISSUES</H4><UL><LI>Connecting a stacking cable to a stack that is online may result in a stack member going offline (present since MS 12)</LI><LI>Switches move LACP ports to an active forwarding state if configured. This can cause loops when connecting to an MS390 or other Catalyst switches unless the bundles are configured on the MS390/Catalyst switches first. All non-catalyst ports are configured in passive LACP mode so that loops do not occur between Meraki switches (always present)</LI></UL><H4 id=\"toc-hId--1984901925\" id=\"toc-hId-1375382906\">MS120 KNOWN ISSUES</H4><UL><LI>Factory resetting a device can lead to the local status page being unavailable from the LAN port (present since MS 15)</LI><LI>Switches in extremely rare instances will experience reboots every few minutes (present since MS 11)</LI><LI>Switches may fail to provide PoE power to legacy access points (always present)</LI></UL><H4 id=\"toc-hId--242091590\" id=\"toc-hId--432071557\">MS125 KNOWN ISSUES</H4><UL><LI>The local status page cannot be accessed from the management port (always present)</LI></UL><H4 id=\"toc-hId--814880398\" id=\"toc-hId--1008655421\">MS12X KNOWN ISSUES</H4><UL><LI>Ports with an odd-numbered MTU value fail to initialize (predates MS 11)</LI></UL><H4 id=\"toc-hId-927929937\" id=\"toc-hId-1478857412\">MS210 KNOWN ISSUES</H4><UL><LI>Stack ports have an orange LED instead of green (present since MS 11)</LI></UL><H4 id=\"toc-hId--1624227024\" id=\"toc-hId--328597051\">MS2XX/35X/4XX KNOWN ISSUES</H4><UL><LI>Switch stacks will learn MAC addresses from ports in the STP blocking state which can trigger a constant flood of MAC flaps in the event log</LI></UL><H4 id=\"toc-hId-118583311\" id=\"toc-hId--2136051514\">MS355 KNOWN ISSUES</H4><UL><LI>In rare instances, stack ports fail to initialize after an upgrade (always present)</LI></UL><H4 id=\"toc-hId-1861393646\" id=\"toc-hId-351461319\">MS355/450 KNOWN ISSUES</H4><UL><LI>QSFP ports without modules inserted at system boot will fail to initialize and come up until a module is inserted and the system is rebooted (present since MS 16)</LI></UL><H4 id=\"toc-hId--690763315\" id=\"toc-hId--1455993144\">MS35X KNOWN ISSUES</H4><UL><LI>UPoE does not negotiate over LLDP correctly (always present)</LI><LI>mGig switches will have an amber light for all physical ports that do not negotiate to the highest supported speed. Dashboard will continue showing a light green status for all ports above 100Mbps. For example, MS355 switch ports will incorrectly show an amber light for 1G, 2.5G, and 5G, but will show a green light for 10G.</LI></UL><H4 id=\"toc-hId-1052047020\" id=\"toc-hId-1031519689\">MS4XX KNOWN ISSUES</H4><UL><LI>When an SFP module is inserted/removed, BPDUs can be delayed leading to STP transitions in the network (predates MS 12)</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:32Z"
+}

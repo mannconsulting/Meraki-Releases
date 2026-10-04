@@ -1,0 +1,41 @@
+{
+  "family": "MG",
+  "version": "3.0",
+  "title": "Cellular gateway firmware versions MG 3.0 changelog",
+  "announcements": [
+    {
+      "post_id": "5508785",
+      "releaseType": "beta",
+      "announced": "2023-03-13T13:47:07.323-07:00",
+      "post_subject": "A new beta cellularGateway firmware is now available on Mon, 13 Mar 2023",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-cellulargateway-firmware-is-now-available-on-mon-13/ba-p/5508785"
+    }
+  ],
+  "changelog_comment_id": "5508786",
+  "changelog_author": "CMR",
+  "changelog_posted": "2023-03-13T13:50:36.773-07:00",
+  "sections": {
+    "Important notice": [
+      "While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MG 3.0 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them."
+    ],
+    "New product highlights": [
+      "MG51 support"
+    ],
+    "New feature highlights": [
+      "IPv6 support for MG21/41/51",
+      "IP Passthrough support for MG41/51"
+    ],
+    "Bug fixes": [
+      "Improved NAT mode throughput for MG41",
+      "Improved cellular modem management and SIM detection",
+      "Corrected issue where some MGs may show the wrong connection type"
+    ],
+    "Known issues": [
+      "There is an increased risk of encountering device stability and performance issues on all platforms and across all configurations for firmware set as beta"
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 3.0 changelog\nImportant notice\nWhile Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MG 3.0 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help > Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.\nNew product highlights\nMG51 support\nNew feature highlights\nIPv6 support for MG21/41/51\nIP Passthrough support for MG41/51\nBug fixes\nImproved NAT mode throughput for MG41\nImproved cellular modem management and SIM detection\nCorrected issue where some MGs may show the wrong connection type\nKnown issues\nThere is an increased risk of encountering device stability and performance issues on all platforms and across all configurations for firmware set as beta",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1820069098\" id=\"toc-hId--249705684\">Cellular gateway firmware versions MG 3.0 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1321628378\" id=\"toc-hId-1141920368\">Important notice</H4><UL><LI>While Meraki appliances have traditionally relied on UDP port 7351 for cloud communication and TCP ports 80 and 443 for backup communications, with MG 3.0 we are beginning a transition to using TCP port 443 as the primary means for cloud connectivity. In order to ensure proper connectivity to the Meraki cloud after this upgrade, please ensure that all “Meraki cloud communication” traffic specified in the Help &gt; Firewall Info page is allowed through any firewalls or security filtering devices that may be deployed upstream of your Meraki appliances. These requirements have been updated on Nov 2022, so it’s important that you review them.</LI></UL><H4 id=\"toc-hId-421181957\" id=\"toc-hId--665534095\">New product highlights</H4><UL><LI>MG51 support</LI></UL><H4 id=\"toc-hId--2130975004\" id=\"toc-hId-1821978738\">New feature highlights</H4><UL><LI>IPv6 support for MG21/41/51</LI><LI>IP Passthrough support for MG41/51</LI></UL><H4 id=\"toc-hId--388164669\" id=\"toc-hId-14524275\">Bug fixes</H4><UL><LI>Improved NAT mode throughput for MG41</LI><LI>Improved cellular modem management and SIM detection</LI><LI>Corrected issue where some MGs may show the wrong connection type</LI></UL><H4 id=\"toc-hId-1354645666\" id=\"toc-hId--1792930188\">Known issues</H4><UL><LI>There is an increased risk of encountering device stability and performance issues on all platforms and across all configurations for firmware set as beta</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:11:47Z"
+}

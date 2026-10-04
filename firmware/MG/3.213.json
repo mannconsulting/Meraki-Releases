@@ -1,0 +1,45 @@
+{
+  "family": "MG",
+  "version": "3.213",
+  "title": "Cellular gateway firmware versions MG 3.213 changelog",
+  "announcements": [
+    {
+      "post_id": "5520041",
+      "releaseType": "candidate",
+      "announced": "2025-04-22T16:47:04.099-07:00",
+      "post_subject": "A new candidate cellularGateway firmware is now available on Tue, 22 Apr 2025",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-candidate-cellulargateway-firmware-is-now-available-on-tue/ba-p/5520041"
+    }
+  ],
+  "changelog_comment_id": "5520042",
+  "changelog_author": "CMR",
+  "changelog_posted": "2025-04-23T00:26:06.718-07:00",
+  "sections": {
+    "Important notices": [
+      "Applying this firmware will upgrade the firmware of the Modems on MG51 and MG52. This upgrade begins automatically after the MG has finished upgrading to MG 3.213. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance."
+    ],
+    "New feature highlights": [
+      "{MG52} Enabled n48 bands for SA Mode"
+    ],
+    "Supported products notice": [
+      "{MG52} Modem firmware support for Telstra"
+    ],
+    "Bug fixes": [
+      "Fixed issue on MG52 where IMS is turned off for Verizon",
+      "MG-4700/MG-3059: Fixed an issue where MG41 would experience high CPU usage and packet loss until rebooted",
+      "MG-4692: Shortened the time the AutoAPN feature needs to cycle through APNs"
+    ]
+  },
+  "text": "Cellular gateway firmware versions MG 3.213 changelog\nImportant notices\nApplying this firmware will upgrade the firmware of the Modems on MG51 and MG52. This upgrade begins automatically after the MG has finished upgrading to MG 3.213. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.\nNew feature highlights\n{MG52} Enabled n48 bands for SA Mode\nSupported products notice\n{MG52} Modem firmware support for Telstra\nBug fixes\nFixed issue on MG52 where IMS is turned off for Verizon\nMG-4700/MG-3059: Fixed an issue where MG41 would experience high CPU usage and packet loss until rebooted\nMG-4692: Shortened the time the AutoAPN feature needs to cycle through APNs",
+  "html": "<DIV class=\"\"><H1 id=\"toc-hId-1847559581\" id=\"toc-hId--248103825\">Cellular gateway firmware versions MG 3.213 changelog</H1></DIV><DIV class=\"\"><DIV class=\"\"><DIV class=\"\"><H4 id=\"toc-hId--1294137895\" id=\"toc-hId-1143522227\">Important notices</H4><UL><LI>Applying this firmware will upgrade the firmware of the Modems on MG51 and MG52. This upgrade begins automatically after the MG has finished upgrading to MG 3.213. This upgrade will require 250 MB of data and up to 20 minutes (depending on bandwidth) to complete if uninterrupted. Please contact Meraki Support if you have any additional questions or require assistance.</LI></UL><H4 id=\"toc-hId-448672440\" id=\"toc-hId--663932236\">New feature highlights</H4><UL><LI>{MG52} Enabled n48 bands for SA Mode</LI></UL><H4 id=\"toc-hId--2103484521\" id=\"toc-hId-1823580597\">Supported products notice</H4><UL><LI>{MG52} Modem firmware support for Telstra</LI></UL><H4 id=\"toc-hId--360674186\" id=\"toc-hId-16126134\">Bug fixes</H4><UL><LI>Fixed issue on MG52 where IMS is turned off for Verizon</LI><LI>MG-4700/MG-3059: Fixed an issue where MG41 would experience high CPU usage and packet loss until rebooted</LI><LI>MG-4692: Shortened the time the AutoAPN feature needs to cycle through APNs</LI></UL></DIV></DIV></DIV>",
+  "other_comments": [
+    {
+      "id": "5520043",
+      "author": "CMR",
+      "posted": "2025-04-23T00:26:43.931-07:00",
+      "text": "This has actually been out for a little while as I upgraded to it 2 weeks ago.",
+      "html": "<P>This has actually been out for a little while as I upgraded to it 2 weeks ago.</P>"
+    }
+  ],
+  "fetched": "2026-10-04T19:10:55Z"
+}

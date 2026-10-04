@@ -1,0 +1,42 @@
+{
+  "family": "MX",
+  "version": "26.2.1",
+  "title": "Security appliances software versions MX 26.2.1 changelog",
+  "announcements": [
+    {
+      "post_id": "5560099",
+      "releaseType": "beta",
+      "announced": "2026-06-22T22:00:05.627-07:00",
+      "post_subject": "A new Beta MX Security & SD-WAN firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mx-security-amp-sd-wan-firmware-is-now-available/ba-p/5560099"
+    }
+  ],
+  "changelog_comment_id": "5563706",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-07-12T11:25:54.336-07:00",
+  "sections": {
+    "Executive summary": [
+      "This is the first beta release for MX 26.2.",
+      "This release further expands security capabilities to provide deeper inspection and control than ever before with new Adaptive Policy enforcement support, TLS inspection, and greatly expanded organization-wide group policy functionality.",
+      "Additionally, MX 26.2 brings exiting new BGP and VRF configuration options, alongside IP-in-IP and DS-Lite support. and improved support for IPv6-only connectivity. Together, this provides many new ways to configure and deploy MX appliances.",
+      "Please see the full details below."
+    ],
+    "What's new": [
+      "Adaptive Policy & Security: New capabilities include IP-to-SGT mapping, SGACL support, and TLS and HTTPS inspection with IPS support.",
+      "Expanded Firewall Capabilities: Comprehensive Organization-wide Group Policy support, including mixed L3/L7 rule criteria, IPv4/IPv6 matching, reusable rulesets, and VLAN-based policy rules with per-rule logging.",
+      "Advanced Routing & BGP: Expanded IPv6-only networking support, enhanced VRF support for eBGP and AutoVPN, and new controls for BGP outbound filtering, and route preference.",
+      "Enhanced WAN & Connectivity: Added support for IP-in-IP and DS-Lite support for service-provider use cases."
+    ],
+    "Legacy products notice": [
+      "When configured for this version, Z3(C) devices will run MX 19.2.7.",
+      "When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13."
+    ],
+    "Other": [
+      "The product complies with EN 18031-1:2024 and EN 18031-2: 2024"
+    ]
+  },
+  "text": "Security appliances software versions MX 26.2.1 changelog\nExecutive summary\nThis is the first beta release for MX 26.2.\nThis release further expands security capabilities to provide deeper inspection and control than ever before with new Adaptive Policy enforcement support, TLS inspection, and greatly expanded organization-wide group policy functionality.\nAdditionally, MX 26.2 brings exiting new BGP and VRF configuration options, alongside IP-in-IP and DS-Lite support. and improved support for IPv6-only connectivity. Together, this provides many new ways to configure and deploy MX appliances.\nPlease see the full details below.\nWhat's new\nAdaptive Policy & Security: New capabilities include IP-to-SGT mapping, SGACL support, and TLS and HTTPS inspection with IPS support.\nExpanded Firewall Capabilities: Comprehensive Organization-wide Group Policy support, including mixed L3/L7 rule criteria, IPv4/IPv6 matching, reusable rulesets, and VLAN-based policy rules with per-rule logging.\nAdvanced Routing & BGP: Expanded IPv6-only networking support, enhanced VRF support for eBGP and AutoVPN, and new controls for BGP outbound filtering, and route preference.\nEnhanced WAN & Connectivity: Added support for IP-in-IP and DS-Lite support for service-provider use cases.\nLegacy products notice\nWhen configured for this version, Z3(C) devices will run MX 19.2.7.\nWhen configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.\nOther\nThe product complies with EN 18031-1:2024 and EN 18031-2: 2024",
+  "html": "<H3 id=\"toc-hId-456750817\">Security appliances<SPAN>&nbsp;</SPAN>software versions<SPAN>&nbsp;</SPAN>MX 26.2.1<SPAN>&nbsp;</SPAN>changelog</H3><DIV class=\"\"><H4 id=\"toc-hId-1147312291\">Executive summary</H4><UL><LI><P class=\"\">This is the first beta release for MX 26.2.</P></LI><LI><P class=\"\">This release further expands security capabilities to provide deeper inspection and control than ever before with new Adaptive Policy enforcement support, TLS inspection, and greatly expanded organization-wide group policy functionality.</P></LI><LI><P class=\"\">Additionally, MX 26.2 brings exiting new BGP and VRF configuration options, alongside IP-in-IP and DS-Lite support. and improved support for IPv6-only connectivity. Together, this provides many new ways to configure and deploy MX appliances.</P></LI><LI><P class=\"\">Please see the full details below.</P></LI></UL><H4 id=\"toc-hId--660142172\">What's new</H4><UL><LI><P class=\"\">Adaptive Policy &amp; Security: New capabilities include IP-to-SGT mapping, SGACL support, and TLS and HTTPS inspection with IPS support.</P></LI><LI><P class=\"\">Expanded Firewall Capabilities: Comprehensive Organization-wide Group Policy support, including mixed L3/L7 rule criteria, IPv4/IPv6 matching, reusable rulesets, and VLAN-based policy rules with per-rule logging.</P></LI><LI><P class=\"\">Advanced Routing &amp; BGP: Expanded IPv6-only networking support, enhanced VRF support for eBGP and AutoVPN, and new controls for BGP outbound filtering, and route preference.</P></LI><LI><P class=\"\">Enhanced WAN &amp; Connectivity: Added support for IP-in-IP and DS-Lite support for service-provider use cases.</P></LI></UL><H4 id=\"toc-hId-1827370661\">Legacy products notice</H4><UL><LI><P class=\"\">When configured for this version, Z3(C) devices will run MX 19.2.7.</P></LI><LI><P class=\"\">When configured for this version, MX64(W), MX65(W), MX84, MX100, and vMX100 devices will run MX 18.107.13.</P></LI></UL><H4 id=\"toc-hId-19916198\">Other</H4><UL><LI><P class=\"\">The product complies with EN 18031-1:2024 and EN 18031-2: 2024</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-04T19:10:28Z"
+}
