@@ -1,0 +1,56 @@
+name: Update Meraki changelogs
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Walk the whole board (--all) instead of recent posts"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - fetch_meraki_changelogs.py
+      - .github/workflows/update-changelogs.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-changelogs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch changelogs
+        run: |
+          # First run on an empty cache, or a manual full run, walks the whole board.
+          if [ ! -f firmware/index.json ] || [ "${{ inputs.full }}" = "true" ]; then
+            python3 fetch_meraki_changelogs.py --all
+          else
+            python3 fetch_meraki_changelogs.py
+          fi
+          python3 fetch_meraki_changelogs.py --reparse
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add firmware
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          n=$(git diff --cached --name-only | grep -c '/[A-Z]*/.*\.json$' || true)
+          git commit -m "Update firmware changelogs ($n version files changed)"
+          git push
