@@ -3792,5 +3792,18 @@
       "Known issues",
       "Other"
     ]
+  },
+  "MX/26.2.4": {
+    "family": "MX",
+    "version": "26.2.4",
+    "file": "MX/26.2.4.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-10-05T12:00:05.335-07:00",
+    "last_announced": "2026-10-05T12:00:05.335-07:00",
+    "sections": [
+      "preamble"
+    ]
   }
 }
