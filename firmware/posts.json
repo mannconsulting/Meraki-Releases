@@ -2389,13 +2389,10 @@
     "releaseType": "Generally Available"
   },
   "5581067": {
-    "status": "pending",
+    "status": "captured",
+    "key": "MS/18.1.8.2",
     "subject": "A new Recommended Release MS Switch firmware is now available",
     "post_time": "2026-10-08T16:00:05.149-07:00",
-    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-ms-switch-firmware-is-now-available/ba-p/5581067",
-    "releaseType": "Recommended Release",
-    "family_guess": "MS",
-    "comments_seen": 0,
-    "checked": "2026-10-09"
+    "releaseType": "Recommended Release"
   }
 }

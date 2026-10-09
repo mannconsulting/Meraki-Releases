@@ -2304,6 +2304,28 @@
       "Ms425 known issues"
     ]
   },
+  "MS/18.1.8.2": {
+    "family": "MS",
+    "version": "18.1.8.2",
+    "file": "MS/18.1.8.2.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-10-08T16:00:05.149-07:00",
+    "last_announced": "2026-10-08T16:00:05.149-07:00",
+    "sections": [
+      "Important alerts",
+      "New feature highlights",
+      "General fixed issues",
+      "General known issues",
+      "Ms120 known issues",
+      "Ms130 known issues",
+      "Ms150 known issues",
+      "Ms350x known issues",
+      "Ms355 known issues",
+      "Ms425 known issues"
+    ]
+  },
   "MT/1.6": {
     "family": "MT",
     "version": "1.6",
