@@ -2396,13 +2396,10 @@
     "releaseType": "Recommended Release"
   },
   "5581893": {
-    "status": "pending",
+    "status": "captured",
+    "key": "MR/32.2.5",
     "subject": "A new Generally Available MR Wireless firmware is now available",
     "post_time": "2026-10-13T15:00:04.620-07:00",
-    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mr-wireless-firmware-is-now-available/ba-p/5581893",
-    "releaseType": "Generally Available",
-    "family_guess": "MR",
-    "comments_seen": 0,
-    "checked": "2026-10-14"
+    "releaseType": "Generally Available"
   }
 }

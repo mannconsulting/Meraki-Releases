@@ -1308,6 +1308,23 @@
       "Known issues"
     ]
   },
+  "MR/32.2.5": {
+    "family": "MR",
+    "version": "32.2.5",
+    "file": "MR/32.2.5.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-10-13T15:00:04.620-07:00",
+    "last_announced": "2026-10-13T15:00:04.620-07:00",
+    "sections": [
+      "MR 32.2.5 Release Notes",
+      "Security fixes",
+      "Release summary",
+      "Fixed issues",
+      "Known issues"
+    ]
+  },
   "MR/33.1.1": {
     "family": "MR",
     "version": "33.1.1",
