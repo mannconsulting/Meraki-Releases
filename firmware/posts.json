@@ -2403,13 +2403,10 @@
     "releaseType": "Generally Available"
   },
   "5582131": {
-    "status": "pending",
+    "status": "captured",
+    "key": "MS/18.1.9",
     "subject": "A new Generally Available MS Switch firmware is now available",
     "post_time": "2026-10-14T16:00:05.102-07:00",
-    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-ms-switch-firmware-is-now-available/ba-p/5582131",
-    "releaseType": "Generally Available",
-    "family_guess": "MS",
-    "comments_seen": 0,
-    "checked": "2026-10-15"
+    "releaseType": "Generally Available"
   }
 }

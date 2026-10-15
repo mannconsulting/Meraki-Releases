@@ -1,0 +1,65 @@
+{
+  "family": "MS",
+  "version": "18.1.9",
+  "title": "Switches - MS software versions MS 18.1.9 changelog",
+  "announcements": [
+    {
+      "post_id": "5582131",
+      "releaseType": "Generally Available",
+      "announced": "2026-10-14T16:00:05.102-07:00",
+      "post_subject": "A new Generally Available MS Switch firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-ms-switch-firmware-is-now-available/ba-p/5582131"
+    }
+  ],
+  "changelog_comment_id": "5582171",
+  "changelog_author": "CMR",
+  "changelog_posted": "2026-10-15T00:33:50.451-07:00",
+  "sections": {
+    "Important alerts": [
+      "As part of Cisco's ongoing commitment to proactive security and product quality, the MS engineering team has conducted a comprehensive internal security review. This review resulted in one or more software hardening release(s) that address(e)s multiple internally discovered vulnerabilities.",
+      "MS-45667: MS130-24(P) switches will reboot twice during the upgrade process when transitioning to MS 18.1.8 (or later) from MS 18.1.7 or earlier. This behavior is expected, and is not indicative of a problem."
+    ],
+    "New feature highlights": [
+      "MS-21883: Group Policy ACL on MS130 & MS150",
+      "MS-21889: Maximum MAC support in MAC Allowlists",
+      "MS-21885: 802.1x limited access mode with pre-auth GPACL",
+      "MS-28340: Local Status Page connectivity diagnostics enhancements",
+      "MS-23684: Layer 2 multicast live tool",
+      "MS-24285: Traffic Mirroring: RSPAN & VLAN Based SPAN"
+    ],
+    "General fixed issues": [
+      "MS-48884: Resolved an issue that sometimes caused MS150 switches in stacks with configured STP priority values to incorrectly adopt the default STP priority during active switch changeovers",
+      "MS-41954: Improved remediation of an issue that caused some MS130 and MS150 switches in stacked configurations to unexpectedly reboot"
+    ],
+    "Ms150 fixed issues": [
+      "MS-44491: Fixed a bug that sometimes caused mgig switch ports to fail to initialize after being re-enabled by a configured port schedule"
+    ],
+    "Ms225 and ms250 fixed issues": [
+      "MS-43826: Resolved an issue that caused some switches in stacked configurations to incorrectly drop IGMP join packets, which resulted in delays for clients attempting connect with multicast applications",
+      "MS-38887: Fixed a bug that sometimes caused switches in stacked configurations to incorrectly retake the active stack role from another active stack member after being rebooted"
+    ],
+    "General known issues": [
+      "MS-36608: MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures"
+    ],
+    "Ms120 known issues": [
+      "MS-2938: Switches may fail to provide PoE power to legacy access points (always present)",
+      "MS-2728: Cable tests may report incorrect cable lengths"
+    ],
+    "Ms130 known issues": [
+      "MS-38070: MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally"
+    ],
+    "Ms150 known issues": [
+      "MS-38370: MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue."
+    ],
+    "Ms350x known issues": [
+      "HWMS-375: Switches may experience an unexpected reboot (present since MS 15)"
+    ],
+    "Ms355 known issues": [
+      "HWMS-378: Switches in stacked configurations may experience some ports failing to reconnect after a firmware upgrade."
+    ]
+  },
+  "text": "Switches - MS software versions MS 18.1.9 changelog\nImportant alerts\nAs part of Cisco's ongoing commitment to proactive security and product quality, the MS engineering team has conducted a comprehensive internal security review. This review resulted in one or more software hardening release(s) that address(e)s multiple internally discovered vulnerabilities.\nMS-45667: MS130-24(P) switches will reboot twice during the upgrade process when transitioning to MS 18.1.8 (or later) from MS 18.1.7 or earlier. This behavior is expected, and is not indicative of a problem.\nNew feature highlights\nMS-21883: Group Policy ACL on MS130 & MS150\nMS-21889: Maximum MAC support in MAC Allowlists\nMS-21885: 802.1x limited access mode with pre-auth GPACL\nMS-28340: Local Status Page connectivity diagnostics enhancements\nMS-23684: Layer 2 multicast live tool\nMS-24285: Traffic Mirroring: RSPAN & VLAN Based SPAN\nFixed issues\nGeneral fixed issues\nMS-48884: Resolved an issue that sometimes caused MS150 switches in stacks with configured STP priority values to incorrectly adopt the default STP priority during active switch changeovers\nMS-41954: Improved remediation of an issue that caused some MS130 and MS150 switches in stacked configurations to unexpectedly reboot\nMs150 fixed issues\nMS-44491: Fixed a bug that sometimes caused mgig switch ports to fail to initialize after being re-enabled by a configured port schedule\nMs225 and ms250 fixed issues\nMS-43826: Resolved an issue that caused some switches in stacked configurations to incorrectly drop IGMP join packets, which resulted in delays for clients attempting connect with multicast applications\nMS-38887: Fixed a bug that sometimes caused switches in stacked configurations to incorrectly retake the active stack role from another active stack member after being rebooted\nKnown issues\nGeneral known issues\nMS-36608: MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures\nMs120 known issues\nMS-2938: Switches may fail to provide PoE power to legacy access points (always present)\nMS-2728: Cable tests may report incorrect cable lengths\nMs130 known issues\nMS-38070: MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally\nMs150 known issues\nMS-38370: MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.\nMs350x known issues\nHWMS-375: Switches may experience an unexpected reboot (present since MS 15)\nMs355 known issues\nHWMS-378: Switches in stacked configurations may experience some ports failing to reconnect after a firmware upgrade.",
+  "html": "<H3 id=\"toc-hId-458562514\">Switches - MS software versions MS 18.1.9 changelog</H3><DIV class=\"\"><H4 id=\"toc-hId-1149123988\">Important alerts</H4><UL><LI><P class=\"\">As part of Cisco's ongoing commitment to proactive security and product quality, the MS engineering team has conducted a comprehensive internal security review. This review resulted in one or more software hardening release(s) that address(e)s multiple internally discovered vulnerabilities.</P></LI><LI><P class=\"\">MS-45667: MS130-24(P) switches will reboot twice during the upgrade process when transitioning to MS 18.1.8 (or later) from MS 18.1.7 or earlier. This behavior is expected, and is not indicative of a problem.</P></LI></UL><H4 id=\"toc-hId--658330475\">New feature highlights</H4><UL><LI><P class=\"\">MS-21883: Group Policy ACL on MS130 &amp; MS150</P></LI><LI><P class=\"\">MS-21889: Maximum MAC support in MAC Allowlists</P></LI><LI><P class=\"\">MS-21885: 802.1x limited access mode with pre-auth GPACL</P></LI><LI><P class=\"\">MS-28340: Local Status Page connectivity diagnostics enhancements</P></LI><LI><P class=\"\">MS-23684: Layer 2 multicast live tool</P></LI><LI><P class=\"\">MS-24285: Traffic Mirroring: RSPAN &amp; VLAN Based SPAN</P></LI></UL><H4 id=\"toc-hId-1829182358\">Fixed issues</H4><UL><LI><P class=\"\">&nbsp;</P></LI></UL><H4 id=\"toc-hId-21727895\">General fixed issues</H4><UL><LI><P class=\"\">MS-48884: Resolved an issue that sometimes caused MS150 switches in stacks with configured STP priority values to incorrectly adopt the default STP priority during active switch changeovers</P></LI><LI><P class=\"\">MS-41954: Improved remediation of an issue that caused some MS130 and MS150 switches in stacked configurations to unexpectedly reboot</P></LI></UL><H4 id=\"toc-hId--1785726568\">Ms150 fixed issues</H4><UL><LI><P class=\"\">MS-44491: Fixed a bug that sometimes caused mgig switch ports to fail to initialize after being re-enabled by a configured port schedule</P></LI></UL><H4 id=\"toc-hId-701786265\">Ms225 and ms250 fixed issues</H4><UL><LI><P class=\"\">MS-43826: Resolved an issue that caused some switches in stacked configurations to incorrectly drop IGMP join packets, which resulted in delays for clients attempting connect with multicast applications</P></LI><LI><P class=\"\">MS-38887: Fixed a bug that sometimes caused switches in stacked configurations to incorrectly retake the active stack role from another active stack member after being rebooted</P></LI></UL><H4 id=\"toc-hId--1105668198\">Known issues</H4><UL><LI><P class=\"\">&nbsp;</P></LI></UL><H4 id=\"toc-hId-1381844635\">General known issues</H4><UL><LI><P class=\"\">MS-36608: MS130 and MS150 switches may not properly display IPv6 RA packets in dashboard packet captures</P></LI></UL><H4 id=\"toc-hId--425609828\">Ms120 known issues</H4><UL><LI><P class=\"\">MS-2938: Switches may fail to provide PoE power to legacy access points (always present)</P></LI><LI><P class=\"\">MS-2728: Cable tests may report incorrect cable lengths</P></LI></UL><H4 id=\"toc-hId--1002193692\">Ms130 known issues</H4><UL><LI><P class=\"\">MS-38070: MS130X mGig ports may fail to establish a link when both sides are forced to 100 Mbps full-duplex. If either side of the connection uses auto-negotiation the link will be established normally</P></LI></UL><H4 id=\"toc-hId-1485319141\">Ms150 known issues</H4><UL><LI><P class=\"\">MS-38370: MS150 switches may intermittently negotiate USB-C Ethernet adapters at 10 Mbps half-duplex instead of the expected speed for the switchport, requiring a physical reseat to correct the issue.</P></LI></UL><H4 id=\"toc-hId--322135322\">Ms350x known issues</H4><UL><LI><P class=\"\">HWMS-375: Switches may experience an unexpected reboot (present since MS 15)</P></LI></UL><H4 id=\"toc-hId--2129589785\">Ms355 known issues</H4><UL><LI><P class=\"\">HWMS-378: Switches in stacked configurations may experience some ports failing to reconnect after a firmware upgrade.</P></LI></UL></DIV>",
+  "other_comments": [],
+  "fetched": "2026-10-15T12:40:40Z"
+}
