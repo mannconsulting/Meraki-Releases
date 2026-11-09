@@ -7,9 +7,26 @@ reach it. A subscription to the "Meraki Firmware Upgrades Feed" board delivers t
 by email: one email per announcement ("posted a new article") and one per comment ("posted a
 new comment"), and the comment email carries the changelog HTML with its headings intact.
 
-Input: JSON envelopes under --inbox (default ./inbox), written by the Gmail Apps Script
-(apps_script/Code.gs). Each file holds one envelope or a list of them:
-    {"id": gmail message id, "date": ISO-8601, "subject": ..., "html": raw email HTML}
+Input: one file per email under --inbox (default ./inbox), written by the Daily briefing
+task through the GitHub connector. Plain text, so nothing needs escaping:
+
+    id: <gmail message id>
+    date: <ISO-8601 date of the email>
+    url: <the link in the email: .../ba-p/<id> for an announcement, .../bc-p/<id> for a comment>
+    subject: <post subject>
+    author: <who posted it>
+    --- text ---
+    <the post as it appears in the email's plain-text body>
+    --- html ---
+    <the post as it appears in the email's HTML body; changelog comments only>
+
+The two copies of a changelog are compared with all whitespace removed. They are transcribed
+separately, so a copying slip in either shows up as a mismatch; the record is still written
+but carries "verified": false and a note saying where the copies diverge. Add "retry: yes" to
+the header to resend a corrected copy of an email that was already ingested.
+
+A raw-email JSON envelope ({"id", "date", "subject", "html": whole email HTML}, or a list of
+them, in a .json file) is also accepted.
 
 Output under --out (default ./firmware), same layout fetch_meraki_changelogs.py produced:
     <FAMILY>/<VERSION>.json, index.json, posts.json
@@ -26,6 +43,7 @@ Re-running over the same envelopes changes nothing.  Stdlib only.
 import argparse
 import datetime
 import glob
+import html
 import json
 import os
 import re
@@ -80,6 +98,49 @@ def parse_email(env):
             "author": who.group(1).strip() if who else None, "body": body, "date": env["date"]}
 
 
+def parse_txt(raw):
+    """Briefing-written inbox file -> envelope with a ready 'parsed' dict, or an 'error'."""
+    raw = raw.replace("\r\n", "\n")
+    head, _, rest = raw.partition("\n--- text ---\n")
+    text, _, body = rest.partition("\n--- html ---\n")
+    h = {}
+    for line in head.splitlines():
+        k, sep, v = line.partition(":")
+        if sep and k.strip().lower() in ("id", "date", "url", "subject", "author", "retry"):
+            h[k.strip().lower()] = v.strip()
+    env = {"id": h.get("id"), "date": h.get("date"), "subject": h.get("subject"),
+           "retry": h.get("retry", "").lower() in ("yes", "true", "1"), "parsed": None}
+    u = URL_RE.search(h.get("url", ""))
+    if not (env["id"] and env["date"] and u):
+        env["error"] = "missing id, date or a recognisable post url"
+    elif not text.strip():
+        env["error"] = "no '--- text ---' section"
+    else:
+        env["parsed"] = {"kind": "article" if u.group(2) == "a" else "comment", "slug": u.group(1),
+                         "msg_id": u.group(3), "url": h["url"],
+                         "subject": re.sub(r"^Re:\s*", "", h.get("subject", "")),
+                         "author": h.get("author") or None, "body": body.strip(),
+                         "text": text.strip(), "date": env["date"]}
+    return env
+
+
+def squash(s):
+    return re.sub(r"[\s ]+", "", html.unescape(s))
+
+
+def verify(body_html, body_text):
+    """(True, None) when the HTML and plain-text copies agree, else (False, where they part).
+    (None, reason) when there is nothing to compare against."""
+    if not body_text or not body_text.strip():
+        return None, "no plain-text copy to compare against"
+    a, b = squash(re.sub(r"<[^>]+>", "", body_html)), squash(body_text)
+    if a == b:
+        return True, None
+    i = next((k for k, (x, y) in enumerate(zip(a, b)) if x != y), min(len(a), len(b)))
+    return False, (f"copies diverge at character {i} (whitespace removed): "
+                   f"html {a[max(0, i - 30):i + 30]!r} vs text {b[max(0, i - 30):i + 30]!r}")
+
+
 def changelog_score(lines):
     text = " ".join(lines).lower()
     return sum(1 for w in CHANGELOG_WORDS if w in text)
@@ -132,12 +193,16 @@ def main():
     anns = state["announcements"]
     now = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
 
-    files = sorted(glob.glob(os.path.join(args.inbox, "*.json")))
+    files = sorted(glob.glob(os.path.join(args.inbox, "*.json")) +
+                   glob.glob(os.path.join(args.inbox, "*.txt")))
     envs = []
     for fp in files:
-        data = json.load(open(fp))
-        envs.extend(data if isinstance(data, list) else [data])
-    envs.sort(key=lambda e: ts(e.get("date", "")))
+        if fp.endswith(".txt"):
+            envs.append(parse_txt(open(fp, encoding="utf-8").read()))
+        else:
+            data = json.load(open(fp))
+            envs.extend(data if isinstance(data, list) else [data])
+    envs.sort(key=lambda e: ts(e.get("date") or ""))
 
     events, skipped, unparsed = [], 0, []
 
@@ -146,17 +211,19 @@ def main():
                        "email_date": e["date"], "ingested": now, **extra})
 
     for env in envs:
-        if env["id"] in state["processed"]:
+        if env.get("id") in state["processed"] and not env.get("retry"):
             skipped += 1
             continue
-        e = parse_email(env)
+        e = env["parsed"] if "parsed" in env else parse_email(env)
         if not e:
-            unparsed.append({"id": env["id"], "subject": env.get("subject")})
-            state["processed"][env["id"]] = env.get("date")
+            unparsed.append({"id": env.get("id"), "subject": env.get("subject"),
+                             "reason": env.get("error", "did not match the notification template")})
+            if env.get("id"):
+                state["processed"][env["id"]] = env.get("date")
             continue
 
         if e["kind"] == "article":
-            line = " ".join(F.html_to_lines(e["body"]))
+            line = " ".join((e.get("text") or "\n".join(F.html_to_lines(e["body"]))).split())
             m = re.search(r"Firmware\s+(.+?)\s+was released", line)
             family, version = F.detect_family_version(m.group(1) if m else line)
             family = family or F.subject_family(e["subject"])
@@ -182,7 +249,9 @@ def main():
                 event("announced", key, rtype, e)
 
         else:
-            lines = F.html_to_lines(e["body"])
+            has_html = bool(e["body"].strip())
+            lines = (F.html_to_lines(e["body"]) if has_html else
+                     [l.strip() for l in (e.get("text") or "").splitlines() if l.strip()])
             parents = [a for a in anns if a["slug"] == e["slug"] and ts(a["announced"]) <= ts(e["date"])]
             parent = max(parents, key=lambda a: ts(a["announced"])) if parents else None
             comment = {"id": e["msg_id"], "author": e["author"], "posted": e["date"],
@@ -196,6 +265,12 @@ def main():
                 state["processed"][env["id"]] = env.get("date")
                 continue
 
+            if not has_html:
+                unparsed.append({"id": env["id"], "subject": env.get("subject"),
+                                 "reason": "changelog comment relayed without its html section"})
+                continue  # not marked processed, so a resend with the html is picked up
+
+            verified, note = verify(e["body"], e.get("text"))
             title, family, version, sections = F.parse_changelog(e["body"])
             if parent:
                 family = family or parent["family"]
@@ -205,7 +280,8 @@ def main():
             key = f"{family}/{version}"
             fresh = {"title": title, "changelog_comment_id": e["msg_id"],
                      "changelog_author": e["author"], "changelog_posted": e["date"],
-                     "sections": sections, "text": "\n".join(lines), "html": e["body"]}
+                     "sections": sections, "text": "\n".join(lines), "html": e["body"],
+                     "verified": verified, "verify_note": note}
 
             rec = load_rec(out, family, version)
             kind = None
@@ -213,7 +289,11 @@ def main():
                 rec = {"family": family, "version": version, "announcements": [],
                        "other_comments": [], "source": "email", **fresh}
                 kind = "captured"
-            elif rec.get("changelog_comment_id") != e["msg_id"] and ts(e["date"]) > ts(rec["changelog_posted"]):
+            elif rec.get("changelog_comment_id") == e["msg_id"]:
+                if rec.get("verified") is False and verified is not False:  # corrected resend
+                    rec.update(fresh)
+                    kind = "updated"
+            elif ts(e["date"]) > ts(rec["changelog_posted"]):
                 rec.update(fresh)
                 kind = "updated"
             matched = [a for a in anns if a["family"] == family and a["version"] == version]
@@ -228,7 +308,8 @@ def main():
             if kind:
                 rtypes = sorted({a["releaseType"] for a in rec["announcements"]})
                 event(kind, key, ", ".join(rtypes) or "unknown", e,
-                      sections=list(sections.keys()), no_announcement=not matched)
+                      sections=list(sections.keys()), no_announcement=not matched,
+                      verified=verified, verify_note=note)
 
         state["processed"][env["id"]] = env.get("date")
 
@@ -273,8 +354,7 @@ def main():
                       "unparsed": unparsed, "events": events,
                       "pending": len(pending), "versions_indexed": len(index)}, indent=2))
     if unparsed:
-        print(f"WARNING: {len(unparsed)} email(s) did not match the notification template",
-              file=sys.stderr)
+        print(f"WARNING: {len(unparsed)} inbox file(s) could not be used", file=sys.stderr)
 
 
 if __name__ == "__main__":
