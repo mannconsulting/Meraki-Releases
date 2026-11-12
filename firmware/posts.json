@@ -2408,5 +2408,12 @@
     "subject": "A new Generally Available MS Switch firmware is now available",
     "post_time": "2026-10-14T16:00:05.102-07:00",
     "releaseType": "Generally Available"
+  },
+  "5585455": {
+    "status": "captured",
+    "key": "MX/26.1.7.2",
+    "subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-11-03T14:00:16Z",
+    "releaseType": "Recommended Release"
   }
 }

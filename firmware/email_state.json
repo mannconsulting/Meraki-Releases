@@ -1,4 +1,18 @@
 {
-  "processed": {},
-  "announcements": []
+  "processed": {
+    "1a1a1b60a5de25af": "2026-11-03T14:00:16Z",
+    "1a1a1f34b361703e": "2026-11-03T15:07:15Z"
+  },
+  "announcements": [
+    {
+      "post_id": "5585455",
+      "slug": "a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now",
+      "releaseType": "Recommended Release",
+      "announced": "2026-11-03T14:00:16Z",
+      "post_subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/ba-p/5585455",
+      "family": "MX",
+      "version": "26.1.7.2"
+    }
+  ]
 }

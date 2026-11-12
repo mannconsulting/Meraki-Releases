@@ -3801,6 +3801,22 @@
       "Other"
     ]
   },
+  "MX/26.1.7.2": {
+    "family": "MX",
+    "version": "26.1.7.2",
+    "file": "MX/26.1.7.2.json",
+    "releaseTypes": [
+      "Recommended Release"
+    ],
+    "first_announced": "2026-11-03T14:00:16Z",
+    "last_announced": "2026-11-03T14:00:16Z",
+    "sections": [
+      "Executive summary",
+      "Important notice",
+      "What's new",
+      "Known issues"
+    ]
+  },
   "MX/26.2.1": {
     "family": "MX",
     "version": "26.2.1",

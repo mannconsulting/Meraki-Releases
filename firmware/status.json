@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12T00:55:11Z",
-  "last_email_date": null,
-  "versions_indexed": 210,
+  "updated": "2026-11-12T00:58:53Z",
+  "last_email_date": "2026-11-03T15:07:15Z",
+  "versions_indexed": 211,
   "pending": [
     {
       "post_id": "5579748",
@@ -49,5 +49,23 @@
       "version_guess": null
     }
   ],
-  "recent": []
+  "recent": [
+    {
+      "event": "captured",
+      "key": "MX/26.1.7.2",
+      "releaseType": "Recommended Release",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/bc-p/5585474#M627",
+      "email_date": "2026-11-03T15:07:15Z",
+      "ingested": "2026-11-12T00:58:53Z",
+      "sections": [
+        "Executive summary",
+        "Important notice",
+        "What's new",
+        "Known issues"
+      ],
+      "no_announcement": false,
+      "verified": true,
+      "verify_note": null
+    }
+  ]
 }
