@@ -1,0 +1,7 @@
+id: 1a18374ad8089b92
+date: 2026-10-28T17:00:19Z
+url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/ba-p/5584448
+subject: A new Recommended Release MV Cameras firmware is now available
+author: FirmwareBot
+--- text ---
+A new Recommended Release MV Cameras firmware version is available. Firmware MV 8.0 was released on 2026-10-28 and has been in this firmware category since 2026-10-28 UTC.

@@ -1,0 +1,31 @@
+id: 1a183c359f6355a7
+date: 2026-10-28T18:26:16Z
+url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/bc-p/5584462#M624
+subject: Re: A new Recommended Release MV Cameras firmware is now available
+author: mloraditch
+--- text ---
+Cameras software versions MV 8.0 changelog   Bug fixes Improved camera connectivity and reliability Improved firmware upgrade reliability and recovery Improved stability of core video and camera services General Improved database reliability, migration handling, and storage efficiency Improved firmware security and vulnerability protection Updated core camera, recording, analytics, and system-management components Notice When configured for this version, MV21 & MV71 cameras will run MV4.15 MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches
+--- html ---
+<DIV class="">
+   Cameras software versions MV 8.0 changelog
+  </DIV>
+  <H3 id="toc-hId-458624949">&nbsp;</H3>
+  <DIV class="">
+   <H4 id="toc-hId-1149186423">Bug fixes</H4>
+   <UL>
+    <LI><P class="">Improved camera connectivity and reliability</P></LI>
+    <LI><P class="">Improved firmware upgrade reliability and recovery</P></LI>
+    <LI><P class="">Improved stability of core video and camera services</P></LI>
+   </UL>
+   <H4 id="toc-hId--658268040">General</H4>
+   <UL>
+    <LI><P class="">Improved database reliability, migration handling, and storage efficiency</P></LI>
+    <LI><P class="">Improved firmware security and vulnerability protection</P></LI>
+    <LI><P class="">Updated core camera, recording, analytics, and system-management components</P></LI>
+   </UL>
+   <H4 id="toc-hId-1829244793">Notice</H4>
+   <UL>
+    <LI><P class="">When configured for this version, MV21 &amp; MV71 cameras will run MV4.15</P></LI>
+    <LI><P class="">MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches</P></LI>
+   </UL>
+  </DIV>
