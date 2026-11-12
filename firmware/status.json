@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-12T00:58:53Z",
+  "updated": "2026-11-12T01:07:25Z",
   "last_email_date": "2026-11-03T15:07:15Z",
-  "versions_indexed": 211,
+  "versions_indexed": 212,
   "pending": [
     {
       "post_id": "5579748",
@@ -47,6 +47,24 @@
       "releaseType": "Recommended Release",
       "family_guess": "CS",
       "version_guess": null
+    },
+    {
+      "post_id": "5583948",
+      "subject": "A new Generally Available MG Wireless WAN firmware is now available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mg-wireless-wan-firmware-is-now/ba-p/5583948",
+      "post_time": "2026-10-26T13:00:13Z",
+      "releaseType": "Generally Available",
+      "family_guess": "MG",
+      "version_guess": "26.2.2"
+    },
+    {
+      "post_id": "5584518",
+      "subject": "A new Beta MV Cameras firmware is now available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mv-cameras-firmware-is-now-available/ba-p/5584518",
+      "post_time": "2026-10-29T00:00:27Z",
+      "releaseType": "beta",
+      "family_guess": "MV",
+      "version_guess": "8.0.1"
     }
   ],
   "recent": [
@@ -66,6 +84,65 @@
       "no_announcement": false,
       "verified": true,
       "verify_note": null
+    },
+    {
+      "event": "captured",
+      "key": "CS/15.21.1",
+      "releaseType": "unknown",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-cs-switch-firmware-is-now-available/bc-p/5583863#M620",
+      "email_date": "2026-10-25T22:17:17Z",
+      "ingested": "2026-11-12T01:07:25Z",
+      "sections": [
+        "C9300 alerts",
+        "Alerts",
+        "C9300 features",
+        "Features",
+        "New features",
+        "Known issues"
+      ],
+      "no_announcement": true,
+      "verified": true,
+      "verify_note": null
+    },
+    {
+      "event": "announced",
+      "key": "MG/26.2.2",
+      "releaseType": "Generally Available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mg-wireless-wan-firmware-is-now/ba-p/5583948",
+      "email_date": "2026-10-26T13:00:13Z",
+      "ingested": "2026-11-12T01:07:25Z"
+    },
+    {
+      "event": "reannounced",
+      "key": "MV/8.0",
+      "releaseType": "Recommended Release",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/ba-p/5584448",
+      "email_date": "2026-10-28T17:00:19Z",
+      "ingested": "2026-11-12T01:07:25Z"
+    },
+    {
+      "event": "updated",
+      "key": "MV/8.0",
+      "releaseType": "Recommended Release, beta",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/bc-p/5584462#M624",
+      "email_date": "2026-10-28T18:26:16Z",
+      "ingested": "2026-11-12T01:07:25Z",
+      "sections": [
+        "Bug fixes",
+        "General",
+        "Notice"
+      ],
+      "no_announcement": false,
+      "verified": true,
+      "verify_note": null
+    },
+    {
+      "event": "announced",
+      "key": "MV/8.0.1",
+      "releaseType": "beta",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mv-cameras-firmware-is-now-available/ba-p/5584518",
+      "email_date": "2026-10-29T00:00:27Z",
+      "ingested": "2026-11-12T01:07:25Z"
     }
   ]
 }

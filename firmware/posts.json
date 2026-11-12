@@ -2415,5 +2415,32 @@
     "subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
     "post_time": "2026-11-03T14:00:16Z",
     "releaseType": "Recommended Release"
+  },
+  "5583948": {
+    "status": "pending",
+    "subject": "A new Generally Available MG Wireless WAN firmware is now available",
+    "post_time": "2026-10-26T13:00:13Z",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mg-wireless-wan-firmware-is-now/ba-p/5583948",
+    "releaseType": "Generally Available",
+    "family_guess": "MG",
+    "version_guess": "26.2.2",
+    "checked": "2026-11-12"
+  },
+  "5584448": {
+    "status": "captured",
+    "key": "MV/8.0",
+    "subject": "A new Recommended Release MV Cameras firmware is now available",
+    "post_time": "2026-10-28T17:00:19Z",
+    "releaseType": "Recommended Release"
+  },
+  "5584518": {
+    "status": "pending",
+    "subject": "A new Beta MV Cameras firmware is now available",
+    "post_time": "2026-10-29T00:00:27Z",
+    "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mv-cameras-firmware-is-now-available/ba-p/5584518",
+    "releaseType": "beta",
+    "family_guess": "MV",
+    "version_guess": "8.0.1",
+    "checked": "2026-11-12"
   }
 }

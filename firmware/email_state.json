@@ -1,9 +1,44 @@
 {
   "processed": {
     "1a1a1b60a5de25af": "2026-11-03T14:00:16Z",
-    "1a1a1f34b361703e": "2026-11-03T15:07:15Z"
+    "1a1a1f34b361703e": "2026-11-03T15:07:15Z",
+    "1a17523caaa17e85": "2026-10-25T22:17:17Z",
+    "1a1784c1a62842f1": "2026-10-26T13:00:13Z",
+    "1a18374ad8089b92": "2026-10-28T17:00:19Z",
+    "1a183c359f6355a7": "2026-10-28T18:26:16Z",
+    "1a184f557d5429f7": "2026-10-29T00:00:27Z"
   },
   "announcements": [
+    {
+      "post_id": "5583948",
+      "slug": "a-new-generally-available-mg-wireless-wan-firmware-is-now",
+      "releaseType": "Generally Available",
+      "announced": "2026-10-26T13:00:13Z",
+      "post_subject": "A new Generally Available MG Wireless WAN firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mg-wireless-wan-firmware-is-now/ba-p/5583948",
+      "family": "MG",
+      "version": "26.2.2"
+    },
+    {
+      "post_id": "5584448",
+      "slug": "a-new-recommended-release-mv-cameras-firmware-is-now-available",
+      "releaseType": "Recommended Release",
+      "announced": "2026-10-28T17:00:19Z",
+      "post_subject": "A new Recommended Release MV Cameras firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/ba-p/5584448",
+      "family": "MV",
+      "version": "8.0"
+    },
+    {
+      "post_id": "5584518",
+      "slug": "a-new-beta-mv-cameras-firmware-is-now-available",
+      "releaseType": "beta",
+      "announced": "2026-10-29T00:00:27Z",
+      "post_subject": "A new Beta MV Cameras firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mv-cameras-firmware-is-now-available/ba-p/5584518",
+      "family": "MV",
+      "version": "8.0.1"
+    },
     {
       "post_id": "5585455",
       "slug": "a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now",

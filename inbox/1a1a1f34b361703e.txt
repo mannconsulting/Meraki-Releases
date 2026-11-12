@@ -1,7 +1,0 @@
-id: 1a1a1f34b361703e
-date: 2026-11-03T15:07:15Z
-url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/bc-p/5585474#M627
-subject: Re: A new Recommended Release MX Security & SD-WAN firmware is now
-author: mloraditch
---- text ---
-Already ingested on 2026-11-12. Resent without its body so last_email_date stays at this email's date while older gap emails are relayed.

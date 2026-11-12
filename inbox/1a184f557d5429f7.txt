@@ -1,7 +1,0 @@
-id: 1a184f557d5429f7
-date: 2026-10-29T00:00:27Z
-url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mv-cameras-firmware-is-now-available/ba-p/5584518
-subject: A new Beta MV Cameras firmware is now available
-author: FirmwareBot
---- text ---
-A new Beta MV Cameras firmware version is available. Firmware MV 8.0.1 was released on 2026-10-28 and has been in this firmware category since 2026-10-29 UTC.

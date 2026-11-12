@@ -1,7 +1,0 @@
-id: 1a1784c1a62842f1
-date: 2026-10-26T13:00:13Z
-url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mg-wireless-wan-firmware-is-now/ba-p/5583948
-subject: A new Generally Available MG Wireless WAN firmware is now available
-author: FirmwareBot
---- text ---
-A new Generally Available MG Wireless WAN firmware version is available. Firmware MG 26.2.2 was released on 2026-10-26 and has been in this firmware category since 2026-10-26 UTC.

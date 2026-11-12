@@ -1,4 +1,20 @@
 {
+  "CS/15.21.1": {
+    "family": "CS",
+    "version": "15.21.1",
+    "file": "CS/15.21.1.json",
+    "releaseTypes": [],
+    "first_announced": null,
+    "last_announced": null,
+    "sections": [
+      "C9300 alerts",
+      "Alerts",
+      "C9300 features",
+      "Features",
+      "New features",
+      "Known issues"
+    ]
+  },
   "CS/16.1": {
     "family": "CS",
     "version": "16.1",
@@ -2717,10 +2733,11 @@
     "version": "8.0",
     "file": "MV/8.0.json",
     "releaseTypes": [
+      "Recommended Release",
       "beta"
     ],
     "first_announced": "2026-09-11T17:00:05.475-07:00",
-    "last_announced": "2026-09-11T17:00:05.475-07:00",
+    "last_announced": "2026-10-28T17:00:19Z",
     "sections": [
       "Bug fixes",
       "General",
