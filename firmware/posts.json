@@ -2442,5 +2442,19 @@
     "family_guess": "MV",
     "version_guess": "8.0.1",
     "checked": "2026-11-12"
+  },
+  "5586032": {
+    "status": "captured",
+    "key": "MR/32.2.5.1",
+    "subject": "A new Generally Available MR Wireless firmware is now available",
+    "post_time": "2026-11-05T22:00:28Z",
+    "releaseType": "Generally Available"
+  },
+  "5586950": {
+    "status": "captured",
+    "key": "MR/32.2.5.1",
+    "subject": "A new Recommended Release MR Wireless firmware is now available",
+    "post_time": "2026-11-12T15:00:29Z",
+    "releaseType": "Recommended Release"
   }
 }

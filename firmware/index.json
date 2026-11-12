@@ -1341,6 +1341,30 @@
       "Known issues"
     ]
   },
+  "MR/32.2.5.1": {
+    "family": "MR",
+    "version": "32.2.5.1",
+    "file": "MR/32.2.5.1.json",
+    "releaseTypes": [
+      "Generally Available",
+      "Recommended Release"
+    ],
+    "first_announced": "2026-11-05T22:00:28Z",
+    "last_announced": "2026-11-12T15:00:29Z",
+    "sections": [
+      "MR 32.2.5.1 Release Notes",
+      "Release summary",
+      "Fixed Issues",
+      "Known Issues",
+      "Potential symptoms",
+      "Conditions",
+      "Resolution",
+      "Workarounds",
+      "Confirmed affected models",
+      "Confirmed affected versions",
+      "Potential workarounds"
+    ]
+  },
   "MR/33.1.1": {
     "family": "MR",
     "version": "33.1.1",

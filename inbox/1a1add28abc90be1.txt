@@ -1,8 +1,0 @@
-id: 1a1add28abc90be1
-date: 2026-11-05T22:26:53Z
-url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mr-wireless-firmware-is-now-available/bc-p/5586040#M630
-subject: Re: A new Generally Available MR Wireless firmware is now available
-author: CMR
---- text ---
-I am pretty certain I have been experiencing MR-99882, even at home, so will apply, test and confirm!
-

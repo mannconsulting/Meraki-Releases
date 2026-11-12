@@ -1,8 +1,0 @@
-id: 1a1adbb42ec57141
-date: 2026-11-05T22:00:28Z
-url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mr-wireless-firmware-is-now-available/ba-p/5586032
-subject: A new Generally Available MR Wireless firmware is now available
-author: FirmwareBot
---- text ---
-A new Generally Available MR Wireless firmware version is available. Firmware MR 32.2.5.1 was released on 2026-11-05 and has been in this firmware category since 2026-11-05 UTC.
-

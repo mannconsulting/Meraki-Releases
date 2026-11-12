@@ -6,7 +6,11 @@
     "1a1784c1a62842f1": "2026-10-26T13:00:13Z",
     "1a18374ad8089b92": "2026-10-28T17:00:19Z",
     "1a183c359f6355a7": "2026-10-28T18:26:16Z",
-    "1a184f557d5429f7": "2026-10-29T00:00:27Z"
+    "1a184f557d5429f7": "2026-10-29T00:00:27Z",
+    "1a1adbb42ec57141": "2026-11-05T22:00:28Z",
+    "1a1adcfce349ec0a": "2026-11-05T22:23:55Z",
+    "1a1add28abc90be1": "2026-11-05T22:26:53Z",
+    "1a1d0474762c63e9": "2026-11-12T15:00:29Z"
   },
   "announcements": [
     {
@@ -48,6 +52,26 @@
       "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/ba-p/5585455",
       "family": "MX",
       "version": "26.1.7.2"
+    },
+    {
+      "post_id": "5586032",
+      "slug": "a-new-generally-available-mr-wireless-firmware-is-now-available",
+      "releaseType": "Generally Available",
+      "announced": "2026-11-05T22:00:28Z",
+      "post_subject": "A new Generally Available MR Wireless firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mr-wireless-firmware-is-now-available/ba-p/5586032",
+      "family": "MR",
+      "version": "32.2.5.1"
+    },
+    {
+      "post_id": "5586950",
+      "slug": "a-new-recommended-release-mr-wireless-firmware-is-now-available",
+      "releaseType": "Recommended Release",
+      "announced": "2026-11-12T15:00:29Z",
+      "post_subject": "A new Recommended Release MR Wireless firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mr-wireless-firmware-is-now-available/ba-p/5586950",
+      "family": "MR",
+      "version": "32.2.5.1"
     }
   ]
 }
