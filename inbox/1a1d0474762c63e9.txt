@@ -1,0 +1,8 @@
+id: 1a1d0474762c63e9
+date: 2026-11-12T15:00:29Z
+url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mr-wireless-firmware-is-now-available/ba-p/5586950
+subject: A new Recommended Release MR Wireless firmware is now available
+author: FirmwareBot
+--- text ---
+A new Recommended Release MR Wireless firmware version is available. Firmware MR 32.2.5.1 was released on 2026-11-12 and has been in this firmware category since 2026-11-12 UTC.
+
