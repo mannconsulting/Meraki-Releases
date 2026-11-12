@@ -25,6 +25,10 @@ separately, so a copying slip in either shows up as a mismatch; the record is st
 but carries "verified": false and a note saying where the copies diverge. Add "retry: yes" to
 the header to resend a corrected copy of an email that was already ingested.
 
+Notes that did not come from the feed (for example a changelog copied out of Dashboard) use
+the same layout with "family:" and "version:" header lines in place of "url:", plus both
+sections. They are stored with "source": "manual" and never move last_email_date.
+
 A raw-email JSON envelope ({"id", "date", "subject", "html": whole email HTML}, or a list of
 them, in a .json file) is also accepted.
 
@@ -106,15 +110,23 @@ def parse_txt(raw):
     h = {}
     for line in head.splitlines():
         k, sep, v = line.partition(":")
-        if sep and k.strip().lower() in ("id", "date", "url", "subject", "author", "retry"):
+        if sep and k.strip().lower() in ("id", "date", "url", "subject", "author", "retry",
+                                           "family", "version"):
             h[k.strip().lower()] = v.strip()
     env = {"id": h.get("id"), "date": h.get("date"), "subject": h.get("subject"),
            "retry": h.get("retry", "").lower() in ("yes", "true", "1"), "parsed": None}
     u = URL_RE.search(h.get("url", ""))
-    if not (env["id"] and env["date"] and u):
-        env["error"] = "missing id, date or a recognisable post url"
+    manual = bool(h.get("family") and h.get("version")) and not u
+    if not (env["id"] and env["date"] and (u or manual)):
+        env["error"] = "missing id, date, or either a post url or family and version"
     elif not text.strip():
         env["error"] = "no '--- text ---' section"
+    elif manual:
+        env["manual"] = True
+        env["parsed"] = {"kind": "manual", "family": h["family"].upper(), "version": h["version"],
+                         "slug": None, "msg_id": env["id"], "url": h.get("url") or None,
+                         "subject": h.get("subject", ""), "author": h.get("author") or None,
+                         "body": body.strip(), "text": text.strip(), "date": env["date"]}
     else:
         env["parsed"] = {"kind": "article" if u.group(2) == "a" else "comment", "slug": u.group(1),
                          "msg_id": u.group(3), "url": h["url"],
@@ -125,7 +137,7 @@ def parse_txt(raw):
 
 
 def squash(s):
-    return re.sub(r"[\s ]+", "", html.unescape(s))
+    return re.sub(r"\s+", "", html.unescape(s))
 
 
 def verify(body_html, body_text):
@@ -257,7 +269,7 @@ def main():
             comment = {"id": e["msg_id"], "author": e["author"], "posted": e["date"],
                        "text": "\n".join(lines), "html": e["body"]}
 
-            if changelog_score(lines) < 2:  # discussion, not a changelog
+            if e["kind"] != "manual" and changelog_score(lines) < 2:  # discussion, not a changelog
                 rec = load_rec(out, parent["family"], parent["version"]) if parent and parent["version"] else None
                 if rec and not any(c["id"] == comment["id"] for c in rec.setdefault("other_comments", [])):
                     rec["other_comments"].append(comment)
@@ -272,6 +284,8 @@ def main():
 
             verified, note = verify(e["body"], e.get("text"))
             title, family, version, sections = F.parse_changelog(e["body"])
+            if e["kind"] == "manual":  # the header names the release; the pasted text may not
+                family, version = e["family"], e["version"]
             if parent:
                 family = family or parent["family"]
                 version = version or parent["version"]
@@ -281,7 +295,8 @@ def main():
             fresh = {"title": title, "changelog_comment_id": e["msg_id"],
                      "changelog_author": e["author"], "changelog_posted": e["date"],
                      "sections": sections, "text": "\n".join(lines), "html": e["body"],
-                     "verified": verified, "verify_note": note}
+                     "verified": verified, "verify_note": note,
+                     **({"source": "manual"} if e["kind"] == "manual" else {})}
 
             rec = load_rec(out, family, version)
             kind = None
@@ -309,7 +324,8 @@ def main():
                 rtypes = sorted({a["releaseType"] for a in rec["announcements"]})
                 event(kind, key, ", ".join(rtypes) or "unknown", e,
                       sections=list(sections.keys()), no_announcement=not matched,
-                      verified=verified, verify_note=note)
+                      verified=verified, verify_note=note,
+                      **({"source": "manual"} if e["kind"] == "manual" else {}))
 
         state["processed"][env["id"]] = env.get("date")
 
@@ -329,9 +345,12 @@ def main():
                for pid, p in posts.items()
                if p.get("status") == "pending" and ts(p.get("post_time", "")) >= cutoff]
     pending.sort(key=lambda p: ts(p["post_time"]))
-    dates = [e.get("date") for e in envs if e.get("date")]
+    # feed emails only, and never backwards: a backfill or a manual note must not move it
+    dates = [e.get("date") for e in envs if e.get("date") and not e.get("manual")]
+    if status.get("last_email_date"):
+        dates.append(status["last_email_date"])
     status = {"updated": now,
-              "last_email_date": max(dates, key=ts) if dates else status.get("last_email_date"),
+              "last_email_date": max(dates, key=ts) if dates else None,
               "versions_indexed": len(index), "pending": pending,
               "recent": (status.get("recent", []) + events)[-RECENT_CAP:]}
 
