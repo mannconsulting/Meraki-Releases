@@ -1,0 +1,53 @@
+{
+  "updated": "2026-11-12T00:55:11Z",
+  "last_email_date": null,
+  "versions_indexed": 210,
+  "pending": [
+    {
+      "post_id": "5579748",
+      "subject": "A new Recommended Release MX Security & SD-WAN firmware is now available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/ba-p/5579748",
+      "post_time": "2026-10-01T13:00:05.115-07:00",
+      "releaseType": "Recommended Release",
+      "family_guess": "MX",
+      "version_guess": null
+    },
+    {
+      "post_id": "5579749",
+      "subject": "A new Recommended Release MV Cameras firmware is now available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mv-cameras-firmware-is-now-available/ba-p/5579749",
+      "post_time": "2026-10-01T13:00:06.746-07:00",
+      "releaseType": "Recommended Release",
+      "family_guess": "MV",
+      "version_guess": null
+    },
+    {
+      "post_id": "5579750",
+      "subject": "A new Recommended Release MG Wireless WAN firmware is now available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mg-wireless-wan-firmware-is-now/ba-p/5579750",
+      "post_time": "2026-10-01T13:00:08.354-07:00",
+      "releaseType": "Recommended Release",
+      "family_guess": "MG",
+      "version_guess": null
+    },
+    {
+      "post_id": "5579751",
+      "subject": "A new Recommended Release MT Sensors firmware is now available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mt-sensors-firmware-is-now-available/ba-p/5579751",
+      "post_time": "2026-10-01T13:00:09.522-07:00",
+      "releaseType": "Recommended Release",
+      "family_guess": "MT",
+      "version_guess": null
+    },
+    {
+      "post_id": "5579753",
+      "subject": "A new Recommended Release CS Switch firmware is now available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-cs-switch-firmware-is-now-available/ba-p/5579753",
+      "post_time": "2026-10-01T13:00:11.719-07:00",
+      "releaseType": "Recommended Release",
+      "family_guess": "CS",
+      "version_guess": null
+    }
+  ],
+  "recent": []
+}
