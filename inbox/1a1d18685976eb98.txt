@@ -1,0 +1,7 @@
+id: 1a1d18685976eb98
+date: 2026-11-12T20:50:13Z
+url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mr-wireless-firmware-is-now-available/bc-p/5587015#M633
+subject: Re: A new Recommended Release MR Wireless firmware is now available
+author: CMR
+--- text ---
+I am pretty sure I've been experiencing the first issue (initially with r33 that doesn't have a patch yet) and downgraded to this release but I still have the same issues so maybe it is a slightly different issue...
