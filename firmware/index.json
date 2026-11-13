@@ -1352,6 +1352,7 @@
     "first_announced": "2026-11-05T22:00:28Z",
     "last_announced": "2026-11-12T15:00:29Z",
     "sections": [
+      "preamble",
       "MR 32.2.5.1 Release Notes",
       "Release summary",
       "Fixed Issues",

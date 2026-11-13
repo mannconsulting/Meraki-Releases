@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T16:24:02Z",
-  "last_email_date": "2026-11-12T15:00:29Z",
+  "updated": "2026-11-13T17:26:08Z",
+  "last_email_date": "2026-11-12T22:24:32Z",
   "versions_indexed": 213,
   "pending": [
     {
@@ -175,6 +175,31 @@
       "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mr-wireless-firmware-is-now-available/ba-p/5586950",
       "email_date": "2026-11-12T15:00:29Z",
       "ingested": "2026-11-12T16:24:02Z"
+    },
+    {
+      "event": "updated",
+      "key": "MR/32.2.5.1",
+      "releaseType": "Generally Available, Recommended Release",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mr-wireless-firmware-is-now-available/bc-p/5586970#M632",
+      "email_date": "2026-11-12T16:34:53Z",
+      "ingested": "2026-11-13T17:26:08Z",
+      "sections": [
+        "preamble",
+        "MR 32.2.5.1 Release Notes",
+        "Release summary",
+        "Fixed Issues",
+        "Known Issues",
+        "Potential symptoms",
+        "Conditions",
+        "Resolution",
+        "Workarounds",
+        "Confirmed affected models",
+        "Confirmed affected versions",
+        "Potential workarounds"
+      ],
+      "no_announcement": false,
+      "verified": true,
+      "verify_note": null
     }
   ]
 }
