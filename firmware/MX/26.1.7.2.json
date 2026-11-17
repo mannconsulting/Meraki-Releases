@@ -10,7 +10,15 @@
       "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/ba-p/5585455"
     }
   ],
-  "other_comments": [],
+  "other_comments": [
+    {
+      "id": "5587738",
+      "author": "Seiken",
+      "posted": "2026-11-17T17:23:12Z",
+      "text": "MX-51712 issue is VERY impactful, do you have any ETA on the fix ?",
+      "html": ""
+    }
+  ],
   "source": "email",
   "title": null,
   "changelog_comment_id": "5585474",
@@ -36,5 +44,5 @@
   "html": "<H4 id=\"toc-hId--1338296586\">Executive summary</H4>\n  <UL>\n   <LI>MX 26.1.7.2 adds an option for Cisco Meraki Support to block client DNS over TCP traffic on affected MX networks. The control is disabled by default and leaves UDP DNS handling unchanged.</LI>\n  </UL>\n  <H4 id=\"toc-hId-1149216247\">Important notice</H4>\n  <UL>\n   <LI>When Cisco Meraki Support enables this control, client DNS over TCP traffic is blocked even when Umbrella DNS filtering is disabled. DNS lookups that require TCP may fail.</LI>\n  </UL>\n  <H4 id=\"toc-hId--658238216\">What's new</H4>\n  <UL>\n   <LI>Added an option for Cisco Meraki Support to block client DNS over TCP traffic on affected MX networks.</LI>\n  </UL>\n  <H4 id=\"toc-hId-1829274617\">Known issues</H4>\n  <UL>\n   <LI>Networks configured with legacy IPv4 manual inbound firewall rules but no NAT Exceptions may have those rules hidden after upgrading to MX 26.1.3 or later. Before upgrading or making further configuration changes, enable NAT Exceptions, select Override NAT per VLAN, and keep NAT enabled for all VLANs to preserve the existing NAT configuration and inbound firewall rules. (MX-49643)</LI>\n   <LI>On MX 26.1 appliances, Auto VPN tunnels may fail to establish over WAN 3 when it is the only active uplink and a peer is running firmware earlier than MX 26.1. (MX-50123)</LI>\n   <LI>When IPsec VPN over multiple WAN uplinks is enabled, IKEv1 Client VPN connections may fail if upstream NAT changes the client's IKE source port from UDP 500. (MX-51712)</LI>\n  </UL>",
   "verified": true,
   "verify_note": null,
-  "fetched": "2026-11-12T00:58:53Z"
+  "fetched": "2026-11-17T18:05:26Z"
 }

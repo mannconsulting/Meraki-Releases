@@ -1,8 +1,0 @@
-id: 1a1ea88dcfde7910
-date: 2026-11-17T17:23:12Z
-url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mx-security-amp-sd-wan-firmware-is-now/bc-p/5587738#M636
-subject: Re: A new Recommended Release MX Security & SD-WAN firmware is now
-author: Seiken
---- text ---
-MX-51712 issue is VERY impactful, do you have any ETA on the fix ?
-
