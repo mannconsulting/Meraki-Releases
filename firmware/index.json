@@ -3925,5 +3925,22 @@
     "sections": [
       "preamble"
     ]
+  },
+  "MX/26.2.5": {
+    "family": "MX",
+    "version": "26.2.5",
+    "file": "MX/26.2.5.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-11-18T19:00:23Z",
+    "last_announced": "2026-11-18T19:00:23Z",
+    "sections": [
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice",
+      "Known issues"
+    ]
   }
 }

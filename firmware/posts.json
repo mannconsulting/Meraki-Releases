@@ -2456,5 +2456,12 @@
     "subject": "A new Recommended Release MR Wireless firmware is now available",
     "post_time": "2026-11-12T15:00:29Z",
     "releaseType": "Recommended Release"
+  },
+  "5588032": {
+    "status": "captured",
+    "key": "MX/26.2.5",
+    "subject": "A new Generally Available MX Security & SD-WAN firmware is now available",
+    "post_time": "2026-11-18T19:00:23Z",
+    "releaseType": "Generally Available"
   }
 }

@@ -15,7 +15,11 @@
     "1a1d18685976eb98": "2026-11-12T20:50:13Z",
     "1a1d1dcdecebc7a0": "2026-11-12T22:24:32Z",
     "1a1e3f3e88534824": "2026-11-16T10:42:52Z",
-    "1a1ea88dcfde7910": "2026-11-17T17:23:12Z"
+    "1a1ea88dcfde7910": "2026-11-17T17:23:12Z",
+    "1a1f0081ac6fefb7": "2026-11-18T19:00:23Z",
+    "1a1f01dc1cc30608": "2026-11-18T19:23:58Z",
+    "1a1f021a639932a3": "2026-11-18T19:28:13Z",
+    "1a1f021f2b00da81": "2026-11-18T19:28:31Z"
   },
   "announcements": [
     {
@@ -77,6 +81,16 @@
       "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-recommended-release-mr-wireless-firmware-is-now-available/ba-p/5586950",
       "family": "MR",
       "version": "32.2.5.1"
+    },
+    {
+      "post_id": "5588032",
+      "slug": "a-new-generally-available-mx-security-amp-sd-wan-firmware-is-now",
+      "releaseType": "Generally Available",
+      "announced": "2026-11-18T19:00:23Z",
+      "post_subject": "A new Generally Available MX Security & SD-WAN firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mx-security-amp-sd-wan-firmware-is-now/ba-p/5588032",
+      "family": "MX",
+      "version": "26.2.5"
     }
   ]
 }

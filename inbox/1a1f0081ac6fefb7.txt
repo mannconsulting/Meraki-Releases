@@ -1,8 +1,0 @@
-id: 1a1f0081ac6fefb7
-date: 2026-11-18T19:00:23Z
-url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mx-security-amp-sd-wan-firmware-is-now/ba-p/5588032
-subject: A new Generally Available MX Security & SD-WAN firmware is now available
-author: FirmwareBot
---- text ---
-A new Generally Available MX Security & SD-WAN firmware version is available. Firmware MX 26.2.5 was released on 2026-11-18 and has been in this firmware category since 2026-11-18 UTC.
-

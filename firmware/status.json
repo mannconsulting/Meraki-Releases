@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-17T18:05:26Z",
-  "last_email_date": "2026-11-17T17:23:12Z",
-  "versions_indexed": 213,
+  "updated": "2026-11-18T20:20:29Z",
+  "last_email_date": "2026-11-18T19:28:31Z",
+  "versions_indexed": 214,
   "pending": [
     {
       "post_id": "5583948",
@@ -151,6 +151,24 @@
         "Confirmed affected models",
         "Confirmed affected versions",
         "Potential workarounds"
+      ],
+      "no_announcement": false,
+      "verified": true,
+      "verify_note": null
+    },
+    {
+      "event": "captured",
+      "key": "MX/26.2.5",
+      "releaseType": "Generally Available",
+      "url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mx-security-amp-sd-wan-firmware-is-now/bc-p/5588033#M638",
+      "email_date": "2026-11-18T19:23:58Z",
+      "ingested": "2026-11-18T20:20:29Z",
+      "sections": [
+        "Executive summary",
+        "Bug fixes - general fixes",
+        "Bug fixes - limited platform fixes",
+        "Legacy products notice",
+        "Known issues"
       ],
       "no_announcement": false,
       "verified": true,
