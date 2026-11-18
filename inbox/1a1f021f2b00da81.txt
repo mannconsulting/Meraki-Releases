@@ -1,0 +1,8 @@
+id: 1a1f021f2b00da81
+date: 2026-11-18T19:28:31Z
+url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mx-security-amp-sd-wan-firmware-is-now/bc-p/5588035#M640
+subject: Re: A new Generally Available MX Security & SD-WAN firmware is now
+author: Philip D'Ath
+--- text ---
+Thank you  @FirmwareBot .  We appreciate your updates.
+

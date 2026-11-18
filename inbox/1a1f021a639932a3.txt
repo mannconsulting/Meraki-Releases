@@ -1,0 +1,8 @@
+id: 1a1f021a639932a3
+date: 2026-11-18T19:28:13Z
+url: https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mx-security-amp-sd-wan-firmware-is-now/bc-p/5588034#M639
+subject: Re: A new Generally Available MX Security & SD-WAN firmware is now
+author: Raphael_L
+--- text ---
+As part of Cisco's ongoing commitment to proactive security and product quality, the MX engineering team has conducted a comprehensive internal security review. This review resulted in one or more software hardening release(s) that address(e)s multiple internally discovered vulnerabilities.   Do I have to assume that there will be another Sec Advisory soon ?
+
