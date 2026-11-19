@@ -1,0 +1,42 @@
+{
+  "family": "MG",
+  "version": "26.2.2",
+  "announcements": [
+    {
+      "post_id": "5583948",
+      "releaseType": "Generally Available",
+      "announced": "2026-10-26T13:00:13Z",
+      "post_subject": "A new Generally Available MG Wireless WAN firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-generally-available-mg-wireless-wan-firmware-is-now/ba-p/5583948"
+    }
+  ],
+  "other_comments": [],
+  "source": "email",
+  "title": "Cellular gateways software versions MG 26.2.2 changelog",
+  "changelog_comment_id": "5583948",
+  "changelog_author": "Isaac Ordonez (manual entry)",
+  "changelog_posted": "2026-11-19T18:08:25Z",
+  "sections": {
+    "Executive summary": [
+      "This is the first GA release for the MG26.2 release family.",
+      "This release carries forward UI capabilities for configuring and managing cellular features, such as geolocation, band masking and more.",
+      "It also carries forward 464XLAT support to provide IPv4 connectivity over IPv6-only cellular networks.",
+      "It also delivers improvements in cellular connectivity, recovery, and Dashboard status reporting."
+    ],
+    "Bug fixes - general fixes": [
+      "Resolved an issue that could prolong a downstream MX WAN outage after cellular session renegotiation on an MG in IP passthrough mode because the MX retained an unusable DHCP address. (MG-6768)",
+      "Fixed an issue where the Local Status Page reloads frequently on cellular state changes during debugging. (MG-7242)"
+    ],
+    "Bug fixes - limited platform fixes": [
+      "Fixed an issue on MG51/51E devices that could briefly display “No signal detected” for 4G in Dashboard while cellular connectivity remained stable. (MG-6922)"
+    ],
+    "Legacy products notice": [
+      "When configured for this version, MG21(E) devices will run MG 4.1.3."
+    ]
+  },
+  "text": "Cellular gateways software versions MG 26.2.2 changelog\nExecutive summary\nThis is the first GA release for the MG26.2 release family.\nThis release carries forward UI capabilities for configuring and managing cellular features, such as geolocation, band masking and more.\nIt also carries forward 464XLAT support to provide IPv4 connectivity over IPv6-only cellular networks.\nIt also delivers improvements in cellular connectivity, recovery, and Dashboard status reporting.\nBug fixes - general fixes\nResolved an issue that could prolong a downstream MX WAN outage after cellular session renegotiation on an MG in IP passthrough mode because the MX retained an unusable DHCP address. (MG-6768)\nFixed an issue where the Local Status Page reloads frequently on cellular state changes during debugging. (MG-7242)\nBug fixes - limited platform fixes\nFixed an issue on MG51/51E devices that could briefly display “No signal detected” for 4G in Dashboard while cellular connectivity remained stable. (MG-6922)\nLegacy products notice\nWhen configured for this version, MG21(E) devices will run MG 4.1.3.",
+  "html": "<DIV class=\"\">\n   Cellular gateways software versions MG 26.2.2 changelog\n  </DIV>\n  <DIV class=\"\">\n   <H4>Executive summary</H4>\n   <UL>\n    <LI><P class=\"\">This is the first GA release for the MG26.2 release family.</P></LI>\n    <LI><P class=\"\">This release carries forward UI capabilities for configuring and managing cellular features, such as geolocation, band masking and more.</P></LI>\n    <LI><P class=\"\">It also carries forward 464XLAT support to provide IPv4 connectivity over IPv6-only cellular networks.</P></LI>\n    <LI><P class=\"\">It also delivers improvements in cellular connectivity, recovery, and Dashboard status reporting.</P></LI>\n   </UL>\n   <H4>Bug fixes - general fixes</H4>\n   <UL>\n    <LI><P class=\"\">Resolved an issue that could prolong a downstream MX WAN outage after cellular session renegotiation on an MG in IP passthrough mode because the MX retained an unusable DHCP address. (MG-6768)</P></LI>\n    <LI><P class=\"\">Fixed an issue where the Local Status Page reloads frequently on cellular state changes during debugging. (MG-7242)</P></LI>\n   </UL>\n   <H4>Bug fixes - limited platform fixes</H4>\n   <UL>\n    <LI><P class=\"\">Fixed an issue on MG51/51E devices that could briefly display “No signal detected” for 4G in Dashboard while cellular connectivity remained stable. (MG-6922)</P></LI>\n   </UL>\n   <H4>Legacy products notice</H4>\n   <UL>\n    <LI><P class=\"\">When configured for this version, MG21(E) devices will run MG 4.1.3.</P></LI>\n   </UL>\n  </DIV>",
+  "verified": true,
+  "verify_note": null,
+  "fetched": "2026-11-19T18:09:04Z"
+}

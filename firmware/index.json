@@ -558,6 +558,22 @@
       "Bug fixes"
     ]
   },
+  "MG/26.2.2": {
+    "family": "MG",
+    "version": "26.2.2",
+    "file": "MG/26.2.2.json",
+    "releaseTypes": [
+      "Generally Available"
+    ],
+    "first_announced": "2026-10-26T13:00:13Z",
+    "last_announced": "2026-10-26T13:00:13Z",
+    "sections": [
+      "Executive summary",
+      "Bug fixes - general fixes",
+      "Bug fixes - limited platform fixes",
+      "Legacy products notice"
+    ]
+  },
   "MG/3.0": {
     "family": "MG",
     "version": "3.0",
@@ -2766,6 +2782,20 @@
     "sections": [
       "Bug fixes",
       "General",
+      "Notice"
+    ]
+  },
+  "MV/8.0.1": {
+    "family": "MV",
+    "version": "8.0.1",
+    "file": "MV/8.0.1.json",
+    "releaseTypes": [
+      "beta"
+    ],
+    "first_announced": "2026-10-29T00:00:27Z",
+    "last_announced": "2026-10-29T00:00:27Z",
+    "sections": [
+      "Bug fixes",
       "Notice"
     ]
   },

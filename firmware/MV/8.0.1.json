@@ -1,0 +1,33 @@
+{
+  "family": "MV",
+  "version": "8.0.1",
+  "announcements": [
+    {
+      "post_id": "5584518",
+      "releaseType": "beta",
+      "announced": "2026-10-29T00:00:27Z",
+      "post_subject": "A new Beta MV Cameras firmware is now available",
+      "post_url": "https://community.cisco.com/t5/meraki-firmware-upgrades-feed/a-new-beta-mv-cameras-firmware-is-now-available/ba-p/5584518"
+    }
+  ],
+  "other_comments": [],
+  "source": "email",
+  "title": "Cameras software versions MV 8.0.1 changelog",
+  "changelog_comment_id": "5584518",
+  "changelog_author": "Isaac Ordonez (manual entry)",
+  "changelog_posted": "2026-11-19T18:08:25Z",
+  "sections": {
+    "Bug fixes": [
+      "Resolved an issue where frozen video time ranges were not always respected."
+    ],
+    "Notice": [
+      "When configured for this version, MV21 & MV71 cameras will run MV4.15",
+      "MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches"
+    ]
+  },
+  "text": "Cameras software versions MV 8.0.1 changelog\nBug fixes\nResolved an issue where frozen video time ranges were not always respected.\nNotice\nWhen configured for this version, MV21 & MV71 cameras will run MV4.15\nMV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches",
+  "html": "<DIV class=\"\">\n   Cameras software versions MV 8.0.1 changelog\n  </DIV>\n  <DIV class=\"\">\n   <H4>Bug fixes</H4>\n   <UL>\n    <LI><P class=\"\">Resolved an issue where frozen video time ranges were not always respected.</P></LI>\n   </UL>\n   <H4>Notice</H4>\n   <UL>\n    <LI><P class=\"\">When configured for this version, MV21 &amp; MV71 cameras will run MV4.15</P></LI>\n    <LI><P class=\"\">MV7.2 is the last supported firmware branch for MV12, MV2, MV22, MV32, MV52 and MV72 series. Future updates for these models will be limited to maintenance and security patches</P></LI>\n   </UL>\n  </DIV>",
+  "verified": true,
+  "verify_note": null,
+  "fetched": "2026-11-19T18:09:04Z"
+}
